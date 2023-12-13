@@ -5,11 +5,13 @@ import {setTimeout} from "node:timers/promises";
 async function run() {
   const browser = await launch();
   const page = await browser.newPage();
-  await page.goto('https://www.on3.com/transfer-portal/industry/football/2021/')
+  const year = 2024
 
+  await page.goto(`https://www.on3.com/transfer-portal/industry/football/${year}/`)
+  
   async function clickLoadMoreBtn() {
     const loadMoreBtnSelector = 'button.MuiButtonBase-root.MuiButton-root.MuiButton-text.TransferPortalPage_btnLoadMore__bPZFg.MuiButton-textPrimary.MuiButton-disableElevation';
-
+  
     try {
       const isButtonVisible = await page.$eval(loadMoreBtnSelector, (el) => el.isConnected && getComputedStyle(el).display !== 'none');
     
@@ -27,10 +29,15 @@ async function run() {
 
   async function scrapePage() {
     console.log('scraping')
-    let pageData = await page.evaluate(() => {
+      let pageData = await page.evaluate(() => {
+        function toTitleCase(str) {
+          return str.toLowerCase().split(' ').map(word => {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(' ');
+        }
       let players = [];
       let items = document.querySelectorAll('div.TransferPortalItem_transferPortalItem__TWWEJ');
-
+  
       items.forEach((item) => {
         let player = {};
         try {
@@ -45,7 +52,7 @@ async function run() {
           //OLD SCHOOL
           const oldSchoolImageEl = item.querySelector('div.TransferPortalItem_statusContainer__Gw8ER > a.MuiTypography-root.MuiLink-root.MuiLink-underlineNone.TransferPortalItem_lastTeam__1zqJn.MuiTypography-colorPrimary > img');
           if (oldSchoolImageEl) {
-            player.oldSchool = oldSchoolImageEl.getAttribute('title');
+            player.oldSchool = toTitleCase(oldSchoolImageEl.getAttribute('title'));
           } else {
             player.oldSchool = '';
           }
@@ -62,14 +69,14 @@ async function run() {
     })
     return pageData;
   }
-
+  
   let allPlayers = await scrapePage();
 
-  writeFileSync('ncaaf.json', JSON.stringify(allPlayers, null, 2), (err) => {
+  writeFileSync(`ncaaf/ncaaf_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
     if (err) {
-      console.error('An error occurred while writing to file.', err)
+      console.error(`An error occurred while writing to file for year ${year}.`, err)
     } else {
-      console.log('Finished writing to file.')
+      console.log(`Finished writing to file for year ${year}.`)
     }
   })
   await browser.close();
