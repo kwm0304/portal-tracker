@@ -1,17 +1,11 @@
 import { launch } from 'puppeteer';
 import { writeFileSync } from 'fs';
-
+//WORKS FOR 2020-23. 24 not yet available
 async function run() {
   const browser = await launch();
   const page = await browser.newPage();
-  const year = 2021
-  const sport = "football"
-  let dbRef = ""
-  if (sport === "football") {
-    dbRef = "ncaaf"
-  } else if (sport === "basketball") {
-    dbRef = "ncaab"
-  }
+  const year = 2023
+  let dbRef = "ncaaf"
 
   await page.goto(`https://www.sports-reference.com/cfb/years/${year}-ratings.html`)
 async function scrapePage() {
@@ -27,7 +21,9 @@ async function scrapePage() {
         team.name = item.querySelector('td[data-stat="school_name"] a').innerText;
         // CONFERENCE
         team.conference = item.querySelector('td[data-stat="conf_abbr"]').innerText;
-        // RATING, RANK, WINS, LOSSES, etc.
+        //RATING
+        team.rating = item.querySelector('th[data-stat="ranker"]').innerText;
+        //WINS, LOSSES
         team.wins = item.querySelector('td[data-stat="wins"]').innerText;
         team.losses = item.querySelector('td[data-stat="losses"]').innerText;
         //SRS
@@ -38,7 +34,7 @@ async function scrapePage() {
         team.dsrs = item.querySelector('td[data-stat="srs_def"]').innerText;
         //POINTS FOR
         team.ppg = item.querySelector('td[data-stat="points_per_g"]').innerText;
-                //POINTS DIFFERENTIAL
+        //POINTS DIFFERENTIAL
         team.pointsDifferential = item.querySelector('td[data-stat="opp_points_per_g"]').innerText;
         //MOV
         team.passingO = item.querySelector('td[data-stat="pass_yds_per_att"]').innerText;
@@ -65,7 +61,7 @@ let allData = await scrapePage();
   
     await browser.close();
   
-    writeFileSync(`data/${dbRef}_stats_${year}.json`, JSON.stringify(allData, null, 2), (err) => {
+    writeFileSync(`data/${dbRef}/${dbRef}_stats_${year}.json`, JSON.stringify(allData, null, 2), (err) => {
       if (err) {
         console.error(`An error occurred while writing to file for year ${year}.`, err)
       } else {
