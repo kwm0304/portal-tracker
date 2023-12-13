@@ -1,0 +1,170 @@
+[
+  {
+    "firstName": "Malique",
+    "lastName": "Ewin",
+    "position": "",
+    "rating": "93.05",
+    "oldSchool": "Ole Miss",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Andre",
+    "lastName": "Gordon",
+    "position": "SG",
+    "rating": "86.23",
+    "oldSchool": "Texas A&m",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Hansel",
+    "lastName": "Enmanuel",
+    "position": "CG",
+    "rating": "86.00",
+    "oldSchool": "Austin Peay",
+    "newSchool": ""
+  },
+  {
+    "firstName": "James",
+    "lastName": "Johns",
+    "position": "SG",
+    "rating": "84.90",
+    "oldSchool": "Fairfield",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Chauncey",
+    "lastName": "Gibson",
+    "position": "SF",
+    "rating": "84.67",
+    "oldSchool": "Tulsa",
+    "newSchool": ""
+  },
+  {
+    "firstName": "J'Quan",
+    "lastName": "Ewing",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Southern University",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jadan",
+    "lastName": "Coleman",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Tulane",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Ben",
+    "lastName": "Todd",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Uc Riverside",
+    "newSchool": ""
+  },
+  {
+    "firstName": "GianFranco",
+    "lastName": "Grafals",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Southern Miss",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Edoardo",
+    "lastName": "Del",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Nicholls State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Thomson",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Colgate",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Dadson",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Southern Utah",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Akuel",
+    "lastName": "Kot",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Wyoming",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Keller",
+    "lastName": "Boothby",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Darius",
+    "lastName": "Ervin",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Evan",
+    "lastName": "Williams",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Hansen",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Manion",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Isaiah",
+    "lastName": "Gray",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "Cornell",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Isaac",
+    "lastName": "Mushila",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "New Mexico",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Donovan",
+    "lastName": "Grant",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Georgetown",
+    "newSchool": "Georgetown Hoyas"
+  }
+]

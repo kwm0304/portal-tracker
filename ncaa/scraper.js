@@ -6,8 +6,15 @@ async function run() {
   const browser = await launch();
   const page = await browser.newPage();
   const year = 2024
+  const sport = "basketball"
+  let dbRef = ""
+  if (sport === "football") {
+    dbRef = "ncaaf"
+  } else if (sport === "basketball") {
+    dbRef = "ncaab"
+  }
 
-  await page.goto(`https://www.on3.com/transfer-portal/industry/football/${year}/`)
+  await page.goto(`https://www.on3.com/transfer-portal/industry/${sport}/${year}/`)
   
   async function clickLoadMoreBtn() {
     const loadMoreBtnSelector = 'button.MuiButtonBase-root.MuiButton-root.MuiButton-text.TransferPortalPage_btnLoadMore__bPZFg.MuiButton-textPrimary.MuiButton-disableElevation';
@@ -48,7 +55,8 @@ async function run() {
           //POSITION
           player.position = item.querySelector('span.MuiTypography-root.TransferPortalItem_position__6sxbf.MuiTypography-body1.MuiTypography-colorTextPrimary').innerText;
           //RATING
-          player.rating = item.querySelector('div.TransferPortalItem_ratingsContainer__U0G5a a.StarRating_linkWrapper__RHR4l span.StarRating_overallRating__MTh52').innerText;
+          const playerRatingEl = item.querySelector('div.TransferPortalItem_ratingsContainer__U0G5a a.StarRating_linkWrapper__RHR4l span.StarRating_overallRating__MTh52');
+          playerRatingEl ? player.rating = playerRatingEl.innerText : player.rating = '';
           //OLD SCHOOL
           const oldSchoolImageEl = item.querySelector('div.TransferPortalItem_statusContainer__Gw8ER > a.MuiTypography-root.MuiLink-root.MuiLink-underlineNone.TransferPortalItem_lastTeam__1zqJn.MuiTypography-colorPrimary > img');
           if (oldSchoolImageEl) {
@@ -72,7 +80,7 @@ async function run() {
   
   let allPlayers = await scrapePage();
 
-  writeFileSync(`ncaaf/ncaaf_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
+  writeFileSync(`${dbRef}/${dbRef}_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
     if (err) {
       console.error(`An error occurred while writing to file for year ${year}.`, err)
     } else {

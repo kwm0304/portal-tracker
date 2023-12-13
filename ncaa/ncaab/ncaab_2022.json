@@ -1,0 +1,2402 @@
+[
+  {
+    "firstName": "Emoni",
+    "lastName": "Bates",
+    "position": "SF",
+    "rating": "99.40",
+    "oldSchool": "Memphis",
+    "newSchool": "Eastern Michigan Eagles"
+  },
+  {
+    "firstName": "Bryan",
+    "lastName": "Antoine",
+    "position": "SG",
+    "rating": "99.29",
+    "oldSchool": "Villanova",
+    "newSchool": "Radford Highlanders"
+  },
+  {
+    "firstName": "Samuell",
+    "lastName": "Williamson",
+    "position": "SG",
+    "rating": "98.76",
+    "oldSchool": "Louisville",
+    "newSchool": "SMU Mustangs"
+  },
+  {
+    "firstName": "Khristian",
+    "lastName": "Lander",
+    "position": "PG",
+    "rating": "98.19",
+    "oldSchool": "Indiana",
+    "newSchool": "Western Kentucky Hilltoppers"
+  },
+  {
+    "firstName": "Keion",
+    "lastName": "Brooks",
+    "position": "SF",
+    "rating": "97.98",
+    "oldSchool": "Kentucky",
+    "newSchool": "Washington Huskies"
+  },
+  {
+    "firstName": "Efton",
+    "lastName": "Reid",
+    "position": "C",
+    "rating": "97.57",
+    "oldSchool": "Lsu",
+    "newSchool": "Gonzaga Bulldogs"
+  },
+  {
+    "firstName": "Devin",
+    "lastName": "Askew",
+    "position": "CG",
+    "rating": "97.56",
+    "oldSchool": "Texas",
+    "newSchool": "California Golden Bears"
+  },
+  {
+    "firstName": "Emmanuel",
+    "lastName": "Akot",
+    "position": "SF",
+    "rating": "97.53",
+    "oldSchool": "Boise State",
+    "newSchool": "Western Kentucky Hilltoppers"
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Huntley-Hatfield",
+    "position": "PF",
+    "rating": "97.51",
+    "oldSchool": "Tennessee",
+    "newSchool": "Louisville Cardinals"
+  },
+  {
+    "firstName": "Rocket",
+    "lastName": "Watts",
+    "position": "PG",
+    "rating": "96.96",
+    "oldSchool": "Mississippi State",
+    "newSchool": "Oakland Golden Grizzlies"
+  },
+  {
+    "firstName": "Jaylon",
+    "lastName": "Tyson",
+    "position": "SF",
+    "rating": "96.87",
+    "oldSchool": "Texas",
+    "newSchool": "Texas Tech Red Raiders"
+  },
+  {
+    "firstName": "Joey",
+    "lastName": "Baker",
+    "position": "SF",
+    "rating": "96.77",
+    "oldSchool": "Duke",
+    "newSchool": "Michigan Wolverines"
+  },
+  {
+    "firstName": "Shareef",
+    "lastName": "O'Neal",
+    "position": "PF",
+    "rating": "96.66",
+    "oldSchool": "Lsu",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Shareef",
+    "lastName": "O'Neal",
+    "position": "PF",
+    "rating": "96.66",
+    "oldSchool": "Lsu",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Dawson",
+    "lastName": "Garcia",
+    "position": "PF",
+    "rating": "96.51",
+    "oldSchool": "North Carolina",
+    "newSchool": "Minnesota Golden Gophers"
+  },
+  {
+    "firstName": "Bryce",
+    "lastName": "Hopkins",
+    "position": "PF",
+    "rating": "96.49",
+    "oldSchool": "Kentucky",
+    "newSchool": "Providence Friars"
+  },
+  {
+    "firstName": "Tyrese",
+    "lastName": "Hunter",
+    "position": "PG",
+    "rating": "96.46",
+    "oldSchool": "Iowa State",
+    "newSchool": "Texas Longhorns"
+  },
+  {
+    "firstName": "De'Vion",
+    "lastName": "Harmon",
+    "position": "PG",
+    "rating": "96.38",
+    "oldSchool": "Oregon",
+    "newSchool": "Texas Tech Red Raiders"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Weaver",
+    "position": "PG",
+    "rating": "96.36",
+    "oldSchool": "Dayton",
+    "newSchool": "Chicago State Cougars"
+  },
+  {
+    "firstName": "Gerald",
+    "lastName": "Liddell",
+    "position": "SF",
+    "rating": "96.34",
+    "oldSchool": "Alabama State",
+    "newSchool": "Detroit Titans"
+  },
+  {
+    "firstName": "Courtney",
+    "lastName": "Ramey",
+    "position": "PG",
+    "rating": "96.33",
+    "oldSchool": "Texas",
+    "newSchool": "Arizona Wildcats"
+  },
+  {
+    "firstName": "Andre",
+    "lastName": "Curbelo",
+    "position": "PG",
+    "rating": "96.30",
+    "oldSchool": "Illinois",
+    "newSchool": "St. John's Red Storm"
+  },
+  {
+    "firstName": "Omar",
+    "lastName": "Payne",
+    "position": "PF",
+    "rating": "96.20",
+    "oldSchool": "Illinois",
+    "newSchool": "Jacksonville Dolphins"
+  },
+  {
+    "firstName": "Max",
+    "lastName": "Agbonkpolo",
+    "position": "SF",
+    "rating": "95.86",
+    "oldSchool": "Usc",
+    "newSchool": "Wyoming Cowboys"
+  },
+  {
+    "firstName": "Ira",
+    "lastName": "Lee",
+    "position": "C",
+    "rating": "95.83",
+    "oldSchool": "George Washington",
+    "newSchool": "College of Charleston Cougars"
+  },
+  {
+    "firstName": "Frankie",
+    "lastName": "Collins",
+    "position": "PG",
+    "rating": "95.77",
+    "oldSchool": "Michigan",
+    "newSchool": "Arizona State Sun Devils"
+  },
+  {
+    "firstName": "Hassan",
+    "lastName": "Diarra",
+    "position": "PG",
+    "rating": "95.59",
+    "oldSchool": "Texas A&m",
+    "newSchool": "Connecticut Huskies"
+  },
+  {
+    "firstName": "Dwon",
+    "lastName": "Odom",
+    "position": "PG",
+    "rating": "95.41",
+    "oldSchool": "Xavier",
+    "newSchool": "Georgia State Panthers"
+  },
+  {
+    "firstName": "KK",
+    "lastName": "Robinson",
+    "position": "PG",
+    "rating": "95.37",
+    "oldSchool": "Arkansas",
+    "newSchool": "Texas A&M Aggies"
+  },
+  {
+    "firstName": "Isaac",
+    "lastName": "Johnson",
+    "position": "C",
+    "rating": "95.05",
+    "oldSchool": "Oregon",
+    "newSchool": "Utah State Aggies"
+  },
+  {
+    "firstName": "Rahsool",
+    "lastName": "Diggins",
+    "position": "PG",
+    "rating": "95.05",
+    "oldSchool": "Connecticut",
+    "newSchool": "Massachusetts Minutemen"
+  },
+  {
+    "firstName": "Tristan",
+    "lastName": "Enaruna",
+    "position": "SF",
+    "rating": "95.04",
+    "oldSchool": "Iowa State",
+    "newSchool": "Cleveland State Vikings"
+  },
+  {
+    "firstName": "Makhi",
+    "lastName": "Mitchell",
+    "position": "C",
+    "rating": "94.96",
+    "oldSchool": "Rhode Island",
+    "newSchool": "Arkansas Razorbacks"
+  },
+  {
+    "firstName": "Cam",
+    "lastName": "Hayes",
+    "position": "PG",
+    "rating": "94.82",
+    "oldSchool": "Nc State",
+    "newSchool": "LSU Tigers"
+  },
+  {
+    "firstName": "Anthony",
+    "lastName": "Harris",
+    "position": "SG",
+    "rating": "94.82",
+    "oldSchool": "North Carolina",
+    "newSchool": "Rhode Island Rams"
+  },
+  {
+    "firstName": "Landers",
+    "lastName": "Nolley",
+    "position": "SG",
+    "rating": "94.82",
+    "oldSchool": "Memphis",
+    "newSchool": "Cincinnati Bearcats"
+  },
+  {
+    "firstName": "Keyontae",
+    "lastName": "Johnson",
+    "position": "SF",
+    "rating": "94.72",
+    "oldSchool": "Florida",
+    "newSchool": "Kansas State Wildcats"
+  },
+  {
+    "firstName": "Zion",
+    "lastName": "Harmon",
+    "position": "PG",
+    "rating": "94.69",
+    "oldSchool": "Western Kentucky",
+    "newSchool": "Bethune-Cookman Wildcats"
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Johns",
+    "position": "PF",
+    "rating": "94.67",
+    "oldSchool": "Michigan",
+    "newSchool": "VCU Rams"
+  },
+  {
+    "firstName": "Devonaire",
+    "lastName": "Doutrive",
+    "position": "CG",
+    "rating": "94.66",
+    "oldSchool": "Boise State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Tchikou",
+    "position": "PF",
+    "rating": "94.62",
+    "oldSchool": "Alabama",
+    "newSchool": "Rhode Island Rams"
+  },
+  {
+    "firstName": "Isaiah",
+    "lastName": "Cottrell",
+    "position": "PF",
+    "rating": "94.59",
+    "oldSchool": "West Virginia",
+    "newSchool": "UNLV Rebels"
+  },
+  {
+    "firstName": "Akok",
+    "lastName": "Akok",
+    "position": "PF",
+    "rating": "94.56",
+    "oldSchool": "Connecticut",
+    "newSchool": "Georgetown Hoyas"
+  },
+  {
+    "firstName": "Xavier",
+    "lastName": "Foster",
+    "position": "C",
+    "rating": "94.44",
+    "oldSchool": "Iowa State",
+    "newSchool": "SMU Mustangs"
+  },
+  {
+    "firstName": "Dain",
+    "lastName": "Dainja",
+    "position": "PF",
+    "rating": "94.18",
+    "oldSchool": "Baylor",
+    "newSchool": "Illinois Fighting Illini"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Locke",
+    "position": "SG",
+    "rating": "94.13",
+    "oldSchool": "Louisville",
+    "newSchool": "Providence Friars"
+  },
+  {
+    "firstName": "Caleb",
+    "lastName": "Murphy",
+    "position": "SG",
+    "rating": "93.93",
+    "oldSchool": "Usf",
+    "newSchool": "DePaul Blue Demons"
+  },
+  {
+    "firstName": "Juwan",
+    "lastName": "Gary",
+    "position": "SF",
+    "rating": "93.86",
+    "oldSchool": "Alabama",
+    "newSchool": "Nebraska Cornhuskers"
+  },
+  {
+    "firstName": "Tre",
+    "lastName": "Mitchell",
+    "position": "PF",
+    "rating": "93.83",
+    "oldSchool": "Texas",
+    "newSchool": "West Virginia Mountaineers"
+  },
+  {
+    "firstName": "Brandin",
+    "lastName": "Podziemski",
+    "position": "SG",
+    "rating": "93.82",
+    "oldSchool": "Illinois",
+    "newSchool": "Santa Clara Broncos"
+  },
+  {
+    "firstName": "Jaxson",
+    "lastName": "Robinson",
+    "position": "SF",
+    "rating": "93.76",
+    "oldSchool": "Arkansas",
+    "newSchool": "BYU Cougars"
+  },
+  {
+    "firstName": "Terrence",
+    "lastName": "Shannon",
+    "position": "SF",
+    "rating": "93.74",
+    "oldSchool": "Texas Tech",
+    "newSchool": "Illinois Fighting Illini"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Allen",
+    "position": "SG",
+    "rating": "93.72",
+    "oldSchool": "Nc State",
+    "newSchool": "Ball State Cardinals"
+  },
+  {
+    "firstName": "Pete",
+    "lastName": "Nance",
+    "position": "SF",
+    "rating": "93.60",
+    "oldSchool": "Northwestern",
+    "newSchool": "North Carolina Tar Heels"
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Murray",
+    "position": "SF",
+    "rating": "93.57",
+    "oldSchool": "Lsu",
+    "newSchool": "Georgetown Hoyas"
+  },
+  {
+    "firstName": "Zeb",
+    "lastName": "Jackson",
+    "position": "PG",
+    "rating": "93.56",
+    "oldSchool": "Michigan",
+    "newSchool": "VCU Rams"
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Bamisile",
+    "position": "PG",
+    "rating": "93.45",
+    "oldSchool": "George Washington",
+    "newSchool": "Oklahoma Sooners"
+  },
+  {
+    "firstName": "Dontaie",
+    "lastName": "Allen",
+    "position": "SF",
+    "rating": "93.33",
+    "oldSchool": "Kentucky",
+    "newSchool": "Western Kentucky Hilltoppers"
+  },
+  {
+    "firstName": "Devin",
+    "lastName": "Carter",
+    "position": "SG",
+    "rating": "93.33",
+    "oldSchool": "South Carolina",
+    "newSchool": "Providence Friars"
+  },
+  {
+    "firstName": "Shane",
+    "lastName": "Nowell",
+    "position": "SG",
+    "rating": "93.24",
+    "oldSchool": "Arizona",
+    "newSchool": "UNLV Rebels"
+  },
+  {
+    "firstName": "Jusaun",
+    "lastName": "Holt",
+    "position": "SG",
+    "rating": "93.12",
+    "oldSchool": "Alabama",
+    "newSchool": "Georgia Bulldogs"
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Mayer",
+    "position": "SF",
+    "rating": "93.10",
+    "oldSchool": "Baylor",
+    "newSchool": "Illinois Fighting Illini"
+  },
+  {
+    "firstName": "Rondel",
+    "lastName": "Walker",
+    "position": "PG",
+    "rating": "93.08",
+    "oldSchool": "Oklahoma State",
+    "newSchool": "TCU Horned Frogs"
+  },
+  {
+    "firstName": "Brycen",
+    "lastName": "Goodine",
+    "position": "SG",
+    "rating": "93.08",
+    "oldSchool": "Providence",
+    "newSchool": "Fairfield Stags"
+  },
+  {
+    "firstName": "Jamal",
+    "lastName": "Cain",
+    "position": "SF",
+    "rating": "92.89",
+    "oldSchool": "Marquette",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Franck",
+    "lastName": "Kepnang",
+    "position": "C",
+    "rating": "92.84",
+    "oldSchool": "Oregon",
+    "newSchool": "Washington Huskies"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Fudge",
+    "position": "SF",
+    "rating": "92.74",
+    "oldSchool": "Lsu",
+    "newSchool": "Florida Gators"
+  },
+  {
+    "firstName": "Chibuzo",
+    "lastName": "Agbo",
+    "position": "SF",
+    "rating": "92.71",
+    "oldSchool": "Texas Tech",
+    "newSchool": "Boise State Broncos"
+  },
+  {
+    "firstName": "Wesley",
+    "lastName": "Cardet",
+    "position": "SG",
+    "rating": "92.70",
+    "oldSchool": "Samford",
+    "newSchool": "Chicago State Cougars"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "LeBlanc",
+    "position": "SF",
+    "rating": "92.68",
+    "oldSchool": "Uab",
+    "newSchool": "Nicholls State Colonels"
+  },
+  {
+    "firstName": "Manny",
+    "lastName": "Bates",
+    "position": "PF",
+    "rating": "92.68",
+    "oldSchool": "Nc State",
+    "newSchool": "Butler Bulldogs"
+  },
+  {
+    "firstName": "Kerwin",
+    "lastName": "Walton",
+    "position": "SF",
+    "rating": "92.66",
+    "oldSchool": "North Carolina",
+    "newSchool": "Texas Tech Red Raiders"
+  },
+  {
+    "firstName": "Dahmir",
+    "lastName": "Bishop",
+    "position": "CG",
+    "rating": "92.60",
+    "oldSchool": "Saint Joseph's",
+    "newSchool": "Florida Gulf Coast Eagles"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Bailey",
+    "position": "PG",
+    "rating": "92.57",
+    "oldSchool": "Tennessee",
+    "newSchool": "George Mason Patriots"
+  },
+  {
+    "firstName": "Ben",
+    "lastName": "Carlson",
+    "position": "PF",
+    "rating": "92.45",
+    "oldSchool": "Wisconsin",
+    "newSchool": "Utah Utes"
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Nesbitt",
+    "position": "SF",
+    "rating": "92.42",
+    "oldSchool": "Saint Louis",
+    "newSchool": "Hampton Pirates"
+  },
+  {
+    "firstName": "Keon",
+    "lastName": "Ambrose-Hylton",
+    "position": "PF",
+    "rating": "92.41",
+    "oldSchool": "Alabama",
+    "newSchool": "SMU Mustangs"
+  },
+  {
+    "firstName": "Zion",
+    "lastName": "Griffin",
+    "position": "SF",
+    "rating": "92.32",
+    "oldSchool": "Illinois Chicago",
+    "newSchool": "Tennessee State Tigers"
+  },
+  {
+    "firstName": "Jaelin",
+    "lastName": "Llewellyn",
+    "position": "PG",
+    "rating": "92.31",
+    "oldSchool": "Princeton",
+    "newSchool": "Michigan Wolverines"
+  },
+  {
+    "firstName": "Jaiden",
+    "lastName": "Delaire",
+    "position": "SF",
+    "rating": "92.26",
+    "oldSchool": "Stanford",
+    "newSchool": "San Diego Toreros"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Phinisee",
+    "position": "PG",
+    "rating": "92.23",
+    "oldSchool": "Indiana",
+    "newSchool": "Cincinnati Bearcats"
+  },
+  {
+    "firstName": "Austin",
+    "lastName": "Crowley",
+    "position": "CG",
+    "rating": "92.19",
+    "oldSchool": "Ole Miss",
+    "newSchool": "Southern Miss Golden Eagles"
+  },
+  {
+    "firstName": "Jalen",
+    "lastName": "Bridges",
+    "position": "SF",
+    "rating": "92.16",
+    "oldSchool": "West Virginia",
+    "newSchool": "Baylor Bears"
+  },
+  {
+    "firstName": "Chance",
+    "lastName": "Moore",
+    "position": "SG",
+    "rating": "92.14",
+    "oldSchool": "Arkansas",
+    "newSchool": "Missouri State Bears"
+  },
+  {
+    "firstName": "Qudus",
+    "lastName": "Wahab",
+    "position": "C",
+    "rating": "92.12",
+    "oldSchool": "Maryland",
+    "newSchool": "Georgetown Hoyas"
+  },
+  {
+    "firstName": "Gavin",
+    "lastName": "Baxter",
+    "position": "SF",
+    "rating": "92.12",
+    "oldSchool": "Byu",
+    "newSchool": "Utah Utes"
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Alexander-Moncrieffe",
+    "position": "SF",
+    "rating": "92.11",
+    "oldSchool": "Oklahoma State",
+    "newSchool": "Georgia Bulldogs"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Graham",
+    "position": "SF",
+    "rating": "92.07",
+    "oldSchool": "Maryland",
+    "newSchool": "Missouri State Bears"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Gaines",
+    "position": "PG",
+    "rating": "92.02",
+    "oldSchool": "Lsu",
+    "newSchool": "UAB Blazers"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Samuel",
+    "position": "C",
+    "rating": "92.01",
+    "oldSchool": "Florida Gulf Coast",
+    "newSchool": "South Alabama Jaguars"
+  },
+  {
+    "firstName": "Keon",
+    "lastName": "Edwards",
+    "position": "SF",
+    "rating": "91.87",
+    "oldSchool": "Nebraska",
+    "newSchool": "Wisconsin-Milwaukee Panthers"
+  },
+  {
+    "firstName": "Jalen",
+    "lastName": "Gaffney",
+    "position": "CG",
+    "rating": "91.78",
+    "oldSchool": "Connecticut",
+    "newSchool": "Florida Atlantic Owls"
+  },
+  {
+    "firstName": "Dre",
+    "lastName": "Davis",
+    "position": "SF",
+    "rating": "91.64",
+    "oldSchool": "Louisville",
+    "newSchool": "Seton Hall Pirates"
+  },
+  {
+    "firstName": "Kendric",
+    "lastName": "Davis",
+    "position": "PG",
+    "rating": "91.43",
+    "oldSchool": "Smu",
+    "newSchool": "Memphis Tigers"
+  },
+  {
+    "firstName": "Al-Amir",
+    "lastName": "Dawes",
+    "position": "CG",
+    "rating": "91.43",
+    "oldSchool": "Clemson",
+    "newSchool": "Seton Hall Pirates"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Hunter",
+    "position": "SG",
+    "rating": "91.40",
+    "oldSchool": "Purdue",
+    "newSchool": "Purdue Boilermakers"
+  },
+  {
+    "firstName": "Nijel",
+    "lastName": "Pack",
+    "position": "PG",
+    "rating": "91.40",
+    "oldSchool": "Kansas State",
+    "newSchool": "Miami Hurricanes"
+  },
+  {
+    "firstName": "D.J.",
+    "lastName": "Burns",
+    "position": "C",
+    "rating": "91.40",
+    "oldSchool": "Winthrop",
+    "newSchool": "NC State Wolfpack"
+  },
+  {
+    "firstName": "Blake",
+    "lastName": "Hinson",
+    "position": "SF",
+    "rating": "91.33",
+    "oldSchool": "Iowa State",
+    "newSchool": "Pittsburgh Panthers"
+  },
+  {
+    "firstName": "DaJuan",
+    "lastName": "Gordon",
+    "position": "SG",
+    "rating": "91.26",
+    "oldSchool": "Missouri",
+    "newSchool": "New Mexico State Aggies"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Taylor",
+    "position": "PF",
+    "rating": "91.25",
+    "oldSchool": "Georgia",
+    "newSchool": "East Tennessee State Buccaneers"
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "Forrester",
+    "position": "PF",
+    "rating": "91.24",
+    "oldSchool": "Temple",
+    "newSchool": "Saint Louis Billikens"
+  },
+  {
+    "firstName": "Tre",
+    "lastName": "Williams",
+    "position": "SG",
+    "rating": "91.21",
+    "oldSchool": "Oregon State",
+    "newSchool": "Tulane Green Wave"
+  },
+  {
+    "firstName": "Selton",
+    "lastName": "Miguel",
+    "position": "SF",
+    "rating": "91.18",
+    "oldSchool": "Kansas State",
+    "newSchool": "USF Bulls"
+  },
+  {
+    "firstName": "Corey",
+    "lastName": "Floyd",
+    "position": "CG",
+    "rating": "91.08",
+    "oldSchool": "Connecticut",
+    "newSchool": "Providence Friars"
+  },
+  {
+    "firstName": "C.J.",
+    "lastName": "Roberts",
+    "position": "PG",
+    "rating": "91.01",
+    "oldSchool": "Lamar",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Gabe",
+    "lastName": "Wiznitzer",
+    "position": "PF",
+    "rating": "90.90",
+    "oldSchool": "Louisville",
+    "newSchool": "Ohio Bobcats"
+  },
+  {
+    "firstName": "Makhel",
+    "lastName": "Mitchell",
+    "position": "C",
+    "rating": "90.85",
+    "oldSchool": "Rhode Island",
+    "newSchool": "Arkansas Razorbacks"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "McCullar",
+    "position": "SG",
+    "rating": "90.48",
+    "oldSchool": "Texas Tech",
+    "newSchool": "Kansas Jayhawks"
+  },
+  {
+    "firstName": "Teddy",
+    "lastName": "Allen",
+    "position": "SG",
+    "rating": "90.41",
+    "oldSchool": "Nebraska",
+    "newSchool": "New Mexico State Aggies"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "McKinney",
+    "position": "SG",
+    "rating": "90.33",
+    "oldSchool": "New Mexico State",
+    "newSchool": "UTEP Miners"
+  },
+  {
+    "firstName": "Gethro",
+    "lastName": "Muscadin",
+    "position": "C",
+    "rating": "90.29",
+    "oldSchool": "New Mexico",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Davion",
+    "lastName": "Bradford",
+    "position": "PF",
+    "rating": "90.27",
+    "oldSchool": "Kansas State",
+    "newSchool": "Wake Forest Demon Deacons"
+  },
+  {
+    "firstName": "A.J.",
+    "lastName": "Oliver",
+    "position": "SG",
+    "rating": "90.18",
+    "oldSchool": "Old Dominion",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jeremiah",
+    "lastName": "Francis",
+    "position": "PG",
+    "rating": "90.17",
+    "oldSchool": "New Mexico",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Aku",
+    "position": "C",
+    "rating": "90.16",
+    "oldSchool": "Stephen F. Austin",
+    "newSchool": "Grambling State Tigers"
+  },
+  {
+    "firstName": "Donovan",
+    "lastName": "Williams",
+    "position": "SG",
+    "rating": "89.90",
+    "oldSchool": "Oklahoma State",
+    "newSchool": "University of the Pacific"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Jones",
+    "position": "SF",
+    "rating": "89.59",
+    "oldSchool": "Depaul",
+    "newSchool": "St. John's Red Storm"
+  },
+  {
+    "firstName": "Montavious",
+    "lastName": "Murphy",
+    "position": "PF",
+    "rating": "89.44",
+    "oldSchool": "Kansas State",
+    "newSchool": "Stephen F. Austin Lumberjacks"
+  },
+  {
+    "firstName": "Clifton",
+    "lastName": "Moore",
+    "position": "PF",
+    "rating": "88.81",
+    "oldSchool": "La Salle",
+    "newSchool": "Providence Friars"
+  },
+  {
+    "firstName": "Meechie",
+    "lastName": "Johnson",
+    "position": "PG",
+    "rating": "87.96",
+    "oldSchool": "Ohio State",
+    "newSchool": "South Carolina Gamecocks"
+  },
+  {
+    "firstName": "Raymond",
+    "lastName": "Hawkins",
+    "position": "C",
+    "rating": "87.44",
+    "oldSchool": "Long Beach State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Justin",
+    "lastName": "Powell",
+    "position": "PG",
+    "rating": "87.43",
+    "oldSchool": "Tennessee",
+    "newSchool": "Washington State Cougars"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Hardy",
+    "position": "PG",
+    "rating": "87.36",
+    "oldSchool": "Cal State Northridge",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Terren",
+    "lastName": "Frank",
+    "position": "PF",
+    "rating": "87.24",
+    "oldSchool": "Vanderbilt",
+    "newSchool": "Idaho Vandals"
+  },
+  {
+    "firstName": "Isaiah",
+    "lastName": "Thompson",
+    "position": "PG",
+    "rating": "87.23",
+    "oldSchool": "Purdue",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Shon",
+    "lastName": "Robinson",
+    "position": "PF",
+    "rating": "87.09",
+    "oldSchool": "San Jose State",
+    "newSchool": "Austin Peay Governors"
+  },
+  {
+    "firstName": "Lorne",
+    "lastName": "Bowman",
+    "position": "PG",
+    "rating": "87.06",
+    "oldSchool": "Wisconsin",
+    "newSchool": "Oakland Golden Grizzlies"
+  },
+  {
+    "firstName": "Bryce",
+    "lastName": "Golden",
+    "position": "PF",
+    "rating": "86.98",
+    "oldSchool": "Butler",
+    "newSchool": "Loyola (Chi) Ramblers"
+  },
+  {
+    "firstName": "Jalen",
+    "lastName": "Graham",
+    "position": "C",
+    "rating": "86.94",
+    "oldSchool": "Arizona State",
+    "newSchool": "Arkansas Razorbacks"
+  },
+  {
+    "firstName": "Darius",
+    "lastName": "McNeill",
+    "position": "PG",
+    "rating": "86.86",
+    "oldSchool": "Utsa",
+    "newSchool": "Troy Trojans"
+  },
+  {
+    "firstName": "Khalid",
+    "lastName": "Moore",
+    "position": "SF",
+    "rating": "86.81",
+    "oldSchool": "Georgia Tech",
+    "newSchool": "Fordham Rams"
+  },
+  {
+    "firstName": "Alden",
+    "lastName": "Applewhite",
+    "position": "SF",
+    "rating": "86.80",
+    "oldSchool": "Mississippi State",
+    "newSchool": "Portland Pilots"
+  },
+  {
+    "firstName": "Riley",
+    "lastName": "Battin",
+    "position": "C",
+    "rating": "86.76",
+    "oldSchool": "Utah",
+    "newSchool": "California Baptist Lancers"
+  },
+  {
+    "firstName": "Jay",
+    "lastName": "Heath",
+    "position": "SG",
+    "rating": "86.75",
+    "oldSchool": "Arizona State",
+    "newSchool": "Georgetown Hoyas"
+  },
+  {
+    "firstName": "Saba",
+    "lastName": "Gigiberia",
+    "position": "C",
+    "rating": "86.67",
+    "oldSchool": "Georgia Tech",
+    "newSchool": "San Francisco Dons"
+  },
+  {
+    "firstName": "Caleb",
+    "lastName": "Lohner",
+    "position": "PF",
+    "rating": "86.57",
+    "oldSchool": "Byu",
+    "newSchool": "Baylor Bears"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Taitz",
+    "position": "PG",
+    "rating": "86.57",
+    "oldSchool": "Stanford",
+    "newSchool": "Loyola Marymount Lions"
+  },
+  {
+    "firstName": "Jerald",
+    "lastName": "Butler",
+    "position": "PG",
+    "rating": "86.54",
+    "oldSchool": "Elon",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Williams",
+    "position": "PG",
+    "rating": "86.47",
+    "oldSchool": "Washington State",
+    "newSchool": "Washington Huskies"
+  },
+  {
+    "firstName": "Jahari",
+    "lastName": "Long",
+    "position": "PG",
+    "rating": "86.45",
+    "oldSchool": "Seton Hall",
+    "newSchool": "Maryland Terrapins"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Saunders",
+    "position": "PG",
+    "rating": "86.33",
+    "oldSchool": "Cincinnati",
+    "newSchool": "Utah Utes"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Yannick",
+    "position": "C",
+    "rating": "86.24",
+    "oldSchool": "Delaware State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "O'Garro",
+    "position": "SF",
+    "rating": "86.22",
+    "oldSchool": "San Jose State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Keenan",
+    "lastName": "Fitzmorris",
+    "position": "C",
+    "rating": "86.17",
+    "oldSchool": "Stanford",
+    "newSchool": "Stony Brook Seawolves"
+  },
+  {
+    "firstName": "Erik",
+    "lastName": "Stevenson",
+    "position": "SG",
+    "rating": "86.15",
+    "oldSchool": "South Carolina",
+    "newSchool": "West Virginia Mountaineers"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Anselem-Ibe",
+    "position": "C",
+    "rating": "86.03",
+    "oldSchool": "Syracuse",
+    "newSchool": "Georgia Bulldogs"
+  },
+  {
+    "firstName": "Javian",
+    "lastName": "Davis",
+    "position": "C",
+    "rating": "86.00",
+    "oldSchool": "Mississippi State",
+    "newSchool": "UAB Blazers"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Wood",
+    "position": "CG",
+    "rating": "86.00",
+    "oldSchool": "Eastern Illinois",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Justin",
+    "lastName": "Ahrens",
+    "position": "SF",
+    "rating": "86.00",
+    "oldSchool": "Ohio State",
+    "newSchool": "Loyola Marymount Lions"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Ojiako",
+    "position": "PF",
+    "rating": "86.00",
+    "oldSchool": "Virginia Tech",
+    "newSchool": "George Mason Patriots"
+  },
+  {
+    "firstName": "Jamille",
+    "lastName": "Reynolds",
+    "position": "PF",
+    "rating": "86.00",
+    "oldSchool": "Ucf",
+    "newSchool": "Temple Owls"
+  },
+  {
+    "firstName": "Keyshawn",
+    "lastName": "Bryant",
+    "position": "SF",
+    "rating": "86.00",
+    "oldSchool": "South Carolina",
+    "newSchool": "USF Bulls"
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Toussaint",
+    "position": "PG",
+    "rating": "86.00",
+    "oldSchool": "Iowa",
+    "newSchool": "West Virginia Mountaineers"
+  },
+  {
+    "firstName": "Wildens",
+    "lastName": "Leveque",
+    "position": "PF",
+    "rating": "86.00",
+    "oldSchool": "South Carolina",
+    "newSchool": "Massachusetts Minutemen"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Honor",
+    "position": "PG",
+    "rating": "86.00",
+    "oldSchool": "Clemson",
+    "newSchool": "Missouri Tigers"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Collier",
+    "position": "PF",
+    "rating": "86.00",
+    "oldSchool": "Pittsburgh",
+    "newSchool": "William & Mary Tribe"
+  },
+  {
+    "firstName": "Jaden",
+    "lastName": "Walker",
+    "position": "PG",
+    "rating": "86.00",
+    "oldSchool": "Iowa State",
+    "newSchool": "East Carolina Pirates"
+  },
+  {
+    "firstName": "Desi",
+    "lastName": "Sills",
+    "position": "CG",
+    "rating": "85.80",
+    "oldSchool": "Arkansas State",
+    "newSchool": "Kansas State Wildcats"
+  },
+  {
+    "firstName": "Che",
+    "lastName": "Evans",
+    "position": "SF",
+    "rating": "85.70",
+    "oldSchool": "San Diego State",
+    "newSchool": "UTEP Miners"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Taylor",
+    "position": "PF",
+    "rating": "85.70",
+    "oldSchool": "Notre Dame",
+    "newSchool": "Quinnipiac Bobcats"
+  },
+  {
+    "firstName": "Che",
+    "lastName": "Evans",
+    "position": "SF",
+    "rating": "85.70",
+    "oldSchool": "Utep",
+    "newSchool": "South Carolina Upstate Spartans"
+  },
+  {
+    "firstName": "Boubacar",
+    "lastName": "Coulibaly",
+    "position": "C",
+    "rating": "85.70",
+    "oldSchool": "Usc",
+    "newSchool": "Pepperdine Waves"
+  },
+  {
+    "firstName": "Antwan",
+    "lastName": "Walker",
+    "position": "SF",
+    "rating": "85.67",
+    "oldSchool": "Rhode Island",
+    "newSchool": "Bryant University Bulldogs"
+  },
+  {
+    "firstName": "Curtis",
+    "lastName": "Haywood",
+    "position": "SG",
+    "rating": "85.67",
+    "oldSchool": "Tulsa",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "Kyman",
+    "position": "SG",
+    "rating": "85.67",
+    "oldSchool": "Ucla",
+    "newSchool": "Wyoming Cowboys"
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Dockery",
+    "position": "CG",
+    "rating": "85.61",
+    "oldSchool": "Maryland",
+    "newSchool": "Howard Bison"
+  },
+  {
+    "firstName": "Max",
+    "lastName": "Amadasun",
+    "position": "C",
+    "rating": "85.40",
+    "oldSchool": "Pittsburgh",
+    "newSchool": "St. Bonaventure Bonnies"
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Kasubke",
+    "position": "SG",
+    "rating": "85.40",
+    "oldSchool": "Kansas State",
+    "newSchool": "Illinois State Redbirds"
+  },
+  {
+    "firstName": "Tai",
+    "lastName": "Strickland",
+    "position": "PG",
+    "rating": "85.37",
+    "oldSchool": "Temple",
+    "newSchool": "Georgia Southern Eagles"
+  },
+  {
+    "firstName": "Mikeal",
+    "lastName": "Brown-Jones",
+    "position": "PF",
+    "rating": "85.37",
+    "oldSchool": "Vcu",
+    "newSchool": "UNC Greensboro Spartans"
+  },
+  {
+    "firstName": "Gianni",
+    "lastName": "Hunt",
+    "position": "PG",
+    "rating": "85.37",
+    "oldSchool": "Oregon State",
+    "newSchool": "Sacramento State Hornets"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Durr",
+    "position": "C",
+    "rating": "85.37",
+    "oldSchool": "Indiana",
+    "newSchool": "UCF Knights"
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Anderson",
+    "position": "PG",
+    "rating": "85.37",
+    "oldSchool": "Usc",
+    "newSchool": "Wyoming Cowboys"
+  },
+  {
+    "firstName": "Jarvis",
+    "lastName": "Omersa",
+    "position": "PF",
+    "rating": "85.30",
+    "oldSchool": "St. Thomas",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Devan",
+    "lastName": "Cambridge",
+    "position": "SF",
+    "rating": "85.17",
+    "oldSchool": "Auburn",
+    "newSchool": "Arizona State Sun Devils"
+  },
+  {
+    "firstName": "Julius",
+    "lastName": "Marble",
+    "position": "PF",
+    "rating": "85.15",
+    "oldSchool": "Michigan State",
+    "newSchool": "Texas A&M Aggies"
+  },
+  {
+    "firstName": "Jahmir",
+    "lastName": "Young",
+    "position": "PG",
+    "rating": "85.11",
+    "oldSchool": "Charlotte",
+    "newSchool": "Maryland Terrapins"
+  },
+  {
+    "firstName": "Mylik",
+    "lastName": "Wilson",
+    "position": "SG",
+    "rating": "85.07",
+    "oldSchool": "Texas Tech",
+    "newSchool": "Houston Cougars"
+  },
+  {
+    "firstName": "Jaylon",
+    "lastName": "Gibson",
+    "position": "PF",
+    "rating": "85.07",
+    "oldSchool": "Nc State",
+    "newSchool": "Winston-Salem State Rams"
+  },
+  {
+    "firstName": "Taj",
+    "lastName": "Thweatt",
+    "position": "SF",
+    "rating": "85.03",
+    "oldSchool": "West Virginia",
+    "newSchool": "Coastal Carolina Chanticleers"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Enoh",
+    "position": "PF",
+    "rating": "85.03",
+    "oldSchool": "Marist",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Moulaye",
+    "lastName": "Sissoko",
+    "position": "C",
+    "rating": "85.03",
+    "oldSchool": "Dayton",
+    "newSchool": "North Texas Mean Green"
+  },
+  {
+    "firstName": "Taj",
+    "lastName": "Thweatt",
+    "position": "SF",
+    "rating": "85.03",
+    "oldSchool": "Coastal Carolina",
+    "newSchool": "Temple Owls"
+  },
+  {
+    "firstName": "Lukas",
+    "lastName": "Kisunas",
+    "position": "C",
+    "rating": "85.00",
+    "oldSchool": "Stanford",
+    "newSchool": "Denver Pioneers"
+  },
+  {
+    "firstName": "Ja'von",
+    "lastName": "Franklin",
+    "position": "SF",
+    "rating": "84.99",
+    "oldSchool": "South Alabama",
+    "newSchool": "Georgia Tech Yellow Jackets"
+  },
+  {
+    "firstName": "Tamell",
+    "lastName": "Pearson",
+    "position": "PF",
+    "rating": "84.70",
+    "oldSchool": "Western Illinois",
+    "newSchool": "Appalachian State Mountaineers"
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Santos-Silva",
+    "position": "C",
+    "rating": "84.70",
+    "oldSchool": "Texas Tech",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Braxton",
+    "lastName": "Meah",
+    "position": "C",
+    "rating": "84.50",
+    "oldSchool": "Fresno State",
+    "newSchool": "Washington Huskies"
+  },
+  {
+    "firstName": "Eduardo",
+    "lastName": "Andre",
+    "position": "C",
+    "rating": "84.50",
+    "oldSchool": "Nebraska",
+    "newSchool": "Fresno State Bulldogs"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Young",
+    "position": "PF",
+    "rating": "84.47",
+    "oldSchool": "Northwestern",
+    "newSchool": "Duke Blue Devils"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Ogundele",
+    "position": "C",
+    "rating": "84.47",
+    "oldSchool": "Iowa",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Connor",
+    "lastName": "Vanover",
+    "position": "C",
+    "rating": "84.43",
+    "oldSchool": "Arkansas",
+    "newSchool": "Oral Roberts Golden Eagles"
+  },
+  {
+    "firstName": "Souleymane",
+    "lastName": "Koureissi",
+    "position": "SF",
+    "rating": "84.43",
+    "oldSchool": "Richmond",
+    "newSchool": "Radford Highlanders"
+  },
+  {
+    "firstName": "Parker",
+    "lastName": "Stewart",
+    "position": "SG",
+    "rating": "84.41",
+    "oldSchool": "Indiana",
+    "newSchool": "UT Martin Skyhawks"
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Wilmore",
+    "position": "C",
+    "rating": "84.37",
+    "oldSchool": "Missouri",
+    "newSchool": "Northwestern State Demons"
+  },
+  {
+    "firstName": "Warren",
+    "lastName": "Washington",
+    "position": "PF",
+    "rating": "84.17",
+    "oldSchool": "Nevada",
+    "newSchool": "Arizona State Sun Devils"
+  },
+  {
+    "firstName": "Jaylen",
+    "lastName": "Butz",
+    "position": "PF",
+    "rating": "84.13",
+    "oldSchool": "Western Kentucky",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jalen",
+    "lastName": "Weaver",
+    "position": "SF",
+    "rating": "84.13",
+    "oldSchool": "Nevada",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "Eboigbodin",
+    "position": "PF",
+    "rating": "84.10",
+    "oldSchool": "Northeastern",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Josiah",
+    "lastName": "Freeman",
+    "position": "SG",
+    "rating": "84.00",
+    "oldSchool": "Western Michigan",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Keith",
+    "lastName": "Dinwiddie",
+    "position": "SG",
+    "rating": "84.00",
+    "oldSchool": "San Diego State",
+    "newSchool": "Weber State Wildcats"
+  },
+  {
+    "firstName": "Mattia",
+    "lastName": "Acunzo",
+    "position": "SF",
+    "rating": "83.50",
+    "oldSchool": "Robert Morris",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Dischon",
+    "lastName": "Thomas",
+    "position": "PF",
+    "rating": "83.50",
+    "oldSchool": "Colorado State",
+    "newSchool": "Montana Grizzlies"
+  },
+  {
+    "firstName": "Taurus",
+    "lastName": "Samuels",
+    "position": "PG",
+    "rating": "83.47",
+    "oldSchool": "Dartmouth",
+    "newSchool": "Minnesota Golden Gophers"
+  },
+  {
+    "firstName": "Rick",
+    "lastName": "Issanza",
+    "position": "C",
+    "rating": "83.26",
+    "oldSchool": "Oklahoma",
+    "newSchool": "Loyola Marymount Lions"
+  },
+  {
+    "firstName": "Justin",
+    "lastName": "Vander",
+    "position": "C",
+    "rating": "82.80",
+    "oldSchool": "Boston College",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Mason",
+    "lastName": "Forbes",
+    "position": "PF",
+    "rating": "82.67",
+    "oldSchool": "Harvard",
+    "newSchool": "St. Mary's Gaels"
+  },
+  {
+    "firstName": "Felipe",
+    "lastName": "Haase",
+    "position": "C",
+    "rating": "82.00",
+    "oldSchool": "Mercer",
+    "newSchool": "Southern Miss Golden Eagles"
+  },
+  {
+    "firstName": "Luis",
+    "lastName": "Hurtado",
+    "position": "PG",
+    "rating": "81.24",
+    "oldSchool": "Bryant University",
+    "newSchool": "Mercer Bears"
+  },
+  {
+    "firstName": "Arashma",
+    "lastName": "Parks",
+    "position": "C",
+    "rating": "80.81",
+    "oldSchool": "Temple",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Malik",
+    "lastName": "Ondigo",
+    "position": "PF",
+    "rating": "79.70",
+    "oldSchool": "Rice",
+    "newSchool": "Texas Tech Red Raiders"
+  },
+  {
+    "firstName": "Nelly",
+    "lastName": "Cummings",
+    "position": "PG",
+    "rating": "78.95",
+    "oldSchool": "Colgate",
+    "newSchool": "Pittsburgh Panthers"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Clark",
+    "position": "SF",
+    "rating": "77.25",
+    "oldSchool": "La Salle",
+    "newSchool": "NC State Wolfpack"
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Rawls",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Georgia State",
+    "newSchool": "Western Kentucky Hilltoppers"
+  },
+  {
+    "firstName": "Hercy",
+    "lastName": "Miller",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Tennessee State",
+    "newSchool": "Xavier Musketeers"
+  },
+  {
+    "firstName": "Tegra",
+    "lastName": "Izay",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "La Salle",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Sherif",
+    "lastName": "Kenney",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "La Salle",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Lynn",
+    "lastName": "Greer",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Dayton",
+    "newSchool": "Saint Joseph's Hawks"
+  },
+  {
+    "firstName": "Jourdan",
+    "lastName": "Smith",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Coastal Carolina",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Durugordon",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Missouri",
+    "newSchool": "Austin Peay Governors"
+  },
+  {
+    "firstName": "Maurice",
+    "lastName": "Commander",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Illinois Chicago",
+    "newSchool": "Long Island Sharks"
+  },
+  {
+    "firstName": "Sardaar",
+    "lastName": "Calhoun",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Texas Tech",
+    "newSchool": "Drake Bulldogs"
+  },
+  {
+    "firstName": "Wes",
+    "lastName": "Slajchert",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Dartmouth",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Tavon",
+    "lastName": "Jones",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Merrimack",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Valdir",
+    "lastName": "Manuel",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "New Mexico",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Keegan",
+    "lastName": "Harvey",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "College Of Charleston",
+    "newSchool": "George Washington Colonials"
+  },
+  {
+    "firstName": "Tariq",
+    "lastName": "Ingraham",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Wake Forest",
+    "newSchool": "Rider Broncs"
+  },
+  {
+    "firstName": "Trae",
+    "lastName": "Broadnax",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Navy",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jamon",
+    "lastName": "Kemp",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Southeastern Louisiana",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Miles",
+    "lastName": "Miller",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Lipscomb",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Brown",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "Stetson",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Taylor",
+    "lastName": "Funk",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Saint Joseph's",
+    "newSchool": "Utah State Aggies"
+  },
+  {
+    "firstName": "Cashius",
+    "lastName": "McNeilly",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Texas A&m",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Justice",
+    "lastName": "Hill",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Murray State",
+    "newSchool": "LSU Tigers"
+  },
+  {
+    "firstName": "Trae",
+    "lastName": "Hannibal",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Murray State",
+    "newSchool": "LSU Tigers"
+  },
+  {
+    "firstName": "Isaih",
+    "lastName": "Moore",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Southern Miss",
+    "newSchool": "Fresno State Bulldogs"
+  },
+  {
+    "firstName": "Johni",
+    "lastName": "Broome",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Morehead State",
+    "newSchool": "Auburn Tigers"
+  },
+  {
+    "firstName": "Timothy",
+    "lastName": "Ighoefe",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Georgetown",
+    "newSchool": "California Baptist Lancers"
+  },
+  {
+    "firstName": "Hason",
+    "lastName": "Ward",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Vcu",
+    "newSchool": "Iowa State Cyclones"
+  },
+  {
+    "firstName": "Tyron",
+    "lastName": "McMillan",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": "McNeese State Cowboys"
+  },
+  {
+    "firstName": "Akol",
+    "lastName": "Mawein",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Oklahoma",
+    "newSchool": "Sacramento State Hornets"
+  },
+  {
+    "firstName": "Wynton",
+    "lastName": "Brown",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Northern Arizona",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Morris",
+    "lastName": "Udeze",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Wichita State",
+    "newSchool": "New Mexico Lobos"
+  },
+  {
+    "firstName": "Blake",
+    "lastName": "Sisley",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Evansville",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Ford",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Davidson",
+    "newSchool": "Robert Morris Colonials"
+  },
+  {
+    "firstName": "Xavier",
+    "lastName": "Pinson",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Lsu",
+    "newSchool": "New Mexico State Aggies"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Harkless",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Oklahoma",
+    "newSchool": "UNLV Rebels"
+  },
+  {
+    "firstName": "Jalen",
+    "lastName": "Thomas",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Georgia State",
+    "newSchool": "Butler Bulldogs"
+  },
+  {
+    "firstName": "Quentin",
+    "lastName": "Diboundje",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Tennessee",
+    "newSchool": "East Carolina Pirates"
+  },
+  {
+    "firstName": "Modestas",
+    "lastName": "Kancleris",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Creighton",
+    "newSchool": "Cal State Bakersfield Roadrunners"
+  },
+  {
+    "firstName": "Alexis",
+    "lastName": "Reyes",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "East Carolina",
+    "newSchool": "Quinnipiac Bobcats"
+  },
+  {
+    "firstName": "Christian",
+    "lastName": "Lorng",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "American",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Javohn",
+    "lastName": "Garcia",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Massachusetts",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Ned",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": ""
+  },
+  {
+    "firstName": "James",
+    "lastName": "Rojas",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Alabama",
+    "newSchool": "Wichita State Shockers"
+  },
+  {
+    "firstName": "Darin",
+    "lastName": "Green",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Ucf",
+    "newSchool": "Florida State Seminoles"
+  },
+  {
+    "firstName": "Camryn",
+    "lastName": "Carter",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Mississippi State",
+    "newSchool": "Kansas State Wildcats"
+  },
+  {
+    "firstName": "T.J.",
+    "lastName": "Madlock",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "South Carolina State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Rudi",
+    "lastName": "Williams",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Coastal Carolina",
+    "newSchool": "BYU Cougars"
+  },
+  {
+    "firstName": "Mabor",
+    "lastName": "Majak",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Cleveland State",
+    "newSchool": "Missouri Tigers"
+  },
+  {
+    "firstName": "Darius",
+    "lastName": "Burford",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Elon",
+    "newSchool": "Illinois State Redbirds"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Baumann",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": "Grand Canyon Antelopes"
+  },
+  {
+    "firstName": "Nahiem",
+    "lastName": "Alleyne",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Virginia Tech",
+    "newSchool": "Connecticut Huskies"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Graham",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Elon",
+    "newSchool": "Loyola Marymount Lions"
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "Elliott",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Marquette",
+    "newSchool": "Pittsburgh Panthers"
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Harris",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Memphis",
+    "newSchool": "USF Bulls"
+  },
+  {
+    "firstName": "Jerrell",
+    "lastName": "Colbert",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Lsu",
+    "newSchool": "Kansas State Wildcats"
+  },
+  {
+    "firstName": "Efe",
+    "lastName": "Abogidi",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Washington State",
+    "newSchool": "NBA G League"
+  },
+  {
+    "firstName": "De'Sean",
+    "lastName": "Allen-Eikens",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "New Orleans",
+    "newSchool": "Cal State Northridge Matadors"
+  },
+  {
+    "firstName": "Andre",
+    "lastName": "Kelly",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "California",
+    "newSchool": "UC Santa Barbara Gauchos"
+  },
+  {
+    "firstName": "Derek",
+    "lastName": "Fountain",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Mississippi State",
+    "newSchool": "LSU Tigers"
+  },
+  {
+    "firstName": "Bryce",
+    "lastName": "Monroe",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "San Diego",
+    "newSchool": "IUPUI Jaguars"
+  },
+  {
+    "firstName": "Austin",
+    "lastName": "Patterson",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Wofford",
+    "newSchool": "Sacramento State Hornets"
+  },
+  {
+    "firstName": "Grant",
+    "lastName": "Sherfield",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "Nevada",
+    "newSchool": "Oklahoma Sooners"
+  },
+  {
+    "firstName": "Marco",
+    "lastName": "Morency",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Alcorn State",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Anthony",
+    "lastName": "Williams",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Unc Greensboro",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Camron",
+    "lastName": "McDowell",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": "Jacksonville State Gamecocks"
+  },
+  {
+    "firstName": "Tyrone",
+    "lastName": "Baker",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": "Dayton Flyers"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Conway",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Seton Hall",
+    "newSchool": "Towson Tigers"
+  },
+  {
+    "firstName": "Kale",
+    "lastName": "Catchings",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Harvard",
+    "newSchool": "Duke Blue Devils"
+  },
+  {
+    "firstName": "Christian",
+    "lastName": "Wright",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Georgia",
+    "newSchool": "Oregon State Beavers"
+  },
+  {
+    "firstName": "Emmanuel",
+    "lastName": "Bandoumel",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Smu",
+    "newSchool": "Nebraska Cornhuskers"
+  },
+  {
+    "firstName": "Isiaih",
+    "lastName": "Mosley",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Missouri State",
+    "newSchool": "Missouri Tigers"
+  },
+  {
+    "firstName": "Amari",
+    "lastName": "Davis",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "Missouri",
+    "newSchool": ""
+  },
+  {
+    "firstName": "Mylyjael",
+    "lastName": "Poteat",
+    "position": "C",
+    "rating": "",
+    "oldSchool": "Rice",
+    "newSchool": "Virginia Tech Hokies"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Mballa",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Buffalo",
+    "newSchool": "Ole Miss Rebels"
+  },
+  {
+    "firstName": "Jermaine",
+    "lastName": "Couisnard",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "South Carolina",
+    "newSchool": "Oregon Ducks"
+  },
+  {
+    "firstName": "Micah",
+    "lastName": "Parrish",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Oakland",
+    "newSchool": "San Diego State Aztecs"
+  },
+  {
+    "firstName": "Jarod",
+    "lastName": "Lucas",
+    "position": "CG",
+    "rating": "",
+    "oldSchool": "Oregon State",
+    "newSchool": "Nevada Wolf Pack"
+  },
+  {
+    "firstName": "Keonte",
+    "lastName": "Kennedy",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Utep",
+    "newSchool": "Memphis Tigers"
+  },
+  {
+    "firstName": "Boogie",
+    "lastName": "Coleman",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Missouri",
+    "newSchool": "Nebraska Cornhuskers"
+  },
+  {
+    "firstName": "Isaac",
+    "lastName": "Likekele",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Oklahoma State",
+    "newSchool": "Ohio State Buckeyes"
+  },
+  {
+    "firstName": "Femi",
+    "lastName": "Odukale",
+    "position": "PG",
+    "rating": "",
+    "oldSchool": "Pittsburgh",
+    "newSchool": "Seton Hall Pirates"
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Powell",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Seton Hall",
+    "newSchool": "Nevada Wolf Pack"
+  },
+  {
+    "firstName": "Quincy",
+    "lastName": "Ademokoya",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "Temple",
+    "newSchool": "Kennesaw State Owls"
+  },
+  {
+    "firstName": "Elijah",
+    "lastName": "Kennedy",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "Florida",
+    "newSchool": "Texas State Bobcats"
+  },
+  {
+    "firstName": "Jabe",
+    "lastName": "Mullins",
+    "position": "SG",
+    "rating": "",
+    "oldSchool": "St. Mary's",
+    "newSchool": "Washington State Cougars"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Anderson",
+    "position": "SF",
+    "rating": "",
+    "oldSchool": "South Alabama",
+    "newSchool": "Alabama State Hornets"
+  },
+  {
+    "firstName": "David",
+    "lastName": "N'Guessan",
+    "position": "PF",
+    "rating": "",
+    "oldSchool": "Virginia Tech",
+    "newSchool": "Kansas State Wildcats"
+  }
+]
