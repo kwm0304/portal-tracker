@@ -24,7 +24,7 @@ async function scrapePage() {
       let team = {};
       try {
         // NAME
-        team.name = item.querySelector('th[data-stat="school_name"] a').innerText;
+        team.name = item.querySelector('td[data-stat="school_name"] a').innerText;
         // CONFERENCE
         team.conference = item.querySelector('td[data-stat="conf_abbr"]').innerText;
         // RATING, RANK, WINS, LOSSES, etc.
@@ -41,21 +41,17 @@ async function scrapePage() {
                 //POINTS DIFFERENTIAL
         team.pointsDifferential = item.querySelector('td[data-stat="opp_points_per_g"]').innerText;
         //MOV
-        team.mov = item.querySelector('td.right:nth-child(14)').innerText;
+        team.passingO = item.querySelector('td[data-stat="pass_yds_per_att"]').innerText;
         //SOS MOV
-        team.sosMov = item.querySelector('td.right:nth-child(15)').innerText;
+        team.passingD = item.querySelector('td[data-stat="opp_pass_yds_per_att"]').innerText;
         //SRS MOV
-        team.srsMov = item.querySelector('td.right:nth-child(16)').innerText;
+        team.rushO = item.querySelector('td[data-stat="rush_yds_per_att"]').innerText;
         //OSRS MOV
-        team.osrsMov = item.querySelector('td.right:nth-child(17)').innerText;
+        team.rushD = item.querySelector('td[data-stat="opp_rush_yds_per_att"]').innerText;
         //DSRS MOV
-        team.dsrsMov = item.querySelector('td.right:nth-child(18)').innerText;
+        team.ydsPerPlay = item.querySelector('td[data-stat="tot_yds_per_play"]').innerText;
         //OFFENSIVE PLAYS
-        team.offensivePlays = item.querySelector('td.right:nth-child(19)').innerText;
-        //OFFENSIVE YARDS
-        team.offensiveYards = item.querySelector('td.right:nth-child(20)').innerText;
-        //OFFENSIVE YARDS PER PLAY
-        team.offensiveYardsPerPlay = item.querySelector('td.right:nth-child(21)').innerText;
+        team.offensivePlays = item.querySelector('td[data-stat="opp_tot_yds_per_play]"]').innerText;
       } catch (err) {
         console.log(err);
       }
@@ -69,7 +65,7 @@ let allData = await scrapePage();
   
     await browser.close();
   
-    writeFileSync(`data/${dbRef}Record_${year}.json`, JSON.stringify(allData, null, 2), (err) => {
+    writeFileSync(`data/${dbRef}_stats_${year}.json`, JSON.stringify(allData, null, 2), (err) => {
       if (err) {
         console.error(`An error occurred while writing to file for year ${year}.`, err)
       } else {

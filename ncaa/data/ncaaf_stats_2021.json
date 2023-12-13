@@ -1,5 +1,6 @@
 [
   {
+    "name": "Georgia",
     "conference": "SEC (East)",
     "wins": "14",
     "losses": "1",
@@ -15,6 +16,7 @@
     "ydsPerPlay": "8.59"
   },
   {
+    "name": "Michigan",
     "conference": "Big Ten (East)",
     "wins": "12",
     "losses": "2",
@@ -30,6 +32,7 @@
     "ydsPerPlay": "8.13"
   },
   {
+    "name": "Alabama",
     "conference": "SEC (West)",
     "wins": "13",
     "losses": "2",
@@ -45,6 +48,7 @@
     "ydsPerPlay": "8.24"
   },
   {
+    "name": "Ohio State",
     "conference": "Big Ten (East)",
     "wins": "11",
     "losses": "2",
@@ -60,6 +64,7 @@
     "ydsPerPlay": "9.60"
   },
   {
+    "name": "Notre Dame",
     "conference": "Ind",
     "wins": "11",
     "losses": "2",
@@ -75,6 +80,7 @@
     "ydsPerPlay": "7.57"
   },
   {
+    "name": "Cincinnati",
     "conference": "American",
     "wins": "13",
     "losses": "1",
@@ -90,6 +96,7 @@
     "ydsPerPlay": "7.98"
   },
   {
+    "name": "Oklahoma State",
     "conference": "Big 12",
     "wins": "12",
     "losses": "2",
@@ -105,6 +112,7 @@
     "ydsPerPlay": "6.85"
   },
   {
+    "name": "Michigan State",
     "conference": "Big Ten (East)",
     "wins": "11",
     "losses": "2",
@@ -120,6 +128,7 @@
     "ydsPerPlay": "7.90"
   },
   {
+    "name": "Wisconsin",
     "conference": "Big Ten (West)",
     "wins": "9",
     "losses": "4",
@@ -135,6 +144,7 @@
     "ydsPerPlay": "7.24"
   },
   {
+    "name": "Baylor",
     "conference": "Big 12",
     "wins": "12",
     "losses": "2",
@@ -150,6 +160,7 @@
     "ydsPerPlay": "7.81"
   },
   {
+    "name": "Pitt",
     "conference": "ACC (Coastal)",
     "wins": "11",
     "losses": "3",
@@ -165,6 +176,7 @@
     "ydsPerPlay": "7.43"
   },
   {
+    "name": "Utah",
     "conference": "Pac-12 (South)",
     "wins": "10",
     "losses": "4",
@@ -180,6 +192,7 @@
     "ydsPerPlay": "7.66"
   },
   {
+    "name": "Oklahoma",
     "conference": "Big 12",
     "wins": "11",
     "losses": "2",
@@ -195,6 +208,7 @@
     "ydsPerPlay": "8.37"
   },
   {
+    "name": "Arkansas",
     "conference": "SEC (West)",
     "wins": "9",
     "losses": "4",
@@ -210,6 +224,7 @@
     "ydsPerPlay": "8.00"
   },
   {
+    "name": "Clemson",
     "conference": "ACC (Atlantic)",
     "wins": "10",
     "losses": "3",
@@ -225,6 +240,7 @@
     "ydsPerPlay": "6.73"
   },
   {
+    "name": "Ole Miss",
     "conference": "SEC (West)",
     "wins": "10",
     "losses": "3",
@@ -240,6 +256,7 @@
     "ydsPerPlay": "7.89"
   },
   {
+    "name": "Wake Forest",
     "conference": "ACC (Atlantic)",
     "wins": "11",
     "losses": "3",
@@ -255,6 +272,7 @@
     "ydsPerPlay": "7.31"
   },
   {
+    "name": "Penn State",
     "conference": "Big Ten (East)",
     "wins": "7",
     "losses": "6",
@@ -270,6 +288,7 @@
     "ydsPerPlay": "6.98"
   },
   {
+    "name": "Texas A&M",
     "conference": "SEC (West)",
     "wins": "8",
     "losses": "4",
@@ -285,6 +304,7 @@
     "ydsPerPlay": "7.42"
   },
   {
+    "name": "Purdue",
     "conference": "Big Ten (West)",
     "wins": "9",
     "losses": "4",
@@ -302,6 +322,7 @@
   {},
   {},
   {
+    "name": "North Carolina State",
     "conference": "ACC (Atlantic)",
     "wins": "9",
     "losses": "3",
@@ -317,6 +338,7 @@
     "ydsPerPlay": "7.37"
   },
   {
+    "name": "Minnesota",
     "conference": "Big Ten (West)",
     "wins": "9",
     "losses": "4",
@@ -332,6 +354,7 @@
     "ydsPerPlay": "7.19"
   },
   {
+    "name": "Iowa",
     "conference": "Big Ten (West)",
     "wins": "10",
     "losses": "4",
@@ -347,6 +370,7 @@
     "ydsPerPlay": "6.38"
   },
   {
+    "name": "Kansas State",
     "conference": "Big 12",
     "wins": "8",
     "losses": "5",
@@ -362,6 +386,7 @@
     "ydsPerPlay": "7.60"
   },
   {
+    "name": "Iowa State",
     "conference": "Big 12",
     "wins": "7",
     "losses": "6",
@@ -377,6 +402,7 @@
     "ydsPerPlay": "7.92"
   },
   {
+    "name": "Boise State",
     "conference": "MWC (Mountain)",
     "wins": "7",
     "losses": "5",
@@ -392,6 +418,7 @@
     "ydsPerPlay": "6.67"
   },
   {
+    "name": "Kentucky",
     "conference": "SEC (East)",
     "wins": "10",
     "losses": "3",
@@ -407,6 +434,7 @@
     "ydsPerPlay": "7.69"
   },
   {
+    "name": "Air Force",
     "conference": "MWC (Mountain)",
     "wins": "10",
     "losses": "3",
@@ -422,6 +450,7 @@
     "ydsPerPlay": "6.79"
   },
   {
+    "name": "Houston",
     "conference": "American",
     "wins": "12",
     "losses": "2",
@@ -437,6 +466,7 @@
     "ydsPerPlay": "7.01"
   },
   {
+    "name": "Western Kentucky",
     "conference": "CUSA (East)",
     "wins": "9",
     "losses": "5",
@@ -452,6 +482,7 @@
     "ydsPerPlay": "8.09"
   },
   {
+    "name": "Tennessee",
     "conference": "SEC (East)",
     "wins": "7",
     "losses": "6",
@@ -467,6 +498,7 @@
     "ydsPerPlay": "7.99"
   },
   {
+    "name": "BYU",
     "conference": "Ind",
     "wins": "10",
     "losses": "3",
@@ -482,6 +514,7 @@
     "ydsPerPlay": "7.80"
   },
   {
+    "name": "Appalachian State",
     "conference": "Sun Belt (East)",
     "wins": "10",
     "losses": "4",
@@ -497,6 +530,7 @@
     "ydsPerPlay": "7.22"
   },
   {
+    "name": "UCLA",
     "conference": "Pac-12 (South)",
     "wins": "8",
     "losses": "4",
@@ -512,6 +546,7 @@
     "ydsPerPlay": "7.72"
   },
   {
+    "name": "Nebraska",
     "conference": "Big Ten (West)",
     "wins": "3",
     "losses": "9",
@@ -527,6 +562,7 @@
     "ydsPerPlay": "8.10"
   },
   {
+    "name": "Auburn",
     "conference": "SEC (West)",
     "wins": "6",
     "losses": "7",
@@ -542,6 +578,7 @@
     "ydsPerPlay": "7.54"
   },
   {
+    "name": "Arizona State",
     "conference": "Pac-12 (South)",
     "wins": "8",
     "losses": "5",
@@ -557,6 +594,7 @@
     "ydsPerPlay": "7.55"
   },
   {
+    "name": "San Diego State",
     "conference": "MWC (West)",
     "wins": "12",
     "losses": "2",
@@ -572,6 +610,7 @@
     "ydsPerPlay": "6.07"
   },
   {
+    "name": "Louisiana",
     "conference": "Sun Belt (West)",
     "wins": "13",
     "losses": "1",
@@ -587,6 +626,7 @@
     "ydsPerPlay": "6.83"
   },
   {
+    "name": "Oregon",
     "conference": "Pac-12 (North)",
     "wins": "10",
     "losses": "4",
@@ -604,6 +644,7 @@
   {},
   {},
   {
+    "name": "SMU",
     "conference": "American",
     "wins": "8",
     "losses": "4",
@@ -619,6 +660,7 @@
     "ydsPerPlay": "7.37"
   },
   {
+    "name": "Army",
     "conference": "Ind",
     "wins": "9",
     "losses": "4",
@@ -634,6 +676,7 @@
     "ydsPerPlay": "6.57"
   },
   {
+    "name": "UTSA",
     "conference": "CUSA (West)",
     "wins": "12",
     "losses": "2",
@@ -649,6 +692,7 @@
     "ydsPerPlay": "7.26"
   },
   {
+    "name": "Utah State",
     "conference": "MWC (Mountain)",
     "wins": "11",
     "losses": "3",
@@ -664,6 +708,7 @@
     "ydsPerPlay": "6.86"
   },
   {
+    "name": "Texas",
     "conference": "Big 12",
     "wins": "5",
     "losses": "7",
@@ -679,6 +724,7 @@
     "ydsPerPlay": "7.84"
   },
   {
+    "name": "Miami (FL)",
     "conference": "ACC (Coastal)",
     "wins": "7",
     "losses": "5",
@@ -694,6 +740,7 @@
     "ydsPerPlay": "7.40"
   },
   {
+    "name": "Mississippi State",
     "conference": "SEC (West)",
     "wins": "7",
     "losses": "6",
@@ -709,6 +756,7 @@
     "ydsPerPlay": "7.38"
   },
   {
+    "name": "Fresno State",
     "conference": "MWC (West)",
     "wins": "10",
     "losses": "3",
@@ -724,6 +772,7 @@
     "ydsPerPlay": "7.43"
   },
   {
+    "name": "LSU",
     "conference": "SEC (West)",
     "wins": "6",
     "losses": "7",
@@ -739,6 +788,7 @@
     "ydsPerPlay": "6.95"
   },
   {
+    "name": "Florida",
     "conference": "SEC (East)",
     "wins": "6",
     "losses": "7",
@@ -754,6 +804,7 @@
     "ydsPerPlay": "8.05"
   },
   {
+    "name": "Oregon State",
     "conference": "Pac-12 (North)",
     "wins": "7",
     "losses": "6",
@@ -769,6 +820,7 @@
     "ydsPerPlay": "7.67"
   },
   {
+    "name": "Louisville",
     "conference": "ACC (Atlantic)",
     "wins": "6",
     "losses": "7",
@@ -784,6 +836,7 @@
     "ydsPerPlay": "8.04"
   },
   {
+    "name": "Coastal Carolina",
     "conference": "Sun Belt (East)",
     "wins": "11",
     "losses": "2",
@@ -799,6 +852,7 @@
     "ydsPerPlay": "8.21"
   },
   {
+    "name": "UAB",
     "conference": "CUSA (West)",
     "wins": "9",
     "losses": "4",
@@ -814,6 +868,7 @@
     "ydsPerPlay": "7.48"
   },
   {
+    "name": "Liberty",
     "conference": "Ind",
     "wins": "8",
     "losses": "5",
@@ -829,6 +884,7 @@
     "ydsPerPlay": "7.38"
   },
   {
+    "name": "North Carolina",
     "conference": "ACC (Coastal)",
     "wins": "6",
     "losses": "7",
@@ -844,6 +900,7 @@
     "ydsPerPlay": "8.03"
   },
   {
+    "name": "Nevada",
     "conference": "MWC (West)",
     "wins": "8",
     "losses": "5",
@@ -859,6 +916,7 @@
     "ydsPerPlay": "7.06"
   },
   {
+    "name": "Maryland",
     "conference": "Big Ten (East)",
     "wins": "7",
     "losses": "6",
@@ -874,6 +932,7 @@
     "ydsPerPlay": "7.88"
   },
   {
+    "name": "UCF",
     "conference": "American",
     "wins": "9",
     "losses": "4",
@@ -889,6 +948,7 @@
     "ydsPerPlay": "7.10"
   },
   {
+    "name": "Washington State",
     "conference": "Pac-12 (North)",
     "wins": "7",
     "losses": "6",
@@ -906,6 +966,7 @@
   {},
   {},
   {
+    "name": "Texas Tech",
     "conference": "Big 12",
     "wins": "7",
     "losses": "6",
@@ -921,6 +982,7 @@
     "ydsPerPlay": "7.90"
   },
   {
+    "name": "Marshall",
     "conference": "CUSA (East)",
     "wins": "7",
     "losses": "6",
@@ -936,6 +998,7 @@
     "ydsPerPlay": "7.24"
   },
   {
+    "name": "Virginia",
     "conference": "ACC (Coastal)",
     "wins": "6",
     "losses": "6",
@@ -951,6 +1014,7 @@
     "ydsPerPlay": "8.09"
   },
   {
+    "name": "Illinois",
     "conference": "Big Ten (West)",
     "wins": "5",
     "losses": "7",
@@ -966,6 +1030,7 @@
     "ydsPerPlay": "6.47"
   },
   {
+    "name": "South Carolina",
     "conference": "SEC (East)",
     "wins": "7",
     "losses": "6",
@@ -981,6 +1046,7 @@
     "ydsPerPlay": "6.78"
   },
   {
+    "name": "East Carolina",
     "conference": "American",
     "wins": "7",
     "losses": "5",
@@ -996,6 +1062,7 @@
     "ydsPerPlay": "7.05"
   },
   {
+    "name": "West Virginia",
     "conference": "Big 12",
     "wins": "6",
     "losses": "7",
@@ -1011,6 +1078,7 @@
     "ydsPerPlay": "6.77"
   },
   {
+    "name": "Central Michigan",
     "conference": "MAC (West)",
     "wins": "9",
     "losses": "4",
@@ -1026,6 +1094,7 @@
     "ydsPerPlay": "6.70"
   },
   {
+    "name": "Western Michigan",
     "conference": "MAC (West)",
     "wins": "8",
     "losses": "5",
@@ -1041,6 +1110,7 @@
     "ydsPerPlay": "7.19"
   },
   {
+    "name": "Florida State",
     "conference": "ACC (Atlantic)",
     "wins": "5",
     "losses": "7",
@@ -1056,6 +1126,7 @@
     "ydsPerPlay": "7.09"
   },
   {
+    "name": "Missouri",
     "conference": "SEC (East)",
     "wins": "6",
     "losses": "7",
@@ -1071,6 +1142,7 @@
     "ydsPerPlay": "7.30"
   },
   {
+    "name": "Toledo",
     "conference": "MAC (West)",
     "wins": "7",
     "losses": "6",
@@ -1086,6 +1158,7 @@
     "ydsPerPlay": "7.20"
   },
   {
+    "name": "Syracuse",
     "conference": "ACC (Atlantic)",
     "wins": "5",
     "losses": "7",
@@ -1101,6 +1174,7 @@
     "ydsPerPlay": "7.08"
   },
   {
+    "name": "Virginia Tech",
     "conference": "ACC (Coastal)",
     "wins": "6",
     "losses": "7",
@@ -1116,6 +1190,7 @@
     "ydsPerPlay": "6.72"
   },
   {
+    "name": "Tulsa",
     "conference": "American",
     "wins": "7",
     "losses": "6",
@@ -1131,6 +1206,7 @@
     "ydsPerPlay": "7.20"
   },
   {
+    "name": "Texas Christian",
     "conference": "Big 12",
     "wins": "5",
     "losses": "7",
@@ -1146,6 +1222,7 @@
     "ydsPerPlay": "8.20"
   },
   {
+    "name": "Miami (OH)",
     "conference": "MAC (East)",
     "wins": "7",
     "losses": "6",
@@ -1161,6 +1238,7 @@
     "ydsPerPlay": "7.26"
   },
   {
+    "name": "Georgia State",
     "conference": "Sun Belt (East)",
     "wins": "8",
     "losses": "5",
@@ -1176,6 +1254,7 @@
     "ydsPerPlay": "6.37"
   },
   {
+    "name": "Boston College",
     "conference": "ACC (Atlantic)",
     "wins": "6",
     "losses": "6",
@@ -1191,6 +1270,7 @@
     "ydsPerPlay": "6.56"
   },
   {
+    "name": "Northern Illinois",
     "conference": "MAC (West)",
     "wins": "9",
     "losses": "5",
@@ -1208,6 +1288,7 @@
   {},
   {},
   {
+    "name": "California",
     "conference": "Pac-12 (North)",
     "wins": "5",
     "losses": "7",
@@ -1223,6 +1304,7 @@
     "ydsPerPlay": "6.93"
   },
   {
+    "name": "Rutgers",
     "conference": "Big Ten (East)",
     "wins": "5",
     "losses": "8",
@@ -1238,6 +1320,7 @@
     "ydsPerPlay": "6.13"
   },
   {
+    "name": "Memphis",
     "conference": "American",
     "wins": "6",
     "losses": "6",
@@ -1253,6 +1336,7 @@
     "ydsPerPlay": "7.14"
   },
   {
+    "name": "Navy",
     "conference": "American",
     "wins": "4",
     "losses": "8",
@@ -1268,6 +1352,7 @@
     "ydsPerPlay": "5.70"
   },
   {
+    "name": "USC",
     "conference": "Pac-12 (South)",
     "wins": "4",
     "losses": "8",
@@ -1283,6 +1368,7 @@
     "ydsPerPlay": "7.31"
   },
   {
+    "name": "Georgia Tech",
     "conference": "ACC (Coastal)",
     "wins": "3",
     "losses": "9",
@@ -1298,6 +1384,7 @@
     "ydsPerPlay": "6.90"
   },
   {
+    "name": "Wyoming",
     "conference": "MWC (Mountain)",
     "wins": "7",
     "losses": "6",
@@ -1313,6 +1400,7 @@
     "ydsPerPlay": "6.61"
   },
   {
+    "name": "Middle Tennessee State",
     "conference": "CUSA (East)",
     "wins": "7",
     "losses": "6",
@@ -1328,6 +1416,7 @@
     "ydsPerPlay": "5.97"
   },
   {
+    "name": "Eastern Michigan",
     "conference": "MAC (West)",
     "wins": "7",
     "losses": "6",
@@ -1343,6 +1432,7 @@
     "ydsPerPlay": "6.37"
   },
   {
+    "name": "North Texas",
     "conference": "CUSA (West)",
     "wins": "6",
     "losses": "7",
@@ -1358,6 +1448,7 @@
     "ydsPerPlay": "6.31"
   },
   {
+    "name": "Washington",
     "conference": "Pac-12 (North)",
     "wins": "4",
     "losses": "8",
@@ -1373,6 +1464,7 @@
     "ydsPerPlay": "6.14"
   },
   {
+    "name": "Indiana",
     "conference": "Big Ten (East)",
     "wins": "2",
     "losses": "10",
@@ -1388,6 +1480,7 @@
     "ydsPerPlay": "5.99"
   },
   {
+    "name": "Old Dominion",
     "conference": "CUSA (East)",
     "wins": "6",
     "losses": "7",
@@ -1403,6 +1496,7 @@
     "ydsPerPlay": "6.11"
   },
   {
+    "name": "Tulane",
     "conference": "American",
     "wins": "2",
     "losses": "10",
@@ -1418,6 +1512,7 @@
     "ydsPerPlay": "6.94"
   },
   {
+    "name": "Hawaii",
     "conference": "MWC (West)",
     "wins": "6",
     "losses": "7",
@@ -1433,6 +1528,7 @@
     "ydsPerPlay": "6.65"
   },
   {
+    "name": "UTEP",
     "conference": "CUSA (West)",
     "wins": "7",
     "losses": "6",
@@ -1448,6 +1544,7 @@
     "ydsPerPlay": "6.95"
   },
   {
+    "name": "Ball State",
     "conference": "MAC (West)",
     "wins": "6",
     "losses": "7",
@@ -1463,6 +1560,7 @@
     "ydsPerPlay": "5.75"
   },
   {
+    "name": "Northwestern",
     "conference": "Big Ten (West)",
     "wins": "3",
     "losses": "9",
@@ -1478,6 +1576,7 @@
     "ydsPerPlay": "6.28"
   },
   {
+    "name": "Florida Atlantic",
     "conference": "CUSA (East)",
     "wins": "5",
     "losses": "7",
@@ -1493,6 +1592,7 @@
     "ydsPerPlay": "6.67"
   },
   {
+    "name": "Stanford",
     "conference": "Pac-12 (North)",
     "wins": "3",
     "losses": "9",
@@ -1510,6 +1610,7 @@
   {},
   {},
   {
+    "name": "South Alabama",
     "conference": "Sun Belt (West)",
     "wins": "5",
     "losses": "7",
@@ -1525,6 +1626,7 @@
     "ydsPerPlay": "6.04"
   },
   {
+    "name": "Colorado State",
     "conference": "MWC (Mountain)",
     "wins": "3",
     "losses": "9",
@@ -1540,6 +1642,7 @@
     "ydsPerPlay": "6.57"
   },
   {
+    "name": "Colorado",
     "conference": "Pac-12 (South)",
     "wins": "4",
     "losses": "8",
@@ -1555,6 +1658,7 @@
     "ydsPerPlay": "5.84"
   },
   {
+    "name": "Troy",
     "conference": "Sun Belt (East)",
     "wins": "5",
     "losses": "7",
@@ -1570,6 +1674,7 @@
     "ydsPerPlay": "6.18"
   },
   {
+    "name": "Kent State",
     "conference": "MAC (East)",
     "wins": "7",
     "losses": "7",
@@ -1585,6 +1690,7 @@
     "ydsPerPlay": "7.45"
   },
   {
+    "name": "South Florida",
     "conference": "American",
     "wins": "2",
     "losses": "10",
@@ -1600,6 +1706,7 @@
     "ydsPerPlay": "6.40"
   },
   {
+    "name": "Nevada-Las Vegas",
     "conference": "MWC (West)",
     "wins": "2",
     "losses": "10",
@@ -1615,6 +1722,7 @@
     "ydsPerPlay": "6.37"
   },
   {
+    "name": "San Jose State",
     "conference": "MWC (West)",
     "wins": "5",
     "losses": "7",
@@ -1630,6 +1738,7 @@
     "ydsPerPlay": "6.16"
   },
   {
+    "name": "Buffalo",
     "conference": "MAC (East)",
     "wins": "4",
     "losses": "8",
@@ -1645,6 +1754,7 @@
     "ydsPerPlay": "6.21"
   },
   {
+    "name": "Louisiana Tech",
     "conference": "CUSA (West)",
     "wins": "3",
     "losses": "9",
@@ -1660,6 +1770,7 @@
     "ydsPerPlay": "6.55"
   },
   {
+    "name": "Louisiana-Monroe",
     "conference": "Sun Belt (West)",
     "wins": "4",
     "losses": "8",
@@ -1675,6 +1786,7 @@
     "ydsPerPlay": "5.63"
   },
   {
+    "name": "Rice",
     "conference": "CUSA (West)",
     "wins": "4",
     "losses": "8",
@@ -1690,6 +1802,7 @@
     "ydsPerPlay": "6.30"
   },
   {
+    "name": "Kansas",
     "conference": "Big 12",
     "wins": "2",
     "losses": "10",
@@ -1705,6 +1818,7 @@
     "ydsPerPlay": "6.56"
   },
   {
+    "name": "Charlotte",
     "conference": "CUSA (East)",
     "wins": "5",
     "losses": "7",
@@ -1720,6 +1834,7 @@
     "ydsPerPlay": "6.76"
   },
   {
+    "name": "Duke",
     "conference": "ACC (Coastal)",
     "wins": "3",
     "losses": "9",
@@ -1735,6 +1850,7 @@
     "ydsPerPlay": "6.21"
   },
   {
+    "name": "Bowling Green",
     "conference": "MAC (East)",
     "wins": "4",
     "losses": "8",
@@ -1750,6 +1866,7 @@
     "ydsPerPlay": "5.65"
   },
   {
+    "name": "Georgia Southern",
     "conference": "Sun Belt (East)",
     "wins": "3",
     "losses": "9",
@@ -1765,6 +1882,7 @@
     "ydsPerPlay": "6.03"
   },
   {
+    "name": "Texas State",
     "conference": "Sun Belt (West)",
     "wins": "4",
     "losses": "8",
@@ -1780,6 +1898,7 @@
     "ydsPerPlay": "5.62"
   },
   {
+    "name": "Arizona",
     "conference": "Pac-12 (South)",
     "wins": "1",
     "losses": "11",
@@ -1795,6 +1914,7 @@
     "ydsPerPlay": "6.33"
   },
   {
+    "name": "Vanderbilt",
     "conference": "SEC (East)",
     "wins": "2",
     "losses": "10",
@@ -1812,6 +1932,7 @@
   {},
   {},
   {
+    "name": "Ohio",
     "conference": "MAC (East)",
     "wins": "3",
     "losses": "9",
@@ -1827,6 +1948,7 @@
     "ydsPerPlay": "6.84"
   },
   {
+    "name": "Southern Mississippi",
     "conference": "CUSA (West)",
     "wins": "3",
     "losses": "9",
@@ -1842,6 +1964,7 @@
     "ydsPerPlay": "5.27"
   },
   {
+    "name": "Arkansas State",
     "conference": "Sun Belt (West)",
     "wins": "2",
     "losses": "10",
@@ -1857,6 +1980,7 @@
     "ydsPerPlay": "6.46"
   },
   {
+    "name": "New Mexico",
     "conference": "MWC (Mountain)",
     "wins": "3",
     "losses": "9",
@@ -1872,6 +1996,7 @@
     "ydsPerPlay": "4.84"
   },
   {
+    "name": "Temple",
     "conference": "American",
     "wins": "3",
     "losses": "9",
@@ -1887,6 +2012,7 @@
     "ydsPerPlay": "5.81"
   },
   {
+    "name": "New Mexico State",
     "conference": "Ind",
     "wins": "2",
     "losses": "10",
@@ -1902,6 +2028,7 @@
     "ydsPerPlay": "6.03"
   },
   {
+    "name": "Akron",
     "conference": "MAC (East)",
     "wins": "2",
     "losses": "10",
@@ -1917,6 +2044,7 @@
     "ydsPerPlay": "6.24"
   },
   {
+    "name": "Connecticut",
     "conference": "Ind",
     "wins": "1",
     "losses": "11",
@@ -1932,6 +2060,7 @@
     "ydsPerPlay": "5.02"
   },
   {
+    "name": "Florida International",
     "conference": "CUSA (East)",
     "wins": "1",
     "losses": "11",
@@ -1947,6 +2076,7 @@
     "ydsPerPlay": "6.85"
   },
   {
+    "name": "Massachusetts",
     "conference": "Ind",
     "wins": "1",
     "losses": "11",
