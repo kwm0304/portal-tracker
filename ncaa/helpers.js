@@ -1,40 +1,48 @@
-import { readFile } from 'fs';
-
-const readJsonFile = (path) => new Promise((resolve, reject) => {
-  readFile(path, 'utf8', (err, data) => {
-    if (err) {
-      reject("File read failed: " + err);
-    } else {
-      try {
-        resolve(JSON.parse(data));
-      } catch (parseErr) {
-        reject("Error parsing JSON: " + parseErr);
-      }
-    }
-  });
-});
-
-const compareTeams = async () => {
+export const compareTeams = async (year1, year2) => {
   try {
-    const teams2020 = await readJsonFile('./data/ncaab/ncaab_stats_2020.json');
-    const teams2021 = await readJsonFile('./data/ncaab/ncaab_stats_2021.json');
+    const path1 = `./data/ncaab/ncaab_stats_${year1}.json`;
+    const path2 = `./data/ncaab/ncaab_stats_${year2}.json`;
 
-    const names2020 = new Set(teams2020.map(team => team.name));
-    const newD1Teams2021 = new Set(teams2021.filter(team => !names2020.has(team.name)).map(team => team.name));
+    const response1 = await fetch(path1);
+    const teamsYear1 = await response1.json();
 
-    // Creating a map for 2020 data for quick access
-    const ratings2020 = new Map(teams2020.map(team => [team.name, team.rating]));
+    const response2 = await fetch(path2);
+    const teamsYear2 = await response2.json();
+
+    const namesYear1 = new Set(teamsYear1.map(team => team.name));
+    const namesYear2 = new Set(teamsYear2.map(team => team.name));
+
+    const newTeamsYear2 = new Set(teamsYear2.filter(team => !namesYear1.has(team.name)).map(team => team.name));
+    const missingTeamsYear2 = [...namesYear1].filter(name => !namesYear2.has(name));
+    console.log("New Teams in " + year2 + ":", newTeamsYear2);
+    console.log("Teams from " + year1 + " missing in " + year2 + ":", missingTeamsYear2);
+
+    // Creating a map for year1 data for quick access
+    const ratingsYear1 = new Map(teamsYear1.map(team => [team.name, team.rating]));
+
+    const undefinedTeams = new Set();
+
+    teamsYear2.forEach(team => {
+      if (team.name === undefined) {
+        undefinedTeams.add(team);
+      }
+    });
+
+    if (undefinedTeams.size > 0) {
+      console.log("Undefined Teams Found:", undefinedTeams.size);
+    }
 
     // Calculating rating differences
-    let ratingDifferences = teams2021.reduce((acc, team2021) => {
-      // Check if the team is new to D1
-      if (newD1Teams2021.has(team2021.name)) {
-        acc.push({ name: team2021.name, status: "New to D1" });
+    let ratingDifferences = teamsYear2.reduce((acc, teamYear2) => {
+     
+      // Check if the team is new in year2
+      if (newTeamsYear2.has(teamYear2.name)) {
+        acc.push({ name: teamYear2.name, status: `New to D1 in ${year2}` });
       } else {
-        const rating2020 = ratings2020.get(team2021.name) || 0;
+        const ratingYear1 = ratingsYear1.get(teamYear2.name) || 0;
         acc.push({
-          name: team2021.name,
-          ratingDifference: team2021.rating - rating2020
+          name: teamYear2.name,
+          ratingDifference: teamYear2.rating - ratingYear1
         });
       }
       return acc;
@@ -43,10 +51,17 @@ const compareTeams = async () => {
     // Sorting by rating differences
     ratingDifferences.sort((a, b) => (b.ratingDifference || 0) - (a.ratingDifference || 0));
 
-    console.log(ratingDifferences);
+    return {
+      newTeamsYear2: [...newTeamsYear2],
+      missingTeamsYear2: missingTeamsYear2,
+      ratingDifferences: ratingDifferences,
+    }
   } catch (err) {
     console.log(err);
   }
 };
 
-compareTeams();
+// Example usage
+
+
+
