@@ -1,11 +1,36 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { compareTeams } from '../../helpers';
+import { ThemeProvider, createTheme } from '@mui/material';
+
+const theme = createTheme({
+  components: {
+    MuiDataGrid: {
+      styleOverrides: {
+        root: {
+          fontSize: '1.5rem',
+        },
+        columnHeaderTitle: {
+          fontWeight: 'bold',
+        }
+    }
+  }
+}
+})
 
 const columns = [
-  { field: 'teamName', headerName: 'Team Name', width: 150 },
-  { field: 'ratingDifference', headerName: 'Rating Difference', type: 'number', width: 150 },
-  // Add more columns as needed
+  { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader' },
+  { field: 'ratingDifference', headerName: 'Rating Difference', type: 'number', width: 225,
+  renderCell: (params) => (
+    <span style={{ color: params.value > 0 ? 'green' : 'red',
+    textAlign: 'center',
+    display: 'inline-block',
+    width: '100%',
+    }}>
+      {params.value}
+    </span>
+  )
+},
 ];
 
 const RatingTable = () => {
@@ -41,14 +66,15 @@ const RatingTable = () => {
   }
 
   return (
+    <ThemeProvider theme={theme}>
     <div style={{ height: '90vh', width: '100%' }}>
       <DataGrid
         rows={rows}
         columns={columns}
         pageSize={5}
-        checkboxSelection
       />
     </div>
+    </ThemeProvider>
   );
 };
 
