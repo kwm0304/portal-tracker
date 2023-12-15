@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams } from '../../helpers';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut } from '../../helpers';
 import { ThemeProvider, createTheme } from '@mui/material';
 
 const theme = createTheme({
@@ -31,6 +31,8 @@ const columns = [
     </span>
   )
 },
+{ field: 'playersIn', headerName: 'Transferred In', type: 'number', width: 225 },
+{ field: 'playersOut', headerName: 'Transferred Out', type: 'number', width: 225 },
 ];
 
 const RatingTable = () => {
@@ -40,15 +42,22 @@ const RatingTable = () => {
   useEffect(() => {
     const fetchRatingsDifferences = async () => {
       try {
-        let allResults = [];
+        const { ratingDifferences } = await compareTeams(2020, 2021);
+        const transferredOutData = await schoolTransfersOut(2021);
+        const transferredInData = await schoolTransfersIn(2021);
 
-          const { ratingDifferences } = await compareTeams(2020, 2021);
-          allResults = allResults.concat(ratingDifferences.map((item, index) => ({
-            id: index,
-            teamName: item.name,
-            ratingDifference: item.ratingDifference,
-          })));
-        
+        // Convert transfer data to a map for easy access
+        const outMap = new Map(transferredOutData.map(item => [item.name, item.count]));
+        console.log('outmap', outMap)
+        const inMap = new Map(transferredInData.map(item => [item.name, item.count]));
+
+        const allResults = ratingDifferences.map((item, index) => ({
+          id: index,
+          teamName: item.name,
+          ratingDifference: item.ratingDifference,
+          playersTransferredOut: outMap.get(item.name) || 0,
+          playersTransferredIn: inMap.get(item.name) || 0,
+        }));
 
         setRows(allResults);
       } catch (error) {
@@ -60,6 +69,8 @@ const RatingTable = () => {
 
     fetchRatingsDifferences();
   }, []);
+
+
 
   if (isLoading) {
     return <div>Loading...</div>;

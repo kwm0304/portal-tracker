@@ -4,7 +4,7 @@ import { writeFileSync } from 'fs';
 async function run() {
   const browser = await launch();
   const page = await browser.newPage();
-  const year = 2021
+  const year = 2023
 
   await page.goto(`https://www.sports-reference.com/cbb/seasons/men/${year}-ratings.html`)
 

@@ -61,7 +61,65 @@ export const compareTeams = async (year1, year2) => {
   }
 };
 
-// Example usage
+export const schoolTransfersOut = async (year) => {
+  const dbRef = 'ncaab';
+  const path1 = `./transfers/${dbRef}/${dbRef}_${year}.json`;
+
+  const response1 = await fetch(path1);
+  const transfersYear1 = await response1.json();
+
+  // Create an object to store the count of oldSchool occurrences
+  const oldSchoolCounts = {};
+
+  // Iterate over the transfers data
+  transfersYear1.forEach(transfer => {
+    const oldSchool = transfer.oldSchool;
+    if (oldSchool in oldSchoolCounts) {
+      // Increment count if the school already exists in the object
+      oldSchoolCounts[oldSchool]++;
+    } else {
+      // Initialize count for new schools
+      oldSchoolCounts[oldSchool] = 1;
+    }
+  });
+
+  // Convert the object into an array of {name, count}
+  const oldSchoolArray = Object.keys(oldSchoolCounts).map(school => ({
+    name: school,
+    count: oldSchoolCounts[school]
+  }));
+  console.log(oldSchoolArray);
+  return oldSchoolArray;
+};
 
 
+export const schoolTransfersIn = async (year) => { 
+  const dbRef = 'ncaab';
+  const path1 = `./transfers/${dbRef}/${dbRef}_${year}.json`;
 
+  const response1 = await fetch(path1);
+  const transfersYear1 = await response1.json();
+
+  // Create an object to store the count of newSchool occurrences
+  const newSchoolCounts = {};
+
+  // Iterate over the transfers data
+  transfersYear1.forEach(transfer => {
+    const newSchool = transfer.newSchool;
+    if (newSchool in newSchoolCounts) {
+      // Increment count if the school already exists in the object
+      newSchoolCounts[newSchool]++;
+    } else {
+      // Initialize count for new schools
+      newSchoolCounts[newSchool] = 1;
+    }
+  });
+
+  // Convert the object into an array of {name, count}
+  const newSchoolArray = Object.keys(newSchoolCounts).map(school => ({
+    name: school,
+    count: newSchoolCounts[school]
+  }));
+  console.log(newSchoolArray);
+  return newSchoolArray;
+}

@@ -66,7 +66,13 @@ async function run() {
           }
           //NEW SCHOOL
           const newSchoolEl = item.querySelector('div.TransferPortalItem_committedContainer__16ldp > h6');
-          newSchoolEl ? player.newSchool = newSchoolEl.innerText : player.newSchool = '';
+          if (newSchoolEl) {
+            let newSchoolWords = newSchoolEl.innerText.split(' ');
+            newSchoolWords.pop();
+            player.newSchool = newSchoolWords.join(' ');
+          } else {
+            player.newSchool = '';
+          }
           
         } catch (err) {
           console.log(err);
@@ -80,7 +86,7 @@ async function run() {
   
   let allPlayers = await scrapePage();
 
-  writeFileSync(`${dbRef}/${dbRef}_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
+  writeFileSync(`./transfers/${dbRef}/${dbRef}_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
     if (err) {
       console.error(`An error occurred while writing to file for year ${year}.`, err)
     } else {
