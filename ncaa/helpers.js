@@ -1,7 +1,7 @@
-export const compareTeams = async (year1, year2) => {
+export const compareTeams = async (year1, year2, sport) => {
   try {
-    const path1 = `./data/ncaab/ncaab_stats_${year1}.json`;
-    const path2 = `./data/ncaab/ncaab_stats_${year2}.json`;
+    const path1 = `./data/${sport}/${sport}_stats_${year1}.json`;
+    const path2 = `./data/${sport}/${sport}_stats_${year2}.json`;
 
     const response1 = await fetch(path1);
     const teamsYear1 = await response1.json();
@@ -61,9 +61,8 @@ export const compareTeams = async (year1, year2) => {
   }
 };
 
-export const schoolTransfersOut = async (year) => {
-  const dbRef = 'ncaab';
-  const path1 = `./transfers/${dbRef}/${dbRef}_${year}.json`;
+export const schoolTransfersOut = async (year, sport) => {
+  const path1 = `./transfers/${sport}/${sport}_${year}.json`;
 
   const response1 = await fetch(path1);
   const transfersYear1 = await response1.json();
@@ -93,9 +92,8 @@ export const schoolTransfersOut = async (year) => {
 };
 
 
-export const schoolTransfersIn = async (year) => { 
-  const dbRef = 'ncaab';
-  const path1 = `./transfers/${dbRef}/${dbRef}_${year}.json`;
+export const schoolTransfersIn = async (year, sport) => { 
+  const path1 = `./transfers/${sport}/${sport}_${year}.json`;
 
   const response1 = await fetch(path1);
   const transfersYear1 = await response1.json();
