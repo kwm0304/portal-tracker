@@ -1,13 +1,23 @@
 import { launch } from 'puppeteer';
 import { writeFileSync } from 'fs';
 import {setTimeout} from "node:timers/promises";
-
+//247
 async function run() {
   const browser = await launch();
   const page = await browser.newPage();
-  const year = 2020
+  //2020-23
+  const year = 2024
+ //either basketball or football
+  const sport = "football"
 
-  await page.goto(`https://247sports.com/season/${year}-basketball/transferportal/`)
+  let dbRef = ""
+  if (sport === "football") {
+    dbRef = "ncaaf"
+  } else if (sport === "basketball") {
+    dbRef = "ncaab"
+  }
+
+  await page.goto(`https://247sports.com/season/${year}-${sport}/transferportal/`)
 
   async function clickLoadMoreButton() {
     const loadMoreBtnSelector = 'button.action-button.transfer-group-loadMore';
@@ -62,7 +72,7 @@ async function run() {
   }
   let allPlayers = await scrapePage();
 
-  writeFileSync(`./transfers/ncaab/ncaab_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
+  writeFileSync(`./transfers/${dbRef}/${dbRef}_${year}.json`, JSON.stringify(allPlayers, null, 2), (err) => {
     if (err) {
       console.error(`An error occurred while writing to file for year ${year}.`, err)
     } else {

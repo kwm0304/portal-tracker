@@ -1,7 +1,7 @@
 import { launch } from 'puppeteer';
 import { writeFileSync } from 'fs';
 import {setTimeout} from "node:timers/promises";
-
+//on3
 async function run() {
   const browser = await launch();
   const page = await browser.newPage();
@@ -73,7 +73,6 @@ async function run() {
           } else {
             player.newSchool = '';
           }
-          
         } catch (err) {
           console.log(err);
         }
