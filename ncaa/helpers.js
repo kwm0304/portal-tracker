@@ -87,7 +87,6 @@ export const schoolTransfersOut = async (year, sport) => {
     name: school,
     count: oldSchoolCounts[school]
   }));
-  console.log(oldSchoolArray);
   return oldSchoolArray;
 };
 
@@ -118,6 +117,5 @@ export const schoolTransfersIn = async (year, sport) => {
     name: school,
     count: newSchoolCounts[school]
   }));
-  console.log(newSchoolArray);
   return newSchoolArray;
 }
