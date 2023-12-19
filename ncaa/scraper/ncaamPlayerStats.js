@@ -4,97 +4,127 @@ import { promisify } from 'util';
 
 const readFileAsync = promisify(readFile);
 
-async function run() {
-  const browser = await launch();
-  const year = 2023;
-  const sport = 'ncaab';
-  const allData = [];
+const sport = 'ncaab';
+const year = 2023;
 
+async function readAndProcessFile() {
   try {
     const jsonString = await readFileAsync(`./transfers/${sport}/${sport}_${year}.json`, 'utf8');
     const data = JSON.parse(jsonString);
 
+    const schools = {};
     for (const entry of data) {
-      const firstName = entry.firstName;
-      const lastName = entry.lastName;
+      const school = entry.newSchool;
+      const player = { firstName: entry.firstName, lastName: entry.lastName };
 
-      const playerStats = await scrapePlayer(browser, sport, firstName, lastName);
-      allData.push({ firstName, lastName, stats: playerStats }) 
+      if (!schools[school]) {
+        schools[school] = [];
+      }
+      schools[school].push(player);
     }
-    writeFileSync(`./data/${sport}/stats/${sport}_stats_${year}.json`, JSON.stringify(allData, null, 2));
 
-    console.log(`Finished writing to file for year ${year}.`);
-  } catch (err) {
-    console.log("Error occurred:", err);
-  } finally {
-    await browser.close();
+    const result = Object.keys(schools).map(school => ({ newSchool: school, players: schools[school] }));
+    return result;
+  } catch (error) {
+    console.error('Error:', error);
+    return [];
   }
 }
 
+readAndProcessFile();
+
+
+
 async function scrapePlayer(browser, sport, firstName, lastName) {
+  let ref = ''
+  if (sport === 'ncaab') {
+    ref = 'cbb'
+  } else if (sport === 'ncaaf') {
+    ref = 'cfb'
+  }
+  const thisYear = year.slice(2);
+  console.log(thisYear)
   const page = await browser.newPage();
-  await page.goto(`https://www.sports-reference.com/${sport}/players/${firstName}-${lastName}-1.html`);
+  const url = `https://www.sports-reference.com/${ref}/players/${firstName}-${lastName}-1.html`;
+  console.log('Visiting URL:', url);
+  
+  await page.goto(url);
 
-  let playerStats = await scrapePage(page);
+  await page.waitForSelector(`#players_per_game\\.${year}`);
 
-  console.log(`${firstName} ${lastName}`, playerStats);
-
-  await page.close();
-}
-
-async function scrapePage(page) {
-  let pageData = await page.evaluate(() => {
+  let playerStats = await page.evaluate((year) => {
     let stats = [];
-    let items = document.querySelectorAll('tr.players_totals');
-
-    items.forEach((item) => {
+    let item = document.querySelector(`#players_per_game\\.${year}`);
+    if (item) {
       let statYear = {};
-      try {
-        statYear.season = item.querySelector('th a').innerText;
+    try {
+      statYear.class = item.querySelector('td[data-stat="class"]').innerText;
 
-        statYear.class = item.querySelector('td[data-stat="class"]').innerText;
+      let gamesPlayed = item.querySelector('td[data-stat="games"]').innerText;
+      statYear.gamesPlayed = gamesPlayed === '' ? 0 : +gamesPlayed;
 
-        let gamesPlayed = item.querySelector('td[data-stat="games"]').innerText;
-        statYear.gamesPlayed = gamesPlayed === '' ? 0 : +gamesPlayed;
+      let gamesStarted = item.querySelector('td[data-stat="games_started"]').innerText;
+      statYear.gamesStarted = gamesStarted === '' ? 0 : +gamesStarted;
 
-        let gamesStarted = item.querySelector('td[data-stat="games_started"]').innerText;
-        statYear.gamesStarted = gamesStarted === '' ? 0 : +gamesStarted;
+      let minutesPlayed = item.querySelector('td[data-stat="mp_per_g"]').innerText;
+      statYear.minutesPlayed = minutesPlayed === '' ? 0 : +minutesPlayed;
 
-        let minutesPlayed = item.querySelector('td[data-stat="mp"]').innerText;
-        statYear.minutesPlayed = minutesPlayed === '' ? 0 : +minutesPlayed;
+      let rebounds = item.querySelector('td[data-stat="trb_per_g"]').innerText;
+      statYear.rebounds = rebounds === '' ? 0 : +rebounds;
 
-        let fieldGoalsMade = item.querySelector('td[data-stat="fg"]').innerText;
-        statYear.fieldGoalsMade = fieldGoalsMade === '' ? 0 : +fieldGoalsMade;
+      let assists = item.querySelector('td[data-stat="ast_per_g"]').innerText;
+      statYear.assists = assists === '' ? 0 : +assists;
 
-        let fieldGoalsAttempted = item.querySelector('td[data-stat="fga"]').innerText;
-        statYear.fieldGoalsAttempted = fieldGoalsAttempted === '' ? 0 : +fieldGoalsAttempted;
+      let steals = item.querySelector('td[data-stat="stl_per_g"]').innerText;
+      statYear.steals = steals === '' ? 0 : +steals;
 
-        let fgPercent = item.querySelector('td[data-stat="fg_pct"]').innerText;
-        statYear.fieldGoalPercent = fgPercent === '' ? 0 : +fgPercent;
+      let blocks = item.querySelector('td[data-stat="blk_per_g"]').innerText;
+      statYear.blocks = blocks === '' ? 0 : +blocks;
 
-        let rebounds = item.querySelector('td[data-stat="trb"]').innerText;
-        statYear.rebounds = rebounds === '' ? 0 : +rebounds;
-
-        let assists = item.querySelector('td[data-stat="ast"]').innerText;
-        statYear.assists = assists === '' ? 0 : +assists;
-
-        let steals = item.querySelector('td[data-stat="stl"]').innerText;
-        statYear.steals = steals === '' ? 0 : +steals;
-
-        let blocks = item.querySelector('td[data-stat="blk"]').innerText;
-        statYear.blocks = blocks === '' ? 0 : +blocks;
-
-        let points = item.querySelector('td[data-stat="pts"]').innerText;
-        statYear.points = points === '' ? 0 : +points;
-
-      } catch (err) {
-        console.log(err);
-      }
-      stats.push(statYear);
-    })
-    return stats;
-  });
-  return pageData;
+      let points = item.querySelector('td[data-stat="pts_per_g"]').innerText;
+      statYear.points = points === '' ? 0 : +points;
+    } catch (err) {
+      console.error(err)
+    }
+    stats.push(statYear);
+  }
+  if (!item) {
+    console.log('Selector not found')
+  }
+  return stats;
+  }, year);
+  await page.close();
+  return playerStats;
 }
 
-run();
+async function scrapeAllPlayers(browser, sport, playerNames, year) {
+  const allData = []
+  for (const playerName of playerNames) {
+    const playerStats = await scrapePlayer(browser, sport, playerName.firstName, playerName.lastName, year);
+    const playerData = {
+      firstName: playerName.firstName,
+      lastName: playerName.lastName,
+      stats: playerStats
+    }
+    allData.push(playerData);
+  }
+
+  writeFileSync(`./transfers/${sport}/${sport}_${year}_stats.json`, JSON.stringify(allData, null, 2), (err) => { 
+    if (err) {
+      console.error(`An error occurred while writing to file for year ${year}.`, err)
+    } else {
+      console.log(`Finished writing to file for year ${year}.`)
+    }
+  });
+  
+  await browser.close();
+}
+
+async function main() {
+  const playerNames = await readAndProcessFile();
+  const browser = await launch();
+  await scrapeAllPlayers(browser, sport, playerNames, year); 
+  await browser.close();
+}
+main()
+
