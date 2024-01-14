@@ -13,7 +13,7 @@ async function readAndProcessFile() {
     const data = JSON.parse(jsonString);
     const playerNames = [];
     for (const entry of data) {
-      let schoolFormatted = entry.newSchool.replace(/[&.'"()]/g, "");
+      let schoolFormatted = entry.newSchool.replace(/[&.'"]/g, "");
       switch (schoolFormatted) {
         case "TCU":
           schoolFormatted = "Texas Christian";
