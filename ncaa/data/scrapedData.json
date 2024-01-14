@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "firstName": "akok",
+      "lastName": "Akok",
+      "school": "West Virginia",
+      "games": "9",
+      "gamesStarted": "4",
+      "fgm": "1.9",
+      "fga": "3.8",
+      "fgpercent": ".500",
+      "fg2m": "1.6",
+      "fg2a": "2.8",
+      "fg2percent": ".560",
+      "fg3m": "0.3",
+      "fg3a": "1.0",
+      "fg3percent": ".333",
+      "ftm": "0.4",
+      "fta": "1.0",
+      "ftpercent": ".444",
+      "reb": "3.9",
+      "ast": "0.6",
+      "stl": "0.0",
+      "blk": "1.4",
+      "tov": "0.4",
+      "pts": "4.6"
+    }
+  ],
+  [
+    {
+      "firstName": "mike",
+      "lastName": "Meadows",
+      "school": "Saint Louis",
+      "games": "12",
+      "gamesStarted": "9",
+      "fgm": "2.2",
+      "fga": "4.7",
+      "fgpercent": ".464",
+      "fg2m": "1.7",
+      "fg2a": "3.3",
+      "fg2percent": ".513",
+      "fg3m": "0.5",
+      "fg3a": "1.4",
+      "fg3percent": ".353",
+      "ftm": "1.2",
+      "fta": "1.7",
+      "ftpercent": ".700",
+      "reb": "2.4",
+      "ast": "2.9",
+      "stl": "0.6",
+      "blk": "0.2",
+      "tov": "1.0",
+      "pts": "6.0"
+    }
+  ]
+]
