@@ -50,7 +50,7 @@ async function readAndProcessFile() {
         case "UNLV":
           schoolFormatted = "Nevada Las Vegas";
           break;
-        case "St John's":
+        case "St Johns":
           schoolFormatted = "St Johns NY";
           break;
         case "UMass":
@@ -93,11 +93,12 @@ readAndProcessFile();
 
 // Will search ^ year + 1
 async function scrapePlayer(browser, firstName, lastName, school) {
-  console.log("Scraping:", lastName, school);
+  console.log("Scraping:", firstName, lastName, school);
   const page = await browser.newPage();
   const schoolName = school.toLowerCase().replace(/ /g, "-");
   const year = 2024;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
+
   await page.goto(url);
   await page.setDefaultTimeout(60000);
   await page.waitForSelector("table#per_game");
