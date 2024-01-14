@@ -3,7 +3,7 @@ import { writeFileSync, promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaab";
-  const year = 2023;
+  const year = 2022;
   try {
     const jsonString = await fs.readFile(
       `./transfers/${sport}/${sport}_${year}.json`,
@@ -97,15 +97,14 @@ async function scrapePlayer(browser, firstName, lastName, school) {
   console.log("Scraping:", lastName, school);
   const page = await browser.newPage();
   const schoolName = school.toLowerCase().replace(/ /g, "-");
-  const year = 2024;
+  const year = 2023;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
   await page.goto(url);
-
-  await page.waitForSelector("table#per_game", { timeout: 60000 });
+  await page.setDefaultTimeout(60000);
+  await page.waitForSelector("table#per_game");
 
   let pageData = await page.evaluate(
     (lastName, firstName, school) => {
-      console.log("Evaluating:", lastName);
       let stats = [];
       let rows = Array.from(
         document.querySelectorAll("table#per_game tr")
@@ -116,9 +115,7 @@ async function scrapePlayer(browser, firstName, lastName, school) {
         }
         return false;
       });
-      if (rows) {
-        console.log("Rows:", rows.length);
-      }
+
       rows.forEach((row) => {
         let player = {};
 
@@ -215,7 +212,7 @@ async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
   for (const player of playerNames) {
-    if (!player.school || !player.school.trim() === "") {
+    if (!player.school || !player.school.trim() === "" || !player.lastName) {
       console.log(`Skipping ${player.firstName} ${player.lastName}`);
       continue;
     }
@@ -229,7 +226,7 @@ async function scrapePlayers(browser) {
   }
 
   writeFileSync(
-    "./data/ncaab/stats/player_stats_2024.json",
+    "./data/ncaab/stats/player_stats_2023.json",
     JSON.stringify(allData, null, 2),
     (err) => {
       if (err) {
