@@ -13,9 +13,68 @@ async function readAndProcessFile() {
     const data = JSON.parse(jsonString);
     const playerNames = [];
     for (const entry of data) {
-      let schoolFormatted = entry.newSchool.replace(/&/g, "");
-      if (schoolFormatted === "TCU") {
-        schoolFormatted = "Texas Christian";
+      let schoolFormatted = entry.newSchool.replace(/[&.'"()]/g, "");
+      switch (schoolFormatted) {
+        case "TCU":
+          schoolFormatted = "Texas Christian";
+          break;
+        case "LSU":
+          schoolFormatted = "Louisiana State";
+          break;
+        case "UTEP":
+          schoolFormatted = "Texas El Paso";
+          break;
+        case "UTSA":
+          schoolFormatted = "Texas San Antonio";
+          break;
+        case "FIU":
+          schoolFormatted = "Florida International";
+          break;
+        case "FAU":
+          schoolFormatted = "Florida Atlantic";
+          break;
+        case "UNCW":
+          schoolFormatted = "North Carolina Wilmington";
+          break;
+        case "UNCG":
+          schoolFormatted = "North Carolina Greensboro";
+          break;
+        case "UCF":
+          schoolFormatted = "Central Florida";
+          break;
+        case "USC":
+          schoolFormatted = "Southern California";
+          break;
+        case "Ole Miss":
+          schoolFormatted = "Mississippi";
+          break;
+        case "UNLV":
+          schoolFormatted = "Nevada Las Vegas";
+          break;
+        case "St. John's":
+          schoolFormatted = "St Johns NY";
+          break;
+        case "UMass":
+          schoolFormatted = "Massachusetts";
+          break;
+        case "UMKC":
+          schoolFormatted = "Missouri Kansas City";
+          break;
+        case "UTRGV":
+          schoolFormatted = "Texas Rio Grande Valley";
+          break;
+        case "UMBC":
+          schoolFormatted = "Maryland Baltimore County";
+          break;
+        case "UT Arlington":
+          schoolFormatted = "Texas Arlington";
+          break;
+        case "UT Martin":
+          schoolFormatted = "Tennessee Martin";
+          break;
+        case "UNC Asheville":
+          schoolFormatted = "North Carolina Asheville";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
