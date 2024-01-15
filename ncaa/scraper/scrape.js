@@ -32,10 +32,10 @@ async function readAndProcessFile() {
         case "FAU":
           schoolFormatted = "Florida Atlantic";
           break;
-        case "UNCW":
+        case "UNC Wilmington":
           schoolFormatted = "North Carolina Wilmington";
           break;
-        case "UNCG":
+        case "UNC Greensboro":
           schoolFormatted = "North Carolina Greensboro";
           break;
         case "UCF":
