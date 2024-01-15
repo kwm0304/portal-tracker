@@ -95,6 +95,9 @@ async function readAndProcessFile() {
         case "Wisconsin-Green Bay":
           schoolFormatted = "Green Bay";
           break;
+        case "The Citadel":
+          schoolFormatted = "Citadel";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -234,7 +237,7 @@ async function scrapePlayers(browser) {
   const playerNames = await readAndProcessFile();
   const batchSize = 100;
 
-  for (let i = 199; i < playerNames.length; i += batchSize) {
+  for (let i = 299; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (!player.school || !player.school.trim() === "" || !player.lastName) {
