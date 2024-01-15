@@ -80,6 +80,9 @@ async function readAndProcessFile() {
         case "NC State":
           schoolFormatted = "North Carolina State";
           break;
+        case "UAB":
+          schoolFormatted = "Alabama Birmingham";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -217,31 +220,35 @@ async function scrapePlayer(browser, firstName, lastName, school) {
 async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
-  for (const player of playerNames) {
-    if (!player.school || !player.school.trim() === "" || !player.lastName) {
-      console.log(`Skipping ${player.firstName} ${player.lastName}`);
-      continue;
-    }
-    const data = await scrapePlayer(
-      browser,
-      player.firstName,
-      player.lastName,
-      player.school
-    );
-    allData.push(data);
-  }
+  const batchSize = 100;
 
-  writeFileSync(
-    "./data/ncaab/stats/player_stats_2024.json",
-    JSON.stringify(allData, null, 2),
-    (err) => {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log("Success!");
+  for (let i = 0; i < playerNames.length; i += batchSize) {
+    const batch = playerNames.slice(i, i + batchSize);
+    for (const player of batch) {
+      if (!player.school || !player.school.trim() === "" || !player.lastName) {
+        console.log(`Skipping ${player.firstName} ${player.lastName}`);
+        continue;
       }
+      const data = await scrapePlayer(
+        browser,
+        player.firstName,
+        player.lastName,
+        player.school
+      );
+      allData.push(data);
     }
-  );
+    writeFileSync(
+      `./data/ncaab/stats/player_stats_2024_batch_${i / batchSize}.json`,
+      JSON.stringify(allData, null, 2),
+      (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log(`Batch ${i / batchSize} Success!`);
+        }
+      }
+    );
+  }
 }
 
 async function main() {
