@@ -146,6 +146,18 @@ async function readAndProcessFile() {
         case "Saint Marys":
           schoolFormatted = "Saint Marys CA";
           break;
+        case "Prairie View AM":
+          schoolFormatted = "Prairie View";
+          break;
+        case "Louisiana":
+          schoolFormatted = "Louisiana Lafayette";
+          break;
+        case "Southern University":
+          schoolFormatted = "Southern";
+          break;
+        case "UC Riverside":
+          schoolFormatted = "California Riverside";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -153,6 +165,7 @@ async function readAndProcessFile() {
         school: schoolFormatted,
       });
     }
+    console.log("Player names:", playerNames.length);
 
     return playerNames;
   } catch (error) {
@@ -284,6 +297,7 @@ async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
   const batchSize = 100;
+  let playerCounter = 0;
 
   for (let i = 0; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
@@ -292,6 +306,10 @@ async function scrapePlayers(browser) {
         console.log(`Skipping ${player.firstName} ${player.lastName}`);
         continue;
       }
+      playerCounter++;
+      console.log(
+        `Processing player #${playerCounter}: ${player.firstName} ${player.lastName}, ${player.school}`
+      );
       const data = await scrapePlayer(
         browser,
         player.firstName,
