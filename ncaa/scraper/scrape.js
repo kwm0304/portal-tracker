@@ -98,6 +98,8 @@ async function readAndProcessFile() {
         case "The Citadel":
           schoolFormatted = "Citadel";
           break;
+        case "UC Santa Barbara":
+          schoolFormatted = "California Santa Barbara";
       }
       playerNames.push({
         firstName: entry.firstName,
