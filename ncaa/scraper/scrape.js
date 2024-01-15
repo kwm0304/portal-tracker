@@ -112,6 +112,10 @@ async function readAndProcessFile() {
           break;
         case "Southern Miss":
           schoolFormatted = "Southern Mississippi";
+          break;
+        case "Bowling Green":
+          schoolFormatted = "Bowling Green State";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
