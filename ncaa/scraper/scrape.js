@@ -86,8 +86,11 @@ async function readAndProcessFile() {
         case "Miami":
           schoolFormatted = "Miami FL";
           break;
-        case "VCU" :
+        case "VCU":
           schoolFormatted = "Virginia Commonwealth";
+          break;
+        case "Wisconsin-Milwaukee":
+          schoolFormatted = "Milwaukee";
           break;
       }
       playerNames.push({
