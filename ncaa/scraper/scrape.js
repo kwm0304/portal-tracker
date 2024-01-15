@@ -225,7 +225,7 @@ async function scrapePlayers(browser) {
   const playerNames = await readAndProcessFile();
   const batchSize = 100;
 
-  for (let i = 100; i < playerNames.length; i += batchSize) {
+  for (let i = 200; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (!player.school || !player.school.trim() === "" || !player.lastName) {
