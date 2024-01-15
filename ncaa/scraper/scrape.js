@@ -3,7 +3,7 @@ import { writeFileSync, promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaab";
-  const year = 2023;
+  const year = 2022;
   try {
     const jsonString = await fs.readFile(
       `./transfers/${sport}/${sport}_${year}.json`,
@@ -119,6 +119,15 @@ async function readAndProcessFile() {
         case "University of the Pacific":
           schoolFormatted = "Pacific";
           break;
+        case "Albany":
+          schoolFormatted = "Albany NY";
+          break;
+        case "Detroit":
+          schoolFormatted = "Detroit Mercy";
+          break;
+        case "Loyola":
+          schoolFormatted = "Loyola Il";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -141,7 +150,7 @@ async function scrapePlayer(browser, firstName, lastName, school) {
   console.log("Scraping:", firstName, lastName, school);
   const page = await browser.newPage();
   const schoolName = school.toLowerCase().replace(/ /g, "-");
-  const year = 2024;
+  const year = 2023;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
 
   await page.goto(url);
@@ -258,7 +267,7 @@ async function scrapePlayers(browser) {
   const playerNames = await readAndProcessFile();
   const batchSize = 100;
 
-  for (let i = 499; i < playerNames.length; i += batchSize) {
+  for (let i = 0; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (!player.school || !player.school.trim() === "" || !player.lastName) {
@@ -274,7 +283,7 @@ async function scrapePlayers(browser) {
       allData.push(data);
     }
     writeFileSync(
-      `./data/ncaab/stats/player_stats_2024_batch_${i / batchSize}.json`,
+      `./data/ncaab/stats/player_stats_2023_batch_${i / batchSize}.json`,
       JSON.stringify(allData, null, 2),
       (err) => {
         if (err) {
