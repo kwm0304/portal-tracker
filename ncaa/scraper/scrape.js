@@ -83,6 +83,9 @@ async function readAndProcessFile() {
         case "UAB":
           schoolFormatted = "Alabama Birmingham";
           break;
+        case "Miami":
+          schoolFormatted = "Miami FL";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
