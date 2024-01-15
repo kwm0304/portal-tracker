@@ -76,6 +76,10 @@ async function readAndProcessFile() {
           break;
         case "SMU":
           schoolFormatted = "Southern Methodist";
+          break;
+        case "NC State":
+          schoolFormatted = "North Carolina State";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
