@@ -100,6 +100,10 @@ async function readAndProcessFile() {
           break;
         case "UC Santa Barbara":
           schoolFormatted = "California Santa Barbara";
+          break;
+        case "Arkansas-Little Rock":
+          schoolFormatted = "Arkansas Little Rock";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
