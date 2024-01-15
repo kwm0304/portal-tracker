@@ -92,6 +92,9 @@ async function readAndProcessFile() {
         case "Wisconsin-Milwaukee":
           schoolFormatted = "Milwaukee";
           break;
+        case "Wisconsin-Green Bay":
+          schoolFormatted = "Green Bay";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
