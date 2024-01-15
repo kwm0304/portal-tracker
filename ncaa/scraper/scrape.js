@@ -65,7 +65,7 @@ async function readAndProcessFile() {
         case "UMBC":
           schoolFormatted = "Maryland Baltimore County";
           break;
-        case "UT Arlington":
+        case "UT-Arlington":
           schoolFormatted = "Texas Arlington";
           break;
         case "UT Martin":
