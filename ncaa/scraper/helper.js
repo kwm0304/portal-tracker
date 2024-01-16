@@ -21,6 +21,13 @@ function readAndCompareFiles(sport, year1, year2) {
     );
   });
 
+  let noNewSchool = [];
+  const playersWithNoNewSchool = transferList.filter(
+    (transferPlayer) => transferPlayer.newSchool === ""
+  );
+  noNewSchool.push(playersWithNoNewSchool);
+  console.log(noNewSchool);
+
   return playersNotInStats.map((player) => ({
     firstName: player.firstName,
     lastName: player.lastName,
@@ -50,6 +57,3 @@ const results = processMultipleYears(sport, yearPairs);
 for (const [key, value] of Object.entries(results)) {
   console.log(`${key}: Size of array is ${value.length}`);
 }
-console.log(results);
-// writeFileSync(`./data/${sport}/missing_players.json`, JSON.stringify(results, null, 2));
-console.log(results);
