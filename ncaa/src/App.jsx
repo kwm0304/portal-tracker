@@ -6,9 +6,9 @@ import RatingTable from './components/RatingTable'
 function App() {
 
   return (
-    <>
+    <div className='screen'>
       <RatingTable />
-    </>
+    </div>
   )
 }
 

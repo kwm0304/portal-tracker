@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams, schoolTransfersIn, schoolTransfersOut } from '../../helpers';
-import { ThemeProvider, createTheme } from '@mui/material';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers } from '../../helpers';
+import { ThemeProvider, createTheme, Modal, Box, Typography } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -17,7 +17,7 @@ const theme = createTheme({
         columnHeaderTitle: {
           fontWeight: 'bold',
         },
-        cell: { // This targets the cells of the DataGrid
+        cell: { 
           textAlign: 'center',
           justifyContent: 'center',
         },
@@ -37,7 +37,18 @@ const renderRatingCell = (params) => (
   </span>
 );
 
-
+const modalStyle = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  bgcolor: 'background.paper',
+  boxShadow: 24,
+  p: 4,
+  overflowY: 'auto',
+  maxHeight: '80vh',
+};
 
 const RatingTable = () => {
   const [rows, setRows] = useState([]);
@@ -45,13 +56,14 @@ const RatingTable = () => {
   const [year, setYear] = useState(2021);
   const [prevYear, setPrevYear] = useState(2020);
   const [sport, setSport] = useState('ncaab');
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedTeam, setSelectedTeam] = useState(null);
+  const [playerData, setPlayerData] = useState([]);
 
   useEffect(() => {
     const fetchYearData = async () => {
       try {
         const { ratingsYear1, ratingsYear2 } = await compareTeams(year, prevYear, sport);
-        console.log("year", year)
-        console.log("prevYear", prevYear)
         const transferredOutData = await schoolTransfersOut(year, sport);
         const transferredInData = await schoolTransfersIn(year, sport);
 
@@ -75,7 +87,6 @@ const RatingTable = () => {
             playersTransferredOut: outMap.get(teamName) || 0,
           }
         });
-        console.log('allresults', allResults)
   
         setRows(allResults);
       } catch (error) {
@@ -88,18 +99,33 @@ const RatingTable = () => {
     fetchYearData();
   }, [year, prevYear, sport]);
 
- 
+  const handleOpenModal = async (teamName) => {
+    setSelectedTeam(teamName);
+    setModalOpen(true);
+    const players = await getPlayersByTeam(teamName);
+    setPlayerData(players);
+  }
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    setSelectedTeam(null);
+    setPlayerData([]);
+  }
 
   const columns = [
-    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader' },
+    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader',
+    renderCell: (params) => (
+      <div style={{ cursor: 'pointer' }} onClick={() => handleOpenModal(params.value)}>
+        {params.value}
+      </div>
+      ),
+    },
     { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150 },
     { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150 },
     { field: 'ratingDifference', headerName: 'Rating Diff.', type: 'number', width: 150, renderCell: renderRatingCell },
     { field: 'playersTransferredIn', headerName: 'Transferred In', type: 'number', width: 150 },
     { field: 'playersTransferredOut', headerName: 'Transferred Out', type: 'number', width: 150 }
   ];
-  
-
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -114,8 +140,15 @@ const RatingTable = () => {
     setSport(event.target.value);
   };
 
+  const getPlayersByTeam = async (teamName, year, sport) => {
+    const response = await getTransfers(teamName, year, sport);
+    const data = await response.json();
+    return data;
+  }
+
   return (
     <ThemeProvider theme={theme}>
+      <div className='container'>
       <div>
         <FormControl>
           <InputLabel id="year-select-label">Year</InputLabel>
@@ -151,6 +184,31 @@ const RatingTable = () => {
         columns={columns}
         pageSize={5}
       />
+      <Modal
+     open={modalOpen}
+     onClose={handleCloseModal}
+     aria-labelledby="modal-modal-title"
+     aria-describedby="modal-modal-description"
+   >
+      <Box sx={modalStyle}>
+        <Typography id="modal-modal-title" variant="h6" component="h2">
+        Players from {selectedTeam}
+        </Typography>
+        <Box id="modal-modal-description" sx={{ mt: 2 }}>
+          {playerData.length > 0 ? (
+            playerData.map((player, index) => (
+              <Typography key={index} sx={{ mt: 1 }}>
+              {player.firstName} {player.lastName} - Games: {player.games}, Points: {player.pts}
+              {/* Add more player stats as needed */}
+              </Typography>
+            ))
+          ) : (
+          <Typography>No data available for this team.</Typography>
+          )}
+        </Box>
+      </Box>
+      </Modal>
+    </div>
     </div>
     </ThemeProvider>
   );
