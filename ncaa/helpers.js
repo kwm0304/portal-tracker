@@ -29,8 +29,6 @@ export const compareTeams = async (year1, year2, sport) => {
     const ratingsYear2 = new Map(
       teamsYear2.map((team) => [team.name, team.rating])
     );
-    console.log("Ratings Year 1:", ratingsYear1);
-    console.log("Ratings Year 2:", ratingsYear2);
 
     const undefinedTeams = new Set();
 
@@ -112,15 +110,24 @@ export const schoolTransfersIn = async (year, sport) => {
 
 //RETURNS PLAYERS THAT TRANSFERRED FROM YEAR TO YEAR
 export const getTransfers = async (teamName, year, sport) => {
-  const path = `./data/${sport}/stats/${year}/player_stats_${year}.json`;
+  try {
+    const path = `./data/${sport}/stats/${year}/player_stats_${year}.json`;
 
-  const response = await fetch(path);
-  const stats = await response.json();
+    const response = await fetch(path);
+    if (!response.ok) {
+      console.error("error");
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    const flattenedData = data.flat();
 
-  let transferData = [];
-
-  const transfers = stats.filter((player) => player.school === teamName);
-  transferData.push(transfers);
-
-  return transferData;
+    const filteredData = flattenedData.filter(
+      (player) => player.school === teamName
+    );
+    console.log("filtered", filteredData);
+    return filteredData;
+  } catch (error) {
+    console.error("Error fetching transfer data:", error);
+    return [];
+  }
 };

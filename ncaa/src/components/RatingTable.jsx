@@ -6,6 +6,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import PlayerTable from './PlayerTable';
 
 const theme = createTheme({
   components: {
@@ -16,6 +17,7 @@ const theme = createTheme({
         },
         columnHeaderTitle: {
           fontWeight: 'bold',
+          textAlign: 'center',
         },
         cell: { 
           textAlign: 'center',
@@ -42,7 +44,7 @@ const modalStyle = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: 'auto',
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 4,
@@ -59,6 +61,7 @@ const RatingTable = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [playerData, setPlayerData] = useState([]);
+  console.log('YEAR', year)
 
   useEffect(() => {
     const fetchYearData = async () => {
@@ -102,7 +105,7 @@ const RatingTable = () => {
   const handleOpenModal = async (teamName) => {
     setSelectedTeam(teamName);
     setModalOpen(true);
-    const players = await getPlayersByTeam(teamName);
+    const players = await getPlayersByTeam(teamName, year, sport);
     setPlayerData(players);
   }
 
@@ -123,8 +126,8 @@ const RatingTable = () => {
     { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150 },
     { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150 },
     { field: 'ratingDifference', headerName: 'Rating Diff.', type: 'number', width: 150, renderCell: renderRatingCell },
-    { field: 'playersTransferredIn', headerName: 'Transferred In', type: 'number', width: 150 },
-    { field: 'playersTransferredOut', headerName: 'Transferred Out', type: 'number', width: 150 }
+    { field: 'playersTransferredIn', headerName: '# In', type: 'number', width: 150 },
+    { field: 'playersTransferredOut', headerName: '# Out', type: 'number', width: 150 }
   ];
 
   if (isLoading) {
@@ -141,10 +144,14 @@ const RatingTable = () => {
   };
 
   const getPlayersByTeam = async (teamName, year, sport) => {
+    console.log(teamName, year, sport)
+
     const response = await getTransfers(teamName, year, sport);
-    const data = await response.json();
-    return data;
+    console.log('response', response)
+    return response;
   }
+
+  console.log('playerData',playerData)
 
   return (
     <ThemeProvider theme={theme}>
@@ -191,21 +198,10 @@ const RatingTable = () => {
      aria-describedby="modal-modal-description"
    >
       <Box sx={modalStyle}>
-        <Typography id="modal-modal-title" variant="h6" component="h2">
-        Players from {selectedTeam}
+        <Typography id="modal-modal-title" variant="h4" component="h2">
+        {selectedTeam} {year} Transfers
         </Typography>
-        <Box id="modal-modal-description" sx={{ mt: 2 }}>
-          {playerData.length > 0 ? (
-            playerData.map((player, index) => (
-              <Typography key={index} sx={{ mt: 1 }}>
-              {player.firstName} {player.lastName} - Games: {player.games}, Points: {player.pts}
-              {/* Add more player stats as needed */}
-              </Typography>
-            ))
-          ) : (
-          <Typography>No data available for this team.</Typography>
-          )}
-        </Box>
+        <PlayerTable playerData={playerData} />
       </Box>
       </Modal>
     </div>
