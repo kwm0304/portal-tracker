@@ -46,5 +46,10 @@ const yearPairs = [
   ["2023", "2024"],
 ];
 const results = processMultipleYears(sport, yearPairs);
+
+for (const [key, value] of Object.entries(results)) {
+  console.log(`${key}: Size of array is ${value.length}`);
+}
+console.log(results);
 // writeFileSync(`./data/${sport}/missing_players.json`, JSON.stringify(results, null, 2));
 console.log(results);
