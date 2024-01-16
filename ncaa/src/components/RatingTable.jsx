@@ -17,10 +17,13 @@ const theme = createTheme({
         columnHeaderTitle: {
           fontWeight: 'bold',
         },
-        
+        cell: { // This targets the cells of the DataGrid
+          textAlign: 'center',
+          justifyContent: 'center',
+        },
+        }
     }
   }
-}
 })
 
 const renderRatingCell = (params) => (
@@ -34,15 +37,7 @@ const renderRatingCell = (params) => (
   </span>
 );
 
-const columns = [
-  { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader' },
-  { field: 'ratingDifference', headerName: 'Rating Difference', type: 'number', width: 250,
-  renderCell: renderRatingCell},
-  { field: 'playersTransferredIn', headerName: 'Transferred In', type: 'number', width: 250,
-  renderCell: renderRatingCell},
-  { field: 'playersTransferredOut', headerName: 'Transferred Out', type: 'number', width: 250,
-  renderCell: renderRatingCell},
-];
+
 
 const RatingTable = () => {
   const [rows, setRows] = useState([]);
@@ -54,20 +49,32 @@ const RatingTable = () => {
   useEffect(() => {
     const fetchYearData = async () => {
       try {
-        const { ratingDifferences } = await compareTeams(prevYear, year, sport);
+        const { ratingsYear1, ratingsYear2 } = await compareTeams(year, prevYear, sport);
+        console.log("year", year)
+        console.log("prevYear", prevYear)
         const transferredOutData = await schoolTransfersOut(year, sport);
         const transferredInData = await schoolTransfersIn(year, sport);
+
   
         const outMap = new Map(transferredOutData.map(item => [item.name, item.count]));
         const inMap = new Map(transferredInData.map(item => [item.name, item.count]));
-        console.log(inMap)
-        const allResults = ratingDifferences.map((item, index) => ({
-          id: index,
-          teamName: item.name,
-          ratingDifference: item.ratingDifference,
-          playersTransferredOut: outMap.get(item.name) ,
-          playersTransferredIn: inMap.get(item.name) ,
-        }));
+
+        const allResults = ratingsYear1.map((item, index) => {
+          const teamName = item[0];
+          const ratingYear1 = item[1];
+          const ratingYear2Entry = ratingsYear2.find(([name]) => name === teamName);
+          const ratingYear2 = ratingYear2Entry ? ratingYear2Entry[1] : null; 
+
+          return {
+            id: index,
+            teamName,
+            ratingsYear1: ratingYear1,
+            ratingsYear2: ratingYear2,
+            ratingDifference: ratingYear2 - ratingYear1,
+            playersTransferredIn: inMap.get(teamName) || 0,
+            playersTransferredOut: outMap.get(teamName) || 0,
+          }
+        });
         console.log('allresults', allResults)
   
         setRows(allResults);
@@ -81,16 +88,27 @@ const RatingTable = () => {
     fetchYearData();
   }, [year, prevYear, sport]);
 
+ 
+
+  const columns = [
+    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader' },
+    { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150 },
+    { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150 },
+    { field: 'ratingDifference', headerName: 'Rating Diff.', type: 'number', width: 150, renderCell: renderRatingCell },
+    { field: 'playersTransferredIn', headerName: 'Transferred In', type: 'number', width: 150 },
+    { field: 'playersTransferredOut', headerName: 'Transferred Out', type: 'number', width: 150 }
+  ];
+  
+
 
   if (isLoading) {
     return <div>Loading...</div>;
   }
-console.log('sprot', sport)
-console.log('year', year)
-console.log('prevyear', prevYear)
-  const handleYearChange = (event) => {
-    setYear(event.target.value);
-    setPrevYear(event.target.value - 1);
+
+  const handleYearChange = (e) => {
+    e.preventDefault()
+    setYear(e.target.value);
+    setPrevYear(e.target.value - 1);
   }
   const handleSportChange = (event) => {
     setSport(event.target.value);
