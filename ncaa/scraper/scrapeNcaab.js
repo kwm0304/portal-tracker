@@ -1,9 +1,10 @@
+//WRITES PLAYER STATS TO FILE
 import { launch } from "puppeteer";
 import { writeFileSync, promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaab";
-  const year = 2021;
+  const year = 2023;
   try {
     const jsonString = await fs.readFile(
       `./transfers/${sport}/${sport}_${year}.json`,
@@ -158,6 +159,15 @@ async function readAndProcessFile() {
         case "UC Riverside":
           schoolFormatted = "California Riverside";
           break;
+        case "SIU Edwardsville":
+          schoolFormatted = "Southern Illinois Edwardsville";
+          break;
+        case "Texas-Rio Grande Valley":
+          schoolFormatted = "Texas Pan American";
+          break;
+        case "Bethune-Cookman":
+          schoolFormatted = "Bethune Cookman";
+          break;
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -178,10 +188,9 @@ readAndProcessFile();
 
 // Will search ^ year + 1
 async function scrapePlayer(browser, firstName, lastName, school) {
-  console.log("Scraping:", firstName, lastName, school);
   const page = await browser.newPage();
   const schoolName = school.toLowerCase().replace(/ /g, "-");
-  const year = 2022;
+  const year = 2024;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
 
   await page.goto(url);
@@ -289,7 +298,7 @@ async function scrapePlayer(browser, firstName, lastName, school) {
   );
 
   await page.close();
-  console.log("Page data:", pageData);
+  console.log(pageData);
   return pageData;
 }
 
@@ -319,7 +328,7 @@ async function scrapePlayers(browser) {
       allData.push(data);
     }
     writeFileSync(
-      `./data/ncaab/stats/player_stats_2022_batch_${i / batchSize}.json`,
+      `./data/ncaab/stats/player_stats_2024_batch_${i / batchSize}.json`,
       JSON.stringify(allData, null, 2),
       (err) => {
         if (err) {
