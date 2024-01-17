@@ -7,10 +7,9 @@ const TeamSplitesTable = ({ teamData, year }) => {
   }
   const year1Data = teamData.statsYear1[0];
   const year2Data = teamData.statsYear2[0];
-  console.log('year', year)
 
   const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
-
+  //consts for diff column
   const prevYear = year - 1;
   const ratingDiff = year2Data.rating - year1Data.rating;
   const winsDiff = year1Data.wins - year2Data.wins;
