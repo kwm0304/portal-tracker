@@ -1,6 +1,6 @@
 //WRITES PLAYER STATS TO FILE
 import { launch } from "puppeteer";
-import { writeFileSync, promises as fs } from "fs";
+import { promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaaf";
@@ -34,41 +34,59 @@ readAndProcessFile();
 // Will search ^ year + 1. Football stats only go up to 23'
 async function scrapePlayer(browser, firstName, lastName, school, position) {
   const page = await browser.newPage();
-  const year = 2024;
-  const url = `https://www.sports-reference.com/cfb/players/${firstName}-${lastName}-1.html`;
-
+  const year = 2020;
+  const lowerFirst = firstName.toLowerCase();
+  const lowerlast = lastName.toLowerCase();
+  const url = `https://www.sports-reference.com/cfb/players/${lowerFirst}-${lowerlast}-1.html`;
+  console.log(url);
   await page.goto(url);
   await page.setDefaultTimeout(60000);
-  await page.waitForSelector(".table_container.is_setup");
+  await page.waitForSelector("div.table_container.is_setup");
 
   let pageData = await page.evaluate((year) => {
-    const rows = Array.from(document.querySelectorAll("table tr"));
+    const stats = [];
+    const rows = Array.from(
+      document.querySelectorAll("div.table_container.is_setup table tbody tr")
+    );
+
     const filteredRows = rows.filter((row) => {
-      const yearEl = row.querySelector("th#year_id a");
+      const yearEl = row.querySelector("th a");
       return yearEl && yearEl.innerText === year.toString();
     });
-    return filteredRows.map((row) => {
+
+    const excludeProps = ["conf_abbr", "class", "pos"];
+
+    filteredRows.map((row) => {
       const data = {};
       Array.from(row.querySelectorAll("td")).forEach((td) => {
+        const stat = td.getAttribute("data-stat");
         const value = td.innerText.trim();
-        if (value) {
-          const stat = td.getAttribute("data-stat");
+        if (
+          !excludeProps.includes(stat) &&
+          value &&
+          value !== "0" &&
+          value !== "0.0"
+        ) {
           data[stat] = value;
         }
       });
-      return data;
+      stats.push(data);
     });
+    return stats;
   }, year);
 
   await page.close();
   console.log(pageData);
-  return pageData.map((data) => {
-    data.firstName = firstName;
-    data.lastName = lastName;
-    data.school = school;
-    data.position = position;
-    return data;
-  });
+  const playerData = {
+    playerInfo: {
+      firstName: firstName,
+      lastName: lastName,
+      school: school,
+      position: position,
+    },
+    stats: pageData,
+  };
+  return playerData;
 }
 
 async function scrapePlayers(browser) {
@@ -100,17 +118,21 @@ async function scrapePlayers(browser) {
       );
       allData.push(data);
     }
-    writeFileSync(
-      `./data/ncaaf/stats/player_stats_2020_batch_${i / batchSize}.json`,
-      JSON.stringify(allData, null, 2),
-      (err) => {
-        if (err) {
-          console.log(err);
-        } else {
-          console.log(`Batch ${i / batchSize} Success!`);
+    try {
+      await fs.writeFile(
+        `./data/ncaaf/stats/player_stats_2020_batch_${i / batchSize}.json`,
+        JSON.stringify(allData, null, 2),
+        (err) => {
+          if (err) {
+            console.log(err);
+          } else {
+            console.log(`Batch ${i / batchSize} Success!`);
+          }
         }
-      }
-    );
+      );
+    } catch (error) {
+      console.error(error);
+    }
   }
 }
 
