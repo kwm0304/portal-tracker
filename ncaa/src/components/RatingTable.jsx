@@ -212,7 +212,7 @@ const RatingTable = () => {
         {selectedTeam} {year} Transfers
         </Typography>
         <PlayerTable playerData={playerData} />
-        <TeamSplitesTable teamData={teamData}/>
+        <TeamSplitesTable teamData={teamData} year={year}/>
       </Box>
       </Modal>
     </div>
