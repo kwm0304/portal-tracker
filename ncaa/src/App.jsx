@@ -6,7 +6,7 @@ import RatingTable from './components/RatingTable'
 function App() {
 
   return (
-    <div className='screen'>
+    <div style={{ width: '100%'}}>
       <RatingTable />
     </div>
   )

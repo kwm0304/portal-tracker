@@ -2,27 +2,29 @@ import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Typ
 import PropTypes from 'prop-types';
 
 const TeamSplitesTable = ({ teamData, year }) => {
-  console.log("teamData", teamData)
+  if (!teamData || !teamData.statsYear1 || !teamData.statsYear2) {
+    return <div>Loading...</div>;
+  }
   const year1Data = teamData.statsYear1[0];
   const year2Data = teamData.statsYear2[0];
   console.log('year', year)
 
-  const cellStyle = { fontWeight: 'bold' }
+  const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
 
   const prevYear = year - 1;
   const ratingDiff = year2Data.rating - year1Data.rating;
   const winsDiff = year1Data.wins - year2Data.wins;
   const lossesDiff = year1Data.losses - year2Data.losses;
-  const ppgDiff = year1Data.ppg - year2Data.ppg;
-  const oppPpgDiff = year1Data.oppPpg - year2Data.oppPpg;
-  const movDiff = year1Data.mov - year2Data.mov;
-  const sosDiff = year1Data.sos - year2Data.sos;
-  const osrsDiff = year1Data.osrs - year2Data.osrs;
-  const dsrsDiff = year1Data.dsrs - year2Data.dsrs;
-  const srsDiff = year1Data.srs - year2Data.srs;
-  const offRatingDiff = year1Data.offRating - year2Data.offRating;
-  const defRatingDiff = year1Data.defRating - year2Data.defRating;
-  const netRatingDiff = year1Data.netRating - year2Data.netRating;
+  const ppgDiff = (year1Data.ppg - year2Data.ppg).toFixed(1);
+  const oppPpgDiff = (year1Data.oppPpg - year2Data.oppPpg).toFixed(1);
+  const movDiff = (year1Data.mov - year2Data.mov).toFixed(1);
+  const sosDiff = (year1Data.sos - year2Data.sos).toFixed(1);
+  const osrsDiff = (year1Data.osrs - year2Data.osrs).toFixed(1);
+  const dsrsDiff = (year1Data.dsrs - year2Data.dsrs).toFixed(1);
+  const srsDiff = (year1Data.srs - year2Data.srs).toFixed(1);
+  const offRatingDiff = (year1Data.offRating - year2Data.offRating).toFixed(1);
+  const defRatingDiff = (year1Data.defRating - year2Data.defRating).toFixed(1);
+  const netRatingDiff = (year1Data.netRating - year2Data.netRating).toFixed(1);
   return (
     <Grid container spacing={2}>
       <Grid item xs={5}>
@@ -130,7 +132,7 @@ const TeamSplitesTable = ({ teamData, year }) => {
                   <TableCell style={cellStyle}>{dsrsDiff}</TableCell>
                 </TableRow>
                 <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{srsDiff}/</TableCell>
+                  <TableCell style={cellStyle}>{srsDiff}</TableCell>
                 </TableRow>
                 <TableRow style={{ backgroundColor: '#9c9c9c'}}>
                   <TableCell style={cellStyle}>{offRatingDiff}</TableCell>

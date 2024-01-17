@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats } from '../../helpers';
-import { ThemeProvider, createTheme, Modal, Box, Typography } from '@mui/material';
+import { ThemeProvider, createTheme, Modal, Box, Typography, Container } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -119,6 +119,7 @@ const RatingTable = () => {
     setModalOpen(false);
     setSelectedTeam(null);
     setPlayerData([]);
+    setTeamData([]);
   }
 
   const columns = [
@@ -164,7 +165,8 @@ const RatingTable = () => {
 
 
   return (
-    <ThemeProvider theme={theme}>
+    <div style={{ width: '100%'}}>
+    <ThemeProvider theme={theme} >
       <div className='container'>
       <div className='input-box'>
         <FormControl>
@@ -195,12 +197,14 @@ const RatingTable = () => {
           </Select>
         </FormControl>
       </div>
-    <div style={{ height: '90vh', width: '100%' }}>
+      <Container style={{ height: '90vh', width: '100%'}}>
       <DataGrid
         rows={rows}
         columns={columns}
         pageSize={5}
+        style={{ width: '100%'}}
       />
+      </Container>
       <Modal
      open={modalOpen}
      onClose={handleCloseModal}
@@ -216,8 +220,8 @@ const RatingTable = () => {
       </Box>
       </Modal>
     </div>
-    </div>
     </ThemeProvider>
+    </div>
   );
 };
 
