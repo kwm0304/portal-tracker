@@ -6,10 +6,10 @@ const cellStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
 const PlayerTable = ({ playerData }) => {
 
   return (
-    <TableContainer component={Paper} style={{ paddingTop: '12px' }}>
+    <TableContainer component={Paper} style={{ marginTop: '12px' }}>
       <Table aria-label="simple table">
         <TableHead className='tableHead'>
-          <TableRow style={{ backgroundColor: '#4186ba',  color: 'white' }}>
+          <TableRow style={{ backgroundColor: '#4186ba',  color: 'white', fontWeight: 'bold' }}>
             
             <TableCell style={cellStyle}>Name</TableCell>
             <TableCell style={cellStyle}>GP</TableCell>
@@ -32,8 +32,6 @@ const PlayerTable = ({ playerData }) => {
             <TableCell style={cellStyle}>BLK</TableCell>
             <TableCell style={cellStyle}>TOV</TableCell>
             <TableCell style={cellStyle}>PTS</TableCell>
-            
-            {/* Add more table headers as required */}
           </TableRow>
         </TableHead>
         <TableBody>
@@ -75,7 +73,6 @@ PlayerTable.propTypes = {
     PropTypes.shape({
       firstName: PropTypes.string.isRequired,
       lastName: PropTypes.string.isRequired,
-      // Define other player properties here as needed
     })
   ).isRequired,
 };

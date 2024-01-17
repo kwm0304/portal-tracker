@@ -131,3 +131,32 @@ export const getTransfers = async (teamName, year, sport) => {
     return [];
   }
 };
+
+//RETURNS TEAM STATS FOR YEARS
+export const getTeamStats = async (teamName, year, sport) => {
+  try {
+    const prevYear = year - 1;
+
+    const path1 = `./data/${sport}/stats/${year}/team_stats_${year}.json`;
+    const path2 = `./data/${sport}/stats/${prevYear}/team_stats_${prevYear}.json`;
+
+    const response1 = await fetch(path1);
+    const teamsYear1 = await response1.json();
+    const flattenedYear1 = teamsYear1.flat();
+
+    const response2 = await fetch(path2);
+    const teamsYear2 = await response2.json();
+    const flattenedYear2 = teamsYear2.flat();
+
+    const statsYear1 = flattenedYear1.filter((team) => team.name === teamName);
+    const statsYear2 = flattenedYear2.filter((team) => team.name === teamName);
+
+    return {
+      statsYear1: statsYear1,
+      statsYear2: statsYear2,
+    };
+  } catch (error) {
+    console.error("Error fetching team stats:", error);
+    return [];
+  }
+};

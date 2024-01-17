@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers } from '../../helpers';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats } from '../../helpers';
 import { ThemeProvider, createTheme, Modal, Box, Typography } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import PlayerTable from './PlayerTable';
+import TeamSplitesTable from './TeamSplitesTable';
 
 const theme = createTheme({
   components: {
@@ -14,18 +15,20 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontSize: '1.5rem',
+          textAlign: 'center',
+          justifyContent: 'center',
+          alignItems: 'center',
         },
         columnHeaderTitle: {
           fontWeight: 'bold',
-          textAlign: 'center',
+          textAlign: 'center'
         },
         cell: { 
           textAlign: 'center',
           justifyContent: 'center',
         },
-        }
+        }}
     }
-  }
 })
 
 const renderRatingCell = (params) => (
@@ -61,7 +64,8 @@ const RatingTable = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [playerData, setPlayerData] = useState([]);
-  console.log('YEAR', year)
+  const [teamData, setTeamData] = useState([]);
+
 
   useEffect(() => {
     const fetchYearData = async () => {
@@ -106,7 +110,9 @@ const RatingTable = () => {
     setSelectedTeam(teamName);
     setModalOpen(true);
     const players = await getPlayersByTeam(teamName, year, sport);
+    const teamSplits = await getTeamSplits(teamName, year, sport);
     setPlayerData(players);
+    setTeamData(teamSplits);
   }
 
   const handleCloseModal = () => {
@@ -116,18 +122,18 @@ const RatingTable = () => {
   }
 
   const columns = [
-    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader',
+    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader', 
     renderCell: (params) => (
-      <div style={{ cursor: 'pointer' }} onClick={() => handleOpenModal(params.value)}>
+      <div style={{ cursor: 'pointer', hover: {color: 'blue'}  }} onClick={() => handleOpenModal(params.value)} >
         {params.value}
       </div>
       ),
     },
-    { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150 },
-    { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150 },
+    { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150, style: { textAlign: 'center' } },
+    { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150, style: { textAlign: 'center' } },
     { field: 'ratingDifference', headerName: 'Rating Diff.', type: 'number', width: 150, renderCell: renderRatingCell },
-    { field: 'playersTransferredIn', headerName: '# In', type: 'number', width: 150 },
-    { field: 'playersTransferredOut', headerName: '# Out', type: 'number', width: 150 }
+    { field: 'playersTransferredIn', headerName: '# In', type: 'number', width: 100, style: { textAlign: 'center' } },
+    { field: 'playersTransferredOut', headerName: '# Out', type: 'number', width: 100, style: { textAlign: 'center' } }
   ];
 
   if (isLoading) {
@@ -147,16 +153,20 @@ const RatingTable = () => {
     console.log(teamName, year, sport)
 
     const response = await getTransfers(teamName, year, sport);
-    console.log('response', response)
     return response;
   }
 
-  console.log('playerData',playerData)
+  const getTeamSplits = async (teamName, year, sport) => {
+    const response = await getTeamStats(teamName, year, sport);
+    console.log("team response", response)
+    return response;
+  }
+
 
   return (
     <ThemeProvider theme={theme}>
       <div className='container'>
-      <div>
+      <div className='input-box'>
         <FormControl>
           <InputLabel id="year-select-label">Year</InputLabel>
           <Select
@@ -198,10 +208,11 @@ const RatingTable = () => {
      aria-describedby="modal-modal-description"
    >
       <Box sx={modalStyle}>
-        <Typography id="modal-modal-title" variant="h4" component="h2">
+        <Typography id="modal-modal-title" variant="h4" component="h2" style={{ textAlign: 'center', paddingBottom: '18px'}}>
         {selectedTeam} {year} Transfers
         </Typography>
         <PlayerTable playerData={playerData} />
+        <TeamSplitesTable teamData={teamData}/>
       </Box>
       </Modal>
     </div>
