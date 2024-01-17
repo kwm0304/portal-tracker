@@ -41,39 +41,45 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
   console.log(url);
   await page.goto(url);
   await page.setDefaultTimeout(60000);
-  await page.waitForSelector("div.table_container.is_setup");
+  let pageData;
 
-  let pageData = await page.evaluate((year) => {
-    const stats = [];
-    const rows = Array.from(
-      document.querySelectorAll("div.table_container.is_setup table tbody tr")
-    );
+  try {
+    await page.waitForSelector("div.table_container.is_setup");
+    pageData = await page.evaluate((year) => {
+      const stats = [];
+      const rows = Array.from(
+        document.querySelectorAll("div.table_container.is_setup table tbody tr")
+      );
 
-    const filteredRows = rows.filter((row) => {
-      const yearEl = row.querySelector("th a");
-      return yearEl && yearEl.innerText === year.toString();
-    });
-
-    const excludeProps = ["conf_abbr", "class", "pos"];
-
-    filteredRows.map((row) => {
-      const data = {};
-      Array.from(row.querySelectorAll("td")).forEach((td) => {
-        const stat = td.getAttribute("data-stat");
-        const value = td.innerText.trim();
-        if (
-          !excludeProps.includes(stat) &&
-          value &&
-          value !== "0" &&
-          value !== "0.0"
-        ) {
-          data[stat] = value;
-        }
+      const filteredRows = rows.filter((row) => {
+        const yearEl = row.querySelector("th a");
+        return yearEl && yearEl.innerText === year.toString();
       });
-      stats.push(data);
-    });
-    return stats;
-  }, year);
+
+      const excludeProps = ["conf_abbr", "class", "pos"];
+
+      filteredRows.map((row) => {
+        const data = {};
+        Array.from(row.querySelectorAll("td")).forEach((td) => {
+          const stat = td.getAttribute("data-stat");
+          const value = td.innerText.trim();
+          if (
+            !excludeProps.includes(stat) &&
+            value &&
+            value !== "0" &&
+            value !== "0.0"
+          ) {
+            data[stat] = value;
+          }
+        });
+        stats.push(data);
+      });
+      return stats;
+    }, year);
+  } catch (error) {
+    console.error(error);
+    pageData = "No stats found";
+  }
 
   await page.close();
   console.log(pageData);
@@ -92,7 +98,7 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
 async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
-  const batchSize = 50;
+  const batchSize = 1;
   let playerCounter = 0;
 
   let missingPlayers = [];
