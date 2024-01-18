@@ -1,4 +1,6 @@
 //RETURNS RATINGS FOR YEAR AND YEAR BEFORE
+import axios from "axios";
+
 export const compareTeams = async (year1, year2, sport) => {
   try {
     const path1 = `./data/${sport}/stats/${year1}/team_stats_${year1}.json`;
@@ -157,6 +159,22 @@ export const getTeamStats = async (teamName, year, sport) => {
     };
   } catch (error) {
     console.error("Error fetching team stats:", error);
+    return [];
+  }
+};
+
+//FETCH FOOTBALL PLAYER STATS
+export const getFootballPlayerStatsByTeam = async (teamName, year) => {
+  try {
+    const response = await axios.get("http:://localhost:5173/get", {
+      params: {
+        teamName: teamName,
+        year: year,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching player stats:", error);
     return [];
   }
 };

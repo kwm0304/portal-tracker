@@ -1,13 +1,16 @@
 //WRITES PLAYER STATS TO FILE
-import { launch } from "puppeteer";
-import { promises as fs } from "fs";
+const puppeteer = require("puppeteer");
+const fs = require("fs").promises;
+const mongoose = require("mongoose");
+const Player = require("./model/player.js");
+require("dotenv").config();
 
 async function readAndProcessFile() {
   const sport = "ncaaf";
   const year = 2020;
   try {
     const jsonString = await fs.readFile(
-      `./transfers/${sport}/${sport}_${year}.json`,
+      `../ncaa/transfers/${sport}/${sport}_${year}.json`,
       "utf8"
     );
     const data = JSON.parse(jsonString);
@@ -20,7 +23,6 @@ async function readAndProcessFile() {
         position: entry.position,
       });
     }
-    console.log("Player names:", playerNames.length);
 
     return playerNames;
   } catch (error) {
@@ -40,7 +42,7 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
   const url = `https://www.sports-reference.com/cfb/players/${lowerFirst}-${lowerlast}-1.html`;
   console.log(url);
   await page.goto(url);
-  await page.setDefaultTimeout(60000);
+  await page.setDefaultTimeout(30000);
   let pageData;
 
   try {
@@ -96,12 +98,12 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
 }
 
 async function scrapePlayers(browser) {
-  const allData = [];
   const playerNames = await readAndProcessFile();
-  const batchSize = 1;
+  const batchSize = 10;
   let playerCounter = 0;
 
   let missingPlayers = [];
+  console.log("missingplayers", missingPlayers.length);
 
   for (let i = 0; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
@@ -115,36 +117,35 @@ async function scrapePlayers(browser) {
       console.log(
         `Processing player #${playerCounter}: ${player.firstName} ${player.lastName}, ${player.school}`
       );
-      const data = await scrapePlayer(
-        browser,
-        player.firstName,
-        player.lastName,
-        player.school,
-        player.position
-      );
-      allData.push(data);
-    }
-    try {
-      await fs.writeFile(
-        `./data/ncaaf/stats/player_stats_2020_batch_${i / batchSize}.json`,
-        JSON.stringify(allData, null, 2),
-        (err) => {
-          if (err) {
-            console.log(err);
-          } else {
-            console.log(`Batch ${i / batchSize} Success!`);
-          }
-        }
-      );
-    } catch (error) {
-      console.error(error);
+      try {
+        const data = await scrapePlayer(
+          browser,
+          player.firstName,
+          player.lastName,
+          player.school,
+          player.position
+        );
+
+        const newPlayer = new Player(data);
+        await newPlayer.save();
+        console.log(`Saved data for ${player.firstName} ${player.lastName}`);
+      } catch (error) {
+        console.error("Error saving to mongodb", error);
+      }
     }
   }
 }
 
 async function main() {
-  const browser = await launch();
-  await scrapePlayers(browser);
-  await browser.close();
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    const browser = await puppeteer.launch();
+    await scrapePlayers(browser);
+    await browser.close();
+  } catch (error) {
+    console.error("Error connecting to mongodb", error);
+  } finally {
+    mongoose.disconnect();
+  }
 }
 main();
