@@ -5,6 +5,8 @@ export const compareTeams = async (year1, year2, sport) => {
   try {
     const path1 = `./data/${sport}/stats/${year1}/team_stats_${year1}.json`;
     const path2 = `./data/${sport}/stats/${year2}/team_stats_${year2}.json`;
+    console.log("path1", path1);
+    console.log("path2", path2);
 
     const response1 = await fetch(path1);
     const teamsYear1 = await response1.json();

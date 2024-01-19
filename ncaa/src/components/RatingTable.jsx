@@ -73,6 +73,8 @@ const RatingTable = () => {
         const { ratingsYear1, ratingsYear2 } = await compareTeams(year, prevYear, sport);
         const transferredOutData = await schoolTransfersOut(year, sport);
         const transferredInData = await schoolTransfersIn(year, sport);
+        console.log("ratingsYear1", ratingsYear1)
+        console.log("ratingsYear2", ratingsYear2)
 
   
         const outMap = new Map(transferredOutData.map(item => [item.name, item.count]));

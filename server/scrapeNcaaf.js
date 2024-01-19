@@ -106,7 +106,7 @@ async function scrapePlayers(browser) {
   let missingPlayers = [];
   console.log("missingplayers", missingPlayers.length);
 
-  for (let i = 0; i < playerNames.length; i += batchSize) {
+  for (let i = 1348; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (!player.school || !player.school.trim() === "" || !player.lastName) {
