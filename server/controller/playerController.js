@@ -21,11 +21,14 @@ const createPlayer = async (req, res) => {
 
 const getPlayers = async (req, res) => {
   try {
-    const schoolFilter = req.query.school;
+    const { school_name, year } = req.query;
     let query = {};
 
-    if (schoolFilter) {
-      query["playerInfo.school"] = schoolFilter;
+    if (school_name) {
+      query["stats.school_name"] = school_name;
+    }
+    if (year) {
+      query["playerInfo.year"] = year;
     }
 
     const players = await Player.find(query);

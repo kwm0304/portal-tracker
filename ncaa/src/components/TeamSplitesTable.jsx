@@ -8,6 +8,22 @@ const TeamSplitesTable = ({ teamData, year }) => {
   const year1Data = teamData.statsYear1[0];
   const year2Data = teamData.statsYear2[0];
 
+  const renderTable = (teamData) => {
+    return Object.entries(teamData).map(([key, value], index) => {
+      const isEvenRow = index % 2 === 0;
+      const rowStyle = { backgroundColor: isEvenRow ? '#9bd494' : '#5aa150' };
+
+      const formattedKey = key.charAt(0).toUpperCase() + key.slice(1).replace(/[A-Z]/g, letter => ` ${letter}`);
+
+      return (
+        <TableRow key={key} style={rowStyle}>
+          <TableCell style={cellStyle}>{formattedKey}</TableCell>
+          <TableCell style={cellStyle}>{value}</TableCell>
+        </TableRow>
+      )
+    })
+  }
+
   const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
   //consts for diff column
   const prevYear = year - 1;
@@ -32,63 +48,9 @@ const TeamSplitesTable = ({ teamData, year }) => {
           </Typography>
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
+              
               <TableBody>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>Conf.</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.conference}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell  style={cellStyle}>Rating</TableCell>
-                  <TableCell  style={cellStyle}>{year1Data.rating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>Wins</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.wins}</TableCell>
-                  </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>Losses</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.losses}</TableCell>  
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>PPG</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.ppg}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>oppPPG</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.oppPpg}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>MOV</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.mov}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>SOS</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.sos}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>OSRS</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.osrs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>DSRS</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.dsrs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>SRS</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.srs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>O.Rating</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.offRating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9bd494'}}>
-                  <TableCell style={cellStyle}>D.Rating</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.defRating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#5aa150'}}>
-                  <TableCell style={cellStyle}>NET Rating</TableCell>
-                  <TableCell style={cellStyle}>{year1Data.netRating}</TableCell>
-                </TableRow>
+                {renderTable(year1Data)}
               </TableBody>
             </Table>
           </TableContainer>
@@ -153,62 +115,7 @@ const TeamSplitesTable = ({ teamData, year }) => {
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
               <TableBody>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>Conf.</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.conference}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell  style={cellStyle}>Rating</TableCell>
-                  <TableCell  style={cellStyle}>{year2Data.rating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>Wins</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.wins}</TableCell>
-                  </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>Losses</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.losses}</TableCell>  
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>PPG</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.ppg}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>oppPPG</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.oppPpg}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>MOV</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.mov}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>SOS</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.sos}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>OSRS</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.osrs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>DSRS</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.dsrs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>SRS</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.srs}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>O.Rating</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.offRating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#cc8181'}}>
-                  <TableCell style={cellStyle}>D.Rating</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.defRating}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#b04c4c'}}>
-                  <TableCell style={cellStyle}>NET Rating</TableCell>
-                  <TableCell style={cellStyle}>{year2Data.netRating}</TableCell>
-                </TableRow>
+                {renderTable(year2Data)}
               </TableBody>
             </Table>
           </TableContainer>

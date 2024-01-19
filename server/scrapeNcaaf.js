@@ -7,7 +7,7 @@ require("dotenv").config();
 
 async function readAndProcessFile() {
   const sport = "ncaaf";
-  const year = 2020;
+  const year = 2022;
   try {
     const jsonString = await fs.readFile(
       `../ncaa/transfers/${sport}/${sport}_${year}.json`,
@@ -23,7 +23,7 @@ async function readAndProcessFile() {
         position: entry.position,
       });
     }
-
+    console.log(playerNames.length);
     return playerNames;
   } catch (error) {
     console.error("Error:", error);
@@ -36,7 +36,7 @@ readAndProcessFile();
 // Will search ^ year + 1. Football stats only go up to 23'
 async function scrapePlayer(browser, firstName, lastName, school, position) {
   const page = await browser.newPage();
-  const year = 2020;
+  const year = 2022;
   const lowerFirst = firstName.toLowerCase();
   const lowerlast = lastName.toLowerCase();
   const url = `https://www.sports-reference.com/cfb/players/${lowerFirst}-${lowerlast}-1.html`;
@@ -91,6 +91,7 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
       lastName: lastName,
       school: school,
       position: position,
+      year: "2022",
     },
     stats: pageData,
   };

@@ -164,11 +164,11 @@ export const getTeamStats = async (teamName, year, sport) => {
 };
 
 //FETCH FOOTBALL PLAYER STATS
-export const getFootballPlayerStatsByTeam = async (teamName, year) => {
+export const getFootballPlayerStatsByParams = async (teamName, year) => {
   try {
-    const response = await axios.get("http:://localhost:5173/get", {
+    const response = await axios.get("http://localhost:5173/get", {
       params: {
-        teamName: teamName,
+        school_name: teamName,
         year: year,
       },
     });

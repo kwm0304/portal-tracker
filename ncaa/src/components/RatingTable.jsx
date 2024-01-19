@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats } from '../../helpers';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats, getFootballPlayerStatsByParams } from '../../helpers';
 import { ThemeProvider, createTheme, Modal, Box, Typography, Container } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -109,7 +109,12 @@ const RatingTable = () => {
   const handleOpenModal = async (teamName) => {
     setSelectedTeam(teamName);
     setModalOpen(true);
-    const players = await getPlayersByTeam(teamName, year, sport);
+    let players;
+    if (sport === "ncaab") {
+      players = await getPlayersByTeam(teamName, year, sport);
+    } else {
+      players = getFootballPlayerStatsByParams(teamName, year);
+    }
     const teamSplits = await getTeamSplits(teamName, year, sport);
     setPlayerData(players);
     setTeamData(teamSplits);

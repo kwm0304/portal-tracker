@@ -7,6 +7,7 @@ const PlayerSchema = new Schema({
     lastName: String,
     school: String,
     position: String,
+    year: String,
   },
   stats: [Schema.Types.Mixed],
 });
