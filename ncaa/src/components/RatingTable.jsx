@@ -115,7 +115,7 @@ const RatingTable = () => {
     if (sport === "ncaab") {
       players = await getPlayersByTeam(teamName, year, sport);
     } else {
-      players = getFootballPlayerStatsByParams(teamName, year);
+      players = await getFootballPlayerStatsByParams(teamName, year);
     }
     const teamSplits = await getTeamSplits(teamName, year, sport);
     setPlayerData(players);

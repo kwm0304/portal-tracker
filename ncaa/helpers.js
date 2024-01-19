@@ -168,12 +168,23 @@ export const getTeamStats = async (teamName, year, sport) => {
 //FETCH FOOTBALL PLAYER STATS
 export const getFootballPlayerStatsByParams = async (teamName, year) => {
   try {
-    const response = await axios.get("http://localhost:5173/get", {
+    const response = await axios.get("http://localhost:4000/player/get", {
       params: {
         school_name: teamName,
         year: year,
       },
     });
+    console.log(typeof response.data);
+    if (typeof response.data === "string") {
+      try {
+        console.log("football player stats", JSON.parse(response.data));
+        return JSON.parse(response.data);
+      } catch (parseError) {
+        console.error("Error parsing player stats:", parseError);
+        return [];
+      }
+    }
+
     return response.data;
   } catch (error) {
     console.error("Error fetching player stats:", error);
