@@ -2,9 +2,9 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 import PropTypes from 'prop-types';
 
 const cellStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
-
+//shape ncaaf player data differently or conditionally render different table 
 const PlayerTable = ({ playerData }) => {
-
+console.log("football player data", playerData)
   return (
     <TableContainer component={Paper} style={{ marginTop: '12px' }}>
       <Table aria-label="simple table">

@@ -6,8 +6,9 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import PlayerTable from './PlayerTable';
+import BasketballTable from './BasketballTable';
 import TeamSplitesTable from './TeamSplitesTable';
+import FootballTable from './FootballTable';
 
 const theme = createTheme({
   components: {
@@ -213,16 +214,19 @@ const RatingTable = () => {
       />
       </Container>
       <Modal
-     open={modalOpen}
-     onClose={handleCloseModal}
-     aria-labelledby="modal-modal-title"
-     aria-describedby="modal-modal-description"
-   >
+        open={modalOpen}
+        onClose={handleCloseModal}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
       <Box sx={modalStyle}>
         <Typography id="modal-modal-title" variant="h4" component="h2" style={{ textAlign: 'center', paddingBottom: '18px'}}>
         {selectedTeam} {year} Transfers
         </Typography>
-        <PlayerTable playerData={playerData} />
+        {sport === "ncaab" ? 
+        <BasketballTable playerData={playerData} />
+        : <FootballTable playerData={playerData} />
+        }
         <TeamSplitesTable teamData={teamData} year={year}/>
       </Box>
       </Modal>
