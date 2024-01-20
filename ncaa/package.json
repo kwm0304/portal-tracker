@@ -11,7 +11,7 @@
   },
   "dependencies": {
 
-    "@babel/runtime/helpers/extends": "^7.23.8",
+    "@babel/runtime": "^7.23.8",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.0",
