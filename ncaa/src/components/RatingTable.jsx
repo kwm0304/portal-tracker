@@ -8,7 +8,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import BasketballTable from './BasketballTable';
 import TeamSplitesTable from './TeamSplitesTable';
-import FootballTable from './FootballTable';
+import FootballAccordian from './FootballAccordian';
 
 const theme = createTheme({
   components: {
@@ -67,7 +67,7 @@ const RatingTable = () => {
   const [playerData, setPlayerData] = useState([]);
   const [teamData, setTeamData] = useState([]);
 
-
+console.log("player data rating table", playerData)
   useEffect(() => {
     const fetchYearData = async () => {
       try {
@@ -112,17 +112,13 @@ const RatingTable = () => {
   const handleOpenModal = async (teamName) => {
     setSelectedTeam(teamName);
     setModalOpen(true);
-    let players;
-    if (sport === "ncaab") {
-      players = await getPlayersByTeam(teamName, year, sport);
-    } else {
-      players = await getFootballPlayerStatsByParams(teamName, year);
-    }
+    const players = await getPlayersByTeam(teamName, year, sport);
     const teamSplits = await getTeamSplits(teamName, year, sport);
     setPlayerData(players);
+    
     setTeamData(teamSplits);
   }
-
+  console.log('playerData', playerData)
   const handleCloseModal = () => {
     setModalOpen(false);
     setSelectedTeam(null);
@@ -160,8 +156,13 @@ const RatingTable = () => {
 
   const getPlayersByTeam = async (teamName, year, sport) => {
     console.log(teamName, year, sport)
-
-    const response = await getTransfers(teamName, year, sport);
+    let response;
+    if (sport === "ncaab") {
+      response = await getTransfers(teamName, year, sport);
+    } else {
+      response = await getFootballPlayerStatsByParams(teamName, year);
+    }
+    console.log("player response", response)
     return response;
   }
 
@@ -205,14 +206,18 @@ const RatingTable = () => {
           </Select>
         </FormControl>
       </div>
+      <div style={{ width: '100%'}}>
       <Container style={{ height: '90vh', width: '100%'}}>
+        <div style={{ width: '100%'}}>
       <DataGrid
         rows={rows}
         columns={columns}
         pageSize={5}
         style={{ width: '100%'}}
       />
+      </div>
       </Container>
+      </div>
       <Modal
         open={modalOpen}
         onClose={handleCloseModal}
@@ -225,7 +230,7 @@ const RatingTable = () => {
         </Typography>
         {sport === "ncaab" ? 
         <BasketballTable playerData={playerData} />
-        : <FootballTable playerData={playerData} />
+        : <FootballAccordian playerData={playerData} />
         }
         <TeamSplitesTable teamData={teamData} year={year}/>
       </Box>

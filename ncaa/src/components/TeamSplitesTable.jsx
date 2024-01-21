@@ -8,10 +8,25 @@ const TeamSplitesTable = ({ teamData, year }) => {
   const year1Data = teamData.statsYear1[0];
   const year2Data = teamData.statsYear2[0];
 
-  const renderTable = (teamData) => {
+  const calculateDifference = (year1Data, year2Data) => {
+    let differences = {};
+    Object.keys(year1Data).forEach(key => {
+      if (typeof year1Data[key] === 'number' && typeof year2Data[key] === 'number') {
+        differences[key] = (year1Data[key] - year2Data[key]).toFixed(1);
+      }
+    })
+    return differences;
+  }
+
+  const differences = calculateDifference(year1Data, year2Data);
+
+  const renderTable = (teamData, isYear1) => {
     return Object.entries(teamData).map(([key, value], index) => {
       const isEvenRow = index % 2 === 0;
-      const rowStyle = { backgroundColor: isEvenRow ? '#9bd494' : '#5aa150' };
+      const year1RowStyle = { backgroundColor: isEvenRow ? '#9bd494' : '#5aa150' };
+      const year2RowStyle = { backgroundColor: isEvenRow ? '#de8a8a' : '#c95353' };
+
+      const rowStyle = isYear1 ? year1RowStyle : year2RowStyle;
 
       const formattedKey = key.charAt(0).toUpperCase() + key.slice(1).replace(/[A-Z]/g, letter => ` ${letter}`);
 
@@ -24,22 +39,22 @@ const TeamSplitesTable = ({ teamData, year }) => {
     })
   }
 
+  const renderDifferencesTable = (differences) => {
+    return Object.values(differences).map((value, index) => {
+      const isEvenRow = index % 2 === 0;
+      const rowStyle = { backgroundColor: isEvenRow ? '#e0e0e0' : '#9c9c9c' };
+
+      return (
+        <TableRow key={index} style={rowStyle}>
+          <TableCell style={cellStyle}>{value}</TableCell>
+        </TableRow>
+      );
+    });
+  };
+
   const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
   //consts for diff column
   const prevYear = year - 1;
-  const ratingDiff = year2Data.rating - year1Data.rating;
-  const winsDiff = year1Data.wins - year2Data.wins;
-  const lossesDiff = year1Data.losses - year2Data.losses;
-  const ppgDiff = (year1Data.ppg - year2Data.ppg).toFixed(1);
-  const oppPpgDiff = (year1Data.oppPpg - year2Data.oppPpg).toFixed(1);
-  const movDiff = (year1Data.mov - year2Data.mov).toFixed(1);
-  const sosDiff = (year1Data.sos - year2Data.sos).toFixed(1);
-  const osrsDiff = (year1Data.osrs - year2Data.osrs).toFixed(1);
-  const dsrsDiff = (year1Data.dsrs - year2Data.dsrs).toFixed(1);
-  const srsDiff = (year1Data.srs - year2Data.srs).toFixed(1);
-  const offRatingDiff = (year1Data.offRating - year2Data.offRating).toFixed(1);
-  const defRatingDiff = (year1Data.defRating - year2Data.defRating).toFixed(1);
-  const netRatingDiff = (year1Data.netRating - year2Data.netRating).toFixed(1);
   return (
     <Grid container spacing={2}>
       <Grid item xs={5}>
@@ -50,7 +65,7 @@ const TeamSplitesTable = ({ teamData, year }) => {
             <Table aria-label="simple table">
               
               <TableBody>
-                {renderTable(year1Data)}
+                {renderTable(year1Data, true)}
               </TableBody>
             </Table>
           </TableContainer>
@@ -62,48 +77,9 @@ const TeamSplitesTable = ({ teamData, year }) => {
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
               <TableBody>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>Conf.</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{ratingDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{winsDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{lossesDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{ppgDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{oppPpgDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{movDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{sosDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{osrsDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{dsrsDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{srsDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{offRatingDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#e0e0e0'}}>
-                  <TableCell style={cellStyle}>{defRatingDiff}</TableCell>
-                </TableRow>
-                <TableRow style={{ backgroundColor: '#9c9c9c'}}>
-                  <TableCell style={cellStyle}>{netRatingDiff}</TableCell>
-                </TableRow>
+              <TableRow style={{ backgroundColor: '#e0e0e0' }}><TableCell style={cellStyle}>{year1Data.conference}</TableCell></TableRow>
+              <TableRow style={{ backgroundColor: '#9c9c9c' }}><TableCell style={cellStyle}>{year1Data.name}</TableCell></TableRow>
+                {renderDifferencesTable(differences)}
               </TableBody>
             </Table>
           </TableContainer>
@@ -115,7 +91,7 @@ const TeamSplitesTable = ({ teamData, year }) => {
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
               <TableBody>
-                {renderTable(year2Data)}
+                {renderTable(year2Data, false)}
               </TableBody>
             </Table>
           </TableContainer>
