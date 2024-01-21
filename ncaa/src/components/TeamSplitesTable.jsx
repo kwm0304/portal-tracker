@@ -53,7 +53,7 @@ const TeamSplitesTable = ({ teamData, year }) => {
   };
 
   const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
-  //consts for diff column
+
   const prevYear = year - 1;
   return (
     <Grid container spacing={2}>
