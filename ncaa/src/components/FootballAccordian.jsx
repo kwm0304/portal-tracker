@@ -36,7 +36,7 @@ console.log("football player data", playerData)
           Passing
         </AccordionSummary>
         <AccordionDetails>
-          <PassingTable playerData={passing} />
+          <PassingTable passing={passing} />
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ fontWeight: 'bold'}}>
@@ -48,7 +48,7 @@ console.log("football player data", playerData)
           Rushing
         </AccordionSummary>
         <AccordionDetails>
-          <RushingReceivingTable playerData={rushingAndReceiving} />
+          <RushingReceivingTable rushingAndReceiving={rushingAndReceiving} />
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ fontWeight: 'bold'}}>
@@ -60,7 +60,7 @@ console.log("football player data", playerData)
           Defense
         </AccordionSummary>
         <AccordionDetails>
-          <DefensiveTable playerData={defense} />
+          <DefensiveTable defense={defense} />
         </AccordionDetails>
         <AccordionActions>
           <Button>Cancel</Button>

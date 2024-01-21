@@ -52,5 +52,5 @@ PassingTable.propTypes = {
       playerInfo: PropTypes.object.isRequired,
       stats: PropTypes.object.isRequired,
     })
-  ).isRequired,
+  ),
 };
