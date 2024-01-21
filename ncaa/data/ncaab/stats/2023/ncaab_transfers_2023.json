@@ -20,7 +20,7 @@
     "lastName": "Glover",
     "rating": 0.88,
     "position": "PG",
-    "oldSchool": "Brigham Young",
+    "oldSchool": "BYU",
     "newSchool": ""
   },
   {
@@ -29,7 +29,7 @@
     "rating": 0.94,
     "position": "SF",
     "oldSchool": "Kansas",
-    "newSchool": "Brigham Young"
+    "newSchool": "BYU"
   },
   {
     "firstName": "Alyn",
@@ -2189,7 +2189,7 @@
     "rating": 0.88,
     "position": "SG",
     "oldSchool": "UC Irvine",
-    "newSchool": "Brigham Young"
+    "newSchool": "BYU"
   },
   {
     "firstName": "Quante",
@@ -3445,7 +3445,7 @@
     "rating": 0.88,
     "position": "PG",
     "oldSchool": "Samford",
-    "newSchool": "Brigham Young"
+    "newSchool": "BYU"
   },
   {
     "firstName": "Aly",
@@ -3453,7 +3453,7 @@
     "rating": 0.9,
     "position": "C",
     "oldSchool": "Charlotte",
-    "newSchool": "Brigham Young"
+    "newSchool": "BYU"
   },
   {
     "firstName": "Jamarion",
@@ -4932,7 +4932,7 @@
     "lastName": "Moore",
     "rating": 0.8,
     "position": "PF",
-    "oldSchool": "Brigham Young",
+    "oldSchool": "BYU",
     "newSchool": "Oral Roberts"
   },
   {

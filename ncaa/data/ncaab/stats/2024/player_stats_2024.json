@@ -57,7 +57,7 @@
     {
       "firstName": "Marcus",
       "lastName": "Adams",
-      "school": "Brigham Young",
+      "school": "BYU",
       "games": 1,
       "gamesStarted": 0,
       "fgm": 1,
@@ -3829,7 +3829,7 @@
     {
       "firstName": "Dawson",
       "lastName": "Baker",
-      "school": "Brigham Young",
+      "school": "BYU",
       "games": 4,
       "gamesStarted": 0,
       "fgm": 2.3,
@@ -7252,7 +7252,7 @@
     {
       "firstName": "Aly",
       "lastName": "Khalifa",
-      "school": "Brigham Young",
+      "school": "BYU",
       "games": 13,
       "gamesStarted": 10,
       "fgm": 1.8,
