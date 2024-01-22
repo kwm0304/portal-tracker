@@ -5,6 +5,15 @@ const PassingTable = ({ passing }) => {
 
   const tacklesCellStyle = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center'}
   const infoStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
+  const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
+
+
+  const findPassArray = (player) => {
+    const relevantArray = player.stats.find(subArr =>
+      'pass_att' in subArr
+    )
+    return relevantArray || {}
+  }
   return (
     <div style={{ width: '100%'}}>
       <TableContainer component={Paper}>
@@ -34,9 +43,26 @@ const PassingTable = ({ passing }) => {
           </TableRow>
         </TableHead>
         <TableBody>
-          <TableRow>
-            <TableCell>{}</TableCell>
-          </TableRow>
+          {passing.map((player, index) => {
+            const playerStats = findPassArray(player)
+            return (
+              <TableRow key={index}>
+                <TableCell style={cellStyle}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
+                <TableCell style={cellStyle}>{player.playerInfo.position}</TableCell>
+                <TableCell style={cellStyle}>{player.playerInfo.year}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_cmp}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_att}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_cmp_pct}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_yds}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_yds_per_att}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.adj_pass_yds_per_att}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_td}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_int}</TableCell>
+                <TableCell style={tacklesCellStyle}>{playerStats.pass_rating}</TableCell>
+              </TableRow>
+            )
+          })}
+          
         </TableBody>
       </Table>
       </TableContainer>
