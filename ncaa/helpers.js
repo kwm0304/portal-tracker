@@ -144,6 +144,7 @@ export const getTransfers = async (teamName, year, sport) => {
     }
     const data = await response.json();
     const flattenedData = data.flat();
+    console.log("data", data);
 
     const filteredData = flattenedData.filter(
       (player) => player.school === teamName

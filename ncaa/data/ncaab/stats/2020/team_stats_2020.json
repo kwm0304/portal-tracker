@@ -1479,7 +1479,7 @@
     "netRating": 12.75
   },
   {
-    "name": "Mississippi",
+    "name": "Ole Miss",
     "conference": "SEC",
     "rating": 88,
     "wins": 15,
@@ -1836,7 +1836,7 @@
     "netRating": 10.97
   },
   {
-    "name": "South Florida",
+    "name": "USF",
     "conference": "AAC",
     "rating": 109,
     "wins": 14,
@@ -1853,7 +1853,7 @@
     "netRating": 8.85
   },
   {
-    "name": "Central Florida",
+    "name": "UCF",
     "conference": "AAC",
     "rating": 110,
     "wins": 16,
@@ -4165,7 +4165,7 @@
     "netRating": -7.43
   },
   {
-    "name": "Southern Mississippi",
+    "name": "Southern Miss",
     "conference": "CUSA",
     "rating": 246,
     "wins": 9,

@@ -193,7 +193,7 @@
     {
       "firstName": "Andersson",
       "lastName": "Garcia",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 34,
       "gamesStarted": 1,
       "fgm": 1,
@@ -220,7 +220,7 @@
     {
       "firstName": "Eric",
       "lastName": "Reed",
-      "school": "Mississippi State",
+      "school": "Ole Miss State",
       "games": 34,
       "gamesStarted": 19,
       "fgm": 1.3,
@@ -382,7 +382,7 @@
     {
       "firstName": "Keyshawn",
       "lastName": "Bryant",
-      "school": "South Florida",
+      "school": "USF",
       "games": 25,
       "gamesStarted": 7,
       "fgm": 3.8,
@@ -706,7 +706,7 @@
     {
       "firstName": "Julius",
       "lastName": "Marble",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 35,
       "gamesStarted": 30,
       "fgm": 3.7,
@@ -1002,7 +1002,7 @@
     {
       "firstName": "Theo",
       "lastName": "Akwuba",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 31,
       "gamesStarted": 6,
       "fgm": 1.1,
@@ -1112,7 +1112,7 @@
     {
       "firstName": "Tyler",
       "lastName": "Harris",
-      "school": "South Florida",
+      "school": "USF",
       "games": 32,
       "gamesStarted": 32,
       "fgm": 5.4,
@@ -1274,7 +1274,7 @@
     {
       "firstName": "William",
       "lastName": "McNair",
-      "school": "Mississippi State",
+      "school": "Ole Miss State",
       "games": 34,
       "gamesStarted": 1,
       "fgm": 1.4,
@@ -2002,7 +2002,7 @@
     {
       "firstName": "CJ",
       "lastName": "Kelly",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 34,
       "gamesStarted": 26,
       "fgm": 4.2,
@@ -2056,7 +2056,7 @@
     {
       "firstName": "Lahat",
       "lastName": "Thioune",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 34,
       "gamesStarted": 10,
       "fgm": 1.2,
@@ -3599,7 +3599,7 @@
     {
       "firstName": "Josh",
       "lastName": "Mballa",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 16,
       "gamesStarted": 2,
       "fgm": 1.2,
@@ -4648,7 +4648,7 @@
     {
       "firstName": "Dexter",
       "lastName": "Dennis",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 34,
       "gamesStarted": 34,
       "fgm": 3.1,
@@ -5785,7 +5785,7 @@
     {
       "firstName": "Khalen",
       "lastName": "Robinson",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 18,
       "gamesStarted": 0,
       "fgm": 0.6,
@@ -6464,7 +6464,7 @@
     {
       "firstName": "Jamel",
       "lastName": "Horton",
-      "school": "Mississippi State",
+      "school": "Ole Miss State",
       "games": 14,
       "gamesStarted": 3,
       "fgm": 0.5,
@@ -7031,7 +7031,7 @@
     {
       "firstName": "Brandon",
       "lastName": "Suggs",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 32,
       "gamesStarted": 8,
       "fgm": 2.1,
@@ -7409,7 +7409,7 @@
     {
       "firstName": "Austin",
       "lastName": "Crowley",
-      "school": "Southern Mississippi",
+      "school": "Southern Ole Miss",
       "games": 33,
       "gamesStarted": 33,
       "fgm": 5.7,
@@ -8272,7 +8272,7 @@
     {
       "firstName": "Selton",
       "lastName": "Miguel",
-      "school": "South Florida",
+      "school": "USF",
       "games": 30,
       "gamesStarted": 11,
       "fgm": 4.1,
@@ -8407,7 +8407,7 @@
     {
       "firstName": "DaShawn",
       "lastName": "Davis",
-      "school": "Mississippi State",
+      "school": "Ole Miss State",
       "games": 31,
       "gamesStarted": 29,
       "fgm": 2.9,
@@ -8597,7 +8597,7 @@
     {
       "firstName": "Michael",
       "lastName": "Durr",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 25,
       "gamesStarted": 23,
       "fgm": 2.1,
@@ -9566,7 +9566,7 @@
     {
       "firstName": "Ithiel",
       "lastName": "Horton",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 34,
       "gamesStarted": 34,
       "fgm": 4.4,
@@ -9647,7 +9647,7 @@
     {
       "firstName": "Jayveous",
       "lastName": "McKinnis",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 32,
       "gamesStarted": 14,
       "fgm": 2,
@@ -9809,7 +9809,7 @@
     {
       "firstName": "Tyler",
       "lastName": "Stevenson",
-      "school": "Mississippi State",
+      "school": "Ole Miss State",
       "games": 34,
       "gamesStarted": 2,
       "fgm": 1.6,

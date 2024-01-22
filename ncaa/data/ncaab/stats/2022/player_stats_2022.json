@@ -3,7 +3,7 @@
     {
       "firstName": "Tyrece",
       "lastName": "Radford",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 40,
       "gamesStarted": 40,
       "fgm": 4.2,
@@ -110,7 +110,7 @@
     {
       "firstName": "Bayron",
       "lastName": "Matos",
-      "school": "South Florida",
+      "school": "USF",
       "games": 28,
       "gamesStarted": 4,
       "fgm": 0.6,
@@ -2250,7 +2250,7 @@
     {
       "firstName": "Henry",
       "lastName": "Coleman",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 39,
       "gamesStarted": 36,
       "fgm": 4.1,
@@ -3030,7 +3030,7 @@
     {
       "firstName": "Marcus",
       "lastName": "Williams",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 27,
       "gamesStarted": 25,
       "fgm": 3,
@@ -3537,7 +3537,7 @@
     {
       "firstName": "Corey",
       "lastName": "Walker",
-      "school": "South Florida",
+      "school": "USF",
       "games": 21,
       "gamesStarted": 12,
       "fgm": 2,
@@ -3780,7 +3780,7 @@
     {
       "firstName": "Jalyn",
       "lastName": "McCreary",
-      "school": "South Florida",
+      "school": "USF",
       "games": 16,
       "gamesStarted": 2,
       "fgm": 2.3,
@@ -3915,7 +3915,7 @@
     {
       "firstName": "Ethan",
       "lastName": "Henderson",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 40,
       "gamesStarted": 15,
       "fgm": 0.9,
@@ -8159,7 +8159,7 @@
     {
       "firstName": "Jaemyn",
       "lastName": "Brakefield",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 32,
       "gamesStarted": 25,
       "fgm": 2.8,
@@ -8456,7 +8456,7 @@
     {
       "firstName": "Tye",
       "lastName": "Fagan",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 32,
       "gamesStarted": 12,
       "fgm": 2.8,
@@ -10375,7 +10375,7 @@
     {
       "firstName": "Nysier",
       "lastName": "Brooks",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 32,
       "gamesStarted": 32,
       "fgm": 4,
@@ -11131,7 +11131,7 @@
     {
       "firstName": "Isaih",
       "lastName": "Moore",
-      "school": "Southern Mississippi",
+      "school": "Southern Miss",
       "games": 27,
       "gamesStarted": 17,
       "fgm": 4.8,

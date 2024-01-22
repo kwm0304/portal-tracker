@@ -300,7 +300,7 @@
     {
       "firstName": "Wildens",
       "lastName": "Leveque",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 15,
       "gamesStarted": 13,
       "fgm": 0.7,
@@ -1083,7 +1083,7 @@
     {
       "firstName": "Allen",
       "lastName": "Flanigan",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 16,
       "gamesStarted": 16,
       "fgm": 5.4,
@@ -1245,7 +1245,7 @@
     {
       "firstName": "Jaylin",
       "lastName": "Sellers",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 15,
       "gamesStarted": 15,
       "fgm": 5.8,
@@ -1380,7 +1380,7 @@
     {
       "firstName": "Jaylen",
       "lastName": "Murray",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 16,
       "gamesStarted": 16,
       "fgm": 4.9,
@@ -1405,7 +1405,7 @@
     {
       "firstName": "Jaylen",
       "lastName": "Murray",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 7,
       "gamesStarted": 0,
       "fgm": 2.3,
@@ -1432,7 +1432,7 @@
     {
       "firstName": "Ibrahima",
       "lastName": "Diallo",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 15,
       "gamesStarted": 2,
       "fgm": 2.4,
@@ -1486,7 +1486,7 @@
     {
       "firstName": "Shemarri",
       "lastName": "Allen",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 15,
       "gamesStarted": 14,
       "fgm": 2.7,
@@ -3100,7 +3100,7 @@
     {
       "firstName": "Omar",
       "lastName": "Payne",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 15,
       "gamesStarted": 13,
       "fgm": 1.7,
@@ -3775,7 +3775,7 @@
     {
       "firstName": "Moussa",
       "lastName": "Cisse",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 10,
       "gamesStarted": 2,
       "fgm": 1.7,
@@ -5958,7 +5958,7 @@
     {
       "firstName": "Brandon",
       "lastName": "Stroud",
-      "school": "South Florida",
+      "school": "USF",
       "games": 12,
       "gamesStarted": 4,
       "fgm": 1.7,
@@ -6093,7 +6093,7 @@
     {
       "firstName": "Chris",
       "lastName": "Youngblood",
-      "school": "South Florida",
+      "school": "USF",
       "games": 14,
       "gamesStarted": 14,
       "fgm": 4.6,
@@ -6633,7 +6633,7 @@
     {
       "firstName": "Andre",
       "lastName": "Curbelo",
-      "school": "Southern Mississippi",
+      "school": "Southern Miss",
       "games": 6,
       "gamesStarted": 4,
       "fgm": 4.3,
@@ -7173,7 +7173,7 @@
     {
       "firstName": "Austin",
       "lastName": "Nunez",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 14,
       "gamesStarted": 0,
       "fgm": 0.1,
@@ -7279,7 +7279,7 @@
     {
       "firstName": "Jamarion",
       "lastName": "Sharp",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 16,
       "gamesStarted": 14,
       "fgm": 1.7,
@@ -8301,7 +8301,7 @@
     {
       "firstName": "Kobe",
       "lastName": "Knox",
-      "school": "South Florida",
+      "school": "USF",
       "games": 14,
       "gamesStarted": 14,
       "fgm": 3.1,
@@ -8461,7 +8461,7 @@
     {
       "firstName": "Brandon",
       "lastName": "Murray",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 16,
       "gamesStarted": 16,
       "fgm": 4.9,
@@ -8486,7 +8486,7 @@
     {
       "firstName": "Brandon",
       "lastName": "Murray",
-      "school": "Mississippi",
+      "school": "Ole Miss",
       "games": 7,
       "gamesStarted": 0,
       "fgm": 2.3,
@@ -8673,7 +8673,7 @@
     {
       "firstName": "Demarr",
       "lastName": "Langford",
-      "school": "Central Florida",
+      "school": "UCF",
       "games": 11,
       "gamesStarted": 7,
       "fgm": 0.9,
@@ -10613,7 +10613,7 @@
       {
         "firstName": "Victor",
         "lastName": "Iwuakor",
-        "school": "Southern Mississippi",
+        "school": "Southern Miss",
         "games": 17,
         "gamesStarted": 12,
         "fgm": 2.8,
@@ -12124,7 +12124,7 @@
     {
       "firstName": "Eli",
       "lastName": "Lawrence",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 14,
       "gamesStarted": 0,
       "fgm": 1,
@@ -14389,7 +14389,7 @@
     {
       "firstName": "Jace",
       "lastName": "Carter",
-      "school": "Texas AM",
+      "school": "Texas A&M",
       "games": 16,
       "gamesStarted": 6,
       "fgm": 2.2,
