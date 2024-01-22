@@ -36,7 +36,9 @@ console.log("football player data", playerData)
           Passing
         </AccordionSummary>
         <AccordionDetails>
+          {passing.length > 0 ?
           <PassingTable passing={passing} />
+          : <h4>No Passing Data</h4>}
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ fontWeight: 'bold'}}>
@@ -45,10 +47,13 @@ console.log("football player data", playerData)
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          Rushing
+          Rushing & Receiving
         </AccordionSummary>
         <AccordionDetails>
-          <RushingReceivingTable rushingAndReceiving={rushingAndReceiving} />
+          {rushingAndReceiving.length > 0 ?
+            <RushingReceivingTable rushingAndReceiving={rushingAndReceiving} />
+            : <h4>No Rushing or Receiving Data</h4>
+        }
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ fontWeight: 'bold'}}>
@@ -60,7 +65,10 @@ console.log("football player data", playerData)
           Defense
         </AccordionSummary>
         <AccordionDetails>
-          <DefensiveTable defense={defense} />
+          {defense.length > 0 ?
+            <DefensiveTable defense={defense} />
+            : <h4>No Defensive Data</h4>
+          }
         </AccordionDetails>
         <AccordionActions>
           <Button>Cancel</Button>

@@ -11,11 +11,40 @@ const update = async () => {
     const db = client.db("transfer_players");
     const collection = db.collection("players");
 
-    const result = await collection.updateMany(
-      {},
-      { $set: { "playerInfo.year": "2020" } }
+    const filter = {
+      "playerInfo.firstName": "Warren",
+      "playerInfo.lastName": "Thompson",
+      "playerInfo.school": "Arkansas",
+    };
+
+    const updateDoc = {
+      $push: {
+        stats: {
+          g: "13",
+          rec: "19",
+          rec_yds: "304",
+          rec_yds_per_rec: "16",
+          rec_td: "2",
+          scrim_att: "19",
+          scrim_yds: "304",
+          scrim_yds_per_att: "16",
+          scrim_td: "2",
+          pass_cmp: "1",
+          pass_att: "2",
+          pass_yds: "27",
+          pass_cmp_pct: "50",
+          pass_yds_per_att: "13.5",
+          adj_pass_yds_per_att: "-9",
+          pass_int: "1",
+          pass_rating: "63.4",
+        },
+      },
+    };
+
+    const result = await collection.updateOne(filter, updateDoc, { new: true });
+    console.log(
+      `${result.matchedCount} document(s) matched the filter, updated ${result.modifiedCount} document(s)`
     );
-    console.log("Update operation result:", result);
   } catch (error) {
     console.error("Error updating:", error);
   } finally {
