@@ -6,6 +6,14 @@
   text-align: center;
 }
 
+.evenRow {
+  background-color: #7db6e3;
+}
+
+.oddRow {
+  background-color: #b3d2e8;
+}
+
 .screen {
   width: 100%;
   height: 100%;

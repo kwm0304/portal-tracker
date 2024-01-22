@@ -59,8 +59,10 @@ export const compareTeams = async (year1, year2, sport) => {
 
 //# OF TRANSFERS FROM YEAR TO YEAR
 export const schoolTransfersOut = async (year, sport) => {
-  const pathYear = year - 1;
-  const path1 = `./data/${sport}/stats/${pathYear}/${sport}_transfers_${pathYear}.json`;
+  if (sport === "ncaab") {
+    year = year - 1;
+  }
+  const path1 = `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`;
 
   const response1 = await fetch(path1);
   const transfersYear1 = await response1.json();
@@ -85,9 +87,11 @@ export const schoolTransfersOut = async (year, sport) => {
 };
 
 export const schoolTransfersIn = async (year, sport) => {
-  const pathYear = year - 1;
+  if (sport === "ncaab") {
+    year = year - 1;
+  }
 
-  const path1 = `./data/${sport}/stats/${pathYear}/${sport}_transfers_${pathYear}.json`;
+  const path1 = `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`;
 
   const response1 = await fetch(path1);
   const transfersYear1 = await response1.json();
@@ -110,6 +114,22 @@ export const schoolTransfersIn = async (year, sport) => {
     count: newSchoolCounts[school],
   }));
   return newSchoolArray;
+};
+
+export const noNewSchools = async (year, sport) => {
+  if (sport === "ncaab") {
+    year = year - 1;
+  }
+  console.log("year", year);
+  console.log("sport", sport);
+  const path = `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`;
+  const response = await fetch(path);
+  const transferPlayer = await response.json();
+  const total = transferPlayer.length;
+
+  const player = transferPlayer.filter((player) => player.newSchool === "");
+  const length = player.length;
+  return [length, total];
 };
 
 //RETURNS PLAYERS THAT TRANSFERRED FROM YEAR TO YEAR

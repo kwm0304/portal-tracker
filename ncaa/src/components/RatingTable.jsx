@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats, getFootballPlayerStatsByParams } from '../../helpers';
-import { ThemeProvider, createTheme, Modal, Box, Typography, Container } from '@mui/material';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats, getFootballPlayerStatsByParams, noNewSchools } from '../../helpers';
+import { ThemeProvider, createTheme, Modal, Box, Typography } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -9,6 +9,7 @@ import Select from '@mui/material/Select';
 import BasketballTable from './BasketballTable';
 import TeamSplitesTable from './TeamSplitesTable';
 import FootballAccordian from './FootballAccordian';
+import { modalStyle } from '../../styles';
 
 const theme = createTheme({
   components: {
@@ -16,18 +17,25 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontSize: '1.5rem',
-          textAlign: 'center',
+          textAlign: 'start',
           justifyContent: 'center',
           alignItems: 'center',
+          width: '100%',
+          border: 'none',
         },
         columnHeaderTitle: {
           fontWeight: 'bold',
-          textAlign: 'center'
+          textAlign: 'start',
+          justifyContent: 'start',
+          color: 'white',
+          width: 'auto'
         },
-        cell: { 
-          textAlign: 'center',
-          justifyContent: 'center',
+        columnHeaderRow: {
+          backgroundColor: '#4186ba'
         },
+        sortIcon: {
+          color: 'white'
+        }
         }}
     }
 })
@@ -43,18 +51,17 @@ const renderRatingCell = (params) => (
   </span>
 );
 
-const modalStyle = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 'auto',
-  bgcolor: 'background.paper',
-  boxShadow: 24,
-  p: 4,
-  overflowY: 'auto',
-  maxHeight: '80vh',
-};
+const renderRankingCell = (params) => (
+  <span style={{
+    textAlign: 'center',
+    justifyContent: 'center',
+    display: 'inline-block',
+    width: '100%',
+  }}>
+    {params.value}
+  </span>
+)
+
 
 const RatingTable = () => {
   const [rows, setRows] = useState([]);
@@ -66,17 +73,15 @@ const RatingTable = () => {
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [playerData, setPlayerData] = useState([]);
   const [teamData, setTeamData] = useState([]);
+  const [missingPlayerCount, setMissingPlayerCount] = useState(0);
+  const [totalPlayerCount, setTotalPlayerCount] = useState(0);
 
-console.log("player data rating table", playerData)
   useEffect(() => {
     const fetchYearData = async () => {
       try {
         const { ratingsYear1, ratingsYear2 } = await compareTeams(year, prevYear, sport);
         const transferredOutData = await schoolTransfersOut(year, sport);
         const transferredInData = await schoolTransfersIn(year, sport);
-        console.log("ratingsYear1", ratingsYear1)
-        console.log("ratingsYear2", ratingsYear2)
-
   
         const outMap = new Map(transferredOutData.map(item => [item.name, item.count]));
         const inMap = new Map(transferredInData.map(item => [item.name, item.count]));
@@ -109,6 +114,20 @@ console.log("player data rating table", playerData)
     fetchYearData();
   }, [year, prevYear, sport]);
 
+  useEffect(() => {
+    const fetchMissingPlayers = async () => {
+      try {
+        const [length, total] = await noNewSchools(year, sport);
+        setMissingPlayerCount(length);
+        setTotalPlayerCount(total);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+  
+    fetchMissingPlayers();
+  }, [year, sport])
+
   const handleOpenModal = async (teamName) => {
     setSelectedTeam(teamName);
     setModalOpen(true);
@@ -127,18 +146,18 @@ console.log("player data rating table", playerData)
   }
 
   const columns = [
-    { field: 'teamName', headerName: 'Team Name', width: 250, headerClassName: 'boldHeader', 
+    { field: 'teamName', headerName: 'Team Name', width: 300, headerClassName: 'boldHeader', 
     renderCell: (params) => (
-      <div style={{ cursor: 'pointer', hover: {color: 'blue'}  }} onClick={() => handleOpenModal(params.value)} >
+      <div style={{ cursor: 'pointer', hover: {color: 'blue'}, textAlign: 'start', justifyContent: 'start'  }} onClick={() => handleOpenModal(params.value)} >
         {params.value}
       </div>
       ),
     },
-    { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 150, style: { textAlign: 'center' } },
-    { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 150, style: { textAlign: 'center' } },
+    { field: 'ratingsYear1', headerName: `${year} Rating`, type: 'number', width: 200, style: { textAlign: 'center' }, renderCell: renderRankingCell },
+    { field: 'ratingsYear2', headerName: `${prevYear} Rating`, type: 'number', width: 200, style: { textAlign: 'center' }, renderCell: renderRankingCell },
     { field: 'ratingDifference', headerName: 'Rating Diff.', type: 'number', width: 150, renderCell: renderRatingCell },
-    { field: 'playersTransferredIn', headerName: '# In', type: 'number', width: 100, style: { textAlign: 'center' } },
-    { field: 'playersTransferredOut', headerName: '# Out', type: 'number', width: 100, style: { textAlign: 'center' } }
+    { field: 'playersTransferredIn', headerName: '# In', type: 'number', width: 150, style: { textAlign: 'center' } },
+    { field: 'playersTransferredOut', headerName: '# Out', type: 'number', width: 150, style: { textAlign: 'center' } }
   ];
 
   if (isLoading) {
@@ -168,13 +187,11 @@ console.log("player data rating table", playerData)
 
   const getTeamSplits = async (teamName, year, sport) => {
     const response = await getTeamStats(teamName, year, sport);
-    console.log("team response", response)
     return response;
   }
 
-
   return (
-    <div style={{ width: '100%'}}>
+    <div style={{ width: '100%', paddingTop: '8px'}}>
     <ThemeProvider theme={theme} >
       <div className='container'>
       <div className='input-box'>
@@ -198,6 +215,7 @@ console.log("player data rating table", playerData)
           <Select
             labelId="sport-select-label"
             id="sport-select"
+            label="Sport"
             value={sport}
             onChange={handleSportChange}
           >
@@ -205,18 +223,22 @@ console.log("player data rating table", playerData)
             <MenuItem value="ncaaf">Football</MenuItem>
           </Select>
         </FormControl>
+        
       </div>
+      <Typography variant="h4" component="h6" style={{ textAlign: 'center', paddingBottom: '18px', fontSize: '24px'}}>
+          Players without new school/Total: {missingPlayerCount}/{totalPlayerCount}
+      </Typography>
       <div style={{ width: '100%'}}>
-      <Container style={{ height: '90vh', width: '100%'}}>
-        <div style={{ width: '100%'}}>
+      
       <DataGrid
         rows={rows}
         columns={columns}
         pageSize={5}
         style={{ width: '100%'}}
+        getRowClassName={(params) =>
+          params.indexRelativeToCurrentPage % 2 === 0 ? 'evenRow' : 'oddRow'
+        }
       />
-      </div>
-      </Container>
       </div>
       <Modal
         open={modalOpen}
