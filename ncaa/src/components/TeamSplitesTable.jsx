@@ -32,8 +32,8 @@ const TeamSplitesTable = ({ teamData, year }) => {
 
       return (
         <TableRow key={key} style={rowStyle}>
-          <TableCell style={cellStyle}>{formattedKey}</TableCell>
-          <TableCell style={cellStyle}>{value}</TableCell>
+          <TableCell style={cellZeroVariant}>{formattedKey}</TableCell>
+          <TableCell style={cellZeroVariant}>{value}</TableCell>
         </TableRow>
       )
     })
@@ -46,13 +46,13 @@ const TeamSplitesTable = ({ teamData, year }) => {
 
       return (
         <TableRow key={index} style={rowStyle}>
-          <TableCell style={cellStyle}>{value}</TableCell>
+          <TableCell style={cellZeroVariant}>{value}</TableCell>
         </TableRow>
       );
     });
   };
 
-  const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
+  const cellZeroVariant = { fontWeight: 'bold', textAlign: 'center' }
 
   const prevYear = year - 1;
   return (
@@ -77,8 +77,8 @@ const TeamSplitesTable = ({ teamData, year }) => {
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
               <TableBody>
-              <TableRow style={{ backgroundColor: '#e0e0e0' }}><TableCell style={cellStyle}>{year1Data.conference}</TableCell></TableRow>
-              <TableRow style={{ backgroundColor: '#9c9c9c' }}><TableCell style={cellStyle}>{year1Data.name}</TableCell></TableRow>
+              <TableRow style={{ backgroundColor: '#e0e0e0' }}><TableCell style={cellZeroVariant}>{year1Data.conference}</TableCell></TableRow>
+              <TableRow style={{ backgroundColor: '#9c9c9c' }}><TableCell style={cellZeroVariant}>{year1Data.name}</TableCell></TableRow>
                 {renderDifferencesTable(differences)}
               </TableBody>
             </Table>

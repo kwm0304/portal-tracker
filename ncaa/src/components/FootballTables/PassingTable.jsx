@@ -1,11 +1,10 @@
 import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead } from "@mui/material";
 import PropTypes from 'prop-types';
+import { cellFourVariant, cellThreeVariant, cellZeroVariant } from "../../../styles";
 const PassingTable = ({ passing }) => {
   console.log('passing',typeof passing)
 
-  const tacklesCellStyle = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center'}
-  const infoStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
-  const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
+  
 
 
   const findPassArray = (player) => {
@@ -22,24 +21,24 @@ const PassingTable = ({ passing }) => {
           <TableRow>
             <TableCell align="center" colSpan={4}>
             </TableCell>
-            <TableCell align="center" colSpan={9} style={tacklesCellStyle}>
+            <TableCell align="center" colSpan={9} style={cellThreeVariant}>
               PASSING
             </TableCell>
           </TableRow>
           <TableRow style={{ backgroundColor: 'black'}}>
-            <TableCell style={infoStyle}>Name</TableCell>
-            <TableCell style={infoStyle}>Position</TableCell>
-            <TableCell style={infoStyle}>Class</TableCell>
-            <TableCell style={infoStyle}>Games</TableCell>
-            <TableCell style={tacklesCellStyle}>CMP</TableCell>
-            <TableCell style={tacklesCellStyle}>ATT</TableCell>
-            <TableCell style={tacklesCellStyle}>PCT</TableCell>
-            <TableCell style={tacklesCellStyle}>YDS</TableCell>
-            <TableCell style={tacklesCellStyle}>Y/A</TableCell>
-            <TableCell style={tacklesCellStyle}>AY/A</TableCell>
-            <TableCell style={tacklesCellStyle}>TD</TableCell>
-            <TableCell style={tacklesCellStyle}>INT</TableCell>
-            <TableCell style={tacklesCellStyle}>RATE</TableCell>
+            <TableCell style={cellFourVariant}>Name</TableCell>
+            <TableCell style={cellFourVariant}>Position</TableCell>
+            <TableCell style={cellFourVariant}>Class</TableCell>
+            <TableCell style={cellFourVariant}>Games</TableCell>
+            <TableCell style={cellThreeVariant}>CMP</TableCell>
+            <TableCell style={cellThreeVariant}>ATT</TableCell>
+            <TableCell style={cellThreeVariant}>PCT</TableCell>
+            <TableCell style={cellThreeVariant}>YDS</TableCell>
+            <TableCell style={cellThreeVariant}>Y/A</TableCell>
+            <TableCell style={cellThreeVariant}>AY/A</TableCell>
+            <TableCell style={cellThreeVariant}>TD</TableCell>
+            <TableCell style={cellThreeVariant}>INT</TableCell>
+            <TableCell style={cellThreeVariant}>RATE</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -47,18 +46,18 @@ const PassingTable = ({ passing }) => {
             const playerStats = findPassArray(player)
             return (
               <TableRow key={index}>
-                <TableCell style={cellStyle}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
-                <TableCell style={cellStyle}>{player.playerInfo.position}</TableCell>
-                <TableCell style={cellStyle}>{player.playerInfo.year}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_cmp}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_att}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_cmp_pct}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_yds}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_yds_per_att}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.adj_pass_yds_per_att}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_td}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_int}</TableCell>
-                <TableCell style={tacklesCellStyle}>{playerStats.pass_rating}</TableCell>
+                <TableCell style={cellZeroVariant}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
+                <TableCell style={cellZeroVariant}>{player.playerInfo.position}</TableCell>
+                <TableCell style={cellZeroVariant}>{player.playerInfo.year}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_cmp}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_att}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_cmp_pct}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_yds}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_yds_per_att}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.adj_pass_yds_per_att}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_td}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_int}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.pass_rating}</TableCell>
               </TableRow>
             )
           })}

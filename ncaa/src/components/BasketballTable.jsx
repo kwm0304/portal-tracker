@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 import PropTypes from 'prop-types';
 
-const cellStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
+const cellZeroVariant = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
 //shape ncaaf player data differently or conditionally render different table 
 const PlayerTable = ({ playerData }) => {
 console.log("football player data", playerData)
@@ -11,27 +11,27 @@ console.log("football player data", playerData)
         <TableHead className='tableHead'>
           <TableRow style={{ backgroundColor: '#4186ba',  color: 'white', fontWeight: 'bold' }}>
             
-            <TableCell style={cellStyle}>Name</TableCell>
-            <TableCell style={cellStyle}>GP</TableCell>
-            <TableCell style={cellStyle}>GS</TableCell>
-            <TableCell style={cellStyle}>FGM</TableCell>
-            <TableCell style={cellStyle}>FGA</TableCell>
-            <TableCell style={cellStyle}>FG%</TableCell>
-            <TableCell style={cellStyle}>FG2M</TableCell>
-            <TableCell style={cellStyle}>FG2A</TableCell>
-            <TableCell style={cellStyle}>FG2%</TableCell>
-            <TableCell style={cellStyle}>FG3M</TableCell>
-            <TableCell style={cellStyle}>FG3A</TableCell>
-            <TableCell style={cellStyle}>FG3%</TableCell>
-            <TableCell style={cellStyle}>FTM</TableCell>
-            <TableCell style={cellStyle}>FTA</TableCell>
-            <TableCell style={cellStyle}>FT%</TableCell>
-            <TableCell style={cellStyle}>REB</TableCell>
-            <TableCell style={cellStyle}>AST</TableCell>
-            <TableCell style={cellStyle}>STL</TableCell>
-            <TableCell style={cellStyle}>BLK</TableCell>
-            <TableCell style={cellStyle}>TOV</TableCell>
-            <TableCell style={cellStyle}>PTS</TableCell>
+            <TableCell style={cellZeroVariant}>Name</TableCell>
+            <TableCell style={cellZeroVariant}>GP</TableCell>
+            <TableCell style={cellZeroVariant}>GS</TableCell>
+            <TableCell style={cellZeroVariant}>FGM</TableCell>
+            <TableCell style={cellZeroVariant}>FGA</TableCell>
+            <TableCell style={cellZeroVariant}>FG%</TableCell>
+            <TableCell style={cellZeroVariant}>FG2M</TableCell>
+            <TableCell style={cellZeroVariant}>FG2A</TableCell>
+            <TableCell style={cellZeroVariant}>FG2%</TableCell>
+            <TableCell style={cellZeroVariant}>FG3M</TableCell>
+            <TableCell style={cellZeroVariant}>FG3A</TableCell>
+            <TableCell style={cellZeroVariant}>FG3%</TableCell>
+            <TableCell style={cellZeroVariant}>FTM</TableCell>
+            <TableCell style={cellZeroVariant}>FTA</TableCell>
+            <TableCell style={cellZeroVariant}>FT%</TableCell>
+            <TableCell style={cellZeroVariant}>REB</TableCell>
+            <TableCell style={cellZeroVariant}>AST</TableCell>
+            <TableCell style={cellZeroVariant}>STL</TableCell>
+            <TableCell style={cellZeroVariant}>BLK</TableCell>
+            <TableCell style={cellZeroVariant}>TOV</TableCell>
+            <TableCell style={cellZeroVariant}>PTS</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

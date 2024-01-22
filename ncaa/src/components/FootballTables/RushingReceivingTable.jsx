@@ -4,9 +4,9 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
   console.log('rushrec',typeof rushingAndReceiving)
 
   const fumbleCellStyle = { color: 'red', fontWeight: 'bold', textAlign: 'center'}
-  const intCellStyle = { color: 'green', fontWeight: 'bold', textAlign: 'center'}
-  const tacklesCellStyle = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center'}
-  const infoStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
+  const cellTwoVariant = { color: 'green', fontWeight: 'bold', textAlign: 'center'}
+  const cellThreeVariant = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center'}
+  const cellFourVariant = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
   return (
     <div style={{ width: '100%'}}>
       <TableContainer component={Paper}>
@@ -15,10 +15,10 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
           <TableRow>
             <TableCell align="center" colSpan={4}>
             </TableCell>
-            <TableCell align="center" colSpan={4} style={tacklesCellStyle}>
+            <TableCell align="center" colSpan={4} style={cellThreeVariant}>
               RUSHING
             </TableCell>
-            <TableCell align="center" colSpan={4} style={intCellStyle}>
+            <TableCell align="center" colSpan={4} style={cellTwoVariant}>
               RECEIVING
             </TableCell>
             <TableCell align="center" colSpan={4} style={fumbleCellStyle}>
@@ -26,20 +26,20 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
             </TableCell>
           </TableRow>
           <TableRow style={{ backgroundColor: 'black'}}>
-            <TableCell style={infoStyle}>Name</TableCell>
-            <TableCell style={infoStyle}>Position</TableCell>
-            <TableCell style={infoStyle}>Class</TableCell>
-            <TableCell style={infoStyle}>Games</TableCell>
-            <TableCell style={tacklesCellStyle}>ATT</TableCell>
-            <TableCell style={tacklesCellStyle}>YDS</TableCell>
-            <TableCell style={tacklesCellStyle}>AVG</TableCell>
-            <TableCell style={tacklesCellStyle}>TD</TableCell>
-            <TableCell style={tacklesCellStyle}>REC</TableCell>
-            <TableCell style={intCellStyle}>YDS</TableCell>
-            <TableCell style={intCellStyle}>AVG</TableCell>
-            <TableCell style={intCellStyle}>TD</TableCell>
-            <TableCell style={intCellStyle}>Plays</TableCell>
-            <TableCell style={intCellStyle}>YDS</TableCell>
+            <TableCell style={cellFourVariant}>Name</TableCell>
+            <TableCell style={cellFourVariant}>Position</TableCell>
+            <TableCell style={cellFourVariant}>Class</TableCell>
+            <TableCell style={cellFourVariant}>Games</TableCell>
+            <TableCell style={cellThreeVariant}>ATT</TableCell>
+            <TableCell style={cellThreeVariant}>YDS</TableCell>
+            <TableCell style={cellThreeVariant}>AVG</TableCell>
+            <TableCell style={cellThreeVariant}>TD</TableCell>
+            <TableCell style={cellThreeVariant}>REC</TableCell>
+            <TableCell style={cellTwoVariant}>YDS</TableCell>
+            <TableCell style={cellTwoVariant}>AVG</TableCell>
+            <TableCell style={cellTwoVariant}>TD</TableCell>
+            <TableCell style={cellTwoVariant}>Plays</TableCell>
+            <TableCell style={cellTwoVariant}>YDS</TableCell>
             <TableCell style={fumbleCellStyle}>AVG</TableCell>
             <TableCell style={fumbleCellStyle}>TD</TableCell>
           </TableRow>

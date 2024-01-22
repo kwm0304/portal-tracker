@@ -1,13 +1,10 @@
 import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead } from "@mui/material";
 import PropTypes from 'prop-types';
+import { cellThreeVariant, cellTwoVariant, cellFourVariant, cellZeroVariant, fumbleCellStyle } from "../../../styles";
 const DefensiveTable = ({ defense }) => {
   console.log('defense', defense)
 
-  const fumbleCellStyle = { color: 'red', fontWeight: 'bold', textAlign: 'center' }
-  const intCellStyle = { color: 'green', fontWeight: 'bold', textAlign: 'center' }
-  const tacklesCellStyle = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center' }
-  const infoStyle = { color: 'white', fontWeight: 'bold', textAlign: 'center' }
-  const cellStyle = { fontWeight: 'bold', textAlign: 'center' }
+  
 
   const findDefArray = (player) => {
     const relevantArray = player.stats.find(subArr =>
@@ -24,10 +21,10 @@ const DefensiveTable = ({ defense }) => {
               <TableCell align="center" colSpan={4}>
 
               </TableCell>
-              <TableCell align="center" colSpan={5} style={tacklesCellStyle}>
+              <TableCell align="center" colSpan={5} style={cellThreeVariant}>
                 TACKLES
               </TableCell>
-              <TableCell align="center" colSpan={5} style={intCellStyle}>
+              <TableCell align="center" colSpan={5} style={cellTwoVariant}>
                 INTERCEPTIONS
               </TableCell>
               <TableCell align="center" colSpan={4} style={fumbleCellStyle}>
@@ -35,20 +32,20 @@ const DefensiveTable = ({ defense }) => {
               </TableCell>
             </TableRow>
             <TableRow style={{ backgroundColor: 'black' }}>
-              <TableCell id="name" style={infoStyle}>Name</TableCell>
-              <TableCell id="position" style={infoStyle}>Position</TableCell>
-              <TableCell id="class" style={infoStyle}>Class</TableCell>
-              <TableCell id="g" style={infoStyle}>Games</TableCell>
-              <TableCell id="tackles_solo" style={tacklesCellStyle}>SOLO</TableCell>
-              <TableCell id="tackles_assists" style={tacklesCellStyle}>AST</TableCell>
-              <TableCell id="tackles_total" style={tacklesCellStyle}>TOT</TableCell>
-              <TableCell style={tacklesCellStyle}>LOSS</TableCell>
-              <TableCell style={tacklesCellStyle}>SK</TableCell>
-              <TableCell style={intCellStyle}>INT</TableCell>
-              <TableCell style={intCellStyle}>YDS</TableCell>
-              <TableCell style={intCellStyle}>AVG</TableCell>
-              <TableCell style={intCellStyle}>TD</TableCell>
-              <TableCell style={intCellStyle}>PD</TableCell>
+              <TableCell id="name" style={cellFourVariant}>Name</TableCell>
+              <TableCell id="position" style={cellFourVariant}>Position</TableCell>
+              <TableCell id="class" style={cellFourVariant}>Class</TableCell>
+              <TableCell id="g" style={cellFourVariant}>Games</TableCell>
+              <TableCell id="tackles_solo" style={cellThreeVariant}>SOLO</TableCell>
+              <TableCell id="tackles_assists" style={cellThreeVariant}>AST</TableCell>
+              <TableCell id="tackles_total" style={cellThreeVariant}>TOT</TableCell>
+              <TableCell style={cellThreeVariant}>LOSS</TableCell>
+              <TableCell style={cellThreeVariant}>SK</TableCell>
+              <TableCell style={cellTwoVariant}>INT</TableCell>
+              <TableCell style={cellTwoVariant}>YDS</TableCell>
+              <TableCell style={cellTwoVariant}>AVG</TableCell>
+              <TableCell style={cellTwoVariant}>TD</TableCell>
+              <TableCell style={cellTwoVariant}>PD</TableCell>
               <TableCell style={fumbleCellStyle}>FR</TableCell>
               <TableCell style={fumbleCellStyle}>YDS</TableCell>
               <TableCell style={fumbleCellStyle}>TD</TableCell>
@@ -60,20 +57,20 @@ const DefensiveTable = ({ defense }) => {
               const playerStats = findDefArray(player)
               return (
                 <TableRow key={index}>
-                  <TableCell style={cellStyle}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
-                  <TableCell style={cellStyle}>{player.playerInfo.position}</TableCell>
-                  <TableCell style={cellStyle}>{player.playerInfo.year}</TableCell>
-                  <TableCell style={cellStyle}>{playerStats.g}</TableCell>
-                  <TableCell style={tacklesCellStyle}>{playerStats.tackles_solo}</TableCell>
-                  <TableCell style={tacklesCellStyle}>{playerStats.tackles_assists}</TableCell>
-                  <TableCell style={tacklesCellStyle}>{playerStats.tackles_total}</TableCell>
-                  <TableCell style={tacklesCellStyle}>{playerStats.tackles_loss}</TableCell>
-                  <TableCell style={tacklesCellStyle}>{playerStats.sacks}</TableCell>
-                  <TableCell style={intCellStyle}>{playerStats.def_int}</TableCell>
-                  <TableCell style={intCellStyle}>{playerStats.def_int_yds}</TableCell>
-                  <TableCell style={intCellStyle}>{playerStats.def_int_yds_per_int}</TableCell>
-                  <TableCell style={intCellStyle}>{playerStats.def_int_td}</TableCell>
-                  <TableCell style={intCellStyle}>{playerStats.pass_defended}</TableCell>
+                  <TableCell style={cellZeroVariant}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
+                  <TableCell style={cellZeroVariant}>{player.playerInfo.position}</TableCell>
+                  <TableCell style={cellZeroVariant}>{player.playerInfo.year}</TableCell>
+                  <TableCell style={cellZeroVariant}>{playerStats.g}</TableCell>
+                  <TableCell style={cellThreeVariant}>{playerStats.tackles_solo}</TableCell>
+                  <TableCell style={cellThreeVariant}>{playerStats.tackles_assists}</TableCell>
+                  <TableCell style={cellThreeVariant}>{playerStats.tackles_total}</TableCell>
+                  <TableCell style={cellThreeVariant}>{playerStats.tackles_loss}</TableCell>
+                  <TableCell style={cellThreeVariant}>{playerStats.sacks}</TableCell>
+                  <TableCell style={cellTwoVariant}>{playerStats.def_int}</TableCell>
+                  <TableCell style={cellTwoVariant}>{playerStats.def_int_yds}</TableCell>
+                  <TableCell style={cellTwoVariant}>{playerStats.def_int_yds_per_int}</TableCell>
+                  <TableCell style={cellTwoVariant}>{playerStats.def_int_td}</TableCell>
+                  <TableCell style={cellTwoVariant}>{playerStats.pass_defended}</TableCell>
                   <TableCell style={fumbleCellStyle}>{playerStats.fumbles_rec}</TableCell>
                   <TableCell style={fumbleCellStyle}>{playerStats.fumbles_rec_yds}</TableCell>
                   <TableCell style={fumbleCellStyle}>{playerStats.fumbles_recovered_td}</TableCell>
