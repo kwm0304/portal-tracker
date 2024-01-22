@@ -3,10 +3,7 @@ import PropTypes from 'prop-types';
 import { cellFourVariant, cellThreeVariant, cellZeroVariant } from "../../../styles";
 const PassingTable = ({ passing }) => {
   console.log('passing',typeof passing)
-
   
-
-
   const findPassArray = (player) => {
     const relevantArray = player.stats.find(subArr =>
       'pass_att' in subArr

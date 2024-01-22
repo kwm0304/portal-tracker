@@ -1,6 +1,6 @@
 import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead } from "@mui/material";
 import PropTypes from 'prop-types';
-import { cellThreeVariant, cellTwoVariant, cellFourVariant, cellZeroVariant, fumbleCellStyle } from "../../../styles";
+import { cellThreeVariant, cellTwoVariant, cellFourVariant, cellZeroVariant, cellOneVariant } from "../../../styles";
 const DefensiveTable = ({ defense }) => {
   console.log('defense', defense)
 
@@ -27,7 +27,7 @@ const DefensiveTable = ({ defense }) => {
               <TableCell align="center" colSpan={5} style={cellTwoVariant}>
                 INTERCEPTIONS
               </TableCell>
-              <TableCell align="center" colSpan={4} style={fumbleCellStyle}>
+              <TableCell align="center" colSpan={4} style={cellOneVariant}>
                 FUMBLES
               </TableCell>
             </TableRow>
@@ -46,10 +46,10 @@ const DefensiveTable = ({ defense }) => {
               <TableCell style={cellTwoVariant}>AVG</TableCell>
               <TableCell style={cellTwoVariant}>TD</TableCell>
               <TableCell style={cellTwoVariant}>PD</TableCell>
-              <TableCell style={fumbleCellStyle}>FR</TableCell>
-              <TableCell style={fumbleCellStyle}>YDS</TableCell>
-              <TableCell style={fumbleCellStyle}>TD</TableCell>
-              <TableCell style={fumbleCellStyle}>FF</TableCell>
+              <TableCell style={cellOneVariant}>FR</TableCell>
+              <TableCell style={cellOneVariant}>YDS</TableCell>
+              <TableCell style={cellOneVariant}>TD</TableCell>
+              <TableCell style={cellOneVariant}>FF</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -71,10 +71,10 @@ const DefensiveTable = ({ defense }) => {
                   <TableCell style={cellTwoVariant}>{playerStats.def_int_yds_per_int}</TableCell>
                   <TableCell style={cellTwoVariant}>{playerStats.def_int_td}</TableCell>
                   <TableCell style={cellTwoVariant}>{playerStats.pass_defended}</TableCell>
-                  <TableCell style={fumbleCellStyle}>{playerStats.fumbles_rec}</TableCell>
-                  <TableCell style={fumbleCellStyle}>{playerStats.fumbles_rec_yds}</TableCell>
-                  <TableCell style={fumbleCellStyle}>{playerStats.fumbles_recovered_td}</TableCell>
-                  <TableCell style={fumbleCellStyle}>{playerStats.fumbles_forced}</TableCell>
+                  <TableCell style={cellOneVariant}>{playerStats.fumbles_rec}</TableCell>
+                  <TableCell style={cellOneVariant}>{playerStats.fumbles_rec_yds}</TableCell>
+                  <TableCell style={cellOneVariant}>{playerStats.fumbles_recovered_td}</TableCell>
+                  <TableCell style={cellOneVariant}>{playerStats.fumbles_forced}</TableCell>
                 </TableRow>
               );
             })}

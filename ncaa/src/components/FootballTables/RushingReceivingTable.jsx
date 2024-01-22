@@ -1,12 +1,16 @@
 import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead } from "@mui/material";
 import PropTypes from 'prop-types';
+import { cellFourVariant, cellThreeVariant, cellTwoVariant, cellOneVariant, cellZeroVariant } from "../../../styles";
 const RushingReceivingTable = ({rushingAndReceiving}) => {
   console.log('rushrec',typeof rushingAndReceiving)
 
-  const fumbleCellStyle = { color: 'red', fontWeight: 'bold', textAlign: 'center'}
-  const cellTwoVariant = { color: 'green', fontWeight: 'bold', textAlign: 'center'}
-  const cellThreeVariant = { color: '#4287f5', fontWeight: 'bold', textAlign: 'center'}
-  const cellFourVariant = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
+  const findRushRecArray = (player) => {
+    const relevantArray = player.stats.find(subArr =>
+      'rush_att' in subArr
+    )
+    return relevantArray || {}
+  }
+
   return (
     <div style={{ width: '100%'}}>
       <TableContainer component={Paper}>
@@ -21,7 +25,7 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
             <TableCell align="center" colSpan={4} style={cellTwoVariant}>
               RECEIVING
             </TableCell>
-            <TableCell align="center" colSpan={4} style={fumbleCellStyle}>
+            <TableCell align="center" colSpan={4} style={cellOneVariant}>
               SCRIMMAGE
             </TableCell>
           </TableRow>
@@ -40,14 +44,35 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
             <TableCell style={cellTwoVariant}>TD</TableCell>
             <TableCell style={cellTwoVariant}>Plays</TableCell>
             <TableCell style={cellTwoVariant}>YDS</TableCell>
-            <TableCell style={fumbleCellStyle}>AVG</TableCell>
-            <TableCell style={fumbleCellStyle}>TD</TableCell>
+            <TableCell style={cellOneVariant}>AVG</TableCell>
+            <TableCell style={cellOneVariant}>TD</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          <TableRow>
-            <TableCell>{}</TableCell>
-          </TableRow>
+          {rushingAndReceiving.map((player, index) => {
+            const playerStats = findRushRecArray(player)
+            return (
+            <TableRow key={index}>
+              <TableCell style={cellZeroVariant}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
+                <TableCell style={cellZeroVariant}>{player.playerInfo.position}</TableCell>
+                <TableCell style={cellZeroVariant}>{player.playerInfo.year}</TableCell>
+                <TableCell style={cellZeroVariant}>{playerStats.g}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.rush_att}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.rush_yds}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.rush_yds_per_att}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.rush_td}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.rec}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.rec_yds}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.rec_yds_per_rec}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.rec_td}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.scrim_att}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.scrim_yds}</TableCell>
+                <TableCell style={cellOneVariant}>{playerStats.scrim_yds_per_att}</TableCell>
+                <TableCell style={cellOneVariant}>{playerStats.scrim_td}</TableCell>
+            </TableRow>
+            )
+          })}
+          
         </TableBody>
       </Table>
       </TableContainer>
