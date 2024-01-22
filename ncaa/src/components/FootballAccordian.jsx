@@ -1,16 +1,17 @@
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import { FaChevronDown } from "react-icons/fa";
-import Button from '@mui/material/Button';
 import PropTypes from 'prop-types';
 import PassingTable from './FootballTables/PassingTable';
 import RushingReceivingTable from './FootballTables/RushingReceivingTable.jsx';
 import DefensiveTable from './FootballTables/DefensiveTable';
+import SpecialTeamsTable from './FootballTables/SpecialTeamsTable';
 
 const FootballAccordian = ({ playerData }) => {
-  const passing = playerData.filter(player => player.playerInfo.position === 'QB')
+  const passing = playerData.filter(player => player.playerInfo.position === 'QB' || player.stats.some(stat =>
+    'pass_att' in stat
+  ));
   const rushingAndReceiving = playerData.filter(player =>
     player.stats.some(stat =>
       'rush_att' in stat || 'rec_yds' in stat
@@ -21,11 +22,11 @@ const FootballAccordian = ({ playerData }) => {
       'tackles_total' in stat || 'tackles_assists' in stat
     )
   );
-  console.log("playerData", playerData)
-console.log('pass', passing)
-console.log('defense', defense)
-console.log('rushrec',rushingAndReceiving)
-console.log("football player data", playerData)
+  const specialTeams = playerData.filter(player => 
+    player.stats.some(stat =>
+      'punt' in stat || 'xpa' in stat || 'fga' in stat)
+    )
+    
   return (
     <div>
       <Accordion style={{  fontWeight: 'bold'}}>
@@ -71,10 +72,21 @@ console.log("football player data", playerData)
             : <h4>No Defensive Data</h4>
           }
         </AccordionDetails>
-        <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
-        </AccordionActions>
+      </Accordion>
+      <Accordion style={{ fontWeight: 'bold'}}>
+        <AccordionSummary
+          expandIcon={<FaChevronDown />}
+          aria-controls="panel3-content"
+          id="panel3-header"
+        >
+          Special Teams
+        </AccordionSummary>
+        <AccordionDetails>
+          {specialTeams.length > 0 ?
+            <SpecialTeamsTable specialTeams={specialTeams} />
+            : <h4>No Special Teams Data</h4>
+          }
+        </AccordionDetails>
       </Accordion>
     </div>
   );

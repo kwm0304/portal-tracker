@@ -1,12 +1,12 @@
 import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead } from "@mui/material";
 import PropTypes from 'prop-types';
 import { cellFourVariant, cellThreeVariant, cellZeroVariant } from "../../../styles";
-const PassingTable = ({ passing }) => {
+const SpecialTeamsTable = ({ specialTeams }) => {
   console.log('passing',typeof passing)
   
   const findPassArray = (player) => {
     const relevantArray = player.stats.find(subArr =>
-      'pass_att' in subArr
+      'xpa' in subArr || 'punt' in subArr || 'fga' in subArr
     )
     return relevantArray || {}
   }
@@ -27,19 +27,20 @@ const PassingTable = ({ passing }) => {
             <TableCell style={cellFourVariant}>Position</TableCell>
             <TableCell style={cellFourVariant}>Class</TableCell>
             <TableCell style={cellFourVariant}>Games</TableCell>
-            <TableCell style={cellThreeVariant}>CMP</TableCell>
-            <TableCell style={cellThreeVariant}>ATT</TableCell>
-            <TableCell style={cellThreeVariant}>PCT</TableCell>
+            <TableCell style={cellThreeVariant}>PUNTS</TableCell>
             <TableCell style={cellThreeVariant}>YDS</TableCell>
-            <TableCell style={cellThreeVariant}>Y/A</TableCell>
-            <TableCell style={cellThreeVariant}>AY/A</TableCell>
-            <TableCell style={cellThreeVariant}>TD</TableCell>
-            <TableCell style={cellThreeVariant}>INT</TableCell>
-            <TableCell style={cellThreeVariant}>RATE</TableCell>
+            <TableCell style={cellThreeVariant}>AVG</TableCell>
+            <TableCell style={cellThreeVariant}>XPM</TableCell>
+            <TableCell style={cellThreeVariant}>XPA</TableCell>
+            <TableCell style={cellThreeVariant}>XP%</TableCell>
+            <TableCell style={cellThreeVariant}>FGM</TableCell>
+            <TableCell style={cellThreeVariant}>FGA</TableCell>
+            <TableCell style={cellThreeVariant}>FG%</TableCell>
+            <TableCell style={cellThreeVariant}>PTS</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {passing.map((player, index) => {
+          {specialTeams.map((player, index) => {
             const playerStats = findPassArray(player)
             return (
               <TableRow key={index}>
@@ -47,15 +48,16 @@ const PassingTable = ({ passing }) => {
                 <TableCell style={cellZeroVariant}>{player.playerInfo.position}</TableCell>
                 <TableCell style={cellZeroVariant}>{player.playerInfo.year}</TableCell>
                 <TableCell style={cellZeroVariant}>{playerStats.g}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_cmp}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_att}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_cmp_pct}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_yds}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_yds_per_att}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.adj_pass_yds_per_att}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_td}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_int}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.pass_rating}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.punt}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.punt_yds}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.punt_yds_per_punt}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.xpm}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.xpa}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.xp_pct}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.fgm}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.fga}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.fg_pct}</TableCell>
+                <TableCell style={cellThreeVariant}>{playerStats.kick_points}</TableCell>
               </TableRow>
             )
           })}
@@ -67,10 +69,10 @@ const PassingTable = ({ passing }) => {
   )
 }
 
-export default PassingTable
+export default SpecialTeamsTable
 
-PassingTable.propTypes = {
-  passing: PropTypes.arrayOf(
+SpecialTeamsTable.propTypes = {
+  specialTeams: PropTypes.arrayOf(
     PropTypes.shape({
       playerInfo: PropTypes.object.isRequired,
       stats: PropTypes.object.isRequired,

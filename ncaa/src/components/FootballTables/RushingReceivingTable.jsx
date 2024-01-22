@@ -38,12 +38,12 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
             <TableCell style={cellThreeVariant}>YDS</TableCell>
             <TableCell style={cellThreeVariant}>AVG</TableCell>
             <TableCell style={cellThreeVariant}>TD</TableCell>
-            <TableCell style={cellThreeVariant}>REC</TableCell>
+            <TableCell style={cellTwoVariant}>REC</TableCell>
             <TableCell style={cellTwoVariant}>YDS</TableCell>
             <TableCell style={cellTwoVariant}>AVG</TableCell>
             <TableCell style={cellTwoVariant}>TD</TableCell>
             <TableCell style={cellTwoVariant}>Plays</TableCell>
-            <TableCell style={cellTwoVariant}>YDS</TableCell>
+            <TableCell style={cellOneVariant}>YDS</TableCell>
             <TableCell style={cellOneVariant}>AVG</TableCell>
             <TableCell style={cellOneVariant}>TD</TableCell>
           </TableRow>
@@ -61,7 +61,7 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
                 <TableCell style={cellThreeVariant}>{playerStats.rush_yds}</TableCell>
                 <TableCell style={cellThreeVariant}>{playerStats.rush_yds_per_att}</TableCell>
                 <TableCell style={cellThreeVariant}>{playerStats.rush_td}</TableCell>
-                <TableCell style={cellThreeVariant}>{playerStats.rec}</TableCell>
+                <TableCell style={cellTwoVariant}>{playerStats.rec}</TableCell>
                 <TableCell style={cellTwoVariant}>{playerStats.rec_yds}</TableCell>
                 <TableCell style={cellTwoVariant}>{playerStats.rec_yds_per_rec}</TableCell>
                 <TableCell style={cellTwoVariant}>{playerStats.rec_td}</TableCell>
