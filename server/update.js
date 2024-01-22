@@ -12,31 +12,21 @@ const update = async () => {
     const collection = db.collection("players");
 
     const filter = {
-      "playerInfo.firstName": "Warren",
-      "playerInfo.lastName": "Thompson",
+      "playerInfo.firstName": "Tre",
+      "playerInfo.lastName": "Williams",
       "playerInfo.school": "Arkansas",
     };
 
     const updateDoc = {
       $push: {
         stats: {
-          g: "13",
-          rec: "19",
-          rec_yds: "304",
-          rec_yds_per_rec: "16",
-          rec_td: "2",
-          scrim_att: "19",
-          scrim_yds: "304",
-          scrim_yds_per_att: "16",
-          scrim_td: "2",
-          pass_cmp: "1",
-          pass_att: "2",
-          pass_yds: "27",
-          pass_cmp_pct: "50",
-          pass_yds_per_att: "13.5",
-          adj_pass_yds_per_att: "-9",
-          pass_int: "1",
-          pass_rating: "63.4",
+          g: "10",
+          tackles_solo: "11",
+          tackles_assists: "17",
+          tackles_total: "28",
+          tackles_loss: "6.5",
+          sacks: "6",
+          school_name: "Arkansas",
         },
       },
     };

@@ -6,7 +6,7 @@ const RushingReceivingTable = ({rushingAndReceiving}) => {
 
   const findRushRecArray = (player) => {
     const relevantArray = player.stats.find(subArr =>
-      'rush_att' in subArr
+      'rush_att' in subArr || 'rec' in subArr
     )
     return relevantArray || {}
   }

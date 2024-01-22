@@ -21,6 +21,7 @@ const FootballAccordian = ({ playerData }) => {
       'tackles_total' in stat || 'tackles_assists' in stat
     )
   );
+  console.log("playerData", playerData)
 console.log('pass', passing)
 console.log('defense', defense)
 console.log('rushrec',rushingAndReceiving)
