@@ -24,7 +24,8 @@
       "stl": 0.5,
       "blk": 0.8,
       "tov": 1.6,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Hawaii"
     }
   ],
   [
@@ -51,7 +52,8 @@
       "stl": 0.3,
       "blk": 1,
       "tov": 0.2,
-      "pts": 1
+      "pts": 1,
+      "oldSchool": "Duquesne"
     }
   ],
   [
@@ -78,7 +80,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 1.6,
-      "pts": 12.3
+      "pts": 12.3,
+      "oldSchool": "Arizona State"
     }
   ],
   [
@@ -105,7 +108,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 1.2,
-      "pts": 13.9
+      "pts": 13.9,
+      "oldSchool": ""
     }
   ],
   [
@@ -132,7 +136,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 8.5
+      "pts": 8.5,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -159,7 +164,8 @@
       "stl": 0.5,
       "blk": 1.6,
       "tov": 1.5,
-      "pts": 8.8
+      "pts": 8.8,
+      "oldSchool": "Fresno State"
     }
   ],
   [
@@ -186,7 +192,8 @@
       "stl": 0.6,
       "blk": 0.5,
       "tov": 1,
-      "pts": 10.2
+      "pts": 10.2,
+      "oldSchool": "Washington"
     }
   ],
   [
@@ -213,7 +220,8 @@
       "stl": 0.6,
       "blk": 0.2,
       "tov": 0.8,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "Mississippi State"
     }
   ],
   [
@@ -240,7 +248,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.3,
-      "pts": 3.7
+      "pts": 3.7,
+      "oldSchool": "Southeast Missouri State"
     }
   ],
   [
@@ -267,7 +276,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1.9,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "Chicago State"
     }
   ],
   [
@@ -294,7 +304,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 2.2,
-      "pts": 12.8
+      "pts": 12.8,
+      "oldSchool": "South Dakota State"
     }
   ],
   [
@@ -321,7 +332,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 1.6,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "High Point"
     }
   ],
   [
@@ -348,7 +360,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 2.2,
-      "pts": 13.3
+      "pts": 13.3,
+      "oldSchool": "St. Bonaventure"
     }
   ],
   [
@@ -375,7 +388,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 3.6,
-      "pts": 15.9
+      "pts": 15.9,
+      "oldSchool": "Jacksonville"
     }
   ],
   [
@@ -402,7 +416,8 @@
       "stl": 0.7,
       "blk": 0.8,
       "tov": 1.4,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -429,7 +444,8 @@
       "stl": 0.8,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 10.9
+      "pts": 10.9,
+      "oldSchool": "Vanderbilt"
     }
   ],
   [
@@ -456,7 +472,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 2.1,
-      "pts": 16.1
+      "pts": 16.1,
+      "oldSchool": "Wichita State"
     }
   ],
   [
@@ -483,7 +500,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 0.8,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Seton Hall"
     }
   ],
   [
@@ -510,7 +528,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 1.1,
-      "pts": 2.1
+      "pts": 2.1,
+      "oldSchool": "Texas A&M"
     }
   ],
   [
@@ -537,7 +556,8 @@
       "stl": 1.4,
       "blk": 0.4,
       "tov": 1.8,
-      "pts": 8.2
+      "pts": 8.2,
+      "oldSchool": "Purdue"
     }
   ],
   [
@@ -564,7 +584,8 @@
       "stl": 1,
       "blk": 0,
       "tov": 2.1,
-      "pts": 5
+      "pts": 5,
+      "oldSchool": "University of the Pacific"
     }
   ],
   [
@@ -591,7 +612,8 @@
       "stl": 0.4,
       "blk": 0.6,
       "tov": 1.4,
-      "pts": 7.6
+      "pts": 7.6,
+      "oldSchool": "Fresno State"
     }
   ],
   [
@@ -618,7 +640,8 @@
       "stl": 0.9,
       "blk": 0.3,
       "tov": 2.1,
-      "pts": 16.5
+      "pts": 16.5,
+      "oldSchool": "Duquesne"
     }
   ],
   [
@@ -645,7 +668,8 @@
       "stl": 0.8,
       "blk": 0.6,
       "tov": 2.1,
-      "pts": 11.7
+      "pts": 11.7,
+      "oldSchool": "Texas"
     }
   ],
   [
@@ -672,7 +696,8 @@
       "stl": 1.3,
       "blk": 0.4,
       "tov": 1.9,
-      "pts": 13.2
+      "pts": 13.2,
+      "oldSchool": "DePaul"
     }
   ],
   [
@@ -699,7 +724,8 @@
       "stl": 0,
       "blk": 0.9,
       "tov": 0.4,
-      "pts": 1.4
+      "pts": 1.4,
+      "oldSchool": "BYU"
     }
   ],
   [
@@ -726,7 +752,8 @@
       "stl": 0.4,
       "blk": 0.4,
       "tov": 1.1,
-      "pts": 9.1
+      "pts": 9.1,
+      "oldSchool": "Michigan State"
     }
   ],
   [
@@ -753,7 +780,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 1.9,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "Boston College"
     },
     {
       "firstName": "Gianni",
@@ -778,7 +806,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 1.1
+      "pts": 1.1,
+      "oldSchool": "Boston College"
     }
   ],
   [
@@ -805,7 +834,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 0.9,
-      "pts": 6
+      "pts": 6,
+      "oldSchool": "Oral Roberts"
     }
   ],
   [
@@ -832,7 +862,8 @@
       "stl": 1,
       "blk": 0.1,
       "tov": 1,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "Mississippi State"
     }
   ],
   [
@@ -859,7 +890,8 @@
       "stl": 1.2,
       "blk": 0.1,
       "tov": 1,
-      "pts": 9.2
+      "pts": 9.2,
+      "oldSchool": "UTEP"
     }
   ],
   [
@@ -886,7 +918,8 @@
       "stl": 0.7,
       "blk": 0.2,
       "tov": 2.8,
-      "pts": 15.5
+      "pts": 15.5,
+      "oldSchool": "Texas"
     }
   ],
   [
@@ -913,7 +946,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 0.8,
-      "pts": 7.3
+      "pts": 7.3,
+      "oldSchool": "Providence"
     }
   ],
   [
@@ -940,7 +974,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 3.3,
-      "pts": 16
+      "pts": 16,
+      "oldSchool": "Duquesne"
     }
   ],
   [],
@@ -968,7 +1003,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 1.8,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "Iowa State"
     }
   ],
   [
@@ -995,7 +1031,8 @@
       "stl": 0.6,
       "blk": 0,
       "tov": 0.9,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "BYU"
     }
   ],
   [
@@ -1022,7 +1059,8 @@
       "stl": 0.2,
       "blk": 1,
       "tov": 0.6,
-      "pts": 2.5
+      "pts": 2.5,
+      "oldSchool": "Louisiana Lafayette"
     }
   ],
   [
@@ -1049,7 +1087,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 7.7
+      "pts": 7.7,
+      "oldSchool": "Mississippi State"
     }
   ],
   [],
@@ -1077,7 +1116,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 1.3,
-      "pts": 1.3
+      "pts": 1.3,
+      "oldSchool": ""
     }
   ],
   [],
@@ -1105,7 +1145,8 @@
       "stl": 0.7,
       "blk": 0.5,
       "tov": 2.5,
-      "pts": 19.2
+      "pts": 19.2,
+      "oldSchool": "Memphis"
     }
   ],
   [
@@ -1132,7 +1173,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 2.5,
-      "pts": 16.9
+      "pts": 16.9,
+      "oldSchool": "Memphis"
     }
   ],
   [
@@ -1159,7 +1201,8 @@
       "stl": 1.1,
       "blk": 0.5,
       "tov": 1.4,
-      "pts": 8
+      "pts": 8,
+      "oldSchool": "Mississippi State"
     }
   ],
   [
@@ -1186,7 +1229,8 @@
       "stl": 2,
       "blk": 0.1,
       "tov": 3.9,
-      "pts": 20.5
+      "pts": 20.5,
+      "oldSchool": "Penn State"
     }
   ],
   [
@@ -1213,7 +1257,8 @@
       "stl": 1,
       "blk": 0,
       "tov": 2.5,
-      "pts": 12
+      "pts": 12,
+      "oldSchool": "San Diego"
     }
   ],
   [
@@ -1240,7 +1285,8 @@
       "stl": 0.7,
       "blk": 0,
       "tov": 2.3,
-      "pts": 15.9
+      "pts": 15.9,
+      "oldSchool": "Nevada"
     }
   ],
   [
@@ -1267,7 +1313,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 2.3,
-      "pts": 7.7
+      "pts": 7.7,
+      "oldSchool": "New Mexico State"
     }
   ],
   [
@@ -1294,7 +1341,8 @@
       "stl": 0.3,
       "blk": 0.5,
       "tov": 0.8,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "New Mexico State"
     }
   ],
   [
@@ -1321,7 +1369,8 @@
       "stl": 0.5,
       "blk": 1.4,
       "tov": 1.8,
-      "pts": 12.7
+      "pts": 12.7,
+      "oldSchool": "Morgan State"
     }
   ],
   [
@@ -1348,7 +1397,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 2,
-      "pts": 7.3
+      "pts": 7.3,
+      "oldSchool": "Bryant"
     }
   ],
   [
@@ -1375,7 +1425,8 @@
       "stl": 0.5,
       "blk": 0.9,
       "tov": 2.7,
-      "pts": 14.3
+      "pts": 14.3,
+      "oldSchool": "Cleveland State"
     }
   ],
   [
@@ -1402,7 +1453,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 0.8,
-      "pts": 10.4
+      "pts": 10.4,
+      "oldSchool": "Marquette"
     }
   ],
   [
@@ -1429,7 +1481,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.6,
-      "pts": 5.2
+      "pts": 5.2,
+      "oldSchool": "Virginia Tech"
     }
   ],
   [
@@ -1456,7 +1509,8 @@
       "stl": 0.1,
       "blk": 0.4,
       "tov": 0.7,
-      "pts": 4.2
+      "pts": 4.2,
+      "oldSchool": "Virginia Tech"
     }
   ],
   [
@@ -1483,7 +1537,8 @@
       "stl": 0.7,
       "blk": 0.7,
       "tov": 1.8,
-      "pts": 15.3
+      "pts": 15.3,
+      "oldSchool": "North Carolina"
     }
   ],
   [
@@ -1510,7 +1565,8 @@
       "stl": 0.4,
       "blk": 0.3,
       "tov": 0.8,
-      "pts": 1.9
+      "pts": 1.9,
+      "oldSchool": "Oregon State"
     }
   ],
   [
@@ -1537,7 +1593,8 @@
       "stl": 0.5,
       "blk": 0.9,
       "tov": 1.4,
-      "pts": 7.1
+      "pts": 7.1,
+      "oldSchool": "VCU"
     }
   ],
   [],
@@ -1565,7 +1622,8 @@
       "stl": 0.6,
       "blk": 2,
       "tov": 1.3,
-      "pts": 6.5
+      "pts": 6.5,
+      "oldSchool": "Connecticut"
     }
   ],
   [
@@ -1592,7 +1650,8 @@
       "stl": 0.9,
       "blk": 0.3,
       "tov": 1.5,
-      "pts": 6.5
+      "pts": 6.5,
+      "oldSchool": "Mississippi State"
     }
   ],
   [
@@ -1619,7 +1678,8 @@
       "stl": 1.2,
       "blk": 0.7,
       "tov": 2.9,
-      "pts": 14.9
+      "pts": 14.9,
+      "oldSchool": "Saint Louis"
     },
     {
       "firstName": "Jordan",
@@ -1644,7 +1704,8 @@
       "stl": 0.6,
       "blk": 0.2,
       "tov": 0.4,
-      "pts": 3.8
+      "pts": 3.8,
+      "oldSchool": "Saint Louis"
     }
   ],
   [
@@ -1671,7 +1732,8 @@
       "stl": 0.9,
       "blk": 0.4,
       "tov": 1.6,
-      "pts": 13.4
+      "pts": 13.4,
+      "oldSchool": "UCF"
     },
     {
       "firstName": "Darin",
@@ -1696,7 +1758,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 1.5
+      "pts": 1.5,
+      "oldSchool": "UCF"
     }
   ],
   [
@@ -1723,7 +1786,8 @@
       "stl": 1.2,
       "blk": 0.4,
       "tov": 2.6,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "Alabama"
     }
   ],
   [
@@ -1750,7 +1814,8 @@
       "stl": 0.7,
       "blk": 0,
       "tov": 2.4,
-      "pts": 12.7
+      "pts": 12.7,
+      "oldSchool": "Ohio State"
     }
   ],
   [
@@ -1777,7 +1842,8 @@
       "stl": 1.3,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 17
+      "pts": 17,
+      "oldSchool": "Ole Miss"
     }
   ],
   [
@@ -1804,7 +1870,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 2.6
+      "pts": 2.6,
+      "oldSchool": "Connecticut"
     }
   ],
   [
@@ -1831,7 +1898,8 @@
       "stl": 1.1,
       "blk": 1.2,
       "tov": 1.6,
-      "pts": 15.6
+      "pts": 15.6,
+      "oldSchool": "Iowa State"
     }
   ],
   [
@@ -1858,7 +1926,8 @@
       "stl": 0.5,
       "blk": 0.4,
       "tov": 1,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -1885,10 +1954,10 @@
       "stl": 0.9,
       "blk": 2.5,
       "tov": 1.4,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "Florida Gulf Coast"
     }
   ],
-  
   [
     {
       "firstName": "Zion",
@@ -1913,7 +1982,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 3,
-      "pts": 13.7
+      "pts": 13.7,
+      "oldSchool": "Western Kentucky"
     }
   ],
   [],
@@ -1941,7 +2011,8 @@
       "stl": 0.3,
       "blk": 0.2,
       "tov": 1,
-      "pts": 6.8
+      "pts": 6.8,
+      "oldSchool": "LIU"
     }
   ],
   [
@@ -1968,7 +2039,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 2.7
+      "pts": 2.7,
+      "oldSchool": "Stony Brook"
     }
   ],
   [
@@ -1995,7 +2067,8 @@
       "stl": 0.8,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Campbell"
     }
   ],
   [
@@ -2022,7 +2095,8 @@
       "stl": 1.5,
       "blk": 0.6,
       "tov": 2.4,
-      "pts": 13.3
+      "pts": 13.3,
+      "oldSchool": "UMass"
     }
   ],
   [
@@ -2049,7 +2123,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "Davidson"
     }
   ],
   [
@@ -2076,7 +2151,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.8,
-      "pts": 2.6
+      "pts": 2.6,
+      "oldSchool": "Utah"
     }
   ],
   [
@@ -2103,7 +2179,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 4.4
+      "pts": 4.4,
+      "oldSchool": "Illinois"
     }
   ],
   [
@@ -2130,7 +2207,8 @@
       "stl": 0.1,
       "blk": 0,
       "tov": 0.4,
-      "pts": 1.8
+      "pts": 1.8,
+      "oldSchool": "Tennessee State"
     }
   ],
   [
@@ -2157,7 +2235,8 @@
       "stl": 0.7,
       "blk": 0.4,
       "tov": 0.9,
-      "pts": 4.6
+      "pts": 4.6,
+      "oldSchool": "Yale"
     }
   ],
   [
@@ -2184,7 +2263,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "St. Bonaventure"
     }
   ],
   [],
@@ -2212,7 +2292,8 @@
       "stl": 0.8,
       "blk": 0.5,
       "tov": 1.5,
-      "pts": 8.5
+      "pts": 8.5,
+      "oldSchool": "Arkansas"
     }
   ],
   [],
@@ -2240,7 +2321,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 0,
-      "pts": 0.3
+      "pts": 0.3,
+      "oldSchool": "SMU"
     }
   ],
   [
@@ -2267,7 +2349,8 @@
       "stl": 0.4,
       "blk": 1.1,
       "tov": 1.7,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "UCF"
     }
   ],
   [
@@ -2294,7 +2377,8 @@
       "stl": 1.2,
       "blk": 0.5,
       "tov": 2.2,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "San Jose State"
     }
   ],
   [
@@ -2321,7 +2405,8 @@
       "stl": 0.4,
       "blk": 0.4,
       "tov": 0.8,
-      "pts": 6.2
+      "pts": 6.2,
+      "oldSchool": "UMass"
     }
   ],
   [
@@ -2348,7 +2433,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.3,
-      "pts": 2.3
+      "pts": 2.3,
+      "oldSchool": "Jackson State"
     }
   ],
   [
@@ -2375,7 +2461,8 @@
       "stl": 0.9,
       "blk": 1.5,
       "tov": 1.8,
-      "pts": 12.3
+      "pts": 12.3,
+      "oldSchool": "Jacksonville State"
     }
   ],
   [],
@@ -2403,7 +2490,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 2,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "SMU"
     }
   ],
   [
@@ -2430,7 +2518,8 @@
       "stl": 0.8,
       "blk": 1.2,
       "tov": 1.4,
-      "pts": 12.5
+      "pts": 12.5,
+      "oldSchool": "Baylor"
     }
   ],
   [
@@ -2457,7 +2546,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 2.9,
-      "pts": 17.4
+      "pts": 17.4,
+      "oldSchool": "Florida"
     }
   ],
   [
@@ -2484,7 +2574,8 @@
       "stl": 0.1,
       "blk": 0.4,
       "tov": 0.3,
-      "pts": 2.7
+      "pts": 2.7,
+      "oldSchool": "Wisconsin-Green Bay"
     }
   ],
   [
@@ -2511,7 +2602,8 @@
       "stl": 0.2,
       "blk": 0.2,
       "tov": 0.4,
-      "pts": 3.6
+      "pts": 3.6,
+      "oldSchool": "North Carolina"
     }
   ],
   [
@@ -2538,7 +2630,8 @@
       "stl": 0.3,
       "blk": 2,
       "tov": 2.1,
-      "pts": 16.3
+      "pts": 16.3,
+      "oldSchool": "Wisconsin"
     },
     {
       "firstName": "Ben",
@@ -2563,7 +2656,8 @@
       "stl": 0.2,
       "blk": 0.2,
       "tov": 0.8,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "Wisconsin"
     }
   ],
   [
@@ -2590,7 +2684,8 @@
       "stl": 0.2,
       "blk": 0,
       "tov": 0.4,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "Seton Hall"
     }
   ],
   [
@@ -2617,7 +2712,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.7,
-      "pts": 6.6
+      "pts": 6.6,
+      "oldSchool": "South Carolina Upstate"
     }
   ],
   [
@@ -2644,7 +2740,8 @@
       "stl": 0.7,
       "blk": 0.4,
       "tov": 2.2,
-      "pts": 12.3
+      "pts": 12.3,
+      "oldSchool": "BYU"
     }
   ],
   [
@@ -2671,7 +2768,8 @@
       "stl": 0.2,
       "blk": 0.1,
       "tov": 0.7,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "Temple"
     }
   ],
   [
@@ -2698,7 +2796,8 @@
       "stl": 1.3,
       "blk": 0.2,
       "tov": 2.1,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "Michigan"
     }
   ],
   [
@@ -2725,7 +2824,8 @@
       "stl": 0.4,
       "blk": 0.3,
       "tov": 0.4,
-      "pts": 1.9
+      "pts": 1.9,
+      "oldSchool": "Oklahoma State"
     }
   ],
   [
@@ -2752,7 +2852,8 @@
       "stl": 1.7,
       "blk": 0.3,
       "tov": 0.9,
-      "pts": 11.4
+      "pts": 11.4,
+      "oldSchool": "Villanova"
     }
   ],
   [
@@ -2779,7 +2880,8 @@
       "stl": 0.7,
       "blk": 1.2,
       "tov": 3.2,
-      "pts": 17.7
+      "pts": 17.7,
+      "oldSchool": "Kentucky"
     }
   ],
   [
@@ -2806,7 +2908,8 @@
       "stl": 0.1,
       "blk": 0.2,
       "tov": 0.4,
-      "pts": 1.9
+      "pts": 1.9,
+      "oldSchool": "Western Carolina"
     }
   ],
   [
@@ -2833,7 +2936,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 10.4
+      "pts": 10.4,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -2860,7 +2964,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 2.1,
-      "pts": 11.3
+      "pts": 11.3,
+      "oldSchool": "Troy"
     }
   ],
   [
@@ -2887,7 +2992,8 @@
       "stl": 0.3,
       "blk": 1.1,
       "tov": 1.7,
-      "pts": 10
+      "pts": 10,
+      "oldSchool": "Northwestern"
     }
   ],
   [
@@ -2914,7 +3020,8 @@
       "stl": 0.1,
       "blk": 0,
       "tov": 0,
-      "pts": 0
+      "pts": 0,
+      "oldSchool": "East Carolina"
     }
   ],
   [
@@ -2941,7 +3048,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 1,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Wisconsin-Milwaukee"
     }
   ],
   [
@@ -2968,7 +3076,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.2,
-      "pts": 0.4
+      "pts": 0.4,
+      "oldSchool": "IUPUI"
     }
   ],
   [
@@ -2995,7 +3104,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 4.1
+      "pts": 4.1,
+      "oldSchool": "Troy"
     }
   ],
   [],
@@ -3024,7 +3134,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 7.4
+      "pts": 7.4,
+      "oldSchool": "Georgetown"
     }
   ],
   [
@@ -3051,7 +3162,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "Saint Mary's"
     }
   ],
   [
@@ -3078,7 +3190,8 @@
       "stl": 1.1,
       "blk": 0.4,
       "tov": 2.4,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Missouri State"
     }
   ],
   [
@@ -3105,7 +3218,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 3.2,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "South Alabama"
     }
   ],
   [
@@ -3132,7 +3246,8 @@
       "stl": 0.4,
       "blk": 1.1,
       "tov": 1.2,
-      "pts": 8.2
+      "pts": 8.2,
+      "oldSchool": "St. Bonaventure"
     }
   ],
   [
@@ -3159,7 +3274,8 @@
       "stl": 1.4,
       "blk": 1.6,
       "tov": 1.3,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "South Alabama"
     }
   ],
   [
@@ -3186,7 +3302,8 @@
       "stl": 0.7,
       "blk": 0.5,
       "tov": 0.9,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Virginia Tech"
     }
   ],
   [
@@ -3213,7 +3330,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 1,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "Xavier"
     }
   ],
   [
@@ -3240,7 +3358,8 @@
       "stl": 0.6,
       "blk": 0.3,
       "tov": 1.6,
-      "pts": 5.9
+      "pts": 5.9,
+      "oldSchool": "Bucknell"
     }
   ],
   [
@@ -3267,7 +3386,8 @@
       "stl": 1.8,
       "blk": 0.2,
       "tov": 2.6,
-      "pts": 15.8
+      "pts": 15.8,
+      "oldSchool": "Oklahoma"
     }
   ],
   [
@@ -3294,7 +3414,8 @@
       "stl": 0.2,
       "blk": 0.3,
       "tov": 0.5,
-      "pts": 2
+      "pts": 2,
+      "oldSchool": "St. Bonaventure"
     }
   ],
   [
@@ -3321,7 +3442,8 @@
       "stl": 0.5,
       "blk": 0.8,
       "tov": 1.6,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "Missouri-Kansas City"
     }
   ],
   [
@@ -3348,7 +3470,8 @@
       "stl": 2,
       "blk": 0.7,
       "tov": 2.1,
-      "pts": 10.7
+      "pts": 10.7,
+      "oldSchool": "Texas Tech"
     }
   ],
   [
@@ -3375,7 +3498,8 @@
       "stl": 0.4,
       "blk": 0.4,
       "tov": 1,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -3402,7 +3526,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 0.7,
-      "pts": 4.8
+      "pts": 4.8,
+      "oldSchool": "Arizona"
     }
   ],
   [
@@ -3429,7 +3554,8 @@
       "stl": 0.9,
       "blk": 0,
       "tov": 0.8,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "Chattanooga"
     }
   ],
   [
@@ -3456,7 +3582,8 @@
       "stl": 0.7,
       "blk": 0.9,
       "tov": 1.9,
-      "pts": 12.5
+      "pts": 12.5,
+      "oldSchool": "Winthrop"
     }
   ],
   [
@@ -3483,7 +3610,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 1.3,
-      "pts": 1.9
+      "pts": 1.9,
+      "oldSchool": "Illinois"
     }
   ],
   [
@@ -3510,7 +3638,8 @@
       "stl": 1.6,
       "blk": 0.2,
       "tov": 1.8,
-      "pts": 13.6
+      "pts": 13.6,
+      "oldSchool": "Oregon"
     }
   ],
   [],
@@ -3538,7 +3667,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 1.1,
-      "pts": 3.8
+      "pts": 3.8,
+      "oldSchool": "Oklahoma State"
     }
   ],
   [
@@ -3565,7 +3695,8 @@
       "stl": 1,
       "blk": 1.9,
       "tov": 2,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -3592,7 +3723,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 10.2
+      "pts": 10.2,
+      "oldSchool": "Missouri State"
     }
   ],
   [
@@ -3619,7 +3751,8 @@
       "stl": 0.4,
       "blk": 0.3,
       "tov": 0.9,
-      "pts": 3.4
+      "pts": 3.4,
+      "oldSchool": "Buffalo"
     }
   ],
   [
@@ -3646,7 +3779,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 1,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": ""
     }
   ],
   [],
@@ -3674,11 +3808,11 @@
       "stl": 0.3,
       "blk": 0.8,
       "tov": 1,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "St. Bonaventure"
     }
   ],
   [],
-  
   [
     {
       "firstName": "Noah",
@@ -3703,7 +3837,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 2.1,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "Washington State"
     }
   ],
   [
@@ -3730,7 +3865,8 @@
       "stl": 0.8,
       "blk": 0.5,
       "tov": 1.2,
-      "pts": 10.6
+      "pts": 10.6,
+      "oldSchool": "Colorado State"
     },
     {
       "firstName": "Kendle",
@@ -3755,7 +3891,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 1.4,
-      "pts": 7.5
+      "pts": 7.5,
+      "oldSchool": "Colorado State"
     }
   ],
   [
@@ -3782,7 +3919,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 1.6,
-      "pts": 11.2
+      "pts": 11.2,
+      "oldSchool": "Boston College"
     }
   ],
   [
@@ -3809,7 +3947,8 @@
       "stl": 1.6,
       "blk": 0.2,
       "tov": 2.8,
-      "pts": 19.1
+      "pts": 19.1,
+      "oldSchool": "Oklahoma"
     }
   ],
   [
@@ -3836,7 +3975,8 @@
       "stl": 1,
       "blk": 0.3,
       "tov": 2.4,
-      "pts": 12.9
+      "pts": 12.9,
+      "oldSchool": "Elon"
     }
   ],
   [
@@ -3863,7 +4003,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 2.2,
-      "pts": 12.8
+      "pts": 12.8,
+      "oldSchool": "Coastal Carolina"
     }
   ],
   [
@@ -3890,7 +4031,8 @@
       "stl": 2,
       "blk": 0.2,
       "tov": 3.1,
-      "pts": 21.9
+      "pts": 21.9,
+      "oldSchool": "SMU"
     }
   ],
   [
@@ -3917,7 +4059,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 1,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "Montana State"
     }
   ],
   [
@@ -3944,7 +4087,8 @@
       "stl": 0.7,
       "blk": 1.1,
       "tov": 1,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Georgia State"
     },
     {
       "firstName": "Jalen",
@@ -3969,7 +4113,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 0.6,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "Georgia State"
     }
   ],
   [
@@ -3996,7 +4141,8 @@
       "stl": 0.6,
       "blk": 0.8,
       "tov": 1.9,
-      "pts": 6.7
+      "pts": 6.7,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -4023,7 +4169,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 7.1
+      "pts": 7.1,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -4050,7 +4197,8 @@
       "stl": 1,
       "blk": 0,
       "tov": 1.9,
-      "pts": 8.9
+      "pts": 8.9,
+      "oldSchool": "New Mexico State"
     }
   ],
   [
@@ -4077,7 +4225,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.7,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Wisconsin"
     }
   ],
   [
@@ -4104,7 +4253,8 @@
       "stl": 1,
       "blk": 0.8,
       "tov": 1.1,
-      "pts": 8.8
+      "pts": 8.8,
+      "oldSchool": "Saint Peter's"
     },
     {
       "firstName": "Hassan",
@@ -4129,7 +4279,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 1,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -4156,7 +4307,8 @@
       "stl": 1,
       "blk": 0.8,
       "tov": 1.1,
-      "pts": 8.8
+      "pts": 8.8,
+      "oldSchool": "Saint Peter's"
     },
     {
       "firstName": "Fousseyni",
@@ -4181,7 +4333,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 1,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -4208,7 +4361,8 @@
       "stl": 1.4,
       "blk": 0.2,
       "tov": 1.4,
-      "pts": 12.7
+      "pts": 12.7,
+      "oldSchool": "Stetson"
     }
   ],
   [
@@ -4235,7 +4389,8 @@
       "stl": 0.2,
       "blk": 0.5,
       "tov": 2,
-      "pts": 10.2
+      "pts": 10.2,
+      "oldSchool": "Stanford"
     }
   ],
   [
@@ -4262,7 +4417,8 @@
       "stl": 0.5,
       "blk": 1.1,
       "tov": 1.9,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "Creighton"
     }
   ],
   [
@@ -4289,7 +4445,8 @@
       "stl": 1.3,
       "blk": 0.4,
       "tov": 2.3,
-      "pts": 15.8
+      "pts": 15.8,
+      "oldSchool": "Charlotte"
     }
   ],
   [
@@ -4316,7 +4473,8 @@
       "stl": 0.4,
       "blk": 1.1,
       "tov": 0.8,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "Florida"
     }
   ],
   [
@@ -4343,7 +4501,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 1.2,
-      "pts": 5.5
+      "pts": 5.5,
+      "oldSchool": "Oklahoma State"
     }
   ],
   [
@@ -4370,7 +4529,8 @@
       "stl": 0.6,
       "blk": 0.4,
       "tov": 0.5,
-      "pts": 2.8
+      "pts": 2.8,
+      "oldSchool": "VCU"
     }
   ],
   [
@@ -4397,7 +4557,8 @@
       "stl": 0.3,
       "blk": 0.7,
       "tov": 1.1,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "Stephen F. Austin"
     }
   ],
   [
@@ -4424,7 +4585,8 @@
       "stl": 0.2,
       "blk": 0.7,
       "tov": 0.7,
-      "pts": 6.1
+      "pts": 6.1,
+      "oldSchool": "Ohio"
     }
   ],
   [
@@ -4451,7 +4613,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 1.4,
-      "pts": 2.6
+      "pts": 2.6,
+      "oldSchool": "Georgia"
     }
   ],
   [],
@@ -4479,7 +4642,8 @@
       "stl": 0.4,
       "blk": 1,
       "tov": 1.8,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "Oklahoma"
     }
   ],
   [
@@ -4506,7 +4670,8 @@
       "stl": 0.2,
       "blk": 0,
       "tov": 0,
-      "pts": 1.5
+      "pts": 1.5,
+      "oldSchool": "Binghamton"
     }
   ],
   [
@@ -4533,7 +4698,8 @@
       "stl": 0.8,
       "blk": 0.6,
       "tov": 2.3,
-      "pts": 15.8
+      "pts": 15.8,
+      "oldSchool": "Kentucky"
     }
   ],
   [
@@ -4560,7 +4726,8 @@
       "stl": 1.4,
       "blk": 0.5,
       "tov": 0.9,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "Alabama"
     }
   ],
   [
@@ -4587,7 +4754,8 @@
       "stl": 1,
       "blk": 0.9,
       "tov": 1.5,
-      "pts": 10.7
+      "pts": 10.7,
+      "oldSchool": "Delaware"
     }
   ],
   [
@@ -4614,7 +4782,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 2.4
+      "pts": 2.4,
+      "oldSchool": "Denver"
     }
   ],
   [
@@ -4641,7 +4810,8 @@
       "stl": 1.1,
       "blk": 0.8,
       "tov": 2.2,
-      "pts": 11.6
+      "pts": 11.6,
+      "oldSchool": "Michigan"
     }
   ],
   [
@@ -4668,7 +4838,8 @@
       "stl": 0.8,
       "blk": 0.6,
       "tov": 1,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "Wichita State"
     }
   ],
   [
@@ -4695,7 +4866,8 @@
       "stl": 0.6,
       "blk": 0,
       "tov": 2,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "Oklahoma"
     }
   ],
   [
@@ -4722,7 +4894,8 @@
       "stl": 0.7,
       "blk": 1,
       "tov": 0.9,
-      "pts": 7.2
+      "pts": 7.2,
+      "oldSchool": "Georgia"
     }
   ],
   [
@@ -4749,7 +4922,8 @@
       "stl": 0.7,
       "blk": 3.2,
       "tov": 1,
-      "pts": 12.7
+      "pts": 12.7,
+      "oldSchool": "Arkansas"
     }
   ],
   [
@@ -4776,7 +4950,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 1.9,
-      "pts": 16.4
+      "pts": 16.4,
+      "oldSchool": "UTEP"
     }
   ],
   [
@@ -4803,7 +4978,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "East Carolina"
     }
   ],
   [
@@ -4830,7 +5006,8 @@
       "stl": 1.5,
       "blk": 0.2,
       "tov": 1.8,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "University of the Pacific"
     }
   ],
   [
@@ -4857,7 +5034,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "Georgia"
     }
   ],
   [
@@ -4884,7 +5062,8 @@
       "stl": 0.2,
       "blk": 0.5,
       "tov": 0.7,
-      "pts": 1.6
+      "pts": 1.6,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -4911,7 +5090,8 @@
       "stl": 0.2,
       "blk": 0,
       "tov": 0.2,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "East Carolina"
     }
   ],
   [
@@ -4938,7 +5118,8 @@
       "stl": 0.9,
       "blk": 2.2,
       "tov": 2.8,
-      "pts": 22
+      "pts": 22,
+      "oldSchool": "Virginia Military Institute"
     }
   ],
   [
@@ -4965,7 +5146,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 4.8
+      "pts": 4.8,
+      "oldSchool": "Cleveland State"
     }
   ],
   [],
@@ -4993,7 +5175,8 @@
       "stl": 1.5,
       "blk": 1.2,
       "tov": 1.9,
-      "pts": 6.6
+      "pts": 6.6,
+      "oldSchool": "Georgetown"
     }
   ],
   [
@@ -5020,7 +5203,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 0.7,
-      "pts": 4.4
+      "pts": 4.4,
+      "oldSchool": "Illinois State"
     }
   ],
   [
@@ -5047,7 +5231,8 @@
       "stl": 0.9,
       "blk": 0,
       "tov": 1.1,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Georgia"
     }
   ],
   [
@@ -5074,7 +5259,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 1.2,
-      "pts": 5.5
+      "pts": 5.5,
+      "oldSchool": "UTSA"
     }
   ],
   [
@@ -5101,7 +5287,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 2,
-      "pts": 12.6
+      "pts": 12.6,
+      "oldSchool": "Clemson"
     }
   ],
   [
@@ -5128,7 +5315,8 @@
       "stl": 2.6,
       "blk": 0.5,
       "tov": 0.8,
-      "pts": 14.7
+      "pts": 14.7,
+      "oldSchool": "Cleveland State"
     }
   ],
   [
@@ -5155,7 +5343,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 2,
-      "pts": 15.4
+      "pts": 15.4,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -5182,7 +5371,8 @@
       "stl": 0.5,
       "blk": 0.5,
       "tov": 2,
-      "pts": 5
+      "pts": 5,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -5209,7 +5399,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 5.4
+      "pts": 5.4,
+      "oldSchool": "Saint Peter's"
     }
   ],
   [
@@ -5236,7 +5427,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 1.7,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "Texas State"
     }
   ],
   [
@@ -5263,7 +5455,8 @@
       "stl": 1.8,
       "blk": 0.1,
       "tov": 3.4,
-      "pts": 18.8
+      "pts": 18.8,
+      "oldSchool": "Florida"
     }
   ],
   [
@@ -5290,7 +5483,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 1,
-      "pts": 11
+      "pts": 11,
+      "oldSchool": "Louisville"
     }
   ],
   [
@@ -5317,7 +5511,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 1.5,
-      "pts": 5.3
+      "pts": 5.3,
+      "oldSchool": "USF"
     }
   ],
   [
@@ -5344,7 +5539,8 @@
       "stl": 0.8,
       "blk": 1.9,
       "tov": 1.3,
-      "pts": 9
+      "pts": 9,
+      "oldSchool": "Oregon"
     }
   ],
   [
@@ -5371,7 +5567,8 @@
       "stl": 0,
       "blk": 0.5,
       "tov": 0.7,
-      "pts": 2.5
+      "pts": 2.5,
+      "oldSchool": "Kansas State"
     }
   ],
   [
@@ -5398,7 +5595,8 @@
       "stl": 0.1,
       "blk": 0.6,
       "tov": 1.3,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "Kansas State"
     }
   ],
   [
@@ -5425,7 +5623,8 @@
       "stl": 1.1,
       "blk": 0.9,
       "tov": 2.7,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "Morehead State"
     }
   ],
   [
@@ -5452,7 +5651,8 @@
       "stl": 0.9,
       "blk": 2.4,
       "tov": 1.7,
-      "pts": 14.2
+      "pts": 14.2,
+      "oldSchool": "Morehead State"
     }
   ],
   [
@@ -5479,7 +5679,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 2.1,
-      "pts": 10.5
+      "pts": 10.5,
+      "oldSchool": "Kansas State"
     }
   ],
   [],
@@ -5507,7 +5708,8 @@
       "stl": 0.7,
       "blk": 0,
       "tov": 1,
-      "pts": 5.6
+      "pts": 5.6,
+      "oldSchool": "Virginia Military Institute"
     }
   ],
   [
@@ -5534,7 +5736,8 @@
       "stl": 1,
       "blk": 0.7,
       "tov": 2.8,
-      "pts": 13.1
+      "pts": 13.1,
+      "oldSchool": "Xavier"
     }
   ],
   [
@@ -5561,7 +5764,8 @@
       "stl": 0.2,
       "blk": 0,
       "tov": 0.3,
-      "pts": 1.3
+      "pts": 1.3,
+      "oldSchool": "Wisconsin-Green Bay"
     }
   ],
   [
@@ -5588,7 +5792,8 @@
       "stl": 1.3,
       "blk": 0,
       "tov": 2.9,
-      "pts": 18
+      "pts": 18,
+      "oldSchool": "Denver"
     }
   ],
   [
@@ -5615,7 +5820,8 @@
       "stl": 0.5,
       "blk": 0.6,
       "tov": 0.5,
-      "pts": 2.4
+      "pts": 2.4,
+      "oldSchool": "UTEP"
     }
   ],
   [
@@ -5642,7 +5848,8 @@
       "stl": 0.3,
       "blk": 1,
       "tov": 0.8,
-      "pts": 4.8
+      "pts": 4.8,
+      "oldSchool": "Illinois"
     }
   ],
   [
@@ -5669,7 +5876,8 @@
       "stl": 1,
       "blk": 0.5,
       "tov": 2.2,
-      "pts": 16.8
+      "pts": 16.8,
+      "oldSchool": "Memphis"
     }
   ],
   [
@@ -5696,7 +5904,8 @@
       "stl": 0.1,
       "blk": 0.3,
       "tov": 0.8,
-      "pts": 3.9
+      "pts": 3.9,
+      "oldSchool": "Western Illinois"
     }
   ],
   [
@@ -5723,7 +5932,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 1,
-      "pts": 5.3
+      "pts": 5.3,
+      "oldSchool": "Nevada"
     }
   ],
   [
@@ -5750,7 +5960,8 @@
       "stl": 1.6,
       "blk": 0.4,
       "tov": 1.8,
-      "pts": 7.3
+      "pts": 7.3,
+      "oldSchool": "Pittsburgh"
     }
   ],
   [],
@@ -5778,7 +5989,8 @@
       "stl": 1.2,
       "blk": 0.1,
       "tov": 1.9,
-      "pts": 12.5
+      "pts": 12.5,
+      "oldSchool": "Ohio"
     }
   ],
   [
@@ -5805,7 +6017,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.6,
-      "pts": 1.8
+      "pts": 1.8,
+      "oldSchool": "Arkansas"
     }
   ],
   [
@@ -5832,7 +6045,8 @@
       "stl": 0.2,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "Kansas State"
     }
   ],
   [
@@ -5859,7 +6073,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "Pittsburgh"
     }
   ],
   [
@@ -5886,7 +6101,8 @@
       "stl": 0.4,
       "blk": 0.8,
       "tov": 1,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "LSU"
     }
   ],
   [],
@@ -5914,7 +6130,8 @@
       "stl": 0.7,
       "blk": 0.3,
       "tov": 1,
-      "pts": 7.4
+      "pts": 7.4,
+      "oldSchool": "Oakland"
     }
   ],
   [
@@ -5941,7 +6158,8 @@
       "stl": 1.5,
       "blk": 0.6,
       "tov": 2.2,
-      "pts": 12.2
+      "pts": 12.2,
+      "oldSchool": "Louisville"
     }
   ],
   [
@@ -5968,7 +6186,8 @@
       "stl": 0.6,
       "blk": 0.5,
       "tov": 1.3,
-      "pts": 7.7
+      "pts": 7.7,
+      "oldSchool": "Virginia"
     }
   ],
   [
@@ -5995,7 +6214,8 @@
       "stl": 0.4,
       "blk": 0.5,
       "tov": 1.5,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -6022,7 +6242,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 1.3,
-      "pts": 4.4
+      "pts": 4.4,
+      "oldSchool": "Idaho State"
     }
   ],
   [
@@ -6049,7 +6270,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 1.6,
-      "pts": 10.5
+      "pts": 10.5,
+      "oldSchool": "Texas"
     }
   ],
   [],
@@ -6077,7 +6299,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.6,
-      "pts": 2.1
+      "pts": 2.1,
+      "oldSchool": "LSU"
     }
   ],
   [
@@ -6104,7 +6327,8 @@
       "stl": 1.3,
       "blk": 0.3,
       "tov": 2.3,
-      "pts": 14.6
+      "pts": 14.6,
+      "oldSchool": "Oregon"
     }
   ],
   [
@@ -6131,7 +6355,8 @@
       "stl": 0.6,
       "blk": 0.7,
       "tov": 1.2,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Maryland"
     }
   ],
   [
@@ -6158,7 +6383,8 @@
       "stl": 1.8,
       "blk": 0.6,
       "tov": 3.1,
-      "pts": 11.5
+      "pts": 11.5,
+      "oldSchool": "LSU"
     }
   ],
   [
@@ -6185,7 +6411,8 @@
       "stl": 1,
       "blk": 0.2,
       "tov": 1.7,
-      "pts": 13.6
+      "pts": 13.6,
+      "oldSchool": "Kansas State"
     }
   ],
   [
@@ -6212,7 +6439,8 @@
       "stl": 0.4,
       "blk": 0.7,
       "tov": 0.7,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Syracuse"
     }
   ],
   [
@@ -6239,7 +6467,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0,
-      "pts": 0.7
+      "pts": 0.7,
+      "oldSchool": "Washington State"
     }
   ],
   [
@@ -6266,7 +6495,8 @@
       "stl": 1.3,
       "blk": 0.3,
       "tov": 2,
-      "pts": 9.3
+      "pts": 9.3,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -6293,7 +6523,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.7,
-      "pts": 9.1
+      "pts": 9.1,
+      "oldSchool": "Georgetown"
     }
   ],
   [
@@ -6320,7 +6551,8 @@
       "stl": 0.7,
       "blk": 0.5,
       "tov": 0.8,
-      "pts": 5.1
+      "pts": 5.1,
+      "oldSchool": "Georgetown"
     }
   ],
   [
@@ -6347,7 +6579,8 @@
       "stl": 1.3,
       "blk": 0.1,
       "tov": 2.3,
-      "pts": 7.6
+      "pts": 7.6,
+      "oldSchool": "Iowa State"
     }
   ],
   [],
@@ -6375,7 +6608,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 1.2,
-      "pts": 2.5
+      "pts": 2.5,
+      "oldSchool": "Wake Forest"
     }
   ],
   [],
@@ -6403,7 +6637,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 0.6,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "Alabama"
     }
   ],
   [
@@ -6430,7 +6665,8 @@
       "stl": 0.3,
       "blk": 0.7,
       "tov": 0.5,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "LSU"
     }
   ],
   [
@@ -6457,7 +6693,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1.1,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "Connecticut"
     }
   ],
   [
@@ -6484,7 +6721,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 1.4
+      "pts": 1.4,
+      "oldSchool": "Albany"
     }
   ],
   [
@@ -6511,7 +6749,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "UCLA"
     }
   ],
   [
@@ -6538,7 +6777,8 @@
       "stl": 0.6,
       "blk": 0.3,
       "tov": 1.7,
-      "pts": 6.5
+      "pts": 6.5,
+      "oldSchool": "Akron"
     }
   ],
   [
@@ -6565,7 +6805,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 1.1,
-      "pts": 17
+      "pts": 17,
+      "oldSchool": "Oregon State"
     }
   ],
   [
@@ -6592,7 +6833,8 @@
       "stl": 0.1,
       "blk": 0.4,
       "tov": 0.7,
-      "pts": 2.4
+      "pts": 2.4,
+      "oldSchool": "Florida State"
     }
   ],
   [
@@ -6619,7 +6861,8 @@
       "stl": 1.1,
       "blk": 1.1,
       "tov": 1.9,
-      "pts": 13.1
+      "pts": 13.1,
+      "oldSchool": "Arkansas State"
     }
   ],
   [
@@ -6646,7 +6889,8 @@
       "stl": 0.5,
       "blk": 1.9,
       "tov": 2.1,
-      "pts": 12
+      "pts": 12,
+      "oldSchool": "McNeese State"
     }
   ],
   [
@@ -6673,7 +6917,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 1.6,
-      "pts": 6.8
+      "pts": 6.8,
+      "oldSchool": "Kansas State"
     }
   ],
   [],
@@ -6701,7 +6946,8 @@
       "stl": 0,
       "blk": 0.2,
       "tov": 1.7,
-      "pts": 3
+      "pts": 3,
+      "oldSchool": "Marist"
     }
   ],
   [
@@ -6728,7 +6974,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.6,
-      "pts": 11.5
+      "pts": 11.5,
+      "oldSchool": "Texas Tech"
     }
   ],
   [
@@ -6755,7 +7002,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.5,
-      "pts": 7.6
+      "pts": 7.6,
+      "oldSchool": "Southern"
     }
   ],
   [],
@@ -6783,7 +7031,8 @@
       "stl": 0.9,
       "blk": 0.6,
       "tov": 2.8,
-      "pts": 13.8
+      "pts": 13.8,
+      "oldSchool": "Memphis"
     }
   ],
   [
@@ -6810,7 +7059,8 @@
       "stl": 0.6,
       "blk": 0,
       "tov": 1.1,
-      "pts": 7.5
+      "pts": 7.5,
+      "oldSchool": "FIU"
     }
   ],
   [
@@ -6837,7 +7087,8 @@
       "stl": 0.6,
       "blk": 1.9,
       "tov": 1.3,
-      "pts": 11.6
+      "pts": 11.6,
+      "oldSchool": "NC State"
     }
   ],
   [
@@ -6864,7 +7115,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 1,
-      "pts": 9.3
+      "pts": 9.3,
+      "oldSchool": "Colorado"
     }
   ],
   [
@@ -6891,7 +7143,8 @@
       "stl": 0.9,
       "blk": 0.7,
       "tov": 0.7,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "Colorado"
     }
   ],
   [
@@ -6918,7 +7171,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 3.4
+      "pts": 3.4,
+      "oldSchool": "Rice"
     }
   ],
   [
@@ -6945,7 +7199,8 @@
       "stl": 0.8,
       "blk": 0.5,
       "tov": 1.2,
-      "pts": 10.6
+      "pts": 10.6,
+      "oldSchool": "Arkansas"
     },
     {
       "firstName": "Chance",
@@ -6970,7 +7225,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 1.4,
-      "pts": 7.5
+      "pts": 7.5,
+      "oldSchool": "Arkansas"
     }
   ],
   [
@@ -6997,7 +7253,8 @@
       "stl": 1,
       "blk": 0.3,
       "tov": 2.3,
-      "pts": 13.9
+      "pts": 13.9,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -7024,7 +7281,8 @@
       "stl": 0,
       "blk": 0.1,
       "tov": 0.1,
-      "pts": 1.3
+      "pts": 1.3,
+      "oldSchool": "Memphis"
     }
   ],
   [
@@ -7051,7 +7309,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 1.3,
-      "pts": 6.6
+      "pts": 6.6,
+      "oldSchool": "East Carolina"
     }
   ],
   [
@@ -7078,7 +7337,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 1.8,
-      "pts": 6.8
+      "pts": 6.8,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -7105,7 +7365,8 @@
       "stl": 0.9,
       "blk": 0,
       "tov": 1.6,
-      "pts": 9.4
+      "pts": 9.4,
+      "oldSchool": "Iowa"
     }
   ],
   [
@@ -7132,7 +7393,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 1.5,
-      "pts": 12.3
+      "pts": 12.3,
+      "oldSchool": ""
     }
   ],
   [
@@ -7159,7 +7421,8 @@
       "stl": 0.7,
       "blk": 0,
       "tov": 1.5,
-      "pts": 4.7
+      "pts": 4.7,
+      "oldSchool": "Connecticut"
     }
   ],
   [
@@ -7186,7 +7449,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.7,
-      "pts": 3.6
+      "pts": 3.6,
+      "oldSchool": "Wright State"
     }
   ],
   [],
@@ -7214,7 +7478,8 @@
       "stl": 2,
       "blk": 0.2,
       "tov": 2.7,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Illinois"
     }
   ],
   [
@@ -7241,7 +7506,8 @@
       "stl": 0.2,
       "blk": 0.4,
       "tov": 0.7,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "Northern Colorado"
     }
   ],
   [
@@ -7268,7 +7534,8 @@
       "stl": 1.2,
       "blk": 0.8,
       "tov": 1.5,
-      "pts": 17.7
+      "pts": 17.7,
+      "oldSchool": "Murray State"
     },
     {
       "firstName": "KJ",
@@ -7293,7 +7560,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 0.9,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -7320,7 +7588,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 0.6,
-      "pts": 3
+      "pts": 3,
+      "oldSchool": "TCU"
     }
   ],
   [],
@@ -7348,7 +7617,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 5.6
+      "pts": 5.6,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -7375,7 +7645,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.5,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "Murray State"
     }
   ],
   [
@@ -7402,7 +7673,8 @@
       "stl": 0.9,
       "blk": 0,
       "tov": 2.3,
-      "pts": 6.9
+      "pts": 6.9,
+      "oldSchool": "Oregon State"
     }
   ],
   [
@@ -7429,7 +7701,8 @@
       "stl": 1.9,
       "blk": 0.4,
       "tov": 2.4,
-      "pts": 16
+      "pts": 16,
+      "oldSchool": "Ole Miss"
     }
   ],
   [
@@ -7456,7 +7729,8 @@
       "stl": 1.7,
       "blk": 0.1,
       "tov": 1.2,
-      "pts": 10.7
+      "pts": 10.7,
+      "oldSchool": "Ole Miss"
     }
   ],
   [
@@ -7483,7 +7757,8 @@
       "stl": 1,
       "blk": 0.1,
       "tov": 1.7,
-      "pts": 15.8
+      "pts": 15.8,
+      "oldSchool": "Iowa State"
     }
   ],
   [
@@ -7510,7 +7785,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 9.7
+      "pts": 9.7,
+      "oldSchool": "West Virginia"
     }
   ],
   [],
@@ -7538,7 +7814,8 @@
       "stl": 0.1,
       "blk": 0.5,
       "tov": 0.3,
-      "pts": 0.8
+      "pts": 0.8,
+      "oldSchool": "Iona"
     }
   ],
   [
@@ -7565,7 +7842,8 @@
       "stl": 0.3,
       "blk": 0.5,
       "tov": 0.4,
-      "pts": 0.9
+      "pts": 0.9,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -7592,7 +7870,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.3,
-      "pts": 6.1
+      "pts": 6.1,
+      "oldSchool": "Virginia"
     }
   ],
   [
@@ -7619,7 +7898,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 2.4,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "East Carolina"
     }
   ],
   [
@@ -7646,7 +7926,8 @@
       "stl": 0.7,
       "blk": 0.5,
       "tov": 1.1,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Temple"
     }
   ],
   [
@@ -7673,7 +7954,8 @@
       "stl": 0.9,
       "blk": 1.4,
       "tov": 0.9,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Rhode Island"
     },
     {
       "firstName": "Makhi",
@@ -7698,7 +7980,8 @@
       "stl": 0.4,
       "blk": 1.5,
       "tov": 0.6,
-      "pts": 3.6
+      "pts": 3.6,
+      "oldSchool": "Rhode Island"
     }
   ],
   [
@@ -7725,7 +8008,8 @@
       "stl": 0.9,
       "blk": 1.4,
       "tov": 0.9,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Rhode Island"
     },
     {
       "firstName": "Makhel",
@@ -7750,7 +8034,8 @@
       "stl": 0.4,
       "blk": 1.5,
       "tov": 0.6,
-      "pts": 3.6
+      "pts": 3.6,
+      "oldSchool": "Rhode Island"
     }
   ],
   [
@@ -7777,7 +8062,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 1.2,
-      "pts": 6.3
+      "pts": 6.3,
+      "oldSchool": "Duquesne"
     }
   ],
   [
@@ -7804,7 +8090,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 1,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "South Carolina Upstate"
     }
   ],
   [
@@ -7831,7 +8118,8 @@
       "stl": 1.3,
       "blk": 0.2,
       "tov": 2.2,
-      "pts": 16.1
+      "pts": 16.1,
+      "oldSchool": "Indiana"
     }
   ],
   [
@@ -7858,7 +8146,8 @@
       "stl": 0.1,
       "blk": 0,
       "tov": 0.4,
-      "pts": 1.4
+      "pts": 1.4,
+      "oldSchool": "Vanderbilt"
     }
   ],
   [
@@ -7885,7 +8174,8 @@
       "stl": 1.8,
       "blk": 1.1,
       "tov": 1.6,
-      "pts": 13
+      "pts": 13,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -7912,7 +8202,8 @@
       "stl": 0.2,
       "blk": 0.1,
       "tov": 0.5,
-      "pts": 8.2
+      "pts": 8.2,
+      "oldSchool": "Ole Miss"
     }
   ],
   [
@@ -7939,7 +8230,8 @@
       "stl": 1,
       "blk": 0.6,
       "tov": 3.1,
-      "pts": 16.6
+      "pts": 16.6,
+      "oldSchool": "Samford"
     }
   ],
   [
@@ -7966,7 +8258,8 @@
       "stl": 0.7,
       "blk": 0.3,
       "tov": 1.4,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "William & Mary"
     }
   ],
   [
@@ -7993,7 +8286,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 1.4,
-      "pts": 11.8
+      "pts": 11.8,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -8020,7 +8314,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 1.6
+      "pts": 1.6,
+      "oldSchool": "Washington State"
     }
   ],
   [
@@ -8047,7 +8342,8 @@
       "stl": 0.6,
       "blk": 1.2,
       "tov": 1.1,
-      "pts": 5.5
+      "pts": 5.5,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -8074,7 +8370,8 @@
       "stl": 1.4,
       "blk": 0.8,
       "tov": 2,
-      "pts": 9.3
+      "pts": 9.3,
+      "oldSchool": "Louisville"
     }
   ],
   [],
@@ -8102,7 +8399,8 @@
       "stl": 0.6,
       "blk": 0.4,
       "tov": 1.1,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "New Mexico"
     }
   ],
   [
@@ -8129,7 +8427,8 @@
       "stl": 0.5,
       "blk": 2.5,
       "tov": 0.6,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "Western Kentucky"
     }
   ],
   [],
@@ -8157,7 +8456,8 @@
       "stl": 1.3,
       "blk": 0.5,
       "tov": 2.6,
-      "pts": 17.2
+      "pts": 17.2,
+      "oldSchool": "Texas Tech"
     }
   ],
   [
@@ -8184,7 +8484,8 @@
       "stl": 0.8,
       "blk": 0.7,
       "tov": 1.5,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "Vanderbilt"
     }
   ],
   [
@@ -8211,7 +8512,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 1.1,
-      "pts": 5.7
+      "pts": 5.7,
+      "oldSchool": "Butler"
     }
   ],
   [
@@ -8238,7 +8540,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 2,
-      "pts": 12.8
+      "pts": 12.8,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -8265,7 +8568,8 @@
       "stl": 1.2,
       "blk": 0,
       "tov": 1.8,
-      "pts": 10
+      "pts": 10,
+      "oldSchool": "Vanderbilt"
     }
   ],
   [
@@ -8292,7 +8596,8 @@
       "stl": 0.8,
       "blk": 0.2,
       "tov": 2,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "Kansas State"
     }
   ],
   [
@@ -8319,7 +8624,8 @@
       "stl": 1.7,
       "blk": 0.3,
       "tov": 2.5,
-      "pts": 11.3
+      "pts": 11.3,
+      "oldSchool": "Holy Cross"
     }
   ],
   [
@@ -8346,7 +8652,8 @@
       "stl": 1.5,
       "blk": 0.2,
       "tov": 3,
-      "pts": 13.2
+      "pts": 13.2,
+      "oldSchool": "Bradley"
     }
   ],
   [
@@ -8373,7 +8680,8 @@
       "stl": 0.7,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 4.7
+      "pts": 4.7,
+      "oldSchool": "North Texas"
     }
   ],
   [
@@ -8400,7 +8708,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 0.9,
-      "pts": 7.3
+      "pts": 7.3,
+      "oldSchool": ""
     }
   ],
   [
@@ -8427,7 +8736,8 @@
       "stl": 1.7,
       "blk": 0,
       "tov": 1.8,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "Oregon State"
     }
   ],
   [
@@ -8454,7 +8764,8 @@
       "stl": 2,
       "blk": 0.1,
       "tov": 1.4,
-      "pts": 13.2
+      "pts": 13.2,
+      "oldSchool": "Loyola Maryland"
     }
   ],
   [
@@ -8481,7 +8792,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 0.8,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "Indiana"
     }
   ],
   [
@@ -8508,7 +8820,8 @@
       "stl": 0,
       "blk": 0.4,
       "tov": 0.5,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "Eastern Michigan"
     }
   ],
   [
@@ -8535,7 +8848,8 @@
       "stl": 1.3,
       "blk": 0.2,
       "tov": 2.7,
-      "pts": 13.3
+      "pts": 13.3,
+      "oldSchool": "LSU"
     }
   ],
   [
@@ -8562,7 +8876,8 @@
       "stl": 0.3,
       "blk": 0.5,
       "tov": 1.1,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Northwestern"
     }
   ],
   [
@@ -8589,7 +8904,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Troy"
     }
   ],
   [],
@@ -8617,7 +8933,8 @@
       "stl": 0.2,
       "blk": 0.9,
       "tov": 0.8,
-      "pts": 5.5
+      "pts": 5.5,
+      "oldSchool": "Indiana"
     }
   ],
   [
@@ -8644,7 +8961,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 1.7
+      "pts": 1.7,
+      "oldSchool": "San Jose State"
     }
   ],
   [
@@ -8671,7 +8989,8 @@
       "stl": 0.3,
       "blk": 0.5,
       "tov": 1,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Alabama A&M"
     }
   ],
   [
@@ -8698,7 +9017,8 @@
       "stl": 0.2,
       "blk": 0.9,
       "tov": 1.3,
-      "pts": 6.7
+      "pts": 6.7,
+      "oldSchool": "Temple"
     }
   ],
   [
@@ -8725,7 +9045,8 @@
       "stl": 1.7,
       "blk": 0.5,
       "tov": 1.4,
-      "pts": 13.6
+      "pts": 13.6,
+      "oldSchool": "Auburn"
     },
     {
       "firstName": "Devan",
@@ -8750,7 +9071,8 @@
       "stl": 0.6,
       "blk": 0.8,
       "tov": 1.4,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "Auburn"
     }
   ],
   [
@@ -8777,7 +9099,8 @@
       "stl": 0.5,
       "blk": 0.2,
       "tov": 1.1,
-      "pts": 9.3
+      "pts": 9.3,
+      "oldSchool": "Kentucky"
     }
   ],
   [
@@ -8804,7 +9127,8 @@
       "stl": 0.4,
       "blk": 1.2,
       "tov": 0.6,
-      "pts": 4.6
+      "pts": 4.6,
+      "oldSchool": "La Salle"
     }
   ],
   [
@@ -8831,7 +9155,8 @@
       "stl": 1.4,
       "blk": 0.5,
       "tov": 2.7,
-      "pts": 13.7
+      "pts": 13.7,
+      "oldSchool": "LSU"
     }
   ],
   [
@@ -8858,7 +9183,8 @@
       "stl": 0.3,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Richmond"
     }
   ],
   [],
@@ -8886,7 +9212,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 6
+      "pts": 6,
+      "oldSchool": "Coppin State"
     }
   ],
   [
@@ -8913,7 +9240,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 2
+      "pts": 2,
+      "oldSchool": "Valparaiso"
     }
   ],
   [
@@ -8940,7 +9268,8 @@
       "stl": 2.1,
       "blk": 0.5,
       "tov": 1.7,
-      "pts": 11.3
+      "pts": 11.3,
+      "oldSchool": "Georgia State"
     }
   ],
   [
@@ -8967,7 +9296,8 @@
       "stl": 0.7,
       "blk": 0.6,
       "tov": 1.3,
-      "pts": 15.2
+      "pts": 15.2,
+      "oldSchool": "USF"
     }
   ],
   [
@@ -8994,7 +9324,8 @@
       "stl": 0.1,
       "blk": 0.2,
       "tov": 0.3,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "Nebraska"
     }
   ],
   [
@@ -9021,7 +9352,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.6,
-      "pts": 2.5
+      "pts": 2.5,
+      "oldSchool": "Dayton"
     }
   ],
   [
@@ -9048,7 +9380,8 @@
       "stl": 0.1,
       "blk": 0,
       "tov": 0.5,
-      "pts": 2.6
+      "pts": 2.6,
+      "oldSchool": "Ohio"
     }
   ],
   [
@@ -9075,7 +9408,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 1.5,
-      "pts": 10.5
+      "pts": 10.5,
+      "oldSchool": "UC Davis"
     }
   ],
   [
@@ -9102,7 +9436,8 @@
       "stl": 1,
       "blk": 0.1,
       "tov": 1.2,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "Indiana State"
     }
   ],
   [
@@ -9129,7 +9464,8 @@
       "stl": 0.5,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Northern Iowa"
     }
   ],
   [
@@ -9156,7 +9492,8 @@
       "stl": 1.7,
       "blk": 0.5,
       "tov": 1.4,
-      "pts": 13.6
+      "pts": 13.6,
+      "oldSchool": "Nevada"
     },
     {
       "firstName": "Desmond",
@@ -9181,7 +9518,8 @@
       "stl": 0.6,
       "blk": 0.8,
       "tov": 1.4,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "Nevada"
     }
   ],
   [
@@ -9208,7 +9546,8 @@
       "stl": 1,
       "blk": 1.2,
       "tov": 2.2,
-      "pts": 11.8
+      "pts": 11.8,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -9235,7 +9574,8 @@
       "stl": 0.7,
       "blk": 0.3,
       "tov": 1.7,
-      "pts": 13.4
+      "pts": 13.4,
+      "oldSchool": ""
     }
   ],
   [
@@ -9262,7 +9602,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 2.2,
-      "pts": 15.4
+      "pts": 15.4,
+      "oldSchool": "South Carolina"
     }
   ],
   [
@@ -9289,7 +9630,8 @@
       "stl": 0.4,
       "blk": 0.7,
       "tov": 2.4,
-      "pts": 14.6
+      "pts": 14.6,
+      "oldSchool": "Virginia Tech"
     }
   ],
   [
@@ -9316,7 +9658,8 @@
       "stl": 0.8,
       "blk": 0.5,
       "tov": 1.3,
-      "pts": 7.1
+      "pts": 7.1,
+      "oldSchool": "Binghamton"
     }
   ],
   [
@@ -9343,7 +9686,8 @@
       "stl": 0.2,
       "blk": 0.1,
       "tov": 0.7,
-      "pts": 3.2
+      "pts": 3.2,
+      "oldSchool": "Indiana"
     }
   ],
   [
@@ -9370,7 +9714,8 @@
       "stl": 0.8,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 10.4
+      "pts": 10.4,
+      "oldSchool": "Marist"
     }
   ],
   [
@@ -9397,7 +9742,8 @@
       "stl": 0.3,
       "blk": 0.2,
       "tov": 2,
-      "pts": 7.9
+      "pts": 7.9,
+      "oldSchool": "USC"
     }
   ],
   [
@@ -9424,7 +9770,8 @@
       "stl": 0.4,
       "blk": 1.3,
       "tov": 1.2,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "USC"
     }
   ],
   [
@@ -9451,7 +9798,8 @@
       "stl": 1.3,
       "blk": 0.1,
       "tov": 1.6,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "Seattle"
     }
   ],
   [
@@ -9478,7 +9826,8 @@
       "stl": 0.3,
       "blk": 0.7,
       "tov": 0.6,
-      "pts": 4.9
+      "pts": 4.9,
+      "oldSchool": "Wofford"
     }
   ],
   [
@@ -9505,7 +9854,8 @@
       "stl": 0.5,
       "blk": 0.6,
       "tov": 1.7,
-      "pts": 11.2
+      "pts": 11.2,
+      "oldSchool": "Colorado State"
     }
   ],
   [
@@ -9532,7 +9882,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.6,
-      "pts": 4
+      "pts": 4,
+      "oldSchool": "Drexel"
     }
   ],
   [
@@ -9559,7 +9910,8 @@
       "stl": 1.2,
       "blk": 0,
       "tov": 1.7,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Georgia Tech"
     }
   ],
   [
@@ -9586,7 +9938,8 @@
       "stl": 1.4,
       "blk": 0.1,
       "tov": 1.6,
-      "pts": 12.3
+      "pts": 12.3,
+      "oldSchool": "Pittsburgh"
     }
   ],
   [
@@ -9613,7 +9966,8 @@
       "stl": 1.2,
       "blk": 0.2,
       "tov": 1,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "Wofford"
     }
   ],
   [
@@ -9640,7 +9994,8 @@
       "stl": 1,
       "blk": 0.3,
       "tov": 2.9,
-      "pts": 5.6
+      "pts": 5.6,
+      "oldSchool": "Richmond"
     }
   ],
   [
@@ -9667,7 +10022,8 @@
       "stl": 0.4,
       "blk": 0.9,
       "tov": 0.5,
-      "pts": 4.6
+      "pts": 4.6,
+      "oldSchool": "Jackson State"
     }
   ],
   [
@@ -9694,7 +10050,8 @@
       "stl": 1.8,
       "blk": 0.2,
       "tov": 2.1,
-      "pts": 13.2
+      "pts": 13.2,
+      "oldSchool": "Old Dominion"
     }
   ],
   [
@@ -9721,7 +10078,8 @@
       "stl": 0.4,
       "blk": 0.8,
       "tov": 0.9,
-      "pts": 4.4
+      "pts": 4.4,
+      "oldSchool": "FAU"
     }
   ],
   [
@@ -9748,7 +10106,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 12.5
+      "pts": 12.5,
+      "oldSchool": "Cal State Fullerton"
     }
   ],
   [
@@ -9775,7 +10134,8 @@
       "stl": 0.6,
       "blk": 0.4,
       "tov": 1.4,
-      "pts": 5.4
+      "pts": 5.4,
+      "oldSchool": "USC"
     }
   ],
   [
@@ -9802,7 +10162,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 1,
-      "pts": 7.1
+      "pts": 7.1,
+      "oldSchool": "Central Michigan"
     }
   ],
   [
@@ -9829,7 +10190,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.6,
-      "pts": 3.9
+      "pts": 3.9,
+      "oldSchool": "Southern Miss"
     }
   ],
   [],
@@ -9857,7 +10219,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 1.1,
-      "pts": 10
+      "pts": 10,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -9884,7 +10247,8 @@
       "stl": 1.1,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 15.4
+      "pts": 15.4,
+      "oldSchool": "Missouri State"
     },
     {
       "firstName": "Ja'Monta",
@@ -9909,7 +10273,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 0.3,
-      "pts": 0.3
+      "pts": 0.3,
+      "oldSchool": "Missouri State"
     }
   ],
   [
@@ -9936,7 +10301,8 @@
       "stl": 0.9,
       "blk": 0.6,
       "tov": 0.8,
-      "pts": 10.4
+      "pts": 10.4,
+      "oldSchool": "Belmont"
     }
   ],
   [
@@ -9963,7 +10329,8 @@
       "stl": 0.4,
       "blk": 1.1,
       "tov": 1.7,
-      "pts": 16.4
+      "pts": 16.4,
+      "oldSchool": "Wright State"
     }
   ],
   [
@@ -9990,7 +10357,8 @@
       "stl": 0.7,
       "blk": 0.5,
       "tov": 2.6,
-      "pts": 11.6
+      "pts": 11.6,
+      "oldSchool": "UCF"
     }
   ],
   [
@@ -10017,7 +10385,8 @@
       "stl": 1.5,
       "blk": 0.5,
       "tov": 1.5,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "Elon"
     }
   ],
   [],
@@ -10046,7 +10415,8 @@
       "stl": 1.1,
       "blk": 0.2,
       "tov": 1.4,
-      "pts": 11.3
+      "pts": 11.3,
+      "oldSchool": "Cal State Fullerton"
     }
   ],
   [
@@ -10073,7 +10443,8 @@
       "stl": 0.2,
       "blk": 0.3,
       "tov": 0.8,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "Tennessee"
     }
   ],
   [
@@ -10100,7 +10471,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 1,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Cincinnati"
     }
   ],
   [
@@ -10127,7 +10499,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 0.6,
-      "pts": 4
+      "pts": 4,
+      "oldSchool": "Ole Miss"
     }
   ],
   [
@@ -10154,7 +10527,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 1.7,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "San Diego State"
     }
   ],
   [
@@ -10181,7 +10555,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 1,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "Niagara"
     }
   ],
   [
@@ -10208,7 +10583,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.9,
-      "pts": 8.6
+      "pts": 8.6,
+      "oldSchool": "Longwood"
     }
   ],
   [
@@ -10235,7 +10611,8 @@
       "stl": 1,
       "blk": 1.5,
       "tov": 1.6,
-      "pts": 8.3
+      "pts": 8.3,
+      "oldSchool": "Nebraska"
     }
   ],
   [
@@ -10262,7 +10639,8 @@
       "stl": 1.5,
       "blk": 0,
       "tov": 0.9,
-      "pts": 7.9
+      "pts": 7.9,
+      "oldSchool": "Clemson"
     }
   ],
   [
@@ -10289,7 +10667,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 0.7,
-      "pts": 3.1
+      "pts": 3.1,
+      "oldSchool": "Gardner-Webb"
     },
     {
       "firstName": "D'Maurian",
@@ -10314,7 +10693,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 0.2,
-      "pts": 1
+      "pts": 1,
+      "oldSchool": "Gardner-Webb"
     }
   ],
   [
@@ -10341,7 +10721,8 @@
       "stl": 1.9,
       "blk": 0.8,
       "tov": 2.5,
-      "pts": 19.5
+      "pts": 19.5,
+      "oldSchool": "Missouri State"
     }
   ],
   [
@@ -10368,7 +10749,8 @@
       "stl": 0.5,
       "blk": 1.8,
       "tov": 1.5,
-      "pts": 9.2
+      "pts": 9.2,
+      "oldSchool": "Nevada"
     }
   ],
   [
@@ -10395,7 +10777,8 @@
       "stl": 0.2,
       "blk": 0,
       "tov": 0.3,
-      "pts": 3.1
+      "pts": 3.1,
+      "oldSchool": "Marist"
     }
   ],
   [
@@ -10422,7 +10805,8 @@
       "stl": 0.8,
       "blk": 0.9,
       "tov": 1.6,
-      "pts": 8.9
+      "pts": 8.9,
+      "oldSchool": "Long Beach State"
     }
   ],
   [
@@ -10449,7 +10833,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.5,
-      "pts": 1
+      "pts": 1,
+      "oldSchool": "Long Beach State"
     }
   ],
   [
@@ -10476,7 +10861,8 @@
       "stl": 0.4,
       "blk": 0.5,
       "tov": 1.3,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "VCU"
     }
   ],
   [
@@ -10503,7 +10889,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 2.2,
-      "pts": 11.1
+      "pts": 11.1,
+      "oldSchool": "Colgate"
     }
   ],
   [
@@ -10530,7 +10917,8 @@
       "stl": 0.2,
       "blk": 0.7,
       "tov": 0.3,
-      "pts": 3.4
+      "pts": 3.4,
+      "oldSchool": "Alabama"
     }
   ],
   [
@@ -10557,7 +10945,8 @@
       "stl": 0.4,
       "blk": 0.7,
       "tov": 1.4,
-      "pts": 4.1
+      "pts": 4.1,
+      "oldSchool": "Alabama"
     }
   ],
   [
@@ -10584,7 +10973,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.6,
-      "pts": 4.1
+      "pts": 4.1,
+      "oldSchool": "Cincinnati"
     }
   ],
   [
@@ -10611,7 +11001,8 @@
       "stl": 0.6,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 10.1
+      "pts": 10.1,
+      "oldSchool": "Gardner-Webb"
     }
   ],
   [
@@ -10638,7 +11029,8 @@
       "stl": 1.8,
       "blk": 0.1,
       "tov": 2.4,
-      "pts": 14.4
+      "pts": 14.4,
+      "oldSchool": "UAB"
     }
   ],
   [
@@ -10665,7 +11057,8 @@
       "stl": 0.2,
       "blk": 0.9,
       "tov": 1.7,
-      "pts": 9.8
+      "pts": 9.8,
+      "oldSchool": "Stanford"
     }
   ],
   [
@@ -10692,7 +11085,8 @@
       "stl": 0.6,
       "blk": 0.4,
       "tov": 1.1,
-      "pts": 13.9
+      "pts": 13.9,
+      "oldSchool": "Oklahoma State"
     }
   ],
   [
@@ -10719,7 +11113,8 @@
       "stl": 1.4,
       "blk": 0,
       "tov": 2.5,
-      "pts": 9.4
+      "pts": 9.4,
+      "oldSchool": "Southern Miss"
     }
   ],
   [
@@ -10746,7 +11141,8 @@
       "stl": 0.1,
       "blk": 0.6,
       "tov": 0.7,
-      "pts": 3.3
+      "pts": 3.3,
+      "oldSchool": "Old Dominion"
     }
   ],
   [
@@ -10773,7 +11169,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 1.5,
-      "pts": 14.4
+      "pts": 14.4,
+      "oldSchool": "Illinois State"
     }
   ],
   [
@@ -10800,7 +11197,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 2.7,
-      "pts": 15.7
+      "pts": 15.7,
+      "oldSchool": "Georgia Tech"
     }
   ],
   [
@@ -10827,7 +11225,8 @@
       "stl": 1.7,
       "blk": 0.4,
       "tov": 0.5,
-      "pts": 9
+      "pts": 9,
+      "oldSchool": "La Salle"
     }
   ],
   [
@@ -10854,7 +11253,8 @@
       "stl": 1,
       "blk": 0.3,
       "tov": 1.7,
-      "pts": 15.9
+      "pts": 15.9,
+      "oldSchool": "DePaul"
     }
   ],
   [
@@ -10881,7 +11281,8 @@
       "stl": 1.4,
       "blk": 0.1,
       "tov": 1.1,
-      "pts": 15
+      "pts": 15,
+      "oldSchool": "Boston College"
     },
     {
       "firstName": "Kanye",
@@ -10906,7 +11307,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.3,
-      "pts": 2.1
+      "pts": 2.1,
+      "oldSchool": "Boston College"
     }
   ],
   [
@@ -10933,7 +11335,8 @@
       "stl": 0.3,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 6.3
+      "pts": 6.3,
+      "oldSchool": "The Citadel"
     }
   ],
   [
@@ -10960,7 +11363,8 @@
       "stl": 1.6,
       "blk": 0.2,
       "tov": 1.7,
-      "pts": 9.2
+      "pts": 9.2,
+      "oldSchool": "Ball State"
     }
   ],
   [
@@ -10987,7 +11391,8 @@
       "stl": 1.2,
       "blk": 0,
       "tov": 2.3,
-      "pts": 14.3
+      "pts": 14.3,
+      "oldSchool": "George Washington"
     }
   ],
   [
@@ -11014,7 +11419,8 @@
       "stl": 0.2,
       "blk": 1.4,
       "tov": 0.2,
-      "pts": 2.1
+      "pts": 2.1,
+      "oldSchool": "Florida State"
     }
   ],
   [
@@ -11041,7 +11447,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 1.5,
-      "pts": 13.9
+      "pts": 13.9,
+      "oldSchool": "UAB"
     }
   ],
   [
@@ -11068,7 +11475,8 @@
       "stl": 0.7,
       "blk": 0.3,
       "tov": 0.9,
-      "pts": 6.5
+      "pts": 6.5,
+      "oldSchool": "Wisconsin"
     }
   ],
   [
@@ -11095,7 +11503,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 0.4,
-      "pts": 5.3
+      "pts": 5.3,
+      "oldSchool": "Nevada"
     }
   ],
   [
@@ -11122,7 +11531,8 @@
       "stl": 0.5,
       "blk": 0.6,
       "tov": 0.7,
-      "pts": 3.1
+      "pts": 3.1,
+      "oldSchool": "Rhode Island"
     }
   ],
   [
@@ -11149,7 +11559,8 @@
       "stl": 0.4,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 6.6
+      "pts": 6.6,
+      "oldSchool": "Rhode Island"
     }
   ],
   [
@@ -11176,7 +11587,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 0.8
+      "pts": 0.8,
+      "oldSchool": "Wyoming"
     }
   ],
   [
@@ -11203,7 +11615,8 @@
       "stl": 0.4,
       "blk": 0,
       "tov": 1.2,
-      "pts": 4.5
+      "pts": 4.5,
+      "oldSchool": "Toledo"
     }
   ],
   [
@@ -11230,7 +11643,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 2.3,
-      "pts": 11.1
+      "pts": 11.1,
+      "oldSchool": "Utah Valley"
     }
   ],
   [
@@ -11257,7 +11671,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.2,
-      "pts": 3.1
+      "pts": 3.1,
+      "oldSchool": "Nebraska Omaha"
     }
   ],
   [
@@ -11284,7 +11699,8 @@
       "stl": 0.2,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 6.1
+      "pts": 6.1,
+      "oldSchool": "Mississippi State"
     }
   ],
   [
@@ -11311,7 +11727,8 @@
       "stl": 0.9,
       "blk": 0,
       "tov": 1.6,
-      "pts": 6.2
+      "pts": 6.2,
+      "oldSchool": "Portland State"
     }
   ],
   [
@@ -11338,7 +11755,8 @@
       "stl": 0.4,
       "blk": 0.5,
       "tov": 1.1,
-      "pts": 5.2
+      "pts": 5.2,
+      "oldSchool": "Arizona State"
     }
   ],
   [
@@ -11365,7 +11783,8 @@
       "stl": 0.9,
       "blk": 0.3,
       "tov": 1.5,
-      "pts": 13
+      "pts": 13,
+      "oldSchool": "New Mexico State"
     }
   ],
   [
@@ -11392,7 +11811,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 3.4
+      "pts": 3.4,
+      "oldSchool": "North Dakota State"
     }
   ],
   [
@@ -11419,7 +11839,8 @@
       "stl": 0.2,
       "blk": 0.3,
       "tov": 0.4,
-      "pts": 1.9
+      "pts": 1.9,
+      "oldSchool": "Temple"
     }
   ],
   [
@@ -11446,7 +11867,8 @@
       "stl": 0.3,
       "blk": 1,
       "tov": 0.6,
-      "pts": 6.7
+      "pts": 6.7,
+      "oldSchool": "Pittsburgh"
     }
   ],
   [
@@ -11473,7 +11895,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1.3,
-      "pts": 8.9
+      "pts": 8.9,
+      "oldSchool": "Drexel"
     }
   ],
   [],
@@ -11501,7 +11924,8 @@
       "stl": 0.5,
       "blk": 0.2,
       "tov": 0.7,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "Cincinnati"
     }
   ],
   [
@@ -11528,7 +11952,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 0.9,
-      "pts": 4
+      "pts": 4,
+      "oldSchool": "George Washington"
     }
   ],
   [
@@ -11555,7 +11980,8 @@
       "stl": 1.2,
       "blk": 0.8,
       "tov": 1.7,
-      "pts": 9.2
+      "pts": 9.2,
+      "oldSchool": "Stanford"
     },
     {
       "firstName": "Jaiden",
@@ -11580,7 +12006,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 0.3,
-      "pts": 0.7
+      "pts": 0.7,
+      "oldSchool": "Stanford"
     }
   ],
   [
@@ -11607,7 +12034,8 @@
       "stl": 0.9,
       "blk": 1,
       "tov": 1.1,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "West Virginia"
     }
   ],
   [
@@ -11634,7 +12062,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 0,
-      "pts": 5
+      "pts": 5,
+      "oldSchool": "West Virginia"
     }
   ],
   [
@@ -11661,7 +12090,8 @@
       "stl": 0.6,
       "blk": 0.4,
       "tov": 0.8,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Bowling Green"
     }
   ],
   [
@@ -11688,7 +12118,8 @@
       "stl": 0.5,
       "blk": 0.2,
       "tov": 1.5,
-      "pts": 10.6
+      "pts": 10.6,
+      "oldSchool": "Southern Miss"
     }
   ],
   [
@@ -11715,7 +12146,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1,
-      "pts": 9.6
+      "pts": 9.6,
+      "oldSchool": "Maryland"
     }
   ],
   [
@@ -11742,7 +12174,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.3,
-      "pts": 8.1
+      "pts": 8.1,
+      "oldSchool": "NC State"
     }
   ],
   [
@@ -11769,7 +12202,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.7,
-      "pts": 5.8
+      "pts": 5.8,
+      "oldSchool": "College of Charleston"
     }
   ],
   [
@@ -11796,7 +12230,8 @@
       "stl": 1.2,
       "blk": 0.6,
       "tov": 1.2,
-      "pts": 10.5
+      "pts": 10.5,
+      "oldSchool": "Ball State"
     }
   ],
   [
@@ -11823,7 +12258,8 @@
       "stl": 1.2,
       "blk": 0.3,
       "tov": 2.1,
-      "pts": 12.8
+      "pts": 12.8,
+      "oldSchool": "Southern Miss"
     }
   ],
   [
@@ -11850,7 +12286,8 @@
       "stl": 0.3,
       "blk": 0.6,
       "tov": 0.5,
-      "pts": 2.5
+      "pts": 2.5,
+      "oldSchool": "Pepperdine"
     }
   ],
   [
@@ -11877,7 +12314,8 @@
       "stl": 0.9,
       "blk": 0.4,
       "tov": 1.8,
-      "pts": 10.2
+      "pts": 10.2,
+      "oldSchool": "Mount St. Mary's"
     }
   ],
   [
@@ -11904,7 +12342,8 @@
       "stl": 0.9,
       "blk": 0.7,
       "tov": 1.4,
-      "pts": 13.4
+      "pts": 13.4,
+      "oldSchool": "Saint Joseph's"
     }
   ],
   [
@@ -11931,7 +12370,8 @@
       "stl": 0.9,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "La Salle"
     }
   ],
   [
@@ -11958,7 +12398,8 @@
       "stl": 1.1,
       "blk": 0.4,
       "tov": 2.3,
-      "pts": 12
+      "pts": 12,
+      "oldSchool": "North Dakota State"
     }
   ],
   [
@@ -11985,7 +12426,8 @@
       "stl": 0.7,
       "blk": 0.6,
       "tov": 1.8,
-      "pts": 9
+      "pts": 9,
+      "oldSchool": "Pittsburgh"
     }
   ],
   [
@@ -12012,7 +12454,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 0.9,
-      "pts": 7.2
+      "pts": 7.2,
+      "oldSchool": "Temple"
     }
   ],
   [
@@ -12039,7 +12482,8 @@
       "stl": 0.9,
       "blk": 0.5,
       "tov": 2.2,
-      "pts": 13.5
+      "pts": 13.5,
+      "oldSchool": "Wichita State"
     }
   ],
   [],
@@ -12068,7 +12512,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.2,
-      "pts": 2.2
+      "pts": 2.2,
+      "oldSchool": "Arizona State"
     }
   ],
   [
@@ -12095,7 +12540,8 @@
       "stl": 0,
       "blk": 0.2,
       "tov": 0.3,
-      "pts": 3.5
+      "pts": 3.5,
+      "oldSchool": "Lehigh"
     }
   ],
   [
@@ -12122,7 +12568,8 @@
       "stl": 0.8,
       "blk": 1.2,
       "tov": 2.4,
-      "pts": 11
+      "pts": 11,
+      "oldSchool": "Duquesne"
     }
   ],
   [
@@ -12149,7 +12596,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 1.1,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "Princeton"
     }
   ],
   [
@@ -12176,7 +12624,8 @@
       "stl": 0.7,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 11.1
+      "pts": 11.1,
+      "oldSchool": "Princeton"
     }
   ],
   [
@@ -12203,7 +12652,8 @@
       "stl": 0.9,
       "blk": 0.8,
       "tov": 1.6,
-      "pts": 11.5
+      "pts": 11.5,
+      "oldSchool": "Southern Miss"
     }
   ],
   [
@@ -12230,7 +12680,8 @@
       "stl": 1.2,
       "blk": 0.1,
       "tov": 1.9,
-      "pts": 9.1
+      "pts": 9.1,
+      "oldSchool": "Pennsylvania"
     }
   ],
   [
@@ -12257,7 +12708,8 @@
       "stl": 0.3,
       "blk": 0.3,
       "tov": 0.4,
-      "pts": 2.9
+      "pts": 2.9,
+      "oldSchool": "Lehigh"
     }
   ],
   [
@@ -12284,7 +12736,8 @@
       "stl": 0.5,
       "blk": 1.1,
       "tov": 2.2,
-      "pts": 12.8
+      "pts": 12.8,
+      "oldSchool": "Rhode Island"
     }
   ],
   [
@@ -12311,7 +12764,8 @@
       "stl": 0.6,
       "blk": 0.2,
       "tov": 0.8,
-      "pts": 4.3
+      "pts": 4.3,
+      "oldSchool": "Princeton"
     }
   ],
   [
@@ -12338,7 +12792,8 @@
       "stl": 0.2,
       "blk": 0.4,
       "tov": 0.3,
-      "pts": 2.3
+      "pts": 2.3,
+      "oldSchool": "Northwestern State"
     }
   ],
   [
@@ -12365,7 +12820,8 @@
       "stl": 0.2,
       "blk": 0.1,
       "tov": 0.3,
-      "pts": 4.2
+      "pts": 4.2,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -12392,7 +12848,8 @@
       "stl": 0.7,
       "blk": 0.2,
       "tov": 1.2,
-      "pts": 5.3
+      "pts": 5.3,
+      "oldSchool": "Hartford"
     }
   ],
   [],
@@ -12420,7 +12877,8 @@
       "stl": 0.8,
       "blk": 0.3,
       "tov": 1.7,
-      "pts": 12.9
+      "pts": 12.9,
+      "oldSchool": "College of Charleston"
     }
   ],
   [],
@@ -12448,7 +12906,8 @@
       "stl": 1.5,
       "blk": 0.2,
       "tov": 2.1,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": "George Mason"
     }
   ],
   [
@@ -12475,7 +12934,8 @@
       "stl": 1.2,
       "blk": 0.5,
       "tov": 1.8,
-      "pts": 8.4
+      "pts": 8.4,
+      "oldSchool": "Texas-Rio Grande Valley"
     }
   ],
   [
@@ -12502,7 +12962,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 7.8
+      "pts": 7.8,
+      "oldSchool": "Cornell"
     }
   ],
   [
@@ -12529,7 +12990,8 @@
       "stl": 0.9,
       "blk": 0.6,
       "tov": 1,
-      "pts": 7.9
+      "pts": 7.9,
+      "oldSchool": "UT-Arlington"
     }
   ],
   [
@@ -12556,7 +13018,8 @@
       "stl": 1.1,
       "blk": 0.3,
       "tov": 1.3,
-      "pts": 5.9
+      "pts": 5.9,
+      "oldSchool": "Saint Joseph's"
     }
   ],
   [
@@ -12608,7 +13071,8 @@
       "stl": 0.8,
       "blk": 0.7,
       "tov": 2.2,
-      "pts": 10.6
+      "pts": 10.6,
+      "oldSchool": "Alabama State"
     }
   ],
   [
@@ -12635,7 +13099,8 @@
       "stl": 0.8,
       "blk": 0.4,
       "tov": 0.7,
-      "pts": 7.8
+      "pts": 7.8,
+      "oldSchool": "East Tennessee State"
     },
     {
       "firstName": "Ledarrius",
@@ -12660,7 +13125,8 @@
       "stl": 0.9,
       "blk": 0.3,
       "tov": 0.9,
-      "pts": 6.7
+      "pts": 6.7,
+      "oldSchool": "East Tennessee State"
     }
   ],
   [
@@ -12687,10 +13153,10 @@
       "stl": 0.9,
       "blk": 0.3,
       "tov": 1.3,
-      "pts": 7.5
+      "pts": 7.5,
+      "oldSchool": "George Mason"
     }
   ],
-  
   [
     {
       "firstName": "Hayden",
@@ -12715,7 +13181,8 @@
       "stl": 1,
       "blk": 0.4,
       "tov": 2,
-      "pts": 11.4
+      "pts": 11.4,
+      "oldSchool": "The Citadel"
     }
   ],
   [
@@ -12742,7 +13209,8 @@
       "stl": 0.2,
       "blk": 0.2,
       "tov": 0.6,
-      "pts": 3.9
+      "pts": 3.9,
+      "oldSchool": "Hartford"
     }
   ],
   [
@@ -12769,7 +13237,8 @@
       "stl": 1.8,
       "blk": 0,
       "tov": 1.6,
-      "pts": 9.1
+      "pts": 9.1,
+      "oldSchool": "Cal State Northridge"
     }
   ],
   [
@@ -12796,7 +13265,8 @@
       "stl": 0.4,
       "blk": 0.3,
       "tov": 0.5,
-      "pts": 4.2
+      "pts": 4.2,
+      "oldSchool": "New Hampshire"
     }
   ],
   [
@@ -12823,7 +13293,8 @@
       "stl": 0.4,
       "blk": 1.1,
       "tov": 0.5,
-      "pts": 3.8
+      "pts": 3.8,
+      "oldSchool": "Maine"
     }
   ],
   [
@@ -12850,7 +13321,8 @@
       "stl": 1,
       "blk": 0.5,
       "tov": 1.8,
-      "pts": 15.4
+      "pts": 15.4,
+      "oldSchool": "Morehead State"
     }
   ],
   [],
@@ -12878,7 +13350,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 1.5,
-      "pts": 7.6
+      "pts": 7.6,
+      "oldSchool": "Georgia Southern"
     }
   ],
   [
@@ -12905,7 +13378,8 @@
       "stl": 0.4,
       "blk": 0.2,
       "tov": 0.9,
-      "pts": 8.9
+      "pts": 8.9,
+      "oldSchool": "North Dakota"
     }
   ],
   [],
@@ -12933,7 +13407,8 @@
       "stl": 0.4,
       "blk": 0.9,
       "tov": 2.1,
-      "pts": 15.4
+      "pts": 15.4,
+      "oldSchool": "Morehead State"
     }
   ],
   [
@@ -12960,7 +13435,8 @@
       "stl": 0.4,
       "blk": 0.1,
       "tov": 0.4,
-      "pts": 2.3
+      "pts": 2.3,
+      "oldSchool": "Dartmouth"
     }
   ],
   [
@@ -12987,7 +13463,8 @@
       "stl": 0.8,
       "blk": 0.1,
       "tov": 3.1,
-      "pts": 17.3
+      "pts": 17.3,
+      "oldSchool": "Illinois-Chicago"
     }
   ],
   [
@@ -13014,7 +13491,8 @@
       "stl": 1.2,
       "blk": 0.1,
       "tov": 2.1,
-      "pts": 14.4
+      "pts": 14.4,
+      "oldSchool": "Alabama State"
     }
   ],
   [
@@ -13041,7 +13519,8 @@
       "stl": 0.2,
       "blk": 0.5,
       "tov": 1.1,
-      "pts": 6.6
+      "pts": 6.6,
+      "oldSchool": "Eastern Kentucky"
     }
   ],
   [
@@ -13068,7 +13547,8 @@
       "stl": 0.3,
       "blk": 0.7,
       "tov": 1.5,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "Lafayette"
     }
   ],
   [
@@ -13095,7 +13575,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 7.1
+      "pts": 7.1,
+      "oldSchool": "Oklahoma State"
     }
   ],
   [
@@ -13122,7 +13603,8 @@
       "stl": 1.6,
       "blk": 0,
       "tov": 2.2,
-      "pts": 12.7
+      "pts": 12.7,
+      "oldSchool": "Eastern Kentucky"
     },
     {
       "firstName": "Jomaru",
@@ -13147,7 +13629,8 @@
       "stl": 0.3,
       "blk": 0,
       "tov": 1,
-      "pts": 8.6
+      "pts": 8.6,
+      "oldSchool": "Eastern Kentucky"
     }
   ],
   [
@@ -13174,7 +13657,8 @@
       "stl": 1.5,
       "blk": 0.3,
       "tov": 3.6,
-      "pts": 19.3
+      "pts": 19.3,
+      "oldSchool": "Tennessee Tech"
     }
   ],
   [
@@ -13201,7 +13685,8 @@
       "stl": 0.5,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 12.5
+      "pts": 12.5,
+      "oldSchool": "Bucknell"
     }
   ],
   [
@@ -13228,7 +13713,8 @@
       "stl": 0.7,
       "blk": 0,
       "tov": 1.1,
-      "pts": 8.2
+      "pts": 8.2,
+      "oldSchool": "Indiana State"
     }
   ],
   [
@@ -13255,7 +13741,8 @@
       "stl": 0.6,
       "blk": 0.9,
       "tov": 1.3,
-      "pts": 7.7
+      "pts": 7.7,
+      "oldSchool": "Tennessee Tech"
     }
   ],
   [
@@ -13282,7 +13769,8 @@
       "stl": 0.7,
       "blk": 0.1,
       "tov": 1.7,
-      "pts": 10.9
+      "pts": 10.9,
+      "oldSchool": "Wisconsin-Milwaukee"
     }
   ],
   [
@@ -13309,7 +13797,8 @@
       "stl": 1.1,
       "blk": 0.4,
       "tov": 1.7,
-      "pts": 13.9
+      "pts": 13.9,
+      "oldSchool": "Fairleigh Dickinson"
     }
   ],
   [
@@ -13336,7 +13825,8 @@
       "stl": 0.6,
       "blk": 0.1,
       "tov": 0.8,
-      "pts": 7
+      "pts": 7,
+      "oldSchool": ""
     }
   ],
   [
@@ -13363,7 +13853,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1.2,
-      "pts": 10.3
+      "pts": 10.3,
+      "oldSchool": "UTSA"
     }
   ],
   [
@@ -13390,7 +13881,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.1,
-      "pts": 0.8
+      "pts": 0.8,
+      "oldSchool": "Harvard"
     }
   ],
   [
@@ -13417,7 +13909,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 1.9,
-      "pts": 9.9
+      "pts": 9.9,
+      "oldSchool": "Columbia"
     }
   ],
   [
@@ -13444,7 +13937,8 @@
       "stl": 0.6,
       "blk": 0.7,
       "tov": 1.2,
-      "pts": 8.7
+      "pts": 8.7,
+      "oldSchool": "Utah"
     }
   ],
   [
@@ -13471,7 +13965,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0.1,
-      "pts": 3.4
+      "pts": 3.4,
+      "oldSchool": "Pennsylvania"
     }
   ],
   [
@@ -13498,7 +13993,8 @@
       "stl": 0.2,
       "blk": 1.1,
       "tov": 0.8,
-      "pts": 1.6
+      "pts": 1.6,
+      "oldSchool": "West Virginia"
     }
   ],
   [
@@ -13525,7 +14021,8 @@
       "stl": 0.5,
       "blk": 0.3,
       "tov": 1.7,
-      "pts": 6.8
+      "pts": 6.8,
+      "oldSchool": "Arkansas-Little Rock"
     }
   ],
   [
@@ -13552,7 +14049,8 @@
       "stl": 0.9,
       "blk": 0.1,
       "tov": 1.2,
-      "pts": 5.2
+      "pts": 5.2,
+      "oldSchool": "Michigan"
     }
   ],
   [
@@ -13579,7 +14077,8 @@
       "stl": 0.6,
       "blk": 0.3,
       "tov": 1.1,
-      "pts": 11.7
+      "pts": 11.7,
+      "oldSchool": "Missouri State"
     }
   ],
   [
@@ -13606,7 +14105,8 @@
       "stl": 0.7,
       "blk": 0.4,
       "tov": 1.2,
-      "pts": 12.4
+      "pts": 12.4,
+      "oldSchool": "Missouri"
     }
   ],
   [
@@ -13633,7 +14133,8 @@
       "stl": 1.1,
       "blk": 0,
       "tov": 2.6,
-      "pts": 12.9
+      "pts": 12.9,
+      "oldSchool": "Fordham"
     }
   ],
   [
@@ -13660,7 +14161,8 @@
       "stl": 1,
       "blk": 0.1,
       "tov": 1.1,
-      "pts": 10
+      "pts": 10,
+      "oldSchool": "Lafayette"
     }
   ],
   [
@@ -13687,7 +14189,8 @@
       "stl": 0.5,
       "blk": 0.2,
       "tov": 1,
-      "pts": 7.3
+      "pts": 7.3,
+      "oldSchool": "Texas Tech"
     }
   ],
   [
@@ -13714,7 +14217,8 @@
       "stl": 1.4,
       "blk": 0.4,
       "tov": 1.7,
-      "pts": 10.7
+      "pts": 10.7,
+      "oldSchool": "Texas"
     }
   ],
   [],
@@ -13742,7 +14246,8 @@
       "stl": 0.1,
       "blk": 0.4,
       "tov": 1.1,
-      "pts": 6.4
+      "pts": 6.4,
+      "oldSchool": "Wake Forest"
     }
   ],
   [
@@ -13769,7 +14274,8 @@
       "stl": 0.5,
       "blk": 0,
       "tov": 1.5,
-      "pts": 7.5
+      "pts": 7.5,
+      "oldSchool": "Georgia State"
     }
   ],
   [
@@ -13796,7 +14302,8 @@
       "stl": 0,
       "blk": 0,
       "tov": 0,
-      "pts": 0.1
+      "pts": 0.1,
+      "oldSchool": "Kansas"
     }
   ],
   [],
@@ -13824,7 +14331,8 @@
       "stl": 0.5,
       "blk": 0.7,
       "tov": 0.6,
-      "pts": 4.2
+      "pts": 4.2,
+      "oldSchool": "Maryland"
     }
   ],
   [],
@@ -13852,7 +14360,8 @@
       "stl": 0.8,
       "blk": 1.2,
       "tov": 1.5,
-      "pts": 9.5
+      "pts": 9.5,
+      "oldSchool": "Baylor"
     }
   ],
   [],
@@ -13880,7 +14389,8 @@
       "stl": 0.8,
       "blk": 0,
       "tov": 1.4,
-      "pts": 8.3
+      "pts": 8.3,
+      "oldSchool": "Saint Joseph's"
     }
   ],
   [
@@ -13907,7 +14417,8 @@
       "stl": 0.6,
       "blk": 0.5,
       "tov": 1.7,
-      "pts": 15.3
+      "pts": 15.3,
+      "oldSchool": "Iowa State"
     }
   ],
   [
@@ -13934,7 +14445,8 @@
       "stl": 0.1,
       "blk": 0.1,
       "tov": 0,
-      "pts": 0.4
+      "pts": 0.4,
+      "oldSchool": "Iowa State"
     }
   ],
   [
@@ -13961,7 +14473,8 @@
       "stl": 0.9,
       "blk": 0.2,
       "tov": 1.4,
-      "pts": 10.4
+      "pts": 10.4,
+      "oldSchool": "North Carolina"
     }
   ]
 ]

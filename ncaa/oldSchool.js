@@ -2,8 +2,8 @@ import { promises as fs } from "fs";
 
 const addOldSchool = async () => {
   try {
-    const file1 = "./data/ncaab/stats/2020/ncaab_transfers_2020.json";
-    const file2 = "./data/ncaab/stats/2021/player_stats_2021.json";
+    const file1 = "./data/ncaab/stats/2023/ncaab_transfers_2023.json";
+    const file2 = "./data/ncaab/stats/2024/player_stats_2024.json";
 
     const data1 = JSON.parse(await fs.readFile(file1, "utf8"));
     const data2 = JSON.parse(await fs.readFile(file2, "utf8"));
