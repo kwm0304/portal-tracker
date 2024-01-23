@@ -5,7 +5,7 @@
     "rating": 0.93,
     "position": "PG",
     "oldSchool": "Western Kentucky",
-    "newSchool": "Bethune Cookman"
+    "newSchool": "Bethune-Cookman"
   },
   {
     "firstName": "Jahmar",
@@ -21,7 +21,7 @@
     "rating": 0.87,
     "position": "C",
     "oldSchool": "LIU",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jalen",
@@ -76,7 +76,7 @@
     "lastName": "Kelly",
     "rating": null,
     "position": "SG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "UCF"
   },
   {
@@ -204,7 +204,7 @@
     "lastName": "Mitchell",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -212,7 +212,7 @@
     "lastName": "Walker",
     "rating": null,
     "position": "PF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Appalachian State"
   },
   {
@@ -653,7 +653,7 @@
     "rating": null,
     "position": "SF",
     "oldSchool": "South Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Shane",
@@ -820,7 +820,7 @@
     "lastName": "Santos",
     "rating": 0.85,
     "position": "SF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -1109,7 +1109,7 @@
     "rating": 0.9,
     "position": "PF",
     "oldSchool": "Boston College",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jamie",
@@ -1236,7 +1236,7 @@
     "lastName": "Akwuba",
     "rating": null,
     "position": "C",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Ole Miss"
   },
   {
@@ -1748,7 +1748,7 @@
     "lastName": "Garcia",
     "rating": 0.88,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -2397,7 +2397,7 @@
     "rating": 0.94,
     "position": "SF",
     "oldSchool": "Louisville",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Igor",
@@ -2597,7 +2597,7 @@
     "rating": 0.9,
     "position": "CG",
     "oldSchool": "Connecticut",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jamel",
@@ -2700,7 +2700,7 @@
     "lastName": "Saddler",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Southern University",
+    "oldSchool": "Southern",
     "newSchool": "Saint Peter's"
   },
   {
@@ -2845,7 +2845,7 @@
     "rating": 0.89,
     "position": "PG",
     "oldSchool": "Connecticut",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Tanner",
@@ -3205,7 +3205,7 @@
     "rating": 0.88,
     "position": "PF",
     "oldSchool": "South Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Raymond",
@@ -3229,7 +3229,7 @@
     "rating": 0.86,
     "position": "PF",
     "oldSchool": "South Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Saquan",
@@ -3788,7 +3788,7 @@
     "lastName": "Kapiti",
     "rating": 0.86,
     "position": "PF",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Eastern Kentucky"
   },
   {
@@ -4268,7 +4268,7 @@
     "lastName": "Harper",
     "rating": 0.86,
     "position": "CG",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": ""
   },
   {

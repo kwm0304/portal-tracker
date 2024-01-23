@@ -77,7 +77,7 @@
     "rating": 0.85,
     "position": "SG",
     "oldSchool": "East Carolina",
-    "newSchool": "Prairie View A&M"
+    "newSchool": "Prairie View"
   },
   {
     "firstName": "Anthony",
@@ -484,7 +484,7 @@
     "lastName": "Blackshear",
     "rating": 0.86,
     "position": "SG",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Nevada"
   },
   {
@@ -500,7 +500,7 @@
     "lastName": "Butts",
     "rating": null,
     "position": "CG",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": ""
   },
   {
@@ -525,7 +525,7 @@
     "rating": 0.98,
     "position": "PF",
     "oldSchool": "Arizona",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Pelle",
@@ -572,7 +572,7 @@
     "lastName": "Ingram",
     "rating": 0.86,
     "position": "SF",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Georgia"
   },
   {
@@ -733,7 +733,7 @@
     "rating": 0.89,
     "position": "PG",
     "oldSchool": "Colorado State",
-    "newSchool": "Southern University"
+    "newSchool": "Southern"
   },
   {
     "firstName": "Eric",
@@ -749,7 +749,7 @@
     "rating": null,
     "position": "PF",
     "oldSchool": "",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Nathanael",
@@ -764,7 +764,7 @@
     "lastName": "Wilson",
     "rating": 0.88,
     "position": "SG",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Texas Tech"
   },
   {
@@ -852,7 +852,7 @@
     "lastName": "DeGray",
     "rating": 0.88,
     "position": "PF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Missouri"
   },
   {
@@ -1229,7 +1229,7 @@
     "rating": 0.9,
     "position": "C",
     "oldSchool": "Texas Tech",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jonathan",
@@ -1885,7 +1885,7 @@
     "rating": 0.89,
     "position": "SG",
     "oldSchool": "St. John's",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Jaedon",
@@ -2300,7 +2300,7 @@
     "lastName": "Simon",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Bethune Cookman",
+    "oldSchool": "Bethune-Cookman",
     "newSchool": "UT Martin"
   },
   {
@@ -2677,7 +2677,7 @@
     "rating": 0.79,
     "position": "PF",
     "oldSchool": "East Carolina",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "A.J.",
@@ -3157,7 +3157,7 @@
     "rating": null,
     "position": "SG",
     "oldSchool": "Albany",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "CJ",
@@ -3485,7 +3485,7 @@
     "rating": null,
     "position": "PG",
     "oldSchool": "Murray State",
-    "newSchool": "Southern University"
+    "newSchool": "Southern"
   },
   {
     "firstName": "DJ",
@@ -3557,14 +3557,14 @@
     "rating": 0.84,
     "position": "PF",
     "oldSchool": "Penn State",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Carl",
     "lastName": "Pierre",
     "rating": null,
     "position": "SG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Rice"
   },
   {
@@ -3652,7 +3652,7 @@
     "lastName": "Mitchell",
     "rating": 0.91,
     "position": "C",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Texas"
   },
   {
@@ -3900,7 +3900,7 @@
     "lastName": "Spenkuch",
     "rating": null,
     "position": "PF",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": ""
   },
   {
@@ -4117,7 +4117,7 @@
     "rating": null,
     "position": "PG",
     "oldSchool": "Boston College",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Davion",
@@ -4205,7 +4205,7 @@
     "rating": null,
     "position": "PF",
     "oldSchool": "Montana",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "AJ",
@@ -4660,7 +4660,7 @@
     "lastName": "Buggs",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {

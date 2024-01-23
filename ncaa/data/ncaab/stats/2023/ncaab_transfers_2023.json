@@ -124,7 +124,7 @@
     "lastName": "Leveque",
     "rating": 0.88,
     "position": "C",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Texas A&M"
   },
   {
@@ -156,7 +156,7 @@
     "lastName": "Brown",
     "rating": 0.98,
     "position": "PF",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Memphis"
   },
   {
@@ -1028,7 +1028,7 @@
     "lastName": "Richards",
     "rating": null,
     "position": "C",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": ""
   },
   {
@@ -1804,7 +1804,7 @@
     "lastName": "Neal",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Prairie View A&M",
+    "oldSchool": "Prairie View",
     "newSchool": ""
   },
   {
@@ -2596,7 +2596,7 @@
     "lastName": "Luis",
     "rating": 0.93,
     "position": "SG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "St. John's"
   },
   {
@@ -3508,7 +3508,7 @@
     "lastName": "Weeks",
     "rating": 0.87,
     "position": "SG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -3516,7 +3516,7 @@
     "lastName": "Gapare",
     "rating": 0.89,
     "position": "PF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Georgia Tech"
   },
   {
@@ -4628,7 +4628,7 @@
     "lastName": "Dominguez",
     "rating": 0.87,
     "position": "PF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Arkansas State"
   },
   {
@@ -5149,7 +5149,7 @@
     "rating": 0.89,
     "position": "PF",
     "oldSchool": "South Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Marquise",
@@ -5644,7 +5644,7 @@
     "lastName": "Fernandes",
     "rating": 0.89,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Rutgers"
   },
   {
@@ -6261,7 +6261,7 @@
     "rating": 0.89,
     "position": "PF",
     "oldSchool": "Saint Francis (PA)",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Anthony",

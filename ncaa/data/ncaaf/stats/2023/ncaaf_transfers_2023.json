@@ -148,7 +148,7 @@
     "lastName": "Jeffs",
     "rating": 0.8,
     "position": "OT",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -364,7 +364,7 @@
     "lastName": "Scott",
     "rating": 0.87,
     "position": "RB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -436,7 +436,7 @@
     "lastName": "Baldwin",
     "rating": 0.84,
     "position": "DL",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Jacksonville State"
   },
   {
@@ -445,7 +445,7 @@
     "rating": 0.87,
     "position": "CB",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jordan",
@@ -476,7 +476,7 @@
     "lastName": "Wallace",
     "rating": 0.88,
     "position": "CB",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Michigan"
   },
   {
@@ -492,7 +492,7 @@
     "lastName": "Young",
     "rating": 0.89,
     "position": "S",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Ole Miss"
   },
   {
@@ -500,7 +500,7 @@
     "lastName": "Brandt",
     "rating": null,
     "position": "OT",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -580,7 +580,7 @@
     "lastName": "Pedescleaux",
     "rating": 0.88,
     "position": "CB",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Tulane"
   },
   {
@@ -628,7 +628,7 @@
     "lastName": "Johnson",
     "rating": 0.8,
     "position": "WR",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Duquesne"
   },
   {
@@ -700,7 +700,7 @@
     "lastName": "Amos",
     "rating": 0.89,
     "position": "CB",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Alabama"
   },
   {
@@ -1156,7 +1156,7 @@
     "lastName": "Alobwede",
     "rating": 0.79,
     "position": "EDGE",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "North Texas"
   },
   {
@@ -1188,7 +1188,7 @@
     "lastName": "Chavarria",
     "rating": 0.83,
     "position": "IOL",
-    "oldSchool": "Prairie View A&M",
+    "oldSchool": "Prairie View",
     "newSchool": ""
   },
   {
@@ -1557,7 +1557,7 @@
     "rating": 0.87,
     "position": "QB",
     "oldSchool": "Nebraska",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Branden",
@@ -1917,7 +1917,7 @@
     "rating": 0.8,
     "position": "CB",
     "oldSchool": "Coastal Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "James",
@@ -2516,7 +2516,7 @@
     "lastName": "Barfield",
     "rating": 0.83,
     "position": "WDE",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -2580,7 +2580,7 @@
     "lastName": "Johnson",
     "rating": 0.86,
     "position": "WR",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -2708,7 +2708,7 @@
     "lastName": "Cook",
     "rating": 0.85,
     "position": "RB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -2860,7 +2860,7 @@
     "lastName": "Wilson",
     "rating": 0.79,
     "position": "DL",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -2981,7 +2981,7 @@
     "rating": 0.87,
     "position": "EDGE",
     "oldSchool": "Liberty",
-    "newSchool": "Southern University"
+    "newSchool": "Southern"
   },
   {
     "firstName": "Montana",
@@ -2996,7 +2996,7 @@
     "lastName": "Thomas",
     "rating": 0.8,
     "position": "LB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -3364,7 +3364,7 @@
     "lastName": "Young",
     "rating": 0.92,
     "position": "WR",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -3500,7 +3500,7 @@
     "lastName": "Stewart",
     "rating": 0.84,
     "position": "WR",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -3620,7 +3620,7 @@
     "lastName": "Warrick",
     "rating": 0.79,
     "position": "CB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Florida State"
   },
   {
@@ -4116,7 +4116,7 @@
     "lastName": "Laing",
     "rating": 0.84,
     "position": "EDGE",
-    "oldSchool": "Southern University",
+    "oldSchool": "Southern",
     "newSchool": "Indiana"
   },
   {
@@ -4373,7 +4373,7 @@
     "rating": 0.88,
     "position": "TE",
     "oldSchool": "Alabama",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Kori",
@@ -4484,7 +4484,7 @@
     "lastName": "Edrine",
     "rating": 0.88,
     "position": "WR",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Purdue"
   },
   {
@@ -4716,7 +4716,7 @@
     "lastName": "Tolliver",
     "rating": 0.84,
     "position": "OT",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -4901,7 +4901,7 @@
     "rating": 0.81,
     "position": "IOL",
     "oldSchool": "Albany",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Logan",
@@ -5061,7 +5061,7 @@
     "rating": 0.93,
     "position": "LB",
     "oldSchool": "Auburn",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Itayvion",
@@ -5252,7 +5252,7 @@
     "lastName": "Fitzgerald",
     "rating": 0.82,
     "position": "WR",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -5268,7 +5268,7 @@
     "lastName": "Dieke",
     "rating": 0.84,
     "position": "WR",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Elon"
   },
   {
@@ -5292,7 +5292,7 @@
     "lastName": "Brewster",
     "rating": 0.82,
     "position": "QB",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Missouri State"
   },
   {
@@ -5557,7 +5557,7 @@
     "rating": 0.87,
     "position": "TE",
     "oldSchool": "Miami",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jalen",
@@ -5765,7 +5765,7 @@
     "rating": 0.87,
     "position": "S",
     "oldSchool": "Georgia Tech",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jaelen",
@@ -8173,7 +8173,7 @@
     "rating": 0.8,
     "position": "RB",
     "oldSchool": "Buffalo",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Tre",
@@ -8269,7 +8269,7 @@
     "rating": 0.82,
     "position": "LB",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Ben",
@@ -8277,7 +8277,7 @@
     "rating": null,
     "position": "QB",
     "oldSchool": "Texas",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Ja'Kobi",
@@ -8396,7 +8396,7 @@
     "lastName": "McCammon",
     "rating": 0.84,
     "position": "RB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -9261,7 +9261,7 @@
     "rating": 0.81,
     "position": "TE",
     "oldSchool": "Duke",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jalen",
@@ -9340,7 +9340,7 @@
     "lastName": "Ross",
     "rating": 0.77,
     "position": "LB",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Bethune-Cookman"
   },
   {
@@ -9644,7 +9644,7 @@
     "lastName": "McDonald",
     "rating": 0.85,
     "position": "QB",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Jackson State"
   },
   {
@@ -9660,7 +9660,7 @@
     "lastName": "Rogers",
     "rating": 0.79,
     "position": "WR",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Liberty"
   },
   {
@@ -10852,7 +10852,7 @@
     "lastName": "Taggart,",
     "rating": 0.8,
     "position": "ATH",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Western Kentucky"
   },
   {
@@ -10876,7 +10876,7 @@
     "lastName": "Herring",
     "rating": 0.83,
     "position": "QB",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": ""
   },
   {
@@ -10989,7 +10989,7 @@
     "rating": 0.86,
     "position": "S",
     "oldSchool": "Ole Miss",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Joey",
@@ -11092,7 +11092,7 @@
     "lastName": "Thompson",
     "rating": 0.82,
     "position": "P",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Penn State"
   },
   {
@@ -11109,7 +11109,7 @@
     "rating": 0.79,
     "position": "OT",
     "oldSchool": "Northern Illinois",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Liam",
@@ -11173,7 +11173,7 @@
     "rating": 0.82,
     "position": "ATH",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jantzen",
@@ -11396,7 +11396,7 @@
     "lastName": "Joyner",
     "rating": 0.84,
     "position": "EDGE",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Memphis"
   },
   {
@@ -11428,7 +11428,7 @@
     "lastName": "Alexander",
     "rating": 0.85,
     "position": "LB",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Michigan State"
   },
   {
@@ -11613,7 +11613,7 @@
     "rating": 0.88,
     "position": "WR",
     "oldSchool": "Texas A&M",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jake",
@@ -11989,7 +11989,7 @@
     "rating": 0.82,
     "position": "QB",
     "oldSchool": "Georgia Tech",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jake",
@@ -12060,7 +12060,7 @@
     "lastName": "Moulton",
     "rating": 0.79,
     "position": "EDGE",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -12188,7 +12188,7 @@
     "lastName": "Fleming",
     "rating": 0.83,
     "position": "WR",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Tulane"
   },
   {
@@ -12877,7 +12877,7 @@
     "rating": 0.81,
     "position": "RB",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Tre",
@@ -13109,7 +13109,7 @@
     "rating": 0.85,
     "position": "EDGE",
     "oldSchool": "Florida State",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Davion",
@@ -13373,7 +13373,7 @@
     "rating": 0.82,
     "position": "ATH",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Ademola",
@@ -13389,7 +13389,7 @@
     "rating": 0.82,
     "position": "OT",
     "oldSchool": "Arizona",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Saco",
@@ -13525,7 +13525,7 @@
     "rating": 0.87,
     "position": "EDGE",
     "oldSchool": "Indiana",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jibrahn",
@@ -13548,7 +13548,7 @@
     "lastName": "Dean",
     "rating": 0.86,
     "position": "ATH",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Florida A&M"
   },
   {
@@ -13893,7 +13893,7 @@
     "rating": 0.86,
     "position": "EDGE",
     "oldSchool": "SMU",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Caleb",
@@ -14133,7 +14133,7 @@
     "rating": 0.79,
     "position": "QB",
     "oldSchool": "Central Michigan",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Justin",
@@ -14172,7 +14172,7 @@
     "lastName": "Johnson",
     "rating": 0.87,
     "position": "TE",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Oklahoma State"
   },
   {
@@ -14485,7 +14485,7 @@
     "rating": 0.78,
     "position": "RB",
     "oldSchool": "Purdue",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Louis",
@@ -15213,7 +15213,7 @@
     "rating": 0.82,
     "position": "WR",
     "oldSchool": "Jackson State",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Campbell",
@@ -15909,7 +15909,7 @@
     "rating": 0.84,
     "position": "LB",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Francisco",
@@ -15973,7 +15973,7 @@
     "rating": 0.85,
     "position": "S",
     "oldSchool": "Miami",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Zion",
@@ -16381,7 +16381,7 @@
     "rating": 0.86,
     "position": "S",
     "oldSchool": "Minnesota",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Seth",
@@ -17076,7 +17076,7 @@
     "lastName": "Roberts",
     "rating": 0.8,
     "position": "WR",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -17652,7 +17652,7 @@
     "lastName": "Arnold",
     "rating": 0.77,
     "position": "WR",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Georgia State"
   },
   {
@@ -17981,7 +17981,7 @@
     "rating": 0.78,
     "position": "QB",
     "oldSchool": "Western Carolina",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jake",
@@ -18180,7 +18180,7 @@
     "lastName": "Orlando",
     "rating": 0.82,
     "position": "TE",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Buffalo"
   },
   {
@@ -18189,14 +18189,14 @@
     "rating": 0.82,
     "position": "WR",
     "oldSchool": "Stony Brook",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Tanner",
     "lastName": "Davis",
     "rating": 0.78,
     "position": "S",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -18397,7 +18397,7 @@
     "rating": 0.86,
     "position": "WR",
     "oldSchool": "Appalachian State",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Luke",
@@ -18549,7 +18549,7 @@
     "rating": 0.8,
     "position": "CB",
     "oldSchool": "Texas State",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Jojo",
@@ -18580,7 +18580,7 @@
     "lastName": "Longman",
     "rating": 0.84,
     "position": "OT",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Indiana"
   },
   {
@@ -18588,7 +18588,7 @@
     "lastName": "Graham",
     "rating": 0.84,
     "position": "IOL",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Western Carolina"
   },
   {
@@ -18933,7 +18933,7 @@
     "rating": 0.83,
     "position": "IOL",
     "oldSchool": "",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Taylor",
@@ -19212,7 +19212,7 @@
     "lastName": "Lindsey",
     "rating": 0.77,
     "position": "S",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -19364,7 +19364,7 @@
     "lastName": "Horn",
     "rating": 0.79,
     "position": "IOL",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Maine"
   },
   {
@@ -19477,7 +19477,7 @@
     "rating": null,
     "position": "P",
     "oldSchool": "Texas A&M",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Charles",
@@ -19549,7 +19549,7 @@
     "rating": 0.86,
     "position": "DL",
     "oldSchool": "Arizona",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Ahmir",
@@ -19772,7 +19772,7 @@
     "lastName": "Moultrie",
     "rating": 0.83,
     "position": "LB",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": ""
   },
   {
@@ -19948,7 +19948,7 @@
     "lastName": "Youngblood",
     "rating": 0.86,
     "position": "S",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "North Texas"
   },
   {

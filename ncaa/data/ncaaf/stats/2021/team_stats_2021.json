@@ -646,7 +646,7 @@
     "ydsPerPlay": 6.07
   },
   {
-    "name": "Louisiana",
+    "name": "Louisiana Lafayette",
     "conference": "Sun Belt (West)",
     "rating": 39,
     "wins": 13,
@@ -1666,7 +1666,7 @@
     "ydsPerPlay": 6.28
   },
   {
-    "name": "Florida Atlantic",
+    "name": "FAU",
     "conference": "CUSA (East)",
     "rating": 99,
     "wins": 5,
@@ -2176,7 +2176,7 @@
     "ydsPerPlay": 5.02
   },
   {
-    "name": "Florida International",
+    "name": "FIU",
     "conference": "CUSA (East)",
     "rating": 129,
     "wins": 1,
@@ -2193,7 +2193,7 @@
     "ydsPerPlay": 6.85
   },
   {
-    "name": "Massachusetts",
+    "name": "UMass",
     "conference": "Ind",
     "rating": 130,
     "wins": 1,

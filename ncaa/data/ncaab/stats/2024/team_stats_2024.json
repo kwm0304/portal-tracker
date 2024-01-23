@@ -153,7 +153,7 @@
     "netRating": 30.85
   },
   {
-    "name": "Florida Atlantic",
+    "name": "FAU",
     "conference": "AAC",
     "rating": 10,
     "wins": 7,
@@ -837,7 +837,7 @@
     "netRating": 14.32
   },
   {
-    "name": "Southern Methodist",
+    "name": "SMU",
     "conference": "AAC",
     "rating": 50,
     "wins": 6,
@@ -1128,7 +1128,7 @@
     "netRating": 15.41
   },
   {
-    "name": "Southern California",
+    "name": "USC",
     "conference": "Pac-12",
     "rating": 67,
     "wins": 5,
@@ -1247,7 +1247,7 @@
     "netRating": 12.79
   },
   {
-    "name": "Central Florida",
+    "name": "UCF",
     "conference": "Big 12",
     "rating": 74,
     "wins": 6,
@@ -1385,7 +1385,7 @@
     "netRating": 11.35
   },
   {
-    "name": "Massachusetts",
+    "name": "UMass",
     "conference": "A-10",
     "rating": 82,
     "wins": 5,
@@ -2273,7 +2273,7 @@
     "netRating": 2.4
   },
   {
-    "name": "Louisiana State",
+    "name": "LSU",
     "conference": "SEC",
     "rating": 134,
     "wins": 5,
@@ -2821,7 +2821,7 @@
     "netRating": -0.06
   },
   {
-    "name": "Massachusetts-Lowell",
+    "name": "UMass-Lowell",
     "conference": "AEC",
     "rating": 166,
     "wins": 7,
@@ -2923,7 +2923,7 @@
     "netRating": -1.99
   },
   {
-    "name": "Louisiana",
+    "name": "Louisiana Lafayette",
     "conference": "Sun Belt",
     "rating": 172,
     "wins": 5,
@@ -3488,7 +3488,7 @@
     "netRating": -4.24
   },
   {
-    "name": "Middle Tennessee",
+    "name": "Middle Tennessee State",
     "conference": "CUSA",
     "rating": 205,
     "wins": 5,
@@ -4138,7 +4138,7 @@
     "netRating": -8.91
   },
   {
-    "name": "Florida International",
+    "name": "FIU",
     "conference": "CUSA",
     "rating": 243,
     "wins": 3,
@@ -4446,7 +4446,7 @@
   {},
   {},
   {
-    "name": "Tennessee-Martin",
+    "name": "UT Martin",
     "conference": "OVC",
     "rating": 261,
     "wins": 6,

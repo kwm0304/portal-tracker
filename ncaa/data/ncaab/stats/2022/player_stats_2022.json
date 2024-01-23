@@ -165,7 +165,7 @@
     {
       "firstName": "Josh",
       "lastName": "LeBlanc",
-      "school": "Alabama Birmingham",
+      "school": "UAB",
       "games": 21,
       "gamesStarted": 1,
       "fgm": 1.8,
@@ -519,7 +519,7 @@
     {
       "firstName": "Jordan",
       "lastName": "Walker",
-      "school": "Alabama Birmingham",
+      "school": "UAB",
       "games": 34,
       "gamesStarted": 34,
       "fgm": 6.5,
@@ -764,7 +764,7 @@
     {
       "firstName": "Jamari",
       "lastName": "Sibley",
-      "school": "Texas El Paso",
+      "school": "UTEP",
       "games": 33,
       "gamesStarted": 22,
       "fgm": 2.1,
@@ -1627,7 +1627,7 @@
     {
       "firstName": "Franklin",
       "lastName": "Agunanne",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 23,
       "gamesStarted": 2,
       "fgm": 0.5,
@@ -1762,7 +1762,7 @@
     {
       "firstName": "Greg",
       "lastName": "Jones",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 31,
       "gamesStarted": 9,
       "fgm": 2,
@@ -2410,7 +2410,7 @@
     {
       "firstName": "Charlie",
       "lastName": "Moore",
-      "school": "Miami FL",
+      "school": "Miami",
       "games": 37,
       "gamesStarted": 37,
       "fgm": 4.6,
@@ -2787,7 +2787,7 @@
     {
       "firstName": "Amari",
       "lastName": "Kelly",
-      "school": "North Carolina Wilmington",
+      "school": "UNCW",
       "games": 35,
       "gamesStarted": 0,
       "fgm": 1.2,
@@ -3111,7 +3111,7 @@
     {
       "firstName": "Vladislav",
       "lastName": "Goldin",
-      "school": "Florida Atlantic",
+      "school": "FAU",
       "games": 34,
       "gamesStarted": 33,
       "fgm": 2.9,
@@ -3246,7 +3246,7 @@
     {
       "firstName": "Jordan",
       "lastName": "Miller",
-      "school": "Miami FL",
+      "school": "Miami",
       "games": 36,
       "gamesStarted": 30,
       "fgm": 4.1,
@@ -3271,7 +3271,7 @@
     {
       "firstName": "Jordan",
       "lastName": "Miller",
-      "school": "Miami FL",
+      "school": "Miami",
       "games": 18,
       "gamesStarted": 5,
       "fgm": 0.6,
@@ -3699,7 +3699,7 @@
     {
       "firstName": "Tristan",
       "lastName": "Clark",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 29,
       "gamesStarted": 1,
       "fgm": 1.7,
@@ -3807,7 +3807,7 @@
     {
       "firstName": "Aquan",
       "lastName": "Smart",
-      "school": "Florida International",
+      "school": "FIU",
       "games": 26,
       "gamesStarted": 0,
       "fgm": 1.3,
@@ -3861,7 +3861,7 @@
     {
       "firstName": "David",
       "lastName": "Didenko",
-      "school": "Tennessee Martin",
+      "school": "UT Martin",
       "games": 22,
       "gamesStarted": 7,
       "fgm": 1.3,
@@ -5022,7 +5022,7 @@
     {
       "firstName": "Montez",
       "lastName": "Mathis",
-      "school": "St Johns NY",
+      "school": "St Johns",
       "games": 32,
       "gamesStarted": 28,
       "fgm": 3.2,
@@ -5049,7 +5049,7 @@
     {
       "firstName": "Victor",
       "lastName": "Iwuakor",
-      "school": "Nevada Las Vegas",
+      "school": "UNLV",
       "games": 19,
       "gamesStarted": 8,
       "fgm": 0.8,
@@ -5130,7 +5130,7 @@
     {
       "firstName": "Aaron",
       "lastName": "Wheeler",
-      "school": "St Johns NY",
+      "school": "St Johns",
       "games": 31,
       "gamesStarted": 16,
       "fgm": 3.8,
@@ -5995,7 +5995,7 @@
     {
       "firstName": "Boogie",
       "lastName": "Ellis",
-      "school": "Southern California",
+      "school": "USC",
       "games": 33,
       "gamesStarted": 33,
       "fgm": 4.3,
@@ -6346,7 +6346,7 @@
     {
       "firstName": "Joel",
       "lastName": "Soriano",
-      "school": "St Johns NY",
+      "school": "St Johns",
       "games": 30,
       "gamesStarted": 26,
       "fgm": 2.6,
@@ -6535,7 +6535,7 @@
     {
       "firstName": "KJ",
       "lastName": "Simon",
-      "school": "Tennessee Martin",
+      "school": "UT Martin",
       "games": 30,
       "gamesStarted": 29,
       "fgm": 6.6,
@@ -6941,7 +6941,7 @@
     {
       "firstName": "J.P.",
       "lastName": "Moorman",
-      "school": "California Riverside",
+      "school": "UC Riverside",
       "games": 12,
       "gamesStarted": 12,
       "fgm": 4.2,
@@ -7481,7 +7481,7 @@
     {
       "firstName": "Drew",
       "lastName": "Pember",
-      "school": "North Carolina Asheville",
+      "school": "UNC Asheville",
       "games": 31,
       "gamesStarted": 30,
       "fgm": 5.1,
@@ -7616,7 +7616,7 @@
     {
       "firstName": "Bitumba",
       "lastName": "Baruti",
-      "school": "Florida Atlantic",
+      "school": "FAU",
       "games": 32,
       "gamesStarted": 13,
       "fgm": 1.4,
@@ -8375,7 +8375,7 @@
     {
       "firstName": "Donovan",
       "lastName": "Williams",
-      "school": "Nevada Las Vegas",
+      "school": "UNLV",
       "games": 27,
       "gamesStarted": 13,
       "fgm": 4.5,
@@ -8429,7 +8429,7 @@
     {
       "firstName": "Jordan",
       "lastName": "McCabe",
-      "school": "Nevada Las Vegas",
+      "school": "UNLV",
       "games": 31,
       "gamesStarted": 31,
       "fgm": 2.2,
@@ -8483,7 +8483,7 @@
     {
       "firstName": "Darius",
       "lastName": "McNeill",
-      "school": "Texas San Antonio",
+      "school": "UTSA",
       "games": 29,
       "gamesStarted": 22,
       "fgm": 2.6,
@@ -8537,7 +8537,7 @@
     {
       "firstName": "Xavier",
       "lastName": "Pinson",
-      "school": "Louisiana State",
+      "school": "LSU",
       "games": 28,
       "gamesStarted": 27,
       "fgm": 3.2,
@@ -8591,7 +8591,7 @@
     {
       "firstName": "Zach",
       "lastName": "Nutall",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 33,
       "gamesStarted": 29,
       "fgm": 2.3,
@@ -8834,7 +8834,7 @@
     {
       "firstName": "K.K.",
       "lastName": "Curry",
-      "school": "Tennessee Martin",
+      "school": "UT Martin",
       "games": 29,
       "gamesStarted": 19,
       "fgm": 3.6,
@@ -8863,7 +8863,7 @@
     {
       "firstName": "CJ",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 32,
       "gamesStarted": 32,
       "fgm": 4,
@@ -8888,7 +8888,7 @@
     {
       "firstName": "CJ",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 29,
       "gamesStarted": 14,
       "fgm": 3.3,
@@ -8913,7 +8913,7 @@
     {
       "firstName": "CJ",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 2,
       "gamesStarted": 0,
       "fgm": 0,
@@ -9239,7 +9239,7 @@
     {
       "firstName": "Tari",
       "lastName": "Eason",
-      "school": "Louisiana State",
+      "school": "LSU",
       "games": 33,
       "gamesStarted": 4,
       "fgm": 5.8,
@@ -9266,7 +9266,7 @@
     {
       "firstName": "KJ",
       "lastName": "Buffen",
-      "school": "Alabama Birmingham",
+      "school": "UAB",
       "games": 35,
       "gamesStarted": 33,
       "fgm": 3.8,
@@ -9482,7 +9482,7 @@
     {
       "firstName": "Clevon",
       "lastName": "Brown",
-      "school": "Florida International",
+      "school": "FIU",
       "games": 31,
       "gamesStarted": 31,
       "fgm": 3.6,
@@ -9509,7 +9509,7 @@
     {
       "firstName": "Jamal",
       "lastName": "Johnson",
-      "school": "Alabama Birmingham",
+      "school": "UAB",
       "games": 27,
       "gamesStarted": 3,
       "fgm": 1.4,
@@ -9914,7 +9914,7 @@
     {
       "firstName": "Trent",
       "lastName": "Buttrick",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 32,
       "gamesStarted": 32,
       "fgm": 3.5,
@@ -9995,7 +9995,7 @@
     {
       "firstName": "Justin",
       "lastName": "Brown",
-      "school": "Alabama Birmingham",
+      "school": "UAB",
       "games": 31,
       "gamesStarted": 1,
       "fgm": 1,
@@ -10973,7 +10973,7 @@
     {
       "firstName": "Michael",
       "lastName": "Weathers",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 33,
       "gamesStarted": 25,
       "fgm": 4.6,
@@ -10998,7 +10998,7 @@
     {
       "firstName": "Michael",
       "lastName": "Weathers",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 31,
       "gamesStarted": 19,
       "fgm": 3.7,
@@ -11025,7 +11025,7 @@
     {
       "firstName": "Marcus",
       "lastName": "Weathers",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 33,
       "gamesStarted": 25,
       "fgm": 4.6,
@@ -11050,7 +11050,7 @@
     {
       "firstName": "Marcus",
       "lastName": "Weathers",
-      "school": "Southern Methodist",
+      "school": "SMU",
       "games": 31,
       "gamesStarted": 19,
       "fgm": 3.7,
@@ -11158,7 +11158,7 @@
     {
       "firstName": "Rich",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 32,
       "gamesStarted": 32,
       "fgm": 4,
@@ -11183,7 +11183,7 @@
     {
       "firstName": "Rich",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 29,
       "gamesStarted": 14,
       "fgm": 3.3,
@@ -11208,7 +11208,7 @@
     {
       "firstName": "Rich",
       "lastName": "Kelly",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 2,
       "gamesStarted": 0,
       "fgm": 0,
@@ -11425,7 +11425,7 @@
     {
       "firstName": "Michael",
       "lastName": "Steadman",
-      "school": "Massachusetts",
+      "school": "UMass",
       "games": 25,
       "gamesStarted": 14,
       "fgm": 3,
@@ -12375,7 +12375,7 @@
     {
       "firstName": "Esahia",
       "lastName": "Nyiwe",
-      "school": "St Johns NY",
+      "school": "St Johns",
       "games": 30,
       "gamesStarted": 6,
       "fgm": 1,

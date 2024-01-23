@@ -220,7 +220,7 @@
     "lastName": "Smith",
     "rating": null,
     "position": "PF",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Mississippi Valley State"
   },
   {
@@ -260,7 +260,7 @@
     "lastName": "Temple",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Jackson State"
   },
   {
@@ -293,7 +293,7 @@
     "rating": null,
     "position": "PG",
     "oldSchool": "Minnesota",
-    "newSchool": "Florida Atlantic"
+    "newSchool": "FAU"
   },
   {
     "firstName": "Courtese",
@@ -445,7 +445,7 @@
     "rating": 0.9,
     "position": "SF",
     "oldSchool": "California",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "James",
@@ -933,7 +933,7 @@
     "rating": 0.88,
     "position": "SF",
     "oldSchool": "Wisconsin-Milwaukee",
-    "newSchool": "Southern University"
+    "newSchool": "Southern"
   },
   {
     "firstName": "Cedrick",
@@ -980,7 +980,7 @@
     "lastName": "Johnson",
     "rating": null,
     "position": "SF",
-    "oldSchool": "Louisiana",
+    "oldSchool": "Louisiana Lafayette",
     "newSchool": "Mississippi State"
   },
   {
@@ -1084,7 +1084,7 @@
     "lastName": "Maitre",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Samford"
   },
   {
@@ -1637,7 +1637,7 @@
     "rating": null,
     "position": "C",
     "oldSchool": "Portland",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Ford",
@@ -1764,7 +1764,7 @@
     "lastName": "Diallo",
     "rating": 0.89,
     "position": "SF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Manhattan"
   },
   {
@@ -1773,7 +1773,7 @@
     "rating": 0.89,
     "position": "PF",
     "oldSchool": "Arizona State",
-    "newSchool": "Southern University"
+    "newSchool": "Southern"
   },
   {
     "firstName": "Ricky",
@@ -1908,7 +1908,7 @@
     "lastName": "East",
     "rating": 0.89,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Bradley"
   },
   {
@@ -2316,7 +2316,7 @@
     "lastName": "Sebree",
     "rating": null,
     "position": "SF",
-    "oldSchool": "Florida Atlantic",
+    "oldSchool": "FAU",
     "newSchool": "Morehead State"
   },
   {
@@ -2404,7 +2404,7 @@
     "lastName": "Clergeot",
     "rating": 0.86,
     "position": "PG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Southeastern Louisiana"
   },
   {
@@ -2493,14 +2493,14 @@
     "rating": null,
     "position": "CG",
     "oldSchool": "Mississippi State",
-    "newSchool": "Louisiana"
+    "newSchool": "Louisiana Lafayette"
   },
   {
     "firstName": "Christian",
     "lastName": "Jackson",
     "rating": null,
     "position": "SG",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": ""
   },
   {
@@ -2701,7 +2701,7 @@
     "rating": 0.89,
     "position": "PG",
     "oldSchool": "Wichita State",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "DeAntoni",
@@ -2845,7 +2845,7 @@
     "rating": null,
     "position": "C",
     "oldSchool": "American",
-    "newSchool": "Massachusetts"
+    "newSchool": "UMass"
   },
   {
     "firstName": "Jonah",
@@ -3156,7 +3156,7 @@
     "lastName": "Chatman",
     "rating": null,
     "position": "PF",
-    "oldSchool": "Massachusetts",
+    "oldSchool": "UMass",
     "newSchool": "Illinois State"
   },
   {
