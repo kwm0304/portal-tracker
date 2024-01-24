@@ -7,13 +7,13 @@ async function readAndProcessFile() {
   const year = 2023;
   try {
     const jsonString = await fs.readFile(
-      `./transfers/${sport}/${sport}_${year}.json`,
+      `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`,
       "utf8"
     );
     const data = JSON.parse(jsonString);
     const playerNames = [];
     for (const entry of data) {
-      let schoolFormatted = entry.newSchool.replace(/[&.'"]/g, "");
+      let schoolFormatted = entry.oldSchool.replace(/[&.'"]/g, "");
       switch (schoolFormatted) {
         case "TCU":
           schoolFormatted = "Texas Christian";
@@ -168,15 +168,38 @@ async function readAndProcessFile() {
         case "Bethune-Cookman":
           schoolFormatted = "Bethune Cookman";
           break;
+        case "BYU":
+          schoolFormatted = "Brigham Young";
+          break;
+        case "Houston Christian":
+          schoolFormatted = "Houston Baptist";
+          break;
+        case "Utah Tech":
+          schoolFormatted = "Dixie State";
+          break;
+        case "Saint Francis (PA)":
+          schoolFormatted = "Saint Francis PA";
+          break;
+        case "LIU":
+          schoolFormatted = "Long Island University";
+          break;
+        case "St. Francis (NY)":
+          schoolFormatted = "St Francis NY";
       }
       playerNames.push({
         firstName: entry.firstName,
         lastName: entry.lastName,
-        school: schoolFormatted,
+        oldSchool: schoolFormatted,
+        newSchool: entry.newSchool,
       });
     }
     console.log("Player names:", playerNames.length);
-
+    console.log(
+      "last known",
+      playerNames.findIndex(
+        (element) => element.firstName === "Max" && element.lastName === "Allen"
+      )
+    );
     return playerNames;
   } catch (error) {
     console.error("Error:", error);
@@ -187,10 +210,16 @@ async function readAndProcessFile() {
 readAndProcessFile();
 
 // Will search ^ year + 1
-async function scrapePlayer(browser, firstName, lastName, school) {
+async function scrapePlayer(
+  browser,
+  firstName,
+  lastName,
+  oldSchool,
+  newSchool
+) {
   const page = await browser.newPage();
-  const schoolName = school.toLowerCase().replace(/ /g, "-");
-  const year = 2024;
+  const schoolName = oldSchool.toLowerCase().replace(/ /g, "-");
+  const year = 2023;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
 
   await page.goto(url);
@@ -198,7 +227,7 @@ async function scrapePlayer(browser, firstName, lastName, school) {
   await page.waitForSelector("table#per_game");
 
   let pageData = await page.evaluate(
-    (lastName, firstName, school) => {
+    (lastName, firstName, oldSchool, newSchool) => {
       let stats = [];
       let rows = Array.from(
         document.querySelectorAll("table#per_game tr")
@@ -218,7 +247,10 @@ async function scrapePlayer(browser, firstName, lastName, school) {
 
           player.lastName = lastName;
 
-          player.school = school;
+          player.oldSchool = oldSchool;
+
+          player.newSchool = newSchool;
+
           let games = row.querySelector('td[data-stat="games"]').innerText;
           player.games = games === "" ? 0 : +games;
 
@@ -294,7 +326,8 @@ async function scrapePlayer(browser, firstName, lastName, school) {
     },
     lastName,
     firstName,
-    school
+    oldSchool,
+    newSchool
   );
 
   await page.close();
@@ -305,30 +338,35 @@ async function scrapePlayer(browser, firstName, lastName, school) {
 async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
-  const batchSize = 100;
+  const batchSize = 50;
   let playerCounter = 0;
 
-  for (let i = 0; i < playerNames.length; i += batchSize) {
+  for (let i = 749; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
-      if (!player.school || !player.school.trim() === "" || !player.lastName) {
+      if (
+        !player.oldSchool ||
+        !player.oldSchool.trim() === "" ||
+        !player.lastName
+      ) {
         console.log(`Skipping ${player.firstName} ${player.lastName}`);
         continue;
       }
       playerCounter++;
       console.log(
-        `Processing player #${playerCounter}: ${player.firstName} ${player.lastName}, ${player.school}`
+        `Processing player #${playerCounter}: ${player.firstName} ${player.lastName}, ${player.oldSchool}`
       );
       const data = await scrapePlayer(
         browser,
         player.firstName,
         player.lastName,
-        player.school
+        player.oldSchool,
+        player.newSchool
       );
       allData.push(data);
     }
     writeFileSync(
-      `./data/ncaab/stats/player_stats_2024_batch_${i / batchSize}.json`,
+      `./data/ncaab/stats/player_stats_2023_batch_${i / batchSize}.json`,
       JSON.stringify(allData, null, 2),
       (err) => {
         if (err) {

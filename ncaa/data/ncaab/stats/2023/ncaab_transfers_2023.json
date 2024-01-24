@@ -220,7 +220,7 @@
     "lastName": "McNair",
     "rating": null,
     "position": "C",
-    "oldSchool": "Ole Miss State",
+    "oldSchool": "Mississippi State",
     "newSchool": "Providence"
   },
   {
@@ -437,7 +437,7 @@
     "rating": 0.91,
     "position": "PG",
     "oldSchool": "Marshall",
-    "newSchool": "Ole Miss State"
+    "newSchool": "Mississippi State"
   },
   {
     "firstName": "D.J.",
@@ -813,7 +813,7 @@
     "rating": 0.88,
     "position": "C",
     "oldSchool": "West Virginia",
-    "newSchool": "Ole Miss State"
+    "newSchool": "Mississippi State"
   },
   {
     "firstName": "Jordan",
@@ -2772,7 +2772,7 @@
     "lastName": "Hamilton",
     "rating": 0.87,
     "position": "SF",
-    "oldSchool": "Ole Miss State",
+    "oldSchool": "Mississippi State",
     "newSchool": ""
   },
   {
@@ -4148,7 +4148,7 @@
     "lastName": "Brumfield",
     "rating": null,
     "position": "PG",
-    "oldSchool": "Ole Miss State",
+    "oldSchool": "Mississippi State",
     "newSchool": ""
   },
   {
@@ -6244,7 +6244,7 @@
     "lastName": "Wilcox",
     "rating": 0.8,
     "position": "SG",
-    "oldSchool": "St. Francis (NY)",
+    "oldSchool": "St Francis NY",
     "newSchool": "Hampton"
   },
   {
