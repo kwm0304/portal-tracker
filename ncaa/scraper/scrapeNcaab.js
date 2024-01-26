@@ -4,7 +4,7 @@ import { writeFileSync, promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaab";
-  const year = 2023;
+  const year = 2022;
   try {
     const jsonString = await fs.readFile(
       `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`,
@@ -185,6 +185,9 @@ async function readAndProcessFile() {
           break;
         case "St. Francis (NY)":
           schoolFormatted = "St Francis NY";
+          break;
+        case "Loyola Maryland":
+          schoolFormatted = "Loyola MD";
       }
       playerNames.push({
         firstName: entry.firstName,
@@ -194,12 +197,12 @@ async function readAndProcessFile() {
       });
     }
     console.log("Player names:", playerNames.length);
-    console.log(
-      "last known",
-      playerNames.findIndex(
-        (element) => element.firstName === "Max" && element.lastName === "Allen"
-      )
-    );
+    // console.log(
+    //   "last known",
+    //   playerNames.findIndex(
+    //     (element) => element.firstName === "Max" && element.lastName === "Allen"
+    //   )
+    // );
     return playerNames;
   } catch (error) {
     console.error("Error:", error);
@@ -219,7 +222,7 @@ async function scrapePlayer(
 ) {
   const page = await browser.newPage();
   const schoolName = oldSchool.toLowerCase().replace(/ /g, "-");
-  const year = 2023;
+  const year = 2022;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
 
   await page.goto(url);
@@ -338,10 +341,10 @@ async function scrapePlayer(
 async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
-  const batchSize = 50;
+  const batchSize = 100;
   let playerCounter = 0;
 
-  for (let i = 749; i < playerNames.length; i += batchSize) {
+  for (let i = 400; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (
@@ -366,7 +369,7 @@ async function scrapePlayers(browser) {
       allData.push(data);
     }
     writeFileSync(
-      `./data/ncaab/stats/player_stats_2023_batch_${i / batchSize}.json`,
+      `./data/ncaab/stats/player_stats_2022_batch_${i / batchSize}.json`,
       JSON.stringify(allData, null, 2),
       (err) => {
         if (err) {
