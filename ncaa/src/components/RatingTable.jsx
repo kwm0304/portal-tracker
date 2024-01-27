@@ -195,7 +195,6 @@ const RatingTable = () => {
     } else {
       response = await getFootballPlayerStatsByParams(teamName, year);
     }
-    console.log("player response", response)
     return response;
   }
 

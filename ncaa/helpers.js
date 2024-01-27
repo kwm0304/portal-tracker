@@ -1,18 +1,41 @@
 //RETURNS RATINGS FOR YEAR AND YEAR BEFORE
 import axios from "axios";
 
+const fetchJsonData = async (path) => {
+  try {
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+};
+
+const handleSchoolTransfers = async (year, sport, transferType) => {
+  const adjustedYear = sport === "ncaab" ? year - 1 : year;
+  const path = `./data/${sport}/stats/${adjustedYear}/${sport}_transfers_${adjustedYear}.json`;
+  const transfers = await fetchJsonData(path);
+
+  if (!transfers) return [];
+
+  const schoolCounts = {};
+  transfers.forEach((transfer) => {
+    const school = transfer[transferType];
+    schoolCounts[school] = (schoolCounts[school] || 0) + 1;
+  });
+
+  return Object.entries(schoolCounts).map(([name, count]) => ({ name, count }));
+};
+
 export const compareTeams = async (year1, year2, sport) => {
   try {
     const path1 = `./data/${sport}/stats/${year1}/team_stats_${year1}.json`;
     const path2 = `./data/${sport}/stats/${year2}/team_stats_${year2}.json`;
-    console.log("path1", path1);
-    console.log("path2", path2);
 
-    const response1 = await fetch(path1);
-    const teamsYear1 = await response1.json();
-
-    const response2 = await fetch(path2);
-    const teamsYear2 = await response2.json();
+    const teamsYear1 = await fetchJsonData(path1);
+    const teamsYear2 = await fetchJsonData(path2);
 
     const namesYear1 = new Set(teamsYear1.map((team) => team.name));
     const namesYear2 = new Set(teamsYear2.map((team) => team.name));
@@ -34,18 +57,6 @@ export const compareTeams = async (year1, year2, sport) => {
       teamsYear2.map((team) => [team.name, team.rating])
     );
 
-    const undefinedTeams = new Set();
-
-    teamsYear2.forEach((team) => {
-      if (team.name === undefined) {
-        undefinedTeams.add(team);
-      }
-    });
-
-    if (undefinedTeams.size > 0) {
-      console.log("Undefined Teams Found:", undefinedTeams.size);
-    }
-
     return {
       newTeamsYear2: [...newTeamsYear2],
       missingTeamsYear2: missingTeamsYear2,
@@ -58,63 +69,10 @@ export const compareTeams = async (year1, year2, sport) => {
 };
 
 //# OF TRANSFERS FROM YEAR TO YEAR
-export const schoolTransfersOut = async (year, sport) => {
-  if (sport === "ncaab") {
-    year = year - 1;
-  }
-  const path1 = `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`;
-
-  const response1 = await fetch(path1);
-  const transfersYear1 = await response1.json();
-
-  const oldSchoolCounts = {};
-
-  transfersYear1.forEach((transfer) => {
-    const oldSchool = transfer.oldSchool;
-    if (oldSchool in oldSchoolCounts) {
-      oldSchoolCounts[oldSchool]++;
-    } else {
-      oldSchoolCounts[oldSchool] = 1;
-    }
-  });
-
-  // obj -> array
-  const oldSchoolArray = Object.keys(oldSchoolCounts).map((school) => ({
-    name: school,
-    count: oldSchoolCounts[school],
-  }));
-  return oldSchoolArray;
-};
-
-export const schoolTransfersIn = async (year, sport) => {
-  if (sport === "ncaab") {
-    year = year - 1;
-  }
-
-  const path1 = `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`;
-
-  const response1 = await fetch(path1);
-  const transfersYear1 = await response1.json();
-
-  const newSchoolCounts = {};
-
-  transfersYear1.forEach((transfer) => {
-    const newSchool = transfer.newSchool;
-    if (newSchool in newSchoolCounts) {
-      newSchoolCounts[newSchool]++;
-    } else {
-      // Initialize count for new schools
-      newSchoolCounts[newSchool] = 1;
-    }
-  });
-
-  // obj -> array
-  const newSchoolArray = Object.keys(newSchoolCounts).map((school) => ({
-    name: school,
-    count: newSchoolCounts[school],
-  }));
-  return newSchoolArray;
-};
+export const schoolTransfersOut = (year, sport) =>
+  handleSchoolTransfers(year, sport, "oldSchool");
+export const schoolTransfersIn = (year, sport) =>
+  handleSchoolTransfers(year, sport, "newSchool");
 
 export const noNewSchools = async (year, sport) => {
   if (sport === "ncaab") {
@@ -133,30 +91,16 @@ export const noNewSchools = async (year, sport) => {
 };
 
 //BASKETBALL PLAYER STATS
-
 //new players
 export const getTransfers = async (teamName, year, sport) => {
-  try {
-    const path = `./data/${sport}/stats/${year}/player_stats_${year}.json`;
-
-    const response = await fetch(path);
-    if (!response.ok) {
-      console.error("error");
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();
-    const flattenedData = data.flat();
-    console.log("data", data);
-
-    const filteredData = flattenedData.filter(
-      (player) => player.school === teamName
-    );
-    console.log("filtered", filteredData);
-    return filteredData;
-  } catch (error) {
-    console.error("Error fetching transfer data:", error);
-    return [];
-  }
+  const path = `./data/${sport}/stats/${year}/player_stats_${year}.json`;
+  const data = await fetchJsonData(path);
+  const flattenedData = data.flat();
+  const filteredData = flattenedData.filter(
+    (player) => player.school === teamName
+  );
+  console.log("filtered", filteredData);
+  return filteredData;
 };
 
 //old players
