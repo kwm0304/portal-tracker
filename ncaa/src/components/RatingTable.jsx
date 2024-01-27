@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats, getFootballPlayerStatsByParams, noNewSchools } from '../../helpers';
+import { compareTeams, schoolTransfersIn, schoolTransfersOut, getTransfers, getTeamStats, getFootballPlayerStatsByParams, noNewSchools, getTransfersOut } from '../../helpers';
 import { ThemeProvider, createTheme, Modal, Box, Typography } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import BasketballTable from './BasketballTable';
 import TeamSplitesTable from './TeamSplitesTable';
 import FootballAccordian from './FootballAccordian';
 import { modalStyle } from '../../styles';
+import TransferTable from './TransferTable';
 
 const theme = createTheme({
   components: {
@@ -72,6 +72,7 @@ const RatingTable = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [playerData, setPlayerData] = useState([]);
+  const [oldPlayerData, setOldPlayerData] = useState([]); 
   const [teamData, setTeamData] = useState([]);
   const [missingPlayerCount, setMissingPlayerCount] = useState(0);
   const [totalPlayerCount, setTotalPlayerCount] = useState(0);
@@ -132,9 +133,10 @@ const RatingTable = () => {
     setSelectedTeam(teamName);
     setModalOpen(true);
     const players = await getPlayersByTeam(teamName, year, sport);
+    const oldPlayers = await getOldPlayersByTeam(teamName, year, sport);
     const teamSplits = await getTeamSplits(teamName, year, sport);
     setPlayerData(players);
-    
+    setOldPlayerData(oldPlayers);
     setTeamData(teamSplits);
   }
   console.log('playerData', playerData)
@@ -142,6 +144,7 @@ const RatingTable = () => {
     setModalOpen(false);
     setSelectedTeam(null);
     setPlayerData([]);
+    setOldPlayerData([]);
     setTeamData([]);
   }
 
@@ -178,6 +181,17 @@ const RatingTable = () => {
     let response;
     if (sport === "ncaab") {
       response = await getTransfers(teamName, year, sport);
+    } else {
+      response = await getFootballPlayerStatsByParams(teamName, year);
+    }
+    console.log("player response", response)
+    return response;
+  }
+
+  const getOldPlayersByTeam = async (teamName, year, sport) => {
+    let response;
+    if (sport === "ncaab") {
+      response = await getTransfersOut(teamName, year, sport);
     } else {
       response = await getFootballPlayerStatsByParams(teamName, year);
     }
@@ -248,10 +262,12 @@ const RatingTable = () => {
       >
       <Box sx={modalStyle}>
         <Typography id="modal-modal-title" variant="h4" component="h2" style={{ textAlign: 'center', paddingBottom: '18px'}}>
-        {selectedTeam} {year} Transfers
+        {selectedTeam} {year}
         </Typography>
         {sport === "ncaab" ? 
-        <BasketballTable playerData={playerData} />
+        <>
+        <TransferTable playerData={playerData} oldPlayerData={oldPlayerData}/>
+        </>
         : <FootballAccordian playerData={playerData} />
         }
         <TeamSplitesTable teamData={teamData} year={year}/>

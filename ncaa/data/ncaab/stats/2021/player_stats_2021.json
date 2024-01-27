@@ -7599,32 +7599,6 @@
       "tov": 2.5,
       "pts": 13.6,
       "oldSchool": "UAB"
-    },
-    {
-      "firstName": "Zack",
-      "lastName": "Bryant",
-      "school": "Georgia Southern",
-      "games": 24,
-      "gamesStarted": 1,
-      "fgm": 2.8,
-      "fga": 6,
-      "fgPercent": 0.465,
-      "fg2m": 1.8,
-      "fg2a": 3.1,
-      "fg2Percent": 0.56,
-      "fg3m": 1,
-      "fg3a": 2.9,
-      "fg3Percent": 0.362,
-      "ftm": 0.2,
-      "fta": 0.5,
-      "ftPercent": 0.308,
-      "reb": 3,
-      "ast": 1.2,
-      "stl": 0.5,
-      "blk": 0,
-      "tov": 1.5,
-      "pts": 6.8,
-      "oldSchool": "UAB"
     }
   ],
   [

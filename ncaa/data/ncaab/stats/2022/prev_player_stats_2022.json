@@ -1,6 +1,4 @@
 [
-  [],
-  [],
   [
     {
       "firstName": "Isaac",
@@ -57,7 +55,6 @@
       "pts": 1
     }
   ],
-  [],
   [
     {
       "firstName": "Tykei",
@@ -334,7 +331,6 @@
       "pts": 9.6
     }
   ],
-  [],
   [
     {
       "firstName": "Jalen",
@@ -419,7 +415,6 @@
       "pts": 12.8
     }
   ],
-  [],
   [
     {
       "firstName": "Jaxson",
@@ -474,7 +469,6 @@
       "pts": 1.5
     }
   ],
-  [],
   [
     {
       "firstName": "Chris",
@@ -531,7 +525,6 @@
       "pts": 6.4
     }
   ],
-  [],
   [
     {
       "firstName": "Jamille",
@@ -644,7 +637,6 @@
       "pts": 5.4
     }
   ],
-  [],
   [
     {
       "firstName": "Darryl",
@@ -785,7 +777,6 @@
       "pts": 10.6
     }
   ],
-  [],
   [
     {
       "firstName": "Matthew",
@@ -1234,7 +1225,6 @@
       "pts": 1.5
     }
   ],
-  [],
   [
     {
       "firstName": "Keion",
@@ -1795,7 +1785,6 @@
       "pts": 2
     }
   ],
-  [],
   [
     {
       "firstName": "Felipe",
@@ -2354,7 +2343,6 @@
       "pts": 3.6
     }
   ],
-  [],
   [
     {
       "firstName": "Lu'Cye",
@@ -2523,7 +2511,6 @@
       "pts": 4.2
     }
   ],
-  [],
   [
     {
       "firstName": "Mounir",
@@ -2776,7 +2763,6 @@
       "pts": 5.2
     }
   ],
-  [],
   [
     {
       "firstName": "Eric",
@@ -3167,7 +3153,6 @@
       "pts": 8.9
     }
   ],
-  [],
   [
     {
       "firstName": "Hassan",
@@ -3224,7 +3209,6 @@
       "pts": 6.2
     }
   ],
-  [],
   [
     {
       "firstName": "Pierre",
@@ -3671,7 +3655,6 @@
       "pts": 2.1
     }
   ],
-  [],
   [
     {
       "firstName": "Brycen",
@@ -4008,7 +3991,6 @@
       "pts": 0.5
     }
   ],
-  [],
   [
     {
       "firstName": "Emoni",
@@ -4177,7 +4159,6 @@
       "pts": 6.3
     }
   ],
-  [],
   [
     {
       "firstName": "Grant",
@@ -4962,7 +4943,6 @@
       "pts": 13.2
     }
   ],
-  [],
   [
     {
       "firstName": "Tristan",
@@ -5939,7 +5919,6 @@
       "pts": 1.7
     }
   ],
-  [],
   [
     {
       "firstName": "Akol",
@@ -6248,7 +6227,6 @@
       "pts": 3.9
     }
   ],
-  [],
   [
     {
       "firstName": "Souley",
@@ -6361,7 +6339,6 @@
       "pts": 5.3
     }
   ],
-  [],
   [
     {
       "firstName": "Tay",
@@ -7230,7 +7207,6 @@
       "pts": 16.8
     }
   ],
-  [],
   [
     {
       "firstName": "Josh",
@@ -7567,7 +7543,6 @@
       "pts": 10.8
     }
   ],
-  [],
   [
     {
       "firstName": "Mark",
@@ -7650,7 +7625,6 @@
       "pts": 1.5
     }
   ],
-  [],
   [
     {
       "firstName": "Max",
@@ -8071,7 +8045,6 @@
       "pts": 9
     }
   ],
-  [],
   [
     {
       "firstName": "Nijel",
@@ -8576,7 +8549,6 @@
       "pts": 13.5
     }
   ],
-  [],
   [
     {
       "firstName": "Norchad",
@@ -8801,7 +8773,6 @@
       "pts": 11.1
     }
   ],
-  [],
   [
     {
       "firstName": "Earl",
@@ -9138,7 +9109,6 @@
       "pts": 10.1
     }
   ],
-  [],
   [
     {
       "firstName": "Trae",
@@ -9475,7 +9445,6 @@
       "pts": 4.2
     }
   ],
-  [],
   [
     {
       "firstName": "Justice",
@@ -9728,7 +9697,6 @@
       "pts": 12.2
     }
   ],
-  [],
   [
     {
       "firstName": "Trey",
@@ -10480,7 +10448,6 @@
       "pts": 6.6
     }
   ],
-  [],
   [
     {
       "firstName": "Samuell",
@@ -10873,7 +10840,6 @@
       "pts": 13
     }
   ],
-  [],
   [
     {
       "firstName": "Terry",
@@ -10958,7 +10924,6 @@
       "pts": 10.9
     }
   ],
-  [],
   [
     {
       "firstName": "Cam",
@@ -11489,7 +11454,6 @@
       "pts": 0.9
     }
   ],
-  [],
   [
     {
       "firstName": "Kyle",
@@ -11998,7 +11962,7 @@
     {
       "firstName": "Ethan",
       "lastName": "Anderson",
-      "oldSchool": "Southern California",
+      "oldSchool": "USC",
       "newSchool": "Wyoming",
       "games": 34,
       "gamesStarted": 15,
@@ -12026,7 +11990,7 @@
     {
       "firstName": "Boubacar",
       "lastName": "Coulibaly",
-      "oldSchool": "Southern California",
+      "oldSchool": "USC",
       "newSchool": "Pepperdine",
       "games": 6,
       "gamesStarted": 0,
@@ -12498,7 +12462,7 @@
     {
       "firstName": "Max",
       "lastName": "Agbonkpolo",
-      "oldSchool": "Southern California",
+      "oldSchool": "USC",
       "newSchool": "Wyoming",
       "games": 33,
       "gamesStarted": 18,
@@ -12606,7 +12570,6 @@
       "pts": 14.6
     }
   ],
-  [],
   [
     {
       "firstName": "Javon",
@@ -12775,7 +12738,6 @@
       "pts": 5.8
     }
   ],
-  [],
   [
     {
       "firstName": "Isaac",
@@ -13330,7 +13292,6 @@
       "pts": 4
     }
   ],
-  [],
   [
     {
       "firstName": "Nelly",
@@ -13499,7 +13460,6 @@
       "pts": 4
     }
   ],
-  [],
   [
     {
       "firstName": "Riley",
@@ -14028,7 +13988,6 @@
       "pts": 4.4
     }
   ],
-  [],
   [
     {
       "firstName": "Alem",
@@ -14113,7 +14072,6 @@
       "pts": 0.4
     }
   ],
-  [],
   [
     {
       "firstName": "Deng",
@@ -15150,7 +15108,6 @@
       "pts": 1
     }
   ],
-  [],
   [
     {
       "firstName": "Nic",
@@ -15375,7 +15332,6 @@
       "pts": 3
     }
   ],
-  [],
   [
     {
       "firstName": "Isaih",
@@ -15654,7 +15610,6 @@
       "pts": 16.1
     }
   ],
-  [],
   [
     {
       "firstName": "Brenden",
@@ -16573,8 +16528,6 @@
       "pts": 9.4
     }
   ],
-  [],
-  [],
   [
     {
       "firstName": "Kenny",
@@ -16825,8 +16778,6 @@
       "pts": 17.6
     }
   ],
-  [],
-  [],
   [
     {
       "firstName": "Kenny",
@@ -17163,7 +17114,6 @@
       "pts": 3.3
     }
   ],
-  [],
   [
     {
       "firstName": "Keaton",
@@ -17276,7 +17226,6 @@
       "pts": 11.9
     }
   ],
-  [],
   [
     {
       "firstName": "Keishon",
@@ -17389,7 +17338,6 @@
       "pts": 1.8
     }
   ],
-  [],
   [
     {
       "firstName": "Taj",
@@ -17474,7 +17422,6 @@
       "pts": 5.2
     }
   ],
-  [],
   [
     {
       "firstName": "Hercy",
@@ -17531,7 +17478,6 @@
       "pts": 2
     }
   ],
-  [],
   [
     {
       "firstName": "Dain",

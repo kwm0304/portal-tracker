@@ -132,7 +132,9 @@ export const noNewSchools = async (year, sport) => {
   return [length, total];
 };
 
-//RETURNS PLAYERS THAT TRANSFERRED FROM YEAR TO YEAR
+//BASKETBALL PLAYER STATS
+
+//new players
 export const getTransfers = async (teamName, year, sport) => {
   try {
     const path = `./data/${sport}/stats/${year}/player_stats_${year}.json`;
@@ -157,6 +159,31 @@ export const getTransfers = async (teamName, year, sport) => {
   }
 };
 
+//old players
+export const getTransfersOut = async (teamName, year, sport) => {
+  const pathYear = year - 1;
+  try {
+    const path = `./data/${sport}/stats/${pathYear}/prev_player_stats_${pathYear}.json`;
+
+    const response = await fetch(path);
+    if (!response.ok) {
+      console.error("error");
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    const flattenedData = data.flat();
+    console.log("data", data);
+
+    const filteredData = flattenedData.filter(
+      (player) => player.oldSchool === teamName
+    );
+    console.log("filtered", filteredData);
+    return filteredData;
+  } catch (error) {
+    console.error("Error fetching transfer data:", error);
+    return [];
+  }
+};
 //RETURNS TEAM STATS FOR YEARS
 export const getTeamStats = async (teamName, year, sport) => {
   try {

@@ -1,16 +1,20 @@
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
+import { cellZeroVariant } from '../../styles';
 
-const cellZeroVariant = { color: 'white', fontWeight: 'bold', textAlign: 'center'}
-//shape ncaaf player data differently or conditionally render different table 
-const PlayerTable = ({ playerData }) => {
-console.log("football player data", playerData)
+
+const PlayerTable = ({ data, tableType }) => {
+  const backgroundColor = tableType === 'Transferred In' ? '#4186ba' : '#f79839';
+  const rowColors = tableType === 'Transferred In' ? ['#b5d3eb', '#7db6e3'] : ['#f5c18e', '#ed9f53'];
+
   return (
-    <TableContainer component={Paper} style={{ marginTop: '12px' }}>
-      <Table aria-label="simple table">
-        <TableHead className='tableHead'>
-          <TableRow style={{ backgroundColor: '#4186ba',  color: 'white', fontWeight: 'bold' }}>
-            
+    <>
+      <TableContainer component={Paper} style={{ margin: '12px 0' }}>
+        <Typography variant='h6' style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '12px', fontSize: '24px' }}>{tableType}</Typography>
+
+        <Table aria-label="simple table" style={{ overflow: 'scroll', height: 'auto'}}>
+          <TableHead className='tableHead'>
+            <TableRow style={{ backgroundColor: backgroundColor, color: 'white', fontWeight: 'bold' }}>
             <TableCell style={cellZeroVariant}>Name</TableCell>
             <TableCell style={cellZeroVariant}>GP</TableCell>
             <TableCell style={cellZeroVariant}>GS</TableCell>
@@ -32,12 +36,12 @@ console.log("football player data", playerData)
             <TableCell style={cellZeroVariant}>BLK</TableCell>
             <TableCell style={cellZeroVariant}>TOV</TableCell>
             <TableCell style={cellZeroVariant}>PTS</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {playerData.map((player, index) => (
-            <TableRow key={index} style={{ backgroundColor: index % 2 === 0 ? '#b5d3eb' : '#7db6e3', textAlign: 'center', justifyContent: 'center' }}>
-              <TableCell style={{ whiteSpace: 'nowrap', fontWeight: 600 }}>{player.firstName} {player.lastName}</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {data.map((player, index) => (
+              <TableRow key={index} style={{ backgroundColor: rowColors[index % 2], textAlign: 'center', justifyContent: 'center' }}>
+                <TableCell style={{ whiteSpace: 'nowrap', fontWeight: 600 }}>{player.firstName} {player.lastName}</TableCell>
               <TableCell>{player.games}</TableCell>
               <TableCell>{player.gamesStarted}</TableCell>
               <TableCell>{player.fgm}</TableCell>
@@ -58,21 +62,23 @@ console.log("football player data", playerData)
               <TableCell>{player.blk}</TableCell>
               <TableCell>{player.tov}</TableCell>
               <TableCell>{player.pts}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </>
   );
 };
 
-export default PlayerTable;
-
 PlayerTable.propTypes = {
-  playerData: PropTypes.arrayOf(
+  data: PropTypes.arrayOf(
     PropTypes.shape({
       firstName: PropTypes.string.isRequired,
       lastName: PropTypes.string.isRequired,
     })
   ).isRequired,
+  tableType: PropTypes.oneOf(['Transferred In', 'Transferred Out']).isRequired,
 };
+
+export default PlayerTable;

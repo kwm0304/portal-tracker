@@ -4,7 +4,7 @@ import { writeFileSync, promises as fs } from "fs";
 
 async function readAndProcessFile() {
   const sport = "ncaab";
-  const year = 2022;
+  const year = 2020;
   try {
     const jsonString = await fs.readFile(
       `./data/${sport}/stats/${year}/${sport}_transfers_${year}.json`,
@@ -197,12 +197,12 @@ async function readAndProcessFile() {
       });
     }
     console.log("Player names:", playerNames.length);
-    // console.log(
-    //   "last known",
-    //   playerNames.findIndex(
-    //     (element) => element.firstName === "Max" && element.lastName === "Allen"
-    //   )
-    // );
+    console.log(
+      "last known",
+      playerNames.findIndex(
+        (element) => element.oldSchool === "" && element.lastName === "Allen"
+      )
+    );
     return playerNames;
   } catch (error) {
     console.error("Error:", error);
@@ -222,12 +222,17 @@ async function scrapePlayer(
 ) {
   const page = await browser.newPage();
   const schoolName = oldSchool.toLowerCase().replace(/ /g, "-");
-  const year = 2022;
+  const year = 2020;
   const url = `https://www.sports-reference.com/cbb/schools/${schoolName}/men/${year}.html`;
 
   await page.goto(url);
   await page.setDefaultTimeout(60000);
-  await page.waitForSelector("table#per_game");
+  try {
+    await page.waitForSelector("table#per_game");
+  } catch (error) {
+    console.error(`Element not found for ${firstName} ${lastName} at ${url}`);
+    return [];
+  }
 
   let pageData = await page.evaluate(
     (lastName, firstName, oldSchool, newSchool) => {
@@ -241,6 +246,9 @@ async function scrapePlayer(
         }
         return false;
       });
+      if (!rows) {
+        return [];
+      }
 
       rows.forEach((row) => {
         let player = {};
@@ -341,10 +349,10 @@ async function scrapePlayer(
 async function scrapePlayers(browser) {
   const allData = [];
   const playerNames = await readAndProcessFile();
-  const batchSize = 100;
+  const batchSize = 50;
   let playerCounter = 0;
 
-  for (let i = 400; i < playerNames.length; i += batchSize) {
+  for (let i = 0; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (
@@ -369,7 +377,7 @@ async function scrapePlayers(browser) {
       allData.push(data);
     }
     writeFileSync(
-      `./data/ncaab/stats/player_stats_2022_batch_${i / batchSize}.json`,
+      `./data/ncaab/stats/player_stats_2020_batch_${i / batchSize}.json`,
       JSON.stringify(allData, null, 2),
       (err) => {
         if (err) {

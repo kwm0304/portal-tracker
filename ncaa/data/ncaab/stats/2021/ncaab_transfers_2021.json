@@ -4592,14 +4592,6 @@
     "newSchool": "Syracuse"
   },
   {
-    "firstName": "Braun",
-    "lastName": "Hartfield",
-    "rating": null,
-    "position": "SG",
-    "oldSchool": "San Diego",
-    "newSchool": "Pepperdine"
-  },
-  {
     "firstName": "DJ",
     "lastName": "McDonald",
     "rating": null,
@@ -4622,14 +4614,6 @@
     "position": "SG",
     "oldSchool": "Dartmouth",
     "newSchool": ""
-  },
-  {
-    "firstName": "A.J.",
-    "lastName": "Taylor",
-    "rating": null,
-    "position": "SF",
-    "oldSchool": "NC State",
-    "newSchool": "Grambling State"
   },
   {
     "firstName": "Arkel",
