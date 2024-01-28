@@ -25,7 +25,14 @@ const FootballAccordian = ({ playerData }) => {
   const specialTeams = playerData.filter(player => 
     player.stats.some(stat =>
       'punt' in stat || 'xpa' in stat || 'fga' in stat)
-    )
+  );
+  const offensiveLineman = playerData.filter(player =>
+    player.playerInfo.position === 'IOL' ||
+    player.playerInfo.position === 'OT' ||
+    player.playerInfo.position === 'LS'   
+  );
+
+  
     
   return (
     <div>
@@ -85,6 +92,21 @@ const FootballAccordian = ({ playerData }) => {
           {specialTeams.length > 0 ?
             <SpecialTeamsTable specialTeams={specialTeams} />
             : <h4>No Special Teams Data</h4>
+          }
+        </AccordionDetails>
+      </Accordion>
+      <Accordion style={{ fontWeight: 'bold'}}>
+        <AccordionSummary
+          expandIcon={<FaChevronDown />}
+          aria-controls="panel3-content"
+          id="panel3-header"
+        >
+          Offensive Lineman
+        </AccordionSummary>
+        <AccordionDetails>
+          {offensiveLineman.length > 0 ?
+            <SpecialTeamsTable offensiveLineman={offensiveLineman} />
+            : <h4>No Offensive Line Data</h4>
           }
         </AccordionDetails>
       </Accordion>
