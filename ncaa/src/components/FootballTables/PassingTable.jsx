@@ -10,39 +10,42 @@ const PassingTable = ({ passing }) => {
     )
     return relevantArray || {}
   }
+
+  
   return (
     <div style={{ width: '100%'}}>
       <TableContainer component={Paper}>
       <Table>
-        <TableHead style={{ backgroundColor: 'black'}}>
+        <TableHead style={{ backgroundColor: '#4186ba', fontColor: 'white'}}>
           <TableRow>
             <TableCell align="center" colSpan={4}>
             </TableCell>
-            <TableCell align="center" colSpan={9} style={cellThreeVariant}>
+            <TableCell align="center" colSpan={9} style={{ fontWeight: 'bold', color: 'white' }}>
               PASSING
             </TableCell>
           </TableRow>
-          <TableRow style={{ backgroundColor: 'black'}}>
+          <TableRow style={{ backgroundColor: ''}}>
             <TableCell style={cellFourVariant}>Name</TableCell>
             <TableCell style={cellFourVariant}>Position</TableCell>
             <TableCell style={cellFourVariant}>Class</TableCell>
             <TableCell style={cellFourVariant}>Games</TableCell>
-            <TableCell style={cellThreeVariant}>CMP</TableCell>
-            <TableCell style={cellThreeVariant}>ATT</TableCell>
-            <TableCell style={cellThreeVariant}>PCT</TableCell>
-            <TableCell style={cellThreeVariant}>YDS</TableCell>
-            <TableCell style={cellThreeVariant}>Y/A</TableCell>
-            <TableCell style={cellThreeVariant}>AY/A</TableCell>
-            <TableCell style={cellThreeVariant}>TD</TableCell>
-            <TableCell style={cellThreeVariant}>INT</TableCell>
-            <TableCell style={cellThreeVariant}>RATE</TableCell>
+            <TableCell style={cellFourVariant}>CMP</TableCell>
+            <TableCell style={cellFourVariant}>ATT</TableCell>
+            <TableCell style={cellFourVariant}>PCT</TableCell>
+            <TableCell style={cellFourVariant}>YDS</TableCell>
+            <TableCell style={cellFourVariant}>Y/A</TableCell>
+            <TableCell style={cellFourVariant}>AY/A</TableCell>
+            <TableCell style={cellFourVariant}>TD</TableCell>
+            <TableCell style={cellFourVariant}>INT</TableCell>
+            <TableCell style={cellFourVariant}>RATE</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {passing.map((player, index) => {
             const playerStats = findPassArray(player)
+            const isEvenRow = index % 2 === 0;
             return (
-              <TableRow key={index}>
+              <TableRow key={index} style={{ backgroundColor: isEvenRow ? '#b5d3eb' : '#7db6e3'}}>
                 <TableCell style={cellZeroVariant}>{player.playerInfo.firstName} {player.playerInfo.lastName}</TableCell>
                 <TableCell style={cellZeroVariant}>{player.playerInfo.position}</TableCell>
                 <TableCell style={cellZeroVariant}>{player.playerInfo.year}</TableCell>

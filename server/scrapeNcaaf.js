@@ -7,10 +7,10 @@ require("dotenv").config();
 
 async function readAndProcessFile() {
   const sport = "ncaaf";
-  const year = 2022;
+  const year = 2023;
   try {
     const jsonString = await fs.readFile(
-      `../ncaa/transfers/${sport}/${sport}_${year}.json`,
+      `../ncaa/data/${sport}/stats/${year}/${sport}_transfers_${year}.json`,
       "utf8"
     );
     const data = JSON.parse(jsonString);
@@ -36,7 +36,7 @@ readAndProcessFile();
 // Will search ^ year + 1. Football stats only go up to 23'
 async function scrapePlayer(browser, firstName, lastName, school, position) {
   const page = await browser.newPage();
-  const year = 2022;
+  const year = 2023;
   const lowerFirst = firstName.toLowerCase();
   const lowerlast = lastName.toLowerCase();
   const url = `https://www.sports-reference.com/cfb/players/${lowerFirst}-${lowerlast}-1.html`;
@@ -91,7 +91,7 @@ async function scrapePlayer(browser, firstName, lastName, school, position) {
       lastName: lastName,
       school: school,
       position: position,
-      year: "2022",
+      year: "2023",
     },
     stats: pageData,
   };
@@ -106,7 +106,7 @@ async function scrapePlayers(browser) {
   let missingPlayers = [];
   console.log("missingplayers", missingPlayers.length);
 
-  for (let i = 1348; i < playerNames.length; i += batchSize) {
+  for (let i = 0; i < playerNames.length; i += batchSize) {
     const batch = playerNames.slice(i, i + batchSize);
     for (const player of batch) {
       if (!player.school || !player.school.trim() === "" || !player.lastName) {

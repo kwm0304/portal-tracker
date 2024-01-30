@@ -7,7 +7,7 @@ import PassingTable from './FootballTables/PassingTable';
 import RushingReceivingTable from './FootballTables/RushingReceivingTable.jsx';
 import DefensiveTable from './FootballTables/DefensiveTable';
 import SpecialTeamsTable from './FootballTables/SpecialTeamsTable';
-
+import OLineTable from './FootballTables/OLineTable';
 const FootballAccordian = ({ playerData }) => {
   const passing = playerData.filter(player => player.playerInfo.position === 'QB' || player.stats.some(stat =>
     'pass_att' in stat
@@ -105,7 +105,7 @@ const FootballAccordian = ({ playerData }) => {
         </AccordionSummary>
         <AccordionDetails>
           {offensiveLineman.length > 0 ?
-            <SpecialTeamsTable offensiveLineman={offensiveLineman} />
+            <OLineTable offensiveLineman={offensiveLineman} />
             : <h4>No Offensive Line Data</h4>
           }
         </AccordionDetails>

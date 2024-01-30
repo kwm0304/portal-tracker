@@ -129,6 +129,7 @@ const RatingTable = () => {
     fetchMissingPlayers();
   }, [year, sport])
 
+  //loads player stats
   const handleOpenModal = async (teamName) => {
     setSelectedTeam(teamName);
     setModalOpen(true);
