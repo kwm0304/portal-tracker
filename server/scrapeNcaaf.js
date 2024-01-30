@@ -4,7 +4,7 @@ const fs = require("fs").promises;
 const mongoose = require("mongoose");
 const Player = require("./model/player.js");
 require("dotenv").config();
-
+//Need to add olSchool to all db objects and scrape year prior to transfer
 async function readAndProcessFile() {
   const sport = "ncaaf";
   const year = 2023;
